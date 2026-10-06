@@ -9,7 +9,7 @@ about:
       href: https://github.com/eritrouib
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/   # <- replace with your profile link
+      href: www.linkedin.com/in/eriola-trungu-impersimi
 ---
 
 I'm **Eriola Impersimi**, a Government Operational Researcher and geospatial analyst with 15+ years' experience applying quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector.

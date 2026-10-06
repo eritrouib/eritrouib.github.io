@@ -26,7 +26,7 @@ website:
         href: https://github.com/eritrouib
         aria-label: GitHub
       - icon: linkedin
-        href: https://www.linkedin.com/   # <- replace with your profile link
+        href: www.linkedin.com/in/eriola-trungu-impersimi
         aria-label: LinkedIn
       - icon: rss
         href: blog.xml
