@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+// @ET palette: asphalt, kerb, amber (same as the London dashboard)
+$asphalt: #22272B;
+$kerb:    #EDEFF0;
+$amber:   #E8A317;
+$injury:  #B3261E;
+$muted:   #5D676E;
+
+$body-bg: #FAFAF8;
+$body-color: $asphalt;
+$link-color: $asphalt;
+$primary: $asphalt;
+$navbar-bg: $asphalt;
+$navbar-fg: #FFFFFF;
+$navbar-hl: $amber;
+$footer-bg: $kerb;
+
+$font-family-sans-serif: "Atkinson Hyperlegible", "Segoe UI", Arial, sans-serif;
+$headings-font-family: "Overpass", "Arial Narrow", Arial, sans-serif;
+$headings-font-weight: 800;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Overpass:wght@600;800&display=swap");
+
+a { text-decoration-color: $amber; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+a:hover { color: $injury; }
+
+h1, h2, h3 { letter-spacing: -0.01em; }
+.title { font-size: 2.6rem; line-height: 1.05; }
+
+// zebra-crossing accent under page titles
+.quarto-title .title::after, .zebra {
+  content: ""; display: block; width: 150px; height: 10px; margin-top: 14px;
+  background: repeating-linear-gradient(90deg, $asphalt 0 16px, transparent 16px 27px);
+}
+
+.navbar { border-bottom: 3px solid $amber; }
+.navbar-brand-container { flex-shrink: 0; }
+.navbar-brand-logo img.navbar-logo { height: 30px; width: auto; max-width: none; }
+
+.lead-intro { font-size: 1.25rem; line-height: 1.5; max-width: 38em; }
+
+// project cards
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin: 1.5rem 0; }
+.card-et {
+  background: #fff; border: 1px solid #D5DADD; border-radius: 8px; padding: 18px 20px;
+  border-top: 4px solid $amber;
+  h3 { margin-top: 0; font-size: 1.25rem; }
+  p { margin-bottom: .6rem; }
+  .meta { color: $muted; font-size: .9rem; }
+  .links a { margin-right: 14px; font-weight: 700; }
+}
+.card-et.soon { border-top-color: #C9CFD3; opacity: .85; }
+
+.callout-figure img { border: 1px solid #D5DADD; border-radius: 6px; }
+
+.listing-title { font-family: $headings-font-family; font-weight: 800; }

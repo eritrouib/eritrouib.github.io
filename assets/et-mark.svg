@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="64" viewBox="0 0 120 64" role="img" aria-label="@ET">
+  <rect width="120" height="64" rx="8" fill="#22272B"/>
+  <rect x="0" y="58" width="120" height="6" fill="#E8A317"/>
+  <text x="60" y="41" text-anchor="middle" font-family="Overpass, Arial Narrow, Arial, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">@ET</text>
+</svg>

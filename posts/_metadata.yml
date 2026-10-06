@@ -1,0 +1,7 @@
+# options shared by every post
+format:
+  html:
+    toc: true
+    toc-location: right
+title-block-banner: false
+author: "Eriola Impersimi"

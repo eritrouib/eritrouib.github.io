@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data, maps and decisions",
+    "section": "",
+    "text": "I’m Eriola, a Government Operational Researcher and geospatial analyst. For more than 15 years I’ve applied quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector. Here I write about turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and how AI is changing the way we work with spatial data."
+  },
+  {
+    "objectID": "index.html#featured-project",
+    "href": "index.html#featured-project",
+    "title": "Data, maps and decisions",
+    "section": "Featured project",
+    "text": "Featured project\n\n\nPedestrian casualties on London’s roads\n\nSpatial analysis · Python · Interactive dashboard\n\n22,108 pedestrian casualties in Greater London, 2021–2025: where they concentrate along the street network, what about the built environment goes with them, and how far serious casualties are from trauma care.\n\nOpen the dashboard Read the story"
+  },
+  {
+    "objectID": "index.html#latest-writing",
+    "href": "index.html#latest-writing",
+    "title": "Data, maps and decisions",
+    "section": "Latest writing",
+    "text": "Latest writing\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items\n\nAll posts →"
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html",
+    "href": "posts/2026-10-athens-to-london/index.html",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "",
+    "text": "In 2021 I finished my master’s thesis in Geoinformatics at the National Technical University of Athens. It looked at 1,318 pedestrian collisions in the Municipality of Athens between 2008 and 2017 and asked a simple question: how does the shape of the city relate to where pedestrians are injured?\nI found persistent hotspots in the centre, around Omonia, Syggrou and Vasilissis Sofias, and associations with bars and pubs, crossings, traffic signals and bus stops. The thesis ended, as theses do, with a list of things I wished I’d had: time of day, the age of the people involved, socio-economic context, a sense of how busy each place is.\nFive years later, I asked the same questions of London. This time I had all of those things."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#the-data",
+    "href": "posts/2026-10-athens-to-london/index.html#the-data",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "The data",
+    "text": "The data\nLondon is a gift for this kind of work, because almost everything is open:\n\nCollisions: the Department for Transport’s STATS19 data. Every police-recorded injury collision, with location, date, time, severity and the age of each casualty.\nNeighbourhoods: ONS small-area boundaries, the English Indices of Deprivation 2025 and population figures.\nStreets: OpenStreetMap for crossings, signals, bus stops, stations, schools, pubs and the drivable street network.\n\nFrom 2021 to 2025 there were 22,108 pedestrian casualties in Greater London. 5,926 of them were killed or seriously injured, and deaths ranged from 36 to 61 a year.\n\n\n\nYear\nKilled\nSeriously injured\nSlightly injured\nTotal\n\n\n\n\n2021\n36\n926\n2,878\n3,840\n\n\n2022\n42\n1,194\n3,322\n4,558\n\n\n2023\n53\n1,223\n3,279\n4,555\n\n\n2024\n61\n1,136\n3,254\n4,451\n\n\n2025\n51\n1,204\n3,449\n4,704\n\n\n\nThe low 2021 figure is almost certainly the early-2021 lockdown keeping people off the streets, a reminder that counts always carry the conditions they were collected in."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#lesson-one-the-denominator-changes-the-story",
+    "href": "posts/2026-10-athens-to-london/index.html#lesson-one-the-denominator-changes-the-story",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "Lesson one: the denominator changes the story",
+    "text": "Lesson one: the denominator changes the story\nRanked by fatal and serious casualties per 100,000 residents, the City of London comes out at 167.6 a year, nearly four times the next borough, Westminster (43.0). Taken at face value, it is by far the most dangerous place to walk in the capital.\nIt isn’t. Only a few thousand people live in the City, while hundreds of thousands work there or pass through every weekday. Dividing by residents measures something, but not the risk of walking there. Ranked per kilometre of road instead, the order changes substantially.\n\n\n\nThe same data gives very different borough rankings depending on the measure."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#lesson-two-crossings-correlate-with-casualties",
+    "href": "posts/2026-10-athens-to-london/index.html#lesson-two-crossings-correlate-with-casualties",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "Lesson two: crossings “correlate” with casualties",
+    "text": "Lesson two: crossings “correlate” with casualties\nComparing London’s roughly 5,000 small areas, the features that rise most strongly with serious pedestrian casualties per km² were traffic signals and crossings (rank correlations of about +0.4), followed by major roads, bus stops, junctions and pubs and bars. Almost exactly what I found in Athens.\nIt would be easy, and wrong, to conclude that crossings are dangerous. Two things are going on:\n\nExposure. Crossings, signals, bus stops and pubs are put where lots of people meet lots of traffic. Many of these variables partly measure “how busy is this place”.\nReverse causality. Crossings and signals are often installed because a location had collisions. The safety measure follows the problem.\n\nThis is why the project goes on to fit a negative binomial model that accounts for how busy each area is, asking which street features still go with more casualties once activity is taken into account. That is the question my thesis couldn’t answer with the data it had."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#finding-hotspots-along-streets-not-across-them",
+    "href": "posts/2026-10-athens-to-london/index.html#finding-hotspots-along-streets-not-across-them",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "Finding hotspots along streets, not across them",
+    "text": "Finding hotspots along streets, not across them\nIn Athens I used planar kernel density, the familiar heatmap. Its weakness in a city is that a cluster on one road “leaks” onto a parallel street across a block. For London I measured density along the street network instead: the streets are cut into 50 m pieces and each casualty’s weight spreads along the network for 250 m.\n\n\n\nWhere serious pedestrian injuries concentrate along London’s streets.\n\n\nAlongside it, a Getis-Ord Gi* analysis on small areas separates statistically significant clusters from random noise, with a correction for testing thousands of areas at once."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#how-far-is-emergency-care",
+    "href": "posts/2026-10-athens-to-london/index.html#how-far-is-emergency-care",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "How far is emergency care?",
+    "text": "How far is emergency care?\nMy Athens dashboard showed hospitals next to collisions. In London I went a step further and measured the drive time along the street network from every casualty to the nearest A&E and to the nearest of London’s four major trauma centres, where the most seriously injured are taken.\n\n\n\nFree-flow drive time to the nearest major trauma centre, with serious pedestrian casualties.\n\n\nThese are free-flowing times for the hospital journey, not ambulance response times, but they show clearly which parts of London are furthest from trauma care."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#then-and-now",
+    "href": "posts/2026-10-athens-to-london/index.html#then-and-now",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "Then and now",
+    "text": "Then and now\nIn 2021 my tools were R and ArcGIS Pro, with Esri Dashboards and StoryMaps for the visuals, and the project took months.\nThis time I worked with an AI assistant, Claude, and went from research questions to a tested analysis pipeline and a live dashboard in a fraction of the time. The questions, the choice of methods and the judgement about what the results mean came from my research background. The AI made it possible to build and check everything much faster, including testing the model on synthetic data with known answers before trusting it on the real thing.\nThe whole project uses open data and open-source Python, and anyone can rerun it.\n\nExplore the dashboard: eritrouib.github.io/london-pedestrian-safety. Try the spotlight on a junction you know, or play the years.\nCode and methods: github.com/eritrouib/london-pedestrian-safety"
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#whats-next",
+    "href": "posts/2026-10-athens-to-london/index.html#whats-next",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "What’s next",
+    "text": "What’s next\nTwo things. First, publishing the Athens work properly, re-analysed with the methods developed here. Second, an AI layer for the London data, so anyone can ask a question in plain English and get an answer computed from the data, with its sources, rather than a guess.\n\nData: Department for Transport STATS19, ONS, MHCLG (Open Government Licence); OpenStreetMap contributors (ODbL). Police-recorded data under-reports minor pedestrian injuries, and associations between areas and casualties do not show cause."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Pedestrian casualties on London’s roads\n\n2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place and a year-by-year playback.\n\nDashboard Code Write-up\n\n\n\nPedestrian collisions in Athens\n\n2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards\n\nSpatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis, and Geographically Weighted Regression of the built environment, with an emergency services dashboard.\n\nArticle in preparation\n\n\n\nAsking the data in plain English\n\nComing next\n\nAn AI layer for the London project: questions answered by tested spatial queries rather than guesses, with the sources behind every number."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Eriola Impersimi, a Government Operational Researcher and geospatial analyst with 15+ years’ experience applying quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector.\nI enjoy turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and building tools that help people make better decisions. Lately I’ve been exploring how AI can make spatial analysis faster and more accessible without losing rigour.\nWhat I write about here\n\nSpatial analysis and mapping, from road safety to nature-based solutions\nStatistics and modelling for decisions, including forecasting and uncertainty\nData quality and reproducible pipelines\nWorking with AI as an analyst: what it speeds up, and what still needs judgement\n\nI hold an MSc in Geoinformatics from the National Technical University of Athens, where my thesis analysed pedestrian collisions and the built environment in Athens."
+  }
+]

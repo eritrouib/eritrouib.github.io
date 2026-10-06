@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>@ET</title>
+<link>https://eritrouib.github.io/blog.html</link>
+<atom:link href="https://eritrouib.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Data, maps and decisions. Notes and projects by Eriola Impersimi.</description>
+<generator>quarto-1.10.19</generator>
+<lastBuildDate>Mon, 05 Oct 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>From Athens to London: pedestrian collisions and the built environment, five years on</title>
+  <dc:creator>Eriola Impersimi</dc:creator>
+  <link>https://eritrouib.github.io/posts/2026-10-athens-to-london/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In 2021 I finished my master’s thesis in Geoinformatics at the National Technical University of Athens. It looked at 1,318 pedestrian collisions in the Municipality of Athens between 2008 and 2017 and asked a simple question: <strong>how does the shape of the city relate to where pedestrians are injured?</strong></p>
+<p>I found persistent hotspots in the centre, around Omonia, Syggrou and Vasilissis Sofias, and associations with bars and pubs, crossings, traffic signals and bus stops. The thesis ended, as theses do, with a list of things I wished I’d had: time of day, the age of the people involved, socio-economic context, a sense of how busy each place is.</p>
+<p>Five years later, I asked the same questions of London. This time I had all of those things.</p>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The data</h2>
+<p>London is a gift for this kind of work, because almost everything is open:</p>
+<ul>
+<li><strong>Collisions:</strong> the Department for Transport’s STATS19 data. Every police-recorded injury collision, with location, date, time, severity and the age of each casualty.</li>
+<li><strong>Neighbourhoods:</strong> ONS small-area boundaries, the English Indices of Deprivation 2025 and population figures.</li>
+<li><strong>Streets:</strong> OpenStreetMap for crossings, signals, bus stops, stations, schools, pubs and the drivable street network.</li>
+</ul>
+<p>From 2021 to 2025 there were <strong>22,108 pedestrian casualties</strong> in Greater London. <strong>5,926</strong> of them were killed or seriously injured, and deaths ranged from 36 to 61 a year.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Year</th>
+<th style="text-align: right;">Killed</th>
+<th style="text-align: right;">Seriously injured</th>
+<th style="text-align: right;">Slightly injured</th>
+<th style="text-align: right;">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2021</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">926</td>
+<td style="text-align: right;">2,878</td>
+<td style="text-align: right;">3,840</td>
+</tr>
+<tr class="even">
+<td>2022</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">1,194</td>
+<td style="text-align: right;">3,322</td>
+<td style="text-align: right;">4,558</td>
+</tr>
+<tr class="odd">
+<td>2023</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">1,223</td>
+<td style="text-align: right;">3,279</td>
+<td style="text-align: right;">4,555</td>
+</tr>
+<tr class="even">
+<td>2024</td>
+<td style="text-align: right;">61</td>
+<td style="text-align: right;">1,136</td>
+<td style="text-align: right;">3,254</td>
+<td style="text-align: right;">4,451</td>
+</tr>
+<tr class="odd">
+<td>2025</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">1,204</td>
+<td style="text-align: right;">3,449</td>
+<td style="text-align: right;">4,704</td>
+</tr>
+</tbody>
+</table>
+<p>The low 2021 figure is almost certainly the early-2021 lockdown keeping people off the streets, a reminder that counts always carry the conditions they were collected in.</p>
+</section>
+<section id="lesson-one-the-denominator-changes-the-story" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-one-the-denominator-changes-the-story">Lesson one: the denominator changes the story</h2>
+<p>Ranked by fatal and serious casualties per 100,000 residents, the <strong>City of London</strong> comes out at 167.6 a year, nearly four times the next borough, Westminster (43.0). Taken at face value, it is by far the most dangerous place to walk in the capital.</p>
+<p>It isn’t. Only a few thousand people live in the City, while hundreds of thousands work there or pass through every weekday. Dividing by residents measures something, but not the risk of walking there. Ranked per kilometre of road instead, the order changes substantially.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/borough_rank_change.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>The same data gives very different borough rankings depending on the measure.</figcaption>
+</figure>
+</div>
+</section>
+<section id="lesson-two-crossings-correlate-with-casualties" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-two-crossings-correlate-with-casualties">Lesson two: crossings “correlate” with casualties</h2>
+<p>Comparing London’s roughly 5,000 small areas, the features that rise most strongly with serious pedestrian casualties per km² were traffic signals and crossings (rank correlations of about +0.4), followed by major roads, bus stops, junctions and pubs and bars. Almost exactly what I found in Athens.</p>
+<p>It would be easy, and wrong, to conclude that crossings are dangerous. Two things are going on:</p>
+<ul>
+<li><strong>Exposure.</strong> Crossings, signals, bus stops and pubs are put where lots of people meet lots of traffic. Many of these variables partly measure “how busy is this place”.</li>
+<li><strong>Reverse causality.</strong> Crossings and signals are often installed <em>because</em> a location had collisions. The safety measure follows the problem.</li>
+</ul>
+<p>This is why the project goes on to fit a negative binomial model that accounts for how busy each area is, asking which street features still go with more casualties once activity is taken into account. That is the question my thesis couldn’t answer with the data it had.</p>
+</section>
+<section id="finding-hotspots-along-streets-not-across-them" class="level2">
+<h2 class="anchored" data-anchor-id="finding-hotspots-along-streets-not-across-them">Finding hotspots along streets, not across them</h2>
+<p>In Athens I used planar kernel density, the familiar heatmap. Its weakness in a city is that a cluster on one road “leaks” onto a parallel street across a block. For London I measured density <strong>along the street network</strong> instead: the streets are cut into 50 m pieces and each casualty’s weight spreads along the network for 250 m.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/street_hotspots.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Where serious pedestrian injuries concentrate along London’s streets.</figcaption>
+</figure>
+</div>
+<p>Alongside it, a Getis-Ord Gi* analysis on small areas separates statistically significant clusters from random noise, with a correction for testing thousands of areas at once.</p>
+</section>
+<section id="how-far-is-emergency-care" class="level2">
+<h2 class="anchored" data-anchor-id="how-far-is-emergency-care">How far is emergency care?</h2>
+<p>My Athens dashboard showed hospitals next to collisions. In London I went a step further and measured the <strong>drive time</strong> along the street network from every casualty to the nearest A&amp;E and to the nearest of London’s four major trauma centres, where the most seriously injured are taken.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/access_to_trauma_care.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Free-flow drive time to the nearest major trauma centre, with serious pedestrian casualties.</figcaption>
+</figure>
+</div>
+<p>These are free-flowing times for the hospital journey, not ambulance response times, but they show clearly which parts of London are furthest from trauma care.</p>
+</section>
+<section id="then-and-now" class="level2">
+<h2 class="anchored" data-anchor-id="then-and-now">Then and now</h2>
+<p>In 2021 my tools were R and ArcGIS Pro, with Esri Dashboards and StoryMaps for the visuals, and the project took months.</p>
+<p>This time I worked with an AI assistant, Claude, and went from research questions to a tested analysis pipeline and a live dashboard in a fraction of the time. The questions, the choice of methods and the judgement about what the results mean came from my research background. The AI made it possible to build and check everything much faster, including testing the model on synthetic data with known answers before trusting it on the real thing.</p>
+<p>The whole project uses open data and open-source Python, and anyone can rerun it.</p>
+<ul>
+<li><strong>Explore the dashboard:</strong> <a href="https://eritrouib.github.io/london-pedestrian-safety/">eritrouib.github.io/london-pedestrian-safety</a>. Try the spotlight on a junction you know, or play the years.</li>
+<li><strong>Code and methods:</strong> <a href="https://github.com/eritrouib/london-pedestrian-safety">github.com/eritrouib/london-pedestrian-safety</a></li>
+</ul>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
+<p>Two things. First, publishing the Athens work properly, re-analysed with the methods developed here. Second, an AI layer for the London data, so anyone can ask a question in plain English and get an answer computed from the data, with its sources, rather than a guess.</p>
+<hr>
+<p><em>Data: Department for Transport STATS19, ONS, MHCLG (Open Government Licence); OpenStreetMap contributors (ODbL). Police-recorded data under-reports minor pedestrian injuries, and associations between areas and casualties do not show cause.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>road safety</category>
+  <category>spatial analysis</category>
+  <category>Python</category>
+  <category>AI</category>
+  <guid>https://eritrouib.github.io/posts/2026-10-athens-to-london/</guid>
+  <pubDate>Mon, 05 Oct 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/street_hotspots.png" medium="image" type="image/png"/>
+</item>
+</channel>
+</rss>

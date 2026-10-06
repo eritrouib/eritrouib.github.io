@@ -1,0 +1,26 @@
+---
+title: "About"
+about:
+  template: solana
+  image: assets/et-mark.svg
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/eritrouib
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/   # <- replace with your profile link
+---
+
+I'm **Eriola Impersimi**, a Government Operational Researcher and geospatial analyst with 15+ years' experience applying quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector.
+
+I enjoy turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and building tools that help people make better decisions. Lately I've been exploring how AI can make spatial analysis faster and more accessible without losing rigour.
+
+**What I write about here**
+
+- Spatial analysis and mapping, from road safety to nature-based solutions
+- Statistics and modelling for decisions, including forecasting and uncertainty
+- Data quality and reproducible pipelines
+- Working with AI as an analyst: what it speeds up, and what still needs judgement
+
+I hold an MSc in Geoinformatics from the National Technical University of Athens, where my thesis analysed pedestrian collisions and the built environment in Athens.

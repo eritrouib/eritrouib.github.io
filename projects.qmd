@@ -1,0 +1,32 @@
+---
+title: "Projects"
+---
+
+::: {.cards}
+
+::: {.card-et}
+### Pedestrian casualties on London's roads
+<p class="meta">2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet</p>
+
+An open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place and a year-by-year playback.
+
+<p class="links"><a href="https://eritrouib.github.io/london-pedestrian-safety/">Dashboard</a> <a href="https://github.com/eritrouib/london-pedestrian-safety">Code</a> <a href="posts/2026-10-athens-to-london/">Write-up</a></p>
+:::
+
+::: {.card-et}
+### Pedestrian collisions in Athens
+<p class="meta">2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards</p>
+
+Spatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis, and Geographically Weighted Regression of the built environment, with an emergency services dashboard.
+
+<p class="links">Article in preparation</p>
+:::
+
+::: {.card-et .soon}
+### Asking the data in plain English
+<p class="meta">Coming next</p>
+
+An AI layer for the London project: questions answered by tested spatial queries rather than guesses, with the sources behind every number.
+:::
+
+:::

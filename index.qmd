@@ -1,0 +1,37 @@
+---
+title: "Data, maps and decisions"
+page-layout: full
+title-block-banner: false
+listing:
+  id: latest
+  contents: posts
+  sort: "date desc"
+  type: default
+  max-items: 3
+  fields: [date, title, description, reading-time]
+  feed: false
+---
+
+::: {.lead-intro}
+I'm Eriola, a Government Operational Researcher and geospatial analyst. For more than 15 years I've applied quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector. Here I write about turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and how AI is changing the way we work with spatial data.
+:::
+
+## Featured project
+
+::: {.cards}
+::: {.card-et}
+### Pedestrian casualties on London's roads
+<p class="meta">Spatial analysis · Python · Interactive dashboard</p>
+
+22,108 pedestrian casualties in Greater London, 2021–2025: where they concentrate along the street network, what about the built environment goes with them, and how far serious casualties are from trauma care.
+
+<p class="links"><a href="https://eritrouib.github.io/london-pedestrian-safety/">Open the dashboard</a> <a href="posts/2026-10-athens-to-london/">Read the story</a></p>
+:::
+:::
+
+## Latest writing
+
+::: {#latest}
+:::
+
+[All posts →](blog.qmd)

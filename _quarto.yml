@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs        # GitHub Pages serves this folder (Settings > Pages > main, /docs)
+
+website:
+  title: "@ET"
+  description: "Data, maps and decisions. Notes and projects by Eriola Impersimi."
+  site-url: https://eritrouib.github.io
+  favicon: assets/et-mark.svg
+  open-graph: true
+  navbar:
+    logo: assets/et-mark.svg
+    logo-alt: "@ET"
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: Blog
+      - href: projects.qmd
+        text: Projects
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/eritrouib
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/   # <- replace with your profile link
+        aria-label: LinkedIn
+      - icon: rss
+        href: blog.xml
+        aria-label: RSS feed
+  page-footer:
+    left: "© 2026 Eriola Impersimi · @ET"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
