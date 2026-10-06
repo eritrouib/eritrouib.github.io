@@ -16,7 +16,7 @@ listing:
 I'm Eriola, a Government Operational Researcher and geospatial analyst. For more than 15 years I've applied quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector. Here I write about turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and how AI is changing the way we work with spatial data.
 :::
 
-## Featured project
+## Featured projects
 
 ::: {.cards}
 ::: {.card-et}
@@ -26,6 +26,15 @@ I'm Eriola, a Government Operational Researcher and geospatial analyst. For more
 22,108 pedestrian casualties in Greater London, 2021–2025: where they concentrate along the street network, what about the built environment goes with them, and how far serious casualties are from trauma care.
 
 <p class="links"><a href="https://eritrouib.github.io/london-pedestrian-safety/">Open the dashboard</a> <a href="posts/2026-10-athens-to-london/">Read the story</a></p>
+:::
+
+::: {.card-et}
+### Article 4 and constraints checker, Kingston
+<p class="meta">Planning tool · JavaScript · Planning Data API</p>
+
+Checks one property, or a whole CSV of them, against Article 4 directions, conservation areas, listed buildings, flood zones and more, flagging borderline cases near a boundary. Built as a Local Land Charges aid for the Royal Borough of Kingston upon Thames.
+
+<p class="links"><a href="https://eritrouib.github.io/Article4Kingston/">Open the checker</a> <a href="projects.html">More projects</a></p>
 :::
 :::
 

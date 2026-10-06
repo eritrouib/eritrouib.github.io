@@ -2,6 +2,8 @@
 title: "Projects"
 ---
 
+## Spatial analysis
+
 ::: {.cards}
 
 ::: {.card-et}
@@ -13,18 +15,66 @@ An open, reproducible analysis of every police-recorded pedestrian casualty in G
 <p class="links"><a href="https://eritrouib.github.io/london-pedestrian-safety/">Dashboard</a> <a href="https://github.com/eritrouib/london-pedestrian-safety">Code</a> <a href="posts/2026-10-athens-to-london/">Write-up</a></p>
 :::
 
+
 ::: {.card-et}
 ### Pedestrian collisions in Athens
 <p class="meta">2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards</p>
 
-Spatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis, and Geographically Weighted Regression of the built environment, with an emergency services dashboard.
+Spatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis and Geographically Weighted Regression of the built environment, with an emergency services dashboard.
 
 <p class="links">Article in preparation</p>
 :::
 
+:::
+
+## Planning and geospatial tools
+
+::: {.cards}
+
+::: {.card-et}
+### Article 4 and constraints checker, Kingston
+<p class="meta">Web tool · JavaScript, Leaflet, Planning Data API, proj4</p>
+
+A Local Land Charges aid for the Royal Borough of Kingston upon Thames. Check a single property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is sent to the government's Planning Data service and checked for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Nearby features and boundaries within a chosen tolerance (10, 25 or 50 m) are flagged as borderline, and Article 4 results are cross-checked against Kingston's own boundaries, with an offline fallback if the service is down.
+
+<p class="links"><a href="https://eritrouib.github.io/Article4Kingston/">Open the checker</a> <a href="https://github.com/eritrouib/Article4Kingston">Code</a></p>
+:::
+
+:::
+
+## Interactive calculators
+
+Small, research-based calculators that turn evidence into something you can try for yourself.
+
+::: {.cards}
+
+::: {.card-et}
+### What's your lifestyle costing you?
+<p class="meta">Calculator · HTML, JavaScript</p>
+
+How everyday habits (alcohol, smoking, activity, sitting, sleep, BMI and diet) relate to life expectancy, based on seven peer-reviewed studies and ONS life tables for England and Wales. Population averages, not a personal prediction.
+
+<p class="links"><a href="https://eritrouib.github.io/life-calculator/">Try it</a> <a href="https://github.com/eritrouib/life-calculator">Code</a></p>
+:::
+
+::: {.card-et}
+### What's your coffee habit really costing you?
+<p class="meta">Calculator · HTML, JavaScript</p>
+
+Your yearly spend on coffee, tea and other drinks, and what that money could grow to if invested instead, with a "cut it by half" scenario.
+
+<p class="links"><a href="https://eritrouib.github.io/coffee-cost-calculator/">Try it</a> <a href="https://github.com/eritrouib/coffee-cost-calculator">Code</a></p>
+:::
+
+:::
+
+## Coming next
+
+::: {.cards}
+
 ::: {.card-et .soon}
 ### Asking the data in plain English
-<p class="meta">Coming next</p>
+<p class="meta">In progress</p>
 
 An AI layer for the London project: questions answered by tested spatial queries rather than guesses, with the sources behind every number.
 :::

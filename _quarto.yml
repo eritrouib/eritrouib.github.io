@@ -4,7 +4,7 @@ project:
 
 website:
   title: "@ET"
-  description: "Data, maps and decisions. Notes and projects by Eriola Impersimi."
+  description: "Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi."
   site-url: https://eritrouib.github.io
   favicon: assets/et-mark.svg
   open-graph: true
@@ -26,13 +26,13 @@ website:
         href: https://github.com/eritrouib
         aria-label: GitHub
       - icon: linkedin
-        href: www.linkedin.com/in/eriola-trungu-impersimi
+        href: https://www.linkedin.com/in/eriola-trungu-impersimi/
         aria-label: LinkedIn
       - icon: rss
         href: blog.xml
         aria-label: RSS feed
   page-footer:
-    left: "© 2026 Eriola Impersimi · @ET"
+    left: "© 2026 Eriola Trungu Impersimi · @ET"
     right: "Built with [Quarto](https://quarto.org)"
 
 format:

@@ -1,6 +1,6 @@
 # @ET: data, maps and decisions
 
-Personal website and blog of Eriola Impersimi, built with [Quarto](https://quarto.org) and hosted on GitHub Pages.
+Personal website and blog of Eriola Trungu Impersimi, built with [Quarto](https://quarto.org) and hosted on GitHub Pages.
 
 ## Write and preview
 

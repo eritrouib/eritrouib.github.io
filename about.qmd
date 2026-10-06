@@ -9,10 +9,10 @@ about:
       href: https://github.com/eritrouib
     - icon: linkedin
       text: LinkedIn
-      href: www.linkedin.com/in/eriola-trungu-impersimi
+      href: https://www.linkedin.com/in/eriola-trungu-impersimi/
 ---
 
-I'm **Eriola Impersimi**, a Government Operational Researcher and geospatial analyst with 15+ years' experience applying quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector.
+I'm **Eriola Trungu Impersimi**, a Government Operational Researcher and geospatial analyst with 15+ years' experience applying quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector.
 
 I enjoy turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and building tools that help people make better decisions. Lately I've been exploring how AI can make spatial analysis faster and more accessible without losing rigour.
 

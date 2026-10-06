@@ -7,11 +7,11 @@
     "text": "I’m Eriola, a Government Operational Researcher and geospatial analyst. For more than 15 years I’ve applied quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector. Here I write about turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and how AI is changing the way we work with spatial data."
   },
   {
-    "objectID": "index.html#featured-project",
-    "href": "index.html#featured-project",
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
     "title": "Data, maps and decisions",
-    "section": "Featured project",
-    "text": "Featured project\n\n\nPedestrian casualties on London’s roads\n\nSpatial analysis · Python · Interactive dashboard\n\n22,108 pedestrian casualties in Greater London, 2021–2025: where they concentrate along the street network, what about the built environment goes with them, and how far serious casualties are from trauma care.\n\nOpen the dashboard Read the story"
+    "section": "Featured projects",
+    "text": "Featured projects\n\n\nPedestrian casualties on London’s roads\n\nSpatial analysis · Python · Interactive dashboard\n\n22,108 pedestrian casualties in Greater London, 2021–2025: where they concentrate along the street network, what about the built environment goes with them, and how far serious casualties are from trauma care.\n\nOpen the dashboard Read the story\n\n\n\nArticle 4 and constraints checker, Kingston\n\nPlanning tool · JavaScript · Planning Data API\n\nChecks one property, or a whole CSV of them, against Article 4 directions, conservation areas, listed buildings, flood zones and more, flagging borderline cases near a boundary. Built as a Local Land Charges aid for the Royal Borough of Kingston upon Thames.\n\nOpen the checker More projects"
   },
   {
     "objectID": "index.html#latest-writing",
@@ -88,13 +88,41 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Pedestrian casualties on London’s roads\n\n2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place and a year-by-year playback.\n\nDashboard Code Write-up\n\n\n\nPedestrian collisions in Athens\n\n2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards\n\nSpatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis, and Geographically Weighted Regression of the built environment, with an emergency services dashboard.\n\nArticle in preparation\n\n\n\nAsking the data in plain English\n\nComing next\n\nAn AI layer for the London project: questions answered by tested spatial queries rather than guesses, with the sources behind every number."
+    "text": "2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place and a year-by-year playback.\n\nDashboard Code Write-up\n\n\n\n\n\n2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards\n\nSpatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis and Geographically Weighted Regression of the built environment, with an emergency services dashboard.\n\nArticle in preparation"
+  },
+  {
+    "objectID": "projects.html#spatial-analysis",
+    "href": "projects.html#spatial-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place and a year-by-year playback.\n\nDashboard Code Write-up\n\n\n\n\n\n2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards\n\nSpatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis and Geographically Weighted Regression of the built environment, with an emergency services dashboard.\n\nArticle in preparation"
+  },
+  {
+    "objectID": "projects.html#planning-and-geospatial-tools",
+    "href": "projects.html#planning-and-geospatial-tools",
+    "title": "Projects",
+    "section": "Planning and geospatial tools",
+    "text": "Planning and geospatial tools\n\n\nArticle 4 and constraints checker, Kingston\n\nWeb tool · JavaScript, Leaflet, Planning Data API, proj4\n\nA Local Land Charges aid for the Royal Borough of Kingston upon Thames. Check a single property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is sent to the government’s Planning Data service and checked for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Nearby features and boundaries within a chosen tolerance (10, 25 or 50 m) are flagged as borderline, and Article 4 results are cross-checked against Kingston’s own boundaries, with an offline fallback if the service is down.\n\nOpen the checker Code"
+  },
+  {
+    "objectID": "projects.html#interactive-calculators",
+    "href": "projects.html#interactive-calculators",
+    "title": "Projects",
+    "section": "Interactive calculators",
+    "text": "Interactive calculators\nSmall, research-based calculators that turn evidence into something you can try for yourself.\n\n\nWhat’s your lifestyle costing you?\n\nCalculator · HTML, JavaScript\n\nHow everyday habits (alcohol, smoking, activity, sitting, sleep, BMI and diet) relate to life expectancy, based on seven peer-reviewed studies and ONS life tables for England and Wales. Population averages, not a personal prediction.\n\nTry it Code\n\n\n\nWhat’s your coffee habit really costing you?\n\nCalculator · HTML, JavaScript\n\nYour yearly spend on coffee, tea and other drinks, and what that money could grow to if invested instead, with a “cut it by half” scenario.\n\nTry it Code"
+  },
+  {
+    "objectID": "projects.html#coming-next",
+    "href": "projects.html#coming-next",
+    "title": "Projects",
+    "section": "Coming next",
+    "text": "Coming next\n\n\nAsking the data in plain English\n\nIn progress\n\nAn AI layer for the London project: questions answered by tested spatial queries rather than guesses, with the sources behind every number."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I’m Eriola Impersimi, a Government Operational Researcher and geospatial analyst with 15+ years’ experience applying quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector.\nI enjoy turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and building tools that help people make better decisions. Lately I’ve been exploring how AI can make spatial analysis faster and more accessible without losing rigour.\nWhat I write about here\n\nSpatial analysis and mapping, from road safety to nature-based solutions\nStatistics and modelling for decisions, including forecasting and uncertainty\nData quality and reproducible pipelines\nWorking with AI as an analyst: what it speeds up, and what still needs judgement\n\nI hold an MSc in Geoinformatics from the National Technical University of Athens, where my thesis analysed pedestrian collisions and the built environment in Athens."
+    "text": "I’m Eriola Trungu Impersimi, a Government Operational Researcher and geospatial analyst with 15+ years’ experience applying quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector.\nI enjoy turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and building tools that help people make better decisions. Lately I’ve been exploring how AI can make spatial analysis faster and more accessible without losing rigour.\nWhat I write about here\n\nSpatial analysis and mapping, from road safety to nature-based solutions\nStatistics and modelling for decisions, including forecasting and uncertainty\nData quality and reproducible pipelines\nWorking with AI as an analyst: what it speeds up, and what still needs judgement\n\nI hold an MSc in Geoinformatics from the National Technical University of Athens, where my thesis analysed pedestrian collisions and the built environment in Athens."
   }
 ]
