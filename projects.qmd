@@ -12,7 +12,7 @@ title: "Projects"
 
 An open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place and a year-by-year playback.
 
-<p class="links"><a href="https://eritrouib.github.io/london-pedestrian-safety/">Dashboard</a> <a href="https://github.com/eritrouib/london-pedestrian-safety">Code</a> <a href="posts/2026-10-athens-to-london/">Write-up</a></p>
+<p class="links"><a href="https://etymo.co.uk/london-pedestrian-safety/">Dashboard</a> <a href="https://github.com/eritrouib/london-pedestrian-safety">Code</a> <a href="posts/2026-10-athens-to-london/">Write-up</a></p>
 :::
 
 
@@ -37,16 +37,25 @@ Spatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of 
 
 A Local Land Charges aid for the Royal Borough of Kingston upon Thames. Check a single property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is sent to the government's Planning Data service and checked for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Nearby features and boundaries within a chosen tolerance (10, 25 or 50 m) are flagged as borderline, and Article 4 results are cross-checked against Kingston's own boundaries, with an offline fallback if the service is down.
 
-<p class="links"><a href="https://eritrouib.github.io/Article4Kingston/">Open the checker</a> <a href="https://github.com/eritrouib/Article4Kingston">Code</a></p>
+<p class="links"><a href="https://etymo.co.uk/Article4Kingston/">Open the checker</a> <a href="https://github.com/eritrouib/Article4Kingston">Code</a></p>
 :::
 
 :::
 
 ## Interactive calculators
 
-Small, research-based calculators that turn evidence into something you can try for yourself.
+Small, research-based calculators that turn evidence into something you can try for yourself. They all live together at **[Reality Checks](https://realitychecks.app)**.
 
 ::: {.cards}
+
+::: {.card-et}
+### Reality Checks
+<p class="meta">Website · realitychecks.app</p>
+
+A home for all my calculators: quick, honest reality checks on everyday habits and money, each based on published evidence and clear about what it can and can't tell you.
+
+<p class="links"><a href="https://realitychecks.app">Visit Reality Checks</a></p>
+:::
 
 ::: {.card-et}
 ### What's your lifestyle costing you?
@@ -54,7 +63,7 @@ Small, research-based calculators that turn evidence into something you can try 
 
 How everyday habits (alcohol, smoking, activity, sitting, sleep, BMI and diet) relate to life expectancy, based on seven peer-reviewed studies and ONS life tables for England and Wales. Population averages, not a personal prediction.
 
-<p class="links"><a href="https://eritrouib.github.io/life-calculator/">Try it</a> <a href="https://github.com/eritrouib/life-calculator">Code</a></p>
+<p class="links"><a href="https://etymo.co.uk/life-calculator/">Try it</a> <a href="https://github.com/eritrouib/life-calculator">Code</a></p>
 :::
 
 ::: {.card-et}
@@ -63,7 +72,7 @@ How everyday habits (alcohol, smoking, activity, sitting, sleep, BMI and diet) r
 
 Your yearly spend on coffee, tea and other drinks, and what that money could grow to if invested instead, with a "cut it by half" scenario.
 
-<p class="links"><a href="https://eritrouib.github.io/coffee-cost-calculator/">Try it</a> <a href="https://github.com/eritrouib/coffee-cost-calculator">Code</a></p>
+<p class="links"><a href="https://etymo.co.uk/coffee-cost-calculator/">Try it</a> <a href="https://github.com/eritrouib/coffee-cost-calculator">Code</a></p>
 :::
 
 :::

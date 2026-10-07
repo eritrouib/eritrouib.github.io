@@ -75,7 +75,7 @@ This time I worked with an AI assistant, Claude, and went from research question
 
 The whole project uses open data and open-source Python, and anyone can rerun it.
 
-- **Explore the dashboard:** [eritrouib.github.io/london-pedestrian-safety](https://eritrouib.github.io/london-pedestrian-safety/). Try the spotlight on a junction you know, or play the years.
+- **Explore the dashboard:** [etymo.co.uk/london-pedestrian-safety](https://etymo.co.uk/london-pedestrian-safety/). Try the spotlight on a junction you know, or play the years.
 - **Code and methods:** [github.com/eritrouib/london-pedestrian-safety](https://github.com/eritrouib/london-pedestrian-safety)
 
 ## What's next

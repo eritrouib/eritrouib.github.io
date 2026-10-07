@@ -24,3 +24,5 @@ I enjoy turning messy data into clear, reproducible analysis, communicating unce
 - Working with AI as an analyst: what it speeds up, and what still needs judgement
 
 I hold an MSc in Geoinformatics from the National Technical University of Athens, where my thesis analysed pedestrian collisions and the built environment in Athens.
+
+**Why etymo?** It comes from the Greek *etymon* (ἔτυμον), the true meaning of something. That's what I look for in data. And ET is me.

@@ -1,11 +1,13 @@
 project:
   type: website
   output-dir: docs        # GitHub Pages serves this folder (Settings > Pages > main, /docs)
+  resources:
+    - CNAME
 
 website:
   title: "@ET"
   description: "Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi."
-  site-url: https://eritrouib.github.io
+  site-url: https://etymo.co.uk
   favicon: assets/et-mark.svg
   open-graph: true
   navbar:
@@ -32,7 +34,7 @@ website:
         href: blog.xml
         aria-label: RSS feed
   page-footer:
-    left: "© 2026 Eriola Trungu Impersimi · @ET"
+    left: "© 2026 Eriola Trungu Impersimi · @ET · etymo.co.uk"
     right: "Built with [Quarto](https://quarto.org)"
 
 format:

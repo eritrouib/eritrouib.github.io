@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>@ET</title>
-<link>https://eritrouib.github.io/blog.html</link>
-<atom:link href="https://eritrouib.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://etymo.co.uk/blog.html</link>
+<atom:link href="https://etymo.co.uk/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi.</description>
 <generator>quarto-1.10.19</generator>
 <lastBuildDate>Mon, 05 Oct 2026 23:00:00 GMT</lastBuildDate>
 <item>
   <title>From Athens to London: pedestrian collisions and the built environment, five years on</title>
   <dc:creator>Eriola Trungu Impersimi</dc:creator>
-  <link>https://eritrouib.github.io/posts/2026-10-athens-to-london/</link>
+  <link>https://etymo.co.uk/posts/2026-10-athens-to-london/</link>
   <description><![CDATA[ 
 
 
@@ -131,7 +131,7 @@
 <p>This time I worked with an AI assistant, Claude, and went from research questions to a tested analysis pipeline and a live dashboard in a fraction of the time. The questions, the choice of methods and the judgement about what the results mean came from my research background. The AI made it possible to build and check everything much faster, including testing the model on synthetic data with known answers before trusting it on the real thing.</p>
 <p>The whole project uses open data and open-source Python, and anyone can rerun it.</p>
 <ul>
-<li><strong>Explore the dashboard:</strong> <a href="https://eritrouib.github.io/london-pedestrian-safety/">eritrouib.github.io/london-pedestrian-safety</a>. Try the spotlight on a junction you know, or play the years.</li>
+<li><strong>Explore the dashboard:</strong> <a href="https://etymo.co.uk/london-pedestrian-safety/">etymo.co.uk/london-pedestrian-safety</a>. Try the spotlight on a junction you know, or play the years.</li>
 <li><strong>Code and methods:</strong> <a href="https://github.com/eritrouib/london-pedestrian-safety">github.com/eritrouib/london-pedestrian-safety</a></li>
 </ul>
 </section>
@@ -149,7 +149,7 @@
   <category>spatial analysis</category>
   <category>Python</category>
   <category>AI</category>
-  <guid>https://eritrouib.github.io/posts/2026-10-athens-to-london/</guid>
+  <guid>https://etymo.co.uk/posts/2026-10-athens-to-london/</guid>
   <pubDate>Mon, 05 Oct 2026 23:00:00 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/street_hotspots.png" medium="image" type="image/png"/>
 </item>
