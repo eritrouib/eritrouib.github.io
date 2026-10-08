@@ -35,7 +35,7 @@ website:
         aria-label: RSS feed
   page-footer:
     left: "© 2026 Eriola Trungu Impersimi · @ET · etymo.co.uk"
-    right: "Built with [Quarto](https://quarto.org)"
+    right: "[☕ Buy me a coffee](https://buymeacoffee.com/etymo) · Built with [Quarto](https://quarto.org)"
 
 format:
   html:
