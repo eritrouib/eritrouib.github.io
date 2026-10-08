@@ -10,7 +10,7 @@ title: "Projects"
 ### Pedestrian casualties on London's roads
 <p class="meta">2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet</p>
 
-An open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place and a year-by-year playback.
+An open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.
 
 <p class="links"><a href="https://etymo.co.uk/london-pedestrian-safety/">Dashboard</a> <a href="https://github.com/eritrouib/london-pedestrian-safety">Code</a> <a href="posts/2026-10-athens-to-london/">Write-up</a></p>
 :::
@@ -40,52 +40,78 @@ A Local Land Charges aid for the Royal Borough of Kingston upon Thames. Check a 
 <p class="links"><a href="https://etymo.co.uk/Article4Kingston/">Open the checker</a> <a href="https://github.com/eritrouib/Article4Kingston">Code</a></p>
 :::
 
+::: {.card-et}
+### Retrofit planning checker
+<p class="meta">Web tool · JavaScript, Leaflet, Planning Data API, HM Land Registry INSPIRE</p>
+
+Can this home have a heat pump, solar panels or insulation without planning permission? Enter an address, postcode or grid reference anywhere in England and, for each common energy improvement, the checker says whether it's usually permitted development, allowed with limits, needs prior approval, or needs planning permission or listed building consent, with a link to the rule. It checks listed buildings, conservation areas, Article 4 directions, protected trees, flood zones and more across the whole Land Registry plot, adjusts for the type of home, and has a batch mode for whole retrofit programmes. Where a council hasn't published the data, it says "check with the council" rather than "allowed".
+
+<p class="links"><a href="https://etymo.co.uk/RetrofitChecker/">Open the checker</a> <a href="https://github.com/eritrouib/RetrofitChecker">Code</a></p>
 :::
 
-## Interactive calculators
+::: {.card-et}
+### Planning Data Tracker
+<p class="meta">Web tool and weekly pipeline · Python, GitHub Actions, Leaflet</p>
 
-Small, research-based calculators that turn evidence into something you can try for yourself. They all live together at **[Reality Checks](https://realitychecks.app)**.
+Planning tools can only answer from what councils publish, so a "no tree preservation order" can really mean "unknown". This tracker maps, for all 337 local planning authorities in England, which of 10 council-published datasets have records in their area, from Article 4 and conservation areas to brownfield land and local green spaces, and flags data-quality problems with Article 4 directions. It updates every week, and any council can be re-checked live. It grew out of the Kingston checker, where 113 Article 4 areas turned out not to link to their directions.
+
+<p class="links"><a href="https://etymo.co.uk/PlanningDataTracker/">Open the tracker</a> <a href="https://github.com/eritrouib/PlanningDataTracker">Code</a></p>
+:::
+
+::: {.card-et}
+### Takeaways near schools
+<p class="meta">Web tool · JavaScript, Leaflet, FSA and DfE open data</p>
+
+Many councils restrict new hot-food takeaways within a set distance of schools. For any council in England, this maps every open school with a zone of your chosen size (200 to 800 m), every takeaway from food hygiene data, and which schools have the most nearby. You choose which school phases count, check whether a proposed site falls inside a zone, and download the results as CSV. It's clear about its limits, such as straight-line distances and how food hygiene categories differ from planning use classes.
+
+<p class="links"><a href="https://etymo.co.uk/TakeawaysNearSchools/">Open the tool</a> <a href="https://github.com/eritrouib/TakeawaysNearSchools">Code</a></p>
+:::
+
+:::
+
+## Remote sensing
 
 ::: {.cards}
 
 ::: {.card-et}
-### Reality Checks
-<p class="meta">Website · realitychecks.app</p>
+### Green Change Monitor
+<p class="meta">Web tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js</p>
 
-A home for all my calculators: quick, honest reality checks on everyday habits and money, each based on published evidence and clear about what it can and can't tell you.
+Where were trees and green space lost or gained? Pick an area and two years, and it maps patches of vegetation loss and gain from free Sentinel-2 imagery, entirely in the browser: it finds the clearest scenes, masks clouds, builds a cloud-free greenness map for each year and compares them. In England, patches inside conservation areas and tree preservation areas are flagged so planning and enforcement teams know where to look first. Results download as GeoJSON or CSV. A pointer for where to look, not evidence on its own.
+
+<p class="links"><a href="https://etymo.co.uk/GreenChangeMonitor/">Open the monitor</a> <a href="https://github.com/eritrouib/GreenChangeMonitor">Code</a></p>
+:::
+
+:::
+
+## Reality Checks
+
+Ten small, research-based calculators that turn evidence into something you can try for yourself, all in one place at **[realitychecks.app](https://realitychecks.app)**. Each one is clear about what it can and can't tell you: population averages, not personal predictions.
+
+::: {.cards}
+
+::: {.card-et}
+### Health
+<p class="meta">5 calculators</p>
+
+- [What's your lifestyle costing you?](https://realitychecks.app/life-calculator/)<br><span class="tool-note">Life expectancy and everyday habits</span>
+- [How much is your exercise adding to your life?](https://realitychecks.app/exercise/)<br><span class="tool-note">Cardio, strength, steps and sitting</span>
+- [What is your diet really doing to you?](https://realitychecks.app/diet-quality/)<br><span class="tool-note">Against the Mediterranean diet and NHS guidance</span>
+- [How much sleep are you actually getting?](https://realitychecks.app/sleep/)<br><span class="tool-note">Sleep debt and recovery</span>
+- [Are you actually hydrated?](https://realitychecks.app/hydration/)<br><span class="tool-note">A personalised daily target</span>
+:::
+
+::: {.card-et}
+### Money and time
+<p class="meta">5 calculators</p>
+
+- [Should you rent or buy?](https://realitychecks.app/rent-vs-buy/)<br><span class="tool-note">Break-even point across UK and European cities</span>
+- [Does your salary actually cover your life?](https://realitychecks.app/SalaryVSlifestyle/)<br><span class="tool-note">Savings rate, and how far it goes in 20 cities</span>
+- [What's your coffee habit really costing you?](https://realitychecks.app/coffee-cost-calculator/)<br><span class="tool-note">And what it could grow to if invested</span>
+- [What are your meetings actually costing?](https://realitychecks.app/MeetingsCost/)<br><span class="tool-note">In money and lost focus time</span>
+- [What is social media really costing you?](https://realitychecks.app/SocialMediaTimeCost/)<br><span class="tool-note">Days of your life, added up</span>
+:::
+
+:::
 
 <p class="links"><a href="https://realitychecks.app">Visit Reality Checks</a></p>
-:::
-
-::: {.card-et}
-### What's your lifestyle costing you?
-<p class="meta">Calculator · HTML, JavaScript</p>
-
-How everyday habits (alcohol, smoking, activity, sitting, sleep, BMI and diet) relate to life expectancy, based on seven peer-reviewed studies and ONS life tables for England and Wales. Population averages, not a personal prediction.
-
-<p class="links"><a href="https://etymo.co.uk/life-calculator/">Try it</a> <a href="https://github.com/eritrouib/life-calculator">Code</a></p>
-:::
-
-::: {.card-et}
-### What's your coffee habit really costing you?
-<p class="meta">Calculator · HTML, JavaScript</p>
-
-Your yearly spend on coffee, tea and other drinks, and what that money could grow to if invested instead, with a "cut it by half" scenario.
-
-<p class="links"><a href="https://etymo.co.uk/coffee-cost-calculator/">Try it</a> <a href="https://github.com/eritrouib/coffee-cost-calculator">Code</a></p>
-:::
-
-:::
-
-## Coming next
-
-::: {.cards}
-
-::: {.card-et .soon}
-### Asking the data in plain English
-<p class="meta">In progress</p>
-
-An AI layer for the London project: questions answered by tested spatial queries rather than guesses, with the sources behind every number.
-:::
-
-:::

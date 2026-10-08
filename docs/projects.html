@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d566ebd51159e2744b0772ddc55169e2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a9f94def4335d5b9ea419dd00b1f7ae9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 <p class="meta">
 2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet
 </p>
-<p>An open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place and a year-by-year playback.</p>
+<p>An open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.</p>
 <p class="links">
 <a href="https://etymo.co.uk/london-pedestrian-safety/">Dashboard</a> <a href="https://github.com/eritrouib/london-pedestrian-safety">Code</a> <a href="posts/2026-10-athens-to-london/">Write-up</a>
 </p>
@@ -205,55 +205,87 @@ Web tool · JavaScript, Leaflet, Planning Data API, proj4
 <a href="https://etymo.co.uk/Article4Kingston/">Open the checker</a> <a href="https://github.com/eritrouib/Article4Kingston">Code</a>
 </p>
 </section>
+<section id="retrofit-planning-checker" class="level3 card-et">
+<h3 class="anchored" data-anchor-id="retrofit-planning-checker">Retrofit planning checker</h3>
+<p class="meta">
+Web tool · JavaScript, Leaflet, Planning Data API, HM Land Registry INSPIRE
+</p>
+<p>Can this home have a heat pump, solar panels or insulation without planning permission? Enter an address, postcode or grid reference anywhere in England and, for each common energy improvement, the checker says whether it’s usually permitted development, allowed with limits, needs prior approval, or needs planning permission or listed building consent, with a link to the rule. It checks listed buildings, conservation areas, Article 4 directions, protected trees, flood zones and more across the whole Land Registry plot, adjusts for the type of home, and has a batch mode for whole retrofit programmes. Where a council hasn’t published the data, it says “check with the council” rather than “allowed”.</p>
+<p class="links">
+<a href="https://etymo.co.uk/RetrofitChecker/">Open the checker</a> <a href="https://github.com/eritrouib/RetrofitChecker">Code</a>
+</p>
+</section>
+<section id="planning-data-tracker" class="level3 card-et">
+<h3 class="anchored" data-anchor-id="planning-data-tracker">Planning Data Tracker</h3>
+<p class="meta">
+Web tool and weekly pipeline · Python, GitHub Actions, Leaflet
+</p>
+<p>Planning tools can only answer from what councils publish, so a “no tree preservation order” can really mean “unknown”. This tracker maps, for all 337 local planning authorities in England, which of 10 council-published datasets have records in their area, from Article 4 and conservation areas to brownfield land and local green spaces, and flags data-quality problems with Article 4 directions. It updates every week, and any council can be re-checked live. It grew out of the Kingston checker, where 113 Article 4 areas turned out not to link to their directions.</p>
+<p class="links">
+<a href="https://etymo.co.uk/PlanningDataTracker/">Open the tracker</a> <a href="https://github.com/eritrouib/PlanningDataTracker">Code</a>
+</p>
+</section>
+<section id="takeaways-near-schools" class="level3 card-et">
+<h3 class="anchored" data-anchor-id="takeaways-near-schools">Takeaways near schools</h3>
+<p class="meta">
+Web tool · JavaScript, Leaflet, FSA and DfE open data
+</p>
+<p>Many councils restrict new hot-food takeaways within a set distance of schools. For any council in England, this maps every open school with a zone of your chosen size (200 to 800 m), every takeaway from food hygiene data, and which schools have the most nearby. You choose which school phases count, check whether a proposed site falls inside a zone, and download the results as CSV. It’s clear about its limits, such as straight-line distances and how food hygiene categories differ from planning use classes.</p>
+<p class="links">
+<a href="https://etymo.co.uk/TakeawaysNearSchools/">Open the tool</a> <a href="https://github.com/eritrouib/TakeawaysNearSchools">Code</a>
+</p>
+</section>
 </div>
 </section>
-<section id="interactive-calculators" class="level2">
-<h2 class="anchored" data-anchor-id="interactive-calculators">Interactive calculators</h2>
-<p>Small, research-based calculators that turn evidence into something you can try for yourself. They all live together at <strong><a href="https://realitychecks.app">Reality Checks</a></strong>.</p>
+<section id="remote-sensing" class="level2">
+<h2 class="anchored" data-anchor-id="remote-sensing">Remote sensing</h2>
 <div class="cards">
-<section id="reality-checks" class="level3 card-et">
-<h3 class="anchored" data-anchor-id="reality-checks">Reality Checks</h3>
+<section id="green-change-monitor" class="level3 card-et">
+<h3 class="anchored" data-anchor-id="green-change-monitor">Green Change Monitor</h3>
 <p class="meta">
-Website · realitychecks.app
+Web tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js
 </p>
-<p>A home for all my calculators: quick, honest reality checks on everyday habits and money, each based on published evidence and clear about what it can and can’t tell you.</p>
+<p>Where were trees and green space lost or gained? Pick an area and two years, and it maps patches of vegetation loss and gain from free Sentinel-2 imagery, entirely in the browser: it finds the clearest scenes, masks clouds, builds a cloud-free greenness map for each year and compares them. In England, patches inside conservation areas and tree preservation areas are flagged so planning and enforcement teams know where to look first. Results download as GeoJSON or CSV. A pointer for where to look, not evidence on its own.</p>
+<p class="links">
+<a href="https://etymo.co.uk/GreenChangeMonitor/">Open the monitor</a> <a href="https://github.com/eritrouib/GreenChangeMonitor">Code</a>
+</p>
+</section>
+</div>
+</section>
+<section id="reality-checks" class="level2">
+<h2 class="anchored" data-anchor-id="reality-checks">Reality Checks</h2>
+<p>Ten small, research-based calculators that turn evidence into something you can try for yourself, all in one place at <strong><a href="https://realitychecks.app">realitychecks.app</a></strong>. Each one is clear about what it can and can’t tell you: population averages, not personal predictions.</p>
+<div class="cards">
+<section id="health" class="level3 card-et">
+<h3 class="anchored" data-anchor-id="health">Health</h3>
+<p class="meta">
+5 calculators
+</p>
+<ul>
+<li><a href="https://realitychecks.app/life-calculator/">What’s your lifestyle costing you?</a><br><span class="tool-note">Life expectancy and everyday habits</span></li>
+<li><a href="https://realitychecks.app/exercise/">How much is your exercise adding to your life?</a><br><span class="tool-note">Cardio, strength, steps and sitting</span></li>
+<li><a href="https://realitychecks.app/diet-quality/">What is your diet really doing to you?</a><br><span class="tool-note">Against the Mediterranean diet and NHS guidance</span></li>
+<li><a href="https://realitychecks.app/sleep/">How much sleep are you actually getting?</a><br><span class="tool-note">Sleep debt and recovery</span></li>
+<li><a href="https://realitychecks.app/hydration/">Are you actually hydrated?</a><br><span class="tool-note">A personalised daily target</span></li>
+</ul>
+</section>
+<section id="money-and-time" class="level3 card-et">
+<h3 class="anchored" data-anchor-id="money-and-time">Money and time</h3>
+<p class="meta">
+5 calculators
+</p>
+<ul>
+<li><a href="https://realitychecks.app/rent-vs-buy/">Should you rent or buy?</a><br><span class="tool-note">Break-even point across UK and European cities</span></li>
+<li><a href="https://realitychecks.app/SalaryVSlifestyle/">Does your salary actually cover your life?</a><br><span class="tool-note">Savings rate, and how far it goes in 20 cities</span></li>
+<li><a href="https://realitychecks.app/coffee-cost-calculator/">What’s your coffee habit really costing you?</a><br><span class="tool-note">And what it could grow to if invested</span></li>
+<li><a href="https://realitychecks.app/MeetingsCost/">What are your meetings actually costing?</a><br><span class="tool-note">In money and lost focus time</span></li>
+<li><a href="https://realitychecks.app/SocialMediaTimeCost/">What is social media really costing you?</a><br><span class="tool-note">Days of your life, added up</span></li>
+</ul>
+</section>
+</div>
 <p class="links">
 <a href="https://realitychecks.app">Visit Reality Checks</a>
 </p>
-</section>
-<section id="whats-your-lifestyle-costing-you" class="level3 card-et">
-<h3 class="anchored" data-anchor-id="whats-your-lifestyle-costing-you">What’s your lifestyle costing you?</h3>
-<p class="meta">
-Calculator · HTML, JavaScript
-</p>
-<p>How everyday habits (alcohol, smoking, activity, sitting, sleep, BMI and diet) relate to life expectancy, based on seven peer-reviewed studies and ONS life tables for England and Wales. Population averages, not a personal prediction.</p>
-<p class="links">
-<a href="https://etymo.co.uk/life-calculator/">Try it</a> <a href="https://github.com/eritrouib/life-calculator">Code</a>
-</p>
-</section>
-<section id="whats-your-coffee-habit-really-costing-you" class="level3 card-et">
-<h3 class="anchored" data-anchor-id="whats-your-coffee-habit-really-costing-you">What’s your coffee habit really costing you?</h3>
-<p class="meta">
-Calculator · HTML, JavaScript
-</p>
-<p>Your yearly spend on coffee, tea and other drinks, and what that money could grow to if invested instead, with a “cut it by half” scenario.</p>
-<p class="links">
-<a href="https://etymo.co.uk/coffee-cost-calculator/">Try it</a> <a href="https://github.com/eritrouib/coffee-cost-calculator">Code</a>
-</p>
-</section>
-</div>
-</section>
-<section id="coming-next" class="level2">
-<h2 class="anchored" data-anchor-id="coming-next">Coming next</h2>
-<div class="cards">
-<section id="asking-the-data-in-plain-english" class="level3 card-et soon">
-<h3 class="anchored" data-anchor-id="asking-the-data-in-plain-english">Asking the data in plain English</h3>
-<p class="meta">
-In progress
-</p>
-<p>An AI layer for the London project: questions answered by tested spatial queries rather than guesses, with the sources behind every number.</p>
-</section>
-</div>
 
 
 </section>
