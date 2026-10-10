@@ -112,6 +112,13 @@
     "text": "Remote sensing\n\n\nGreen Change Monitor\n\nWeb tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js\n\nWhere were trees and green space lost or gained? Pick an area and two years, and it maps patches of vegetation loss and gain from free Sentinel-2 imagery, entirely in the browser: it finds the clearest scenes, masks clouds, builds a cloud-free greenness map for each year and compares them. In England, patches inside conservation areas and tree preservation areas are flagged so planning and enforcement teams know where to look first. Results download as GeoJSON or CSV. A pointer for where to look, not evidence on its own.\n\nOpen the monitor Code"
   },
   {
+    "objectID": "projects.html#biodiversity",
+    "href": "projects.html#biodiversity",
+    "title": "Projects",
+    "section": "Biodiversity",
+    "text": "Biodiversity\n\n\nWildScope NW\n\n2026 · Prototype · Python, Streamlit, GBIF, Natural England SSSIs\n\nA regional wildlife observatory for North West England: Sites of Special Scientific Interest, species records and simple conservation views in one dashboard, with pages for protected areas, a species explorer and conservation insights. The live version runs on synthetic demo data; a real-data mode pulls Natural England SSSI boundaries and GBIF occurrence records, shown only as coarse grid cells so sensitive locations aren’t exposed. An early prototype: an official regional boundary, complete GBIF downloads and uncertainty-aware analysis are next.\n\nOpen the app Code"
+  },
+  {
     "objectID": "projects.html#reality-checks",
     "href": "projects.html#reality-checks",
     "title": "Projects",

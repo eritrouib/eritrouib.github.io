@@ -93,6 +93,21 @@ Where were trees and green space lost or gained? Pick an area and two years, and
 
 :::
 
+## Biodiversity
+
+::: {.cards}
+
+::: {.card-et}
+### WildScope NW
+<p class="meta">2026 · Prototype · Python, Streamlit, GBIF, Natural England SSSIs</p>
+
+A regional wildlife observatory for North West England: Sites of Special Scientific Interest, species records and simple conservation views in one dashboard, with pages for protected areas, a species explorer and conservation insights. The live version runs on synthetic demo data; a real-data mode pulls Natural England SSSI boundaries and GBIF occurrence records, shown only as coarse grid cells so sensitive locations aren't exposed. An early prototype: an official regional boundary, complete GBIF downloads and uncertainty-aware analysis are next.
+
+<p class="links"><a href="https://wildscope-nw.streamlit.app/">Open the app</a> <a href="https://github.com/eritrouib/wildscope-nw">Code</a></p>
+:::
+
+:::
+
 ## Reality Checks
 
 Ten small, research-based calculators that turn evidence into something you can try for yourself, all in one place at **[realitychecks.app](https://realitychecks.app)**. Each one is clear about what it can and can't tell you: population averages, not personal predictions.
