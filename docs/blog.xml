@@ -10,7 +10,176 @@
 <atom:link href="https://etymo.co.uk/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi.</description>
 <generator>quarto-1.10.19</generator>
-<lastBuildDate>Mon, 05 Oct 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>How far is everything? Walking London’s 15-minute city</title>
+  <dc:creator>Eriola Trungu Impersimi</dc:creator>
+  <link>https://etymo.co.uk/posts/2026-10-15-minute-london/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The “15-minute city” is the idea that the things you need every day should be a short walk or bike ride from home. It is usually mapped with circles: draw 1.2 km around a GP surgery and call everything inside “15 minutes away”.</p>
+<p>People don’t walk in circles. They walk along streets, around railway lines and rivers, and over the few places where a main road can be crossed. After my <a href="https://etymo.co.uk/london-pedestrian-safety/">pedestrian safety project</a> I already had London’s streets on my laptop, so I asked the question properly: <strong>how far is everything on foot, along the routes people can actually take?</strong></p>
+<section id="six-everyday-services" class="level2">
+<h2 class="anchored" data-anchor-id="six-everyday-services">Six everyday services</h2>
+<p>I picked six things most households need within walking distance: a <strong>GP surgery</strong>, a <strong>pharmacy</strong>, a <strong>primary school</strong>, a <strong>food shop</strong>, a <strong>park</strong> of at least 2 hectares and a <strong>rail, Tube or tram station</strong>.</p>
+<ul>
+<li><strong>Streets and paths:</strong> OpenStreetMap, including footpaths, alleys and paths through parks, not just roads a car can use. Private paths and motorways are left out.</li>
+<li><strong>Services:</strong> OpenStreetMap, and the Department for Education’s register for open primary schools.</li>
+<li><strong>People:</strong> ONS small areas, with population and the English Indices of Deprivation 2025.</li>
+</ul>
+<p>I placed a “home” every 50 m along every residential and main street in London, 454,115 of them, and measured the walk from each one to the nearest of each service. One shortest-path calculation per service covers the whole city. At 4.8 km/h, the usual planning assumption, 15 minutes is 1,200 m.</p>
+<p><strong>58%</strong> of Londoners live within a 15-minute walk of all six. That leaves around <strong>3.7 million</strong> people for whom at least one of them is further away. Allow 20 minutes and it rises to 79%; cut it to 10 and it falls to 23%.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th style="text-align: right;">Within a 15-minute walk</th>
+<th style="text-align: right;">Within 1.2 km as the crow flies</th>
+<th style="text-align: right;">Walking more slowly (3.6 km/h)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GP surgery</td>
+<td style="text-align: right;">79%</td>
+<td style="text-align: right;">90%</td>
+<td style="text-align: right;">64%</td>
+</tr>
+<tr class="even">
+<td>Pharmacy</td>
+<td style="text-align: right;">88%</td>
+<td style="text-align: right;">96%</td>
+<td style="text-align: right;">75%</td>
+</tr>
+<tr class="odd">
+<td>Primary school</td>
+<td style="text-align: right;">96%</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">87%</td>
+</tr>
+<tr class="even">
+<td>Food shop</td>
+<td style="text-align: right;">98%</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">94%</td>
+</tr>
+<tr class="odd">
+<td>Park (2 ha or more)</td>
+<td style="text-align: right;">97%</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">90%</td>
+</tr>
+<tr class="even">
+<td>Rail, Tube or tram station</td>
+<td style="text-align: right;">73%</td>
+<td style="text-align: right;">87%</td>
+<td style="text-align: right;">56%</td>
+</tr>
+<tr class="odd">
+<td><strong>All six</strong></td>
+<td style="text-align: right;"><strong>58%</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>32%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Food shops, parks and primary schools are almost everywhere. The gaps are <strong>stations and GP surgeries</strong>: around a quarter of Londoners are more than 15 minutes’ walk from a station, and a fifth from a GP.</p>
+</section>
+<section id="lesson-one-circles-flatter-the-city" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-one-circles-flatter-the-city">Lesson one: circles flatter the city</h2>
+<p>The straight-line column is always the higher one. Among Londoners who live within 1.2 km of a station as the crow flies, <strong>16%</strong> are still more than a 15-minute walk away; for GPs it is 12%. Across all six services, the typical walk is <strong>1.33 times</strong> the straight-line distance.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/circle_vs_walk.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Share of Londoners within 15 minutes: walking along streets compared with a 1.2 km circle.</figcaption>
+</figure>
+</div>
+<p>This matters beyond this map. Plenty of planning rules are drawn as circles, such as hot-food takeaway exclusion zones around schools. A circle can take in streets that are a long way round on foot and leave out ones that are close.</p>
+</section>
+<section id="lesson-two-it-isnt-the-poorest-areas-that-miss-out" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-two-it-isnt-the-poorest-areas-that-miss-out">Lesson two: it isn’t the poorest areas that miss out</h2>
+<p>This one surprised me. The most deprived areas do <em>better</em>: <strong>68%</strong> of people in England’s most deprived tenth of areas have all six within a 15-minute walk, against <strong>37%</strong> in the least deprived tenth. Every decile in between sits between 53% and 63%, so the real outlier is the least deprived end.</p>
+<p>In London, deprivation is concentrated in dense inner neighbourhoods where services cluster, while many of the least deprived areas are outer suburbs laid out around the car. Their residents are also more likely to have one. Closeness isn’t the same as access, though: a GP surgery ten minutes away doesn’t help if its list is full.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/deprivation_gradient.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>All six services within a 15-minute walk, by deprivation decile.</figcaption>
+</figure>
+</div>
+<p>Geography explains far more. In Inner London <strong>83%</strong> of people have all six within 15 minutes; in Outer London it is <strong>42%</strong>. The top boroughs are Islington (99%), Hackney (96%) and Westminster (94%). At the bottom are Hillingdon (10%), Havering (20%) and Bexley (23%), all big outer boroughs where stations and GPs are spread thinly. Part of Hillingdon’s very low GP figure may be OpenStreetMap missing some surgeries, which is the first thing I’ll check against the NHS list of practices.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/borough_ranking.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Boroughs ranked by the share of residents within 15 minutes of all six.</figcaption>
+</figure>
+</div>
+</section>
+<section id="lesson-three-15-minutes-for-whom" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-three-15-minutes-for-whom">Lesson three: 15 minutes for whom?</h2>
+<p>The 4.8 km/h figure describes a healthy adult. At 3.6 km/h, closer to an older person, a parent with a pushchair or a young child, the share within 15 minutes of all six falls from <strong>58%</strong> to <strong>32%</strong>. In the least deprived tenth of areas it falls to just 13%.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/walking_speed.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Within a 15-minute walk at two walking speeds.</figcaption>
+</figure>
+</div>
+<p>The people who rely most on walking are the ones a 15-minute city built around an average walker reaches least.</p>
+</section>
+<section id="try-your-own-front-door" class="level2">
+<h2 class="anchored" data-anchor-id="try-your-own-front-door">Try your own front door</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/services_within_15.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>How many of the six services are within a 15-minute walk, by small area.</figcaption>
+</figure>
+</div>
+<p>The <a href="https://etymo.co.uk/london-15-minute/">dashboard</a> colours London by how many of the six are within reach, at your choice of pace and time. Click any spot, or type a postcode, and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes and the route to the nearest of each service, with the walking and straight-line distances side by side.</p>
+</section>
+<section id="what-this-doesnt-tell-you" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-doesnt-tell-you">What this doesn’t tell you</h2>
+<ul>
+<li><strong>Nearest isn’t always usable.</strong> A GP list can be closed to new patients, a park locked at night, a station without step-free access.</li>
+<li><strong>OpenStreetMap is very good in London but not perfect.</strong> A missing footpath makes a walk look longer; a missing surgery makes it look further away.</li>
+<li><strong>The edge of London.</strong> Services just over the boundary aren’t counted, so some homes near the edge look worse off than they are.</li>
+<li><strong>Homes are points along streets, not addresses.</strong> Using every address (UPRN) is the obvious next step.</li>
+</ul>
+</section>
+<section id="then-and-now" class="level2">
+<h2 class="anchored" data-anchor-id="then-and-now">Then and now</h2>
+<p>My pedestrian project used OSMnx and Overpass to get the street network. This time the walking network is built directly from the OpenStreetMap file, footpaths and all, and the shortest-path search is a few lines of SciPy, run once per service from every location at the same time. The whole of London takes minutes on a laptop.</p>
+<p>As before, I worked with an AI assistant, Claude. The questions and the judgement about what the numbers mean are mine. The code was tested on a made-up town where every answer can be worked out by hand, including a private shortcut it must ignore, before I trusted it with London.</p>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
+<p>Three things. Using address points (UPRNs) instead of street points for homes. Turning the takeaway exclusion zones in my <a href="https://etymo.co.uk/TakeawaysNearSchools/">Takeaways Near Schools</a> tool into real walking distances. And running the same code on other cities, since nothing in it is specific to London.</p>
+<ul>
+<li><strong>Explore the dashboard:</strong> <a href="https://etymo.co.uk/london-15-minute/">etymo.co.uk/london-15-minute</a></li>
+<li><strong>Code and method:</strong> <a href="https://github.com/eritrouib/london-15-minute">github.com/eritrouib/london-15-minute</a></li>
+</ul>
+<hr>
+<p><em>Data: OpenStreetMap contributors (ODbL); Department for Education, ONS and MHCLG (Open Government Licence). Walking times assume a constant pace and ignore waiting at crossings, hills and steps, so real walks are a little longer.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>walkability</category>
+  <category>network analysis</category>
+  <category>spatial analysis</category>
+  <category>Python</category>
+  <guid>https://etymo.co.uk/posts/2026-10-15-minute-london/</guid>
+  <pubDate>Fri, 09 Oct 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/services_within_15.png" medium="image" type="image/png"/>
+</item>
 <item>
   <title>From Athens to London: pedestrian collisions and the built environment, five years on</title>
   <dc:creator>Eriola Trungu Impersimi</dc:creator>

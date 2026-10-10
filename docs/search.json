@@ -11,14 +11,119 @@
     "href": "index.html#featured-projects",
     "title": "Data, maps and decisions",
     "section": "Featured projects",
-    "text": "Featured projects\n\n\nPedestrian casualties on London’s roads\n\nSpatial analysis · Python · Interactive dashboard\n\n22,108 pedestrian casualties in Greater London, 2021–2025: where they concentrate along the street network, what about the built environment goes with them, and how far serious casualties are from trauma care.\n\nOpen the dashboard Read the story\n\n\n\nArticle 4 and constraints checker, Kingston\n\nPlanning tool · JavaScript · Planning Data API\n\nChecks one property, or a whole CSV of them, against Article 4 directions, conservation areas, listed buildings, flood zones and more, flagging borderline cases near a boundary. Built as a Local Land Charges aid for the Royal Borough of Kingston upon Thames.\n\nOpen the checker More projects"
+    "text": "Featured projects\n\n\n15-minute London\n\nNetwork analysis · Python · Interactive dashboard\n\nWalking along real streets, not as the crow flies: 58% of Londoners live within 15 minutes of a GP, pharmacy, primary school, food shop, park and station. Click any front door and watch how far you get on foot.\n\nOpen the dashboard Read the story\n\n\n\nPedestrian casualties on London’s roads\n\nSpatial analysis · Python · Interactive dashboard\n\n22,108 pedestrian casualties in Greater London, 2021–2025: where they concentrate along the street network, what about the built environment goes with them, and how far serious casualties are from trauma care.\n\nOpen the dashboard Read the story\n\n\n\nArticle 4 and constraints checker, Kingston\n\nPlanning tool · JavaScript · Planning Data API\n\nChecks one property, or a whole CSV of them, against Article 4 directions, conservation areas, listed buildings, flood zones and more, flagging borderline cases near a boundary. Built as a Local Land Charges aid for the Royal Borough of Kingston upon Thames.\n\nOpen the checker More projects"
   },
   {
     "objectID": "index.html#latest-writing",
     "href": "index.html#latest-writing",
     "title": "Data, maps and decisions",
     "section": "Latest writing",
-    "text": "Latest writing\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items\n\nAll posts →"
+    "text": "Latest writing\n\n\n\n\n\nHow far is everything? Walking London’s 15-minute city\n\n\nI measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.\n\n\n\n\n\nOct 10, 2026\n\n6 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items\n\nAll posts →"
+  },
+  {
+    "objectID": "posts/2026-10-15-minute-london/index.html",
+    "href": "posts/2026-10-15-minute-london/index.html",
+    "title": "How far is everything? Walking London’s 15-minute city",
+    "section": "",
+    "text": "The “15-minute city” is the idea that the things you need every day should be a short walk or bike ride from home. It is usually mapped with circles: draw 1.2 km around a GP surgery and call everything inside “15 minutes away”.\nPeople don’t walk in circles. They walk along streets, around railway lines and rivers, and over the few places where a main road can be crossed. After my pedestrian safety project I already had London’s streets on my laptop, so I asked the question properly: how far is everything on foot, along the routes people can actually take?"
+  },
+  {
+    "objectID": "posts/2026-10-15-minute-london/index.html#six-everyday-services",
+    "href": "posts/2026-10-15-minute-london/index.html#six-everyday-services",
+    "title": "How far is everything? Walking London’s 15-minute city",
+    "section": "Six everyday services",
+    "text": "Six everyday services\nI picked six things most households need within walking distance: a GP surgery, a pharmacy, a primary school, a food shop, a park of at least 2 hectares and a rail, Tube or tram station.\n\nStreets and paths: OpenStreetMap, including footpaths, alleys and paths through parks, not just roads a car can use. Private paths and motorways are left out.\nServices: OpenStreetMap, and the Department for Education’s register for open primary schools.\nPeople: ONS small areas, with population and the English Indices of Deprivation 2025.\n\nI placed a “home” every 50 m along every residential and main street in London, 454,115 of them, and measured the walk from each one to the nearest of each service. One shortest-path calculation per service covers the whole city. At 4.8 km/h, the usual planning assumption, 15 minutes is 1,200 m.\n58% of Londoners live within a 15-minute walk of all six. That leaves around 3.7 million people for whom at least one of them is further away. Allow 20 minutes and it rises to 79%; cut it to 10 and it falls to 23%.\n\n\n\n\n\n\n\n\n\nService\nWithin a 15-minute walk\nWithin 1.2 km as the crow flies\nWalking more slowly (3.6 km/h)\n\n\n\n\nGP surgery\n79%\n90%\n64%\n\n\nPharmacy\n88%\n96%\n75%\n\n\nPrimary school\n96%\n100%\n87%\n\n\nFood shop\n98%\n100%\n94%\n\n\nPark (2 ha or more)\n97%\n100%\n90%\n\n\nRail, Tube or tram station\n73%\n87%\n56%\n\n\nAll six\n58%\n\n32%\n\n\n\nFood shops, parks and primary schools are almost everywhere. The gaps are stations and GP surgeries: around a quarter of Londoners are more than 15 minutes’ walk from a station, and a fifth from a GP."
+  },
+  {
+    "objectID": "posts/2026-10-15-minute-london/index.html#lesson-one-circles-flatter-the-city",
+    "href": "posts/2026-10-15-minute-london/index.html#lesson-one-circles-flatter-the-city",
+    "title": "How far is everything? Walking London’s 15-minute city",
+    "section": "Lesson one: circles flatter the city",
+    "text": "Lesson one: circles flatter the city\nThe straight-line column is always the higher one. Among Londoners who live within 1.2 km of a station as the crow flies, 16% are still more than a 15-minute walk away; for GPs it is 12%. Across all six services, the typical walk is 1.33 times the straight-line distance.\n\n\n\nShare of Londoners within 15 minutes: walking along streets compared with a 1.2 km circle.\n\n\nThis matters beyond this map. Plenty of planning rules are drawn as circles, such as hot-food takeaway exclusion zones around schools. A circle can take in streets that are a long way round on foot and leave out ones that are close."
+  },
+  {
+    "objectID": "posts/2026-10-15-minute-london/index.html#lesson-two-it-isnt-the-poorest-areas-that-miss-out",
+    "href": "posts/2026-10-15-minute-london/index.html#lesson-two-it-isnt-the-poorest-areas-that-miss-out",
+    "title": "How far is everything? Walking London’s 15-minute city",
+    "section": "Lesson two: it isn’t the poorest areas that miss out",
+    "text": "Lesson two: it isn’t the poorest areas that miss out\nThis one surprised me. The most deprived areas do better: 68% of people in England’s most deprived tenth of areas have all six within a 15-minute walk, against 37% in the least deprived tenth. Every decile in between sits between 53% and 63%, so the real outlier is the least deprived end.\nIn London, deprivation is concentrated in dense inner neighbourhoods where services cluster, while many of the least deprived areas are outer suburbs laid out around the car. Their residents are also more likely to have one. Closeness isn’t the same as access, though: a GP surgery ten minutes away doesn’t help if its list is full.\n\n\n\nAll six services within a 15-minute walk, by deprivation decile.\n\n\nGeography explains far more. In Inner London 83% of people have all six within 15 minutes; in Outer London it is 42%. The top boroughs are Islington (99%), Hackney (96%) and Westminster (94%). At the bottom are Hillingdon (10%), Havering (20%) and Bexley (23%), all big outer boroughs where stations and GPs are spread thinly. Part of Hillingdon’s very low GP figure may be OpenStreetMap missing some surgeries, which is the first thing I’ll check against the NHS list of practices.\n\n\n\nBoroughs ranked by the share of residents within 15 minutes of all six."
+  },
+  {
+    "objectID": "posts/2026-10-15-minute-london/index.html#lesson-three-15-minutes-for-whom",
+    "href": "posts/2026-10-15-minute-london/index.html#lesson-three-15-minutes-for-whom",
+    "title": "How far is everything? Walking London’s 15-minute city",
+    "section": "Lesson three: 15 minutes for whom?",
+    "text": "Lesson three: 15 minutes for whom?\nThe 4.8 km/h figure describes a healthy adult. At 3.6 km/h, closer to an older person, a parent with a pushchair or a young child, the share within 15 minutes of all six falls from 58% to 32%. In the least deprived tenth of areas it falls to just 13%.\n\n\n\nWithin a 15-minute walk at two walking speeds.\n\n\nThe people who rely most on walking are the ones a 15-minute city built around an average walker reaches least."
+  },
+  {
+    "objectID": "posts/2026-10-15-minute-london/index.html#try-your-own-front-door",
+    "href": "posts/2026-10-15-minute-london/index.html#try-your-own-front-door",
+    "title": "How far is everything? Walking London’s 15-minute city",
+    "section": "Try your own front door",
+    "text": "Try your own front door\n\n\n\nHow many of the six services are within a 15-minute walk, by small area.\n\n\nThe dashboard colours London by how many of the six are within reach, at your choice of pace and time. Click any spot, or type a postcode, and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes and the route to the nearest of each service, with the walking and straight-line distances side by side."
+  },
+  {
+    "objectID": "posts/2026-10-15-minute-london/index.html#what-this-doesnt-tell-you",
+    "href": "posts/2026-10-15-minute-london/index.html#what-this-doesnt-tell-you",
+    "title": "How far is everything? Walking London’s 15-minute city",
+    "section": "What this doesn’t tell you",
+    "text": "What this doesn’t tell you\n\nNearest isn’t always usable. A GP list can be closed to new patients, a park locked at night, a station without step-free access.\nOpenStreetMap is very good in London but not perfect. A missing footpath makes a walk look longer; a missing surgery makes it look further away.\nThe edge of London. Services just over the boundary aren’t counted, so some homes near the edge look worse off than they are.\nHomes are points along streets, not addresses. Using every address (UPRN) is the obvious next step."
+  },
+  {
+    "objectID": "posts/2026-10-15-minute-london/index.html#then-and-now",
+    "href": "posts/2026-10-15-minute-london/index.html#then-and-now",
+    "title": "How far is everything? Walking London’s 15-minute city",
+    "section": "Then and now",
+    "text": "Then and now\nMy pedestrian project used OSMnx and Overpass to get the street network. This time the walking network is built directly from the OpenStreetMap file, footpaths and all, and the shortest-path search is a few lines of SciPy, run once per service from every location at the same time. The whole of London takes minutes on a laptop.\nAs before, I worked with an AI assistant, Claude. The questions and the judgement about what the numbers mean are mine. The code was tested on a made-up town where every answer can be worked out by hand, including a private shortcut it must ignore, before I trusted it with London."
+  },
+  {
+    "objectID": "posts/2026-10-15-minute-london/index.html#whats-next",
+    "href": "posts/2026-10-15-minute-london/index.html#whats-next",
+    "title": "How far is everything? Walking London’s 15-minute city",
+    "section": "What’s next",
+    "text": "What’s next\nThree things. Using address points (UPRNs) instead of street points for homes. Turning the takeaway exclusion zones in my Takeaways Near Schools tool into real walking distances. And running the same code on other cities, since nothing in it is specific to London.\n\nExplore the dashboard: etymo.co.uk/london-15-minute\nCode and method: github.com/eritrouib/london-15-minute\n\n\nData: OpenStreetMap contributors (ODbL); Department for Education, ONS and MHCLG (Open Government Licence). Walking times assume a constant pace and ignore waiting at crossings, hills and steps, so real walks are a little longer."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "2026 · Python, GeoPandas, SciPy, network analysis, Leaflet\n\nHow much of London is a 15-minute city on foot? Walking distances along every street, footpath and park path, from 454,115 points on London’s residential streets to the nearest GP, pharmacy, primary school, food shop, park and station, compared with straight-line distance and broken down by borough and deprivation. Click any front door on the dashboard and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes.\n\nDashboard Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.\n\nDashboard Code Write-up\n\n\n\n\n\n2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards\n\nSpatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis and Geographically Weighted Regression of the built environment, with an emergency services dashboard.\n\nArticle in preparation"
+  },
+  {
+    "objectID": "projects.html#spatial-analysis",
+    "href": "projects.html#spatial-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "2026 · Python, GeoPandas, SciPy, network analysis, Leaflet\n\nHow much of London is a 15-minute city on foot? Walking distances along every street, footpath and park path, from 454,115 points on London’s residential streets to the nearest GP, pharmacy, primary school, food shop, park and station, compared with straight-line distance and broken down by borough and deprivation. Click any front door on the dashboard and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes.\n\nDashboard Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.\n\nDashboard Code Write-up\n\n\n\n\n\n2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards\n\nSpatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis and Geographically Weighted Regression of the built environment, with an emergency services dashboard.\n\nArticle in preparation"
+  },
+  {
+    "objectID": "projects.html#planning-and-geospatial-tools",
+    "href": "projects.html#planning-and-geospatial-tools",
+    "title": "Projects",
+    "section": "Planning and geospatial tools",
+    "text": "Planning and geospatial tools\n\n\nArticle 4 and constraints checker, Kingston\n\nWeb tool · JavaScript, Leaflet, Planning Data API, proj4\n\nA Local Land Charges aid for the Royal Borough of Kingston upon Thames. Check a single property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is sent to the government’s Planning Data service and checked for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Nearby features and boundaries within a chosen tolerance (10, 25 or 50 m) are flagged as borderline, and Article 4 results are cross-checked against Kingston’s own boundaries, with an offline fallback if the service is down.\n\nOpen the checker Code\n\n\n\nRetrofit planning checker\n\nWeb tool · JavaScript, Leaflet, Planning Data API, HM Land Registry INSPIRE\n\nCan this home have a heat pump, solar panels or insulation without planning permission? Enter an address, postcode or grid reference anywhere in England and, for each common energy improvement, the checker says whether it’s usually permitted development, allowed with limits, needs prior approval, or needs planning permission or listed building consent, with a link to the rule. It checks listed buildings, conservation areas, Article 4 directions, protected trees, flood zones and more across the whole Land Registry plot, adjusts for the type of home, and has a batch mode for whole retrofit programmes. Where a council hasn’t published the data, it says “check with the council” rather than “allowed”.\n\nOpen the checker Code\n\n\n\nPlanning Data Tracker\n\nWeb tool and weekly pipeline · Python, GitHub Actions, Leaflet\n\nPlanning tools can only answer from what councils publish, so a “no tree preservation order” can really mean “unknown”. This tracker maps, for all 337 local planning authorities in England, which of 10 council-published datasets have records in their area, from Article 4 and conservation areas to brownfield land and local green spaces, and flags data-quality problems with Article 4 directions. It updates every week, and any council can be re-checked live. It grew out of the Kingston checker, where 113 Article 4 areas turned out not to link to their directions.\n\nOpen the tracker Code\n\n\n\nTakeaways near schools\n\nWeb tool · JavaScript, Leaflet, FSA and DfE open data\n\nMany councils restrict new hot-food takeaways within a set distance of schools. For any council in England, this maps every open school with a zone of your chosen size (200 to 800 m), every takeaway from food hygiene data, and which schools have the most nearby. You choose which school phases count, check whether a proposed site falls inside a zone, and download the results as CSV. It’s clear about its limits, such as straight-line distances and how food hygiene categories differ from planning use classes.\n\nOpen the tool Code"
+  },
+  {
+    "objectID": "projects.html#remote-sensing",
+    "href": "projects.html#remote-sensing",
+    "title": "Projects",
+    "section": "Remote sensing",
+    "text": "Remote sensing\n\n\nGreen Change Monitor\n\nWeb tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js\n\nWhere were trees and green space lost or gained? Pick an area and two years, and it maps patches of vegetation loss and gain from free Sentinel-2 imagery, entirely in the browser: it finds the clearest scenes, masks clouds, builds a cloud-free greenness map for each year and compares them. In England, patches inside conservation areas and tree preservation areas are flagged so planning and enforcement teams know where to look first. Results download as GeoJSON or CSV. A pointer for where to look, not evidence on its own.\n\nOpen the monitor Code"
+  },
+  {
+    "objectID": "projects.html#reality-checks",
+    "href": "projects.html#reality-checks",
+    "title": "Projects",
+    "section": "Reality Checks",
+    "text": "Reality Checks\nTen small, research-based calculators that turn evidence into something you can try for yourself, all in one place at realitychecks.app. Each one is clear about what it can and can’t tell you: population averages, not personal predictions.\n\n\nHealth\n\n5 calculators\n\n\nWhat’s your lifestyle costing you?Life expectancy and everyday habits\nHow much is your exercise adding to your life?Cardio, strength, steps and sitting\nWhat is your diet really doing to you?Against the Mediterranean diet and NHS guidance\nHow much sleep are you actually getting?Sleep debt and recovery\nAre you actually hydrated?A personalised daily target\n\n\n\nMoney and time\n\n5 calculators\n\n\nShould you rent or buy?Break-even point across UK and European cities\nDoes your salary actually cover your life?Savings rate, and how far it goes in 20 cities\nWhat’s your coffee habit really costing you?And what it could grow to if invested\nWhat are your meetings actually costing?In money and lost focus time\nWhat is social media really costing you?Days of your life, added up\n\n\n\n\nVisit Reality Checks"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nHow far is everything? Walking London’s 15-minute city\n\n\n\nwalkability\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.\n\n\n\n\n\nOct 10, 2026\n\n6 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2026-10-athens-to-london/index.html",
@@ -75,48 +180,6 @@
     "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
     "section": "What’s next",
     "text": "What’s next\nTwo things. First, publishing the Athens work properly, re-analysed with the methods developed here. Second, an AI layer for the London data, so anyone can ask a question in plain English and get an answer computed from the data, with its sources, rather than a guess.\n\nData: Department for Transport STATS19, ONS, MHCLG (Open Government Licence); OpenStreetMap contributors (ODbL). Police-recorded data under-reports minor pedestrian injuries, and associations between areas and casualties do not show cause."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.\n\nDashboard Code Write-up\n\n\n\n\n\n2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards\n\nSpatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis and Geographically Weighted Regression of the built environment, with an emergency services dashboard.\n\nArticle in preparation"
-  },
-  {
-    "objectID": "projects.html#spatial-analysis",
-    "href": "projects.html#spatial-analysis",
-    "title": "Projects",
-    "section": "",
-    "text": "2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.\n\nDashboard Code Write-up\n\n\n\n\n\n2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards\n\nSpatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis and Geographically Weighted Regression of the built environment, with an emergency services dashboard.\n\nArticle in preparation"
-  },
-  {
-    "objectID": "projects.html#planning-and-geospatial-tools",
-    "href": "projects.html#planning-and-geospatial-tools",
-    "title": "Projects",
-    "section": "Planning and geospatial tools",
-    "text": "Planning and geospatial tools\n\n\nArticle 4 and constraints checker, Kingston\n\nWeb tool · JavaScript, Leaflet, Planning Data API, proj4\n\nA Local Land Charges aid for the Royal Borough of Kingston upon Thames. Check a single property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is sent to the government’s Planning Data service and checked for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Nearby features and boundaries within a chosen tolerance (10, 25 or 50 m) are flagged as borderline, and Article 4 results are cross-checked against Kingston’s own boundaries, with an offline fallback if the service is down.\n\nOpen the checker Code\n\n\n\nRetrofit planning checker\n\nWeb tool · JavaScript, Leaflet, Planning Data API, HM Land Registry INSPIRE\n\nCan this home have a heat pump, solar panels or insulation without planning permission? Enter an address, postcode or grid reference anywhere in England and, for each common energy improvement, the checker says whether it’s usually permitted development, allowed with limits, needs prior approval, or needs planning permission or listed building consent, with a link to the rule. It checks listed buildings, conservation areas, Article 4 directions, protected trees, flood zones and more across the whole Land Registry plot, adjusts for the type of home, and has a batch mode for whole retrofit programmes. Where a council hasn’t published the data, it says “check with the council” rather than “allowed”.\n\nOpen the checker Code\n\n\n\nPlanning Data Tracker\n\nWeb tool and weekly pipeline · Python, GitHub Actions, Leaflet\n\nPlanning tools can only answer from what councils publish, so a “no tree preservation order” can really mean “unknown”. This tracker maps, for all 337 local planning authorities in England, which of 10 council-published datasets have records in their area, from Article 4 and conservation areas to brownfield land and local green spaces, and flags data-quality problems with Article 4 directions. It updates every week, and any council can be re-checked live. It grew out of the Kingston checker, where 113 Article 4 areas turned out not to link to their directions.\n\nOpen the tracker Code\n\n\n\nTakeaways near schools\n\nWeb tool · JavaScript, Leaflet, FSA and DfE open data\n\nMany councils restrict new hot-food takeaways within a set distance of schools. For any council in England, this maps every open school with a zone of your chosen size (200 to 800 m), every takeaway from food hygiene data, and which schools have the most nearby. You choose which school phases count, check whether a proposed site falls inside a zone, and download the results as CSV. It’s clear about its limits, such as straight-line distances and how food hygiene categories differ from planning use classes.\n\nOpen the tool Code"
-  },
-  {
-    "objectID": "projects.html#remote-sensing",
-    "href": "projects.html#remote-sensing",
-    "title": "Projects",
-    "section": "Remote sensing",
-    "text": "Remote sensing\n\n\nGreen Change Monitor\n\nWeb tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js\n\nWhere were trees and green space lost or gained? Pick an area and two years, and it maps patches of vegetation loss and gain from free Sentinel-2 imagery, entirely in the browser: it finds the clearest scenes, masks clouds, builds a cloud-free greenness map for each year and compares them. In England, patches inside conservation areas and tree preservation areas are flagged so planning and enforcement teams know where to look first. Results download as GeoJSON or CSV. A pointer for where to look, not evidence on its own.\n\nOpen the monitor Code"
-  },
-  {
-    "objectID": "projects.html#reality-checks",
-    "href": "projects.html#reality-checks",
-    "title": "Projects",
-    "section": "Reality Checks",
-    "text": "Reality Checks\nTen small, research-based calculators that turn evidence into something you can try for yourself, all in one place at realitychecks.app. Each one is clear about what it can and can’t tell you: population averages, not personal predictions.\n\n\nHealth\n\n5 calculators\n\n\nWhat’s your lifestyle costing you?Life expectancy and everyday habits\nHow much is your exercise adding to your life?Cardio, strength, steps and sitting\nWhat is your diet really doing to you?Against the Mediterranean diet and NHS guidance\nHow much sleep are you actually getting?Sleep debt and recovery\nAre you actually hydrated?A personalised daily target\n\n\n\nMoney and time\n\n5 calculators\n\n\nShould you rent or buy?Break-even point across UK and European cities\nDoes your salary actually cover your life?Savings rate, and how far it goes in 20 cities\nWhat’s your coffee habit really costing you?And what it could grow to if invested\nWhat are your meetings actually costing?In money and lost focus time\nWhat is social media really costing you?Days of your life, added up\n\n\n\n\nVisit Reality Checks"
   },
   {
     "objectID": "about.html",

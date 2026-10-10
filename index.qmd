@@ -20,6 +20,15 @@ I'm Eriola, a Government Operational Researcher and geospatial analyst. For more
 
 ::: {.cards}
 ::: {.card-et}
+### 15-minute London
+<p class="meta">Network analysis · Python · Interactive dashboard</p>
+
+Walking along real streets, not as the crow flies: 58% of Londoners live within 15 minutes of a GP, pharmacy, primary school, food shop, park and station. Click any front door and watch how far you get on foot.
+
+<p class="links"><a href="https://etymo.co.uk/london-15-minute/">Open the dashboard</a> <a href="posts/2026-10-15-minute-london/">Read the story</a></p>
+:::
+
+::: {.card-et}
 ### Pedestrian casualties on London's roads
 <p class="meta">Spatial analysis · Python · Interactive dashboard</p>
 

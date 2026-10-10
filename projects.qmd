@@ -7,6 +7,15 @@ title: "Projects"
 ::: {.cards}
 
 ::: {.card-et}
+### 15-minute London
+<p class="meta">2026 · Python, GeoPandas, SciPy, network analysis, Leaflet</p>
+
+How much of London is a 15-minute city on foot? Walking distances along every street, footpath and park path, from 454,115 points on London's residential streets to the nearest GP, pharmacy, primary school, food shop, park and station, compared with straight-line distance and broken down by borough and deprivation. Click any front door on the dashboard and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes.
+
+<p class="links"><a href="https://etymo.co.uk/london-15-minute/">Dashboard</a> <a href="https://github.com/eritrouib/london-15-minute">Code</a> <a href="posts/2026-10-15-minute-london/">Write-up</a></p>
+:::
+
+::: {.card-et}
 ### Pedestrian casualties on London's roads
 <p class="meta">2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet</p>
 

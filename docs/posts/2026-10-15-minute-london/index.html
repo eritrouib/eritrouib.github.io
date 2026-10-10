@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Eriola Trungu Impersimi">
+<meta name="dcterms.date" content="2026-10-10">
+<meta name="description" content="I measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.">
 
-<title>Blog – @ET</title>
+<title>How far is everything? Walking London’s 15-minute city – @ET</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,26 +32,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/et-mark.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a9f94def4335d5b9ea419dd00b1f7ae9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/et-mark.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a9f94def4335d5b9ea419dd00b1f7ae9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,69 +77,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="@ET" href="blog.xml" data-external="1"><meta property="og:title" content="Blog – @ET">
-<meta property="og:description" content="Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi.">
+<meta property="og:title" content="How far is everything? Walking London’s 15-minute city – @ET">
+<meta property="og:description" content="I measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.">
+<meta property="og:image" content="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/services_within_15.png">
 <meta property="og:site_name" content="@ET">
 </head>
 
@@ -149,9 +93,9 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/et-mark.svg" alt="@ET" class="navbar-logo light-content">
-    <img src="./assets/et-mark.svg" alt="@ET" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/et-mark.svg" alt="@ET" class="navbar-logo light-content">
+    <img src="../../assets/et-mark.svg" alt="@ET" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -161,19 +105,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -189,7 +133,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./blog.xml"> <i class="bi bi-rss" role="img" aria-label="RSS feed">
+    <a class="nav-link" href="../../blog.xml"> <i class="bi bi-rss" role="img" aria-label="RSS feed">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -201,24 +145,61 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV0d29yayUyMGFuYWx5c2lz">network analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cm9hZCUyMHNhZmV0eQ==">road safety <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3BhdGlhbCUyMGFuYWx5c2lz">spatial analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="d2Fsa2FiaWxpdHk=">walkability <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#six-everyday-services" id="toc-six-everyday-services" class="nav-link active" data-scroll-target="#six-everyday-services">Six everyday services</a></li>
+  <li><a href="#lesson-one-circles-flatter-the-city" id="toc-lesson-one-circles-flatter-the-city" class="nav-link" data-scroll-target="#lesson-one-circles-flatter-the-city">Lesson one: circles flatter the city</a></li>
+  <li><a href="#lesson-two-it-isnt-the-poorest-areas-that-miss-out" id="toc-lesson-two-it-isnt-the-poorest-areas-that-miss-out" class="nav-link" data-scroll-target="#lesson-two-it-isnt-the-poorest-areas-that-miss-out">Lesson two: it isn’t the poorest areas that miss out</a></li>
+  <li><a href="#lesson-three-15-minutes-for-whom" id="toc-lesson-three-15-minutes-for-whom" class="nav-link" data-scroll-target="#lesson-three-15-minutes-for-whom">Lesson three: 15 minutes for whom?</a></li>
+  <li><a href="#try-your-own-front-door" id="toc-try-your-own-front-door" class="nav-link" data-scroll-target="#try-your-own-front-door">Try your own front door</a></li>
+  <li><a href="#what-this-doesnt-tell-you" id="toc-what-this-doesnt-tell-you" class="nav-link" data-scroll-target="#what-this-doesnt-tell-you">What this doesn’t tell you</a></li>
+  <li><a href="#then-and-now" id="toc-then-and-now" class="nav-link" data-scroll-target="#then-and-now">Then and now</a></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s next</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">How far is everything? Walking London’s 15-minute city</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">walkability</div>
+    <div class="quarto-category">network analysis</div>
+    <div class="quarto-category">spatial analysis</div>
+    <div class="quarto-category">Python</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    I measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page-left">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Eriola Trungu Impersimi </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 10, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -228,80 +209,158 @@ window.Quarto = {
 </header>
 
 
-<p>Notes, methods and experiments in data, maps and decisions.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<p>The “15-minute city” is the idea that the things you need every day should be a short walk or bike ride from home. It is usually mapped with circles: draw 1.2 km around a GP surgery and call everything inside “15 minutes away”.</p>
+<p>People don’t walk in circles. They walk along streets, around railway lines and rivers, and over the few places where a main road can be crossed. After my <a href="https://etymo.co.uk/london-pedestrian-safety/">pedestrian safety project</a> I already had London’s streets on my laptop, so I asked the question properly: <strong>how far is everything on foot, along the routes people can actually take?</strong></p>
+<section id="six-everyday-services" class="level2">
+<h2 class="anchored" data-anchor-id="six-everyday-services">Six everyday services</h2>
+<p>I picked six things most households need within walking distance: a <strong>GP surgery</strong>, a <strong>pharmacy</strong>, a <strong>primary school</strong>, a <strong>food shop</strong>, a <strong>park</strong> of at least 2 hectares and a <strong>rail, Tube or tram station</strong>.</p>
+<ul>
+<li><strong>Streets and paths:</strong> OpenStreetMap, including footpaths, alleys and paths through parks, not just roads a car can use. Private paths and motorways are left out.</li>
+<li><strong>Services:</strong> OpenStreetMap, and the Department for Education’s register for open primary schools.</li>
+<li><strong>People:</strong> ONS small areas, with population and the English Indices of Deprivation 2025.</li>
+</ul>
+<p>I placed a “home” every 50 m along every residential and main street in London, 454,115 of them, and measured the walk from each one to the nearest of each service. One shortest-path calculation per service covers the whole city. At 4.8 km/h, the usual planning assumption, 15 minutes is 1,200 m.</p>
+<p><strong>58%</strong> of Londoners live within a 15-minute walk of all six. That leaves around <strong>3.7 million</strong> people for whom at least one of them is further away. Allow 20 minutes and it rises to 79%; cut it to 10 and it falls to 23%.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th style="text-align: right;">Within a 15-minute walk</th>
+<th style="text-align: right;">Within 1.2 km as the crow flies</th>
+<th style="text-align: right;">Walking more slowly (3.6 km/h)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GP surgery</td>
+<td style="text-align: right;">79%</td>
+<td style="text-align: right;">90%</td>
+<td style="text-align: right;">64%</td>
+</tr>
+<tr class="even">
+<td>Pharmacy</td>
+<td style="text-align: right;">88%</td>
+<td style="text-align: right;">96%</td>
+<td style="text-align: right;">75%</td>
+</tr>
+<tr class="odd">
+<td>Primary school</td>
+<td style="text-align: right;">96%</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">87%</td>
+</tr>
+<tr class="even">
+<td>Food shop</td>
+<td style="text-align: right;">98%</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">94%</td>
+</tr>
+<tr class="odd">
+<td>Park (2 ha or more)</td>
+<td style="text-align: right;">97%</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">90%</td>
+</tr>
+<tr class="even">
+<td>Rail, Tube or tram station</td>
+<td style="text-align: right;">73%</td>
+<td style="text-align: right;">87%</td>
+<td style="text-align: right;">56%</td>
+</tr>
+<tr class="odd">
+<td><strong>All six</strong></td>
+<td style="text-align: right;"><strong>58%</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>32%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Food shops, parks and primary schools are almost everywhere. The gaps are <strong>stations and GP surgeries</strong>: around a quarter of Londoners are more than 15 minutes’ walk from a station, and a fifth from a GP.</p>
+</section>
+<section id="lesson-one-circles-flatter-the-city" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-one-circles-flatter-the-city">Lesson one: circles flatter the city</h2>
+<p>The straight-line column is always the higher one. Among Londoners who live within 1.2 km of a station as the crow flies, <strong>16%</strong> are still more than a 15-minute walk away; for GPs it is 12%. Across all six services, the typical walk is <strong>1.33 times</strong> the straight-line distance.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/circle_vs_walk.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Share of Londoners within 15 minutes: walking along streets compared with a 1.2 km circle.</figcaption>
+</figure>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="d2Fsa2FiaWxpdHklMkNuZXR3b3JrJTIwYW5hbHlzaXMlMkNzcGF0aWFsJTIwYW5hbHlzaXMlMkNQeXRob24=" data-listing-date-sort="1791586800000" data-listing-file-modified-sort="1791618492124" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1178">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-10-15-minute-london/index.html" class="no-external">How far is everything? Walking London’s 15-minute city</a>
-</h3>
-<div class="listing-categories">
+<p>This matters beyond this map. Plenty of planning rules are drawn as circles, such as hot-food takeaway exclusion zones around schools. A circle can take in streets that are a long way round on foot and leave out ones that are close.</p>
+</section>
+<section id="lesson-two-it-isnt-the-poorest-areas-that-miss-out" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-two-it-isnt-the-poorest-areas-that-miss-out">Lesson two: it isn’t the poorest areas that miss out</h2>
+<p>This one surprised me. The most deprived areas do <em>better</em>: <strong>68%</strong> of people in England’s most deprived tenth of areas have all six within a 15-minute walk, against <strong>37%</strong> in the least deprived tenth. Every decile in between sits between 53% and 63%, so the real outlier is the least deprived end.</p>
+<p>In London, deprivation is concentrated in dense inner neighbourhoods where services cluster, while many of the least deprived areas are outer suburbs laid out around the car. Their residents are also more likely to have one. Closeness isn’t the same as access, though: a GP surgery ten minutes away doesn’t help if its list is full.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/deprivation_gradient.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>All six services within a 15-minute walk, by deprivation decile.</figcaption>
+</figure>
+</div>
+<p>Geography explains far more. In Inner London <strong>83%</strong> of people have all six within 15 minutes; in Outer London it is <strong>42%</strong>. The top boroughs are Islington (99%), Hackney (96%) and Westminster (94%). At the bottom are Hillingdon (10%), Havering (20%) and Bexley (23%), all big outer boroughs where stations and GPs are spread thinly. Part of Hillingdon’s very low GP figure may be OpenStreetMap missing some surgeries, which is the first thing I’ll check against the NHS list of practices.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/borough_ranking.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Boroughs ranked by the share of residents within 15 minutes of all six.</figcaption>
+</figure>
+</div>
+</section>
+<section id="lesson-three-15-minutes-for-whom" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-three-15-minutes-for-whom">Lesson three: 15 minutes for whom?</h2>
+<p>The 4.8 km/h figure describes a healthy adult. At 3.6 km/h, closer to an older person, a parent with a pushchair or a young child, the share within 15 minutes of all six falls from <strong>58%</strong> to <strong>32%</strong>. In the least deprived tenth of areas it falls to just 13%.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/walking_speed.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Within a 15-minute walk at two walking speeds.</figcaption>
+</figure>
+</div>
+<p>The people who rely most on walking are the ones a 15-minute city built around an average walker reaches least.</p>
+</section>
+<section id="try-your-own-front-door" class="level2">
+<h2 class="anchored" data-anchor-id="try-your-own-front-door">Try your own front door</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/services_within_15.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>How many of the six services are within a 15-minute walk, by small area.</figcaption>
+</figure>
+</div>
+<p>The <a href="https://etymo.co.uk/london-15-minute/">dashboard</a> colours London by how many of the six are within reach, at your choice of pace and time. Click any spot, or type a postcode, and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes and the route to the nearest of each service, with the walking and straight-line distances side by side.</p>
+</section>
+<section id="what-this-doesnt-tell-you" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-doesnt-tell-you">What this doesn’t tell you</h2>
+<ul>
+<li><strong>Nearest isn’t always usable.</strong> A GP list can be closed to new patients, a park locked at night, a station without step-free access.</li>
+<li><strong>OpenStreetMap is very good in London but not perfect.</strong> A missing footpath makes a walk look longer; a missing surgery makes it look further away.</li>
+<li><strong>The edge of London.</strong> Services just over the boundary aren’t counted, so some homes near the edge look worse off than they are.</li>
+<li><strong>Homes are points along streets, not addresses.</strong> Using every address (UPRN) is the obvious next step.</li>
+</ul>
+</section>
+<section id="then-and-now" class="level2">
+<h2 class="anchored" data-anchor-id="then-and-now">Then and now</h2>
+<p>My pedestrian project used OSMnx and Overpass to get the street network. This time the walking network is built directly from the OpenStreetMap file, footpaths and all, and the shortest-path search is a few lines of SciPy, run once per service from every location at the same time. The whole of London takes minutes on a laptop.</p>
+<p>As before, I worked with an AI assistant, Claude. The questions and the judgement about what the numbers mean are mine. The code was tested on a made-up town where every answer can be worked out by hand, including a private shortcut it must ignore, before I trusted it with London.</p>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
+<p>Three things. Using address points (UPRNs) instead of street points for homes. Turning the takeaway exclusion zones in my <a href="https://etymo.co.uk/TakeawaysNearSchools/">Takeaways Near Schools</a> tool into real walking distances. And running the same code on other cities, since nothing in it is specific to London.</p>
+<ul>
+<li><strong>Explore the dashboard:</strong> <a href="https://etymo.co.uk/london-15-minute/">etymo.co.uk/london-15-minute</a></li>
+<li><strong>Code and method:</strong> <a href="https://github.com/eritrouib/london-15-minute">github.com/eritrouib/london-15-minute</a></li>
+</ul>
+<hr>
+<p><em>Data: OpenStreetMap contributors (ODbL); Department for Education, ONS and MHCLG (Open Government Licence). Walking times assume a constant pace and ignore waiting at crossings, hills and steps, so real walks are a little longer.</em></p>
 
-<div class="listing-category" onclick="window.quartoListingCategory('d2Fsa2FiaWxpdHk='); return false;">walkability</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('bmV0d29yayUyMGFuYWx5c2lz'); return false;">network analysis</div>
+</section>
 
-<div class="listing-category" onclick="window.quartoListingCategory('c3BhdGlhbCUyMGFuYWx5c2lz'); return false;">spatial analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2026-10-15-minute-london/index.html" class="no-external">
-<p>I measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-10-15-minute-london/index.html" class="no-external">
-<div class="listing-date">
-Oct 10, 2026
-</div>
-<div class="listing-reading-time">6 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="cm9hZCUyMHNhZmV0eSUyQ3NwYXRpYWwlMjBhbmFseXNpcyUyQ1B5dGhvbiUyQ0FJ" data-listing-date-sort="1791241200000" data-listing-file-modified-sort="1791618331873" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="962">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-10-athens-to-london/index.html" class="no-external">From Athens to London: pedestrian collisions and the built environment, five years on</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cm9hZCUyMHNhZmV0eQ=='); return false;">road safety</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c3BhdGlhbCUyMGFuYWx5c2lz'); return false;">spatial analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2026-10-athens-to-london/index.html" class="no-external">
-<p>I took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-10-athens-to-london/index.html" class="no-external">
-<div class="listing-date">
-Oct 6, 2026
-</div>
-<div class="listing-reading-time">5 min</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -725,5 +784,5 @@ Oct 6, 2026
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

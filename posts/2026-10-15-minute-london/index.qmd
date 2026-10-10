@@ -1,0 +1,93 @@
+---
+title: "How far is everything? Walking London's 15-minute city"
+description: "I measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out."
+date: 2026-10-10
+categories: [walkability, network analysis, spatial analysis, Python]
+image: https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/services_within_15.png
+---
+
+The "15-minute city" is the idea that the things you need every day should be a short walk or bike ride from home. It is usually mapped with circles: draw 1.2 km around a GP surgery and call everything inside "15 minutes away".
+
+People don't walk in circles. They walk along streets, around railway lines and rivers, and over the few places where a main road can be crossed. After my [pedestrian safety project](https://etymo.co.uk/london-pedestrian-safety/) I already had London's streets on my laptop, so I asked the question properly: **how far is everything on foot, along the routes people can actually take?**
+
+## Six everyday services
+
+I picked six things most households need within walking distance: a **GP surgery**, a **pharmacy**, a **primary school**, a **food shop**, a **park** of at least 2 hectares and a **rail, Tube or tram station**.
+
+- **Streets and paths:** OpenStreetMap, including footpaths, alleys and paths through parks, not just roads a car can use. Private paths and motorways are left out.
+- **Services:** OpenStreetMap, and the Department for Education's register for open primary schools.
+- **People:** ONS small areas, with population and the English Indices of Deprivation 2025.
+
+I placed a "home" every 50 m along every residential and main street in London, 454,115 of them, and measured the walk from each one to the nearest of each service. One shortest-path calculation per service covers the whole city. At 4.8 km/h, the usual planning assumption, 15 minutes is 1,200 m.
+
+**58%** of Londoners live within a 15-minute walk of all six. That leaves around **3.7 million** people for whom at least one of them is further away. Allow 20 minutes and it rises to 79%; cut it to 10 and it falls to 23%.
+
+| Service | Within a 15-minute walk | Within 1.2 km as the crow flies | Walking more slowly (3.6 km/h) |
+|---|---:|---:|---:|
+| GP surgery | 79% | 90% | 64% |
+| Pharmacy | 88% | 96% | 75% |
+| Primary school | 96% | 100% | 87% |
+| Food shop | 98% | 100% | 94% |
+| Park (2 ha or more) | 97% | 100% | 90% |
+| Rail, Tube or tram station | 73% | 87% | 56% |
+| **All six** | **58%** | | **32%** |
+
+Food shops, parks and primary schools are almost everywhere. The gaps are **stations and GP surgeries**: around a quarter of Londoners are more than 15 minutes' walk from a station, and a fifth from a GP.
+
+## Lesson one: circles flatter the city
+
+The straight-line column is always the higher one. Among Londoners who live within 1.2 km of a station as the crow flies, **16%** are still more than a 15-minute walk away; for GPs it is 12%. Across all six services, the typical walk is **1.33 times** the straight-line distance.
+
+![Share of Londoners within 15 minutes: walking along streets compared with a 1.2 km circle.](https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/circle_vs_walk.png){.callout-figure}
+
+This matters beyond this map. Plenty of planning rules are drawn as circles, such as hot-food takeaway exclusion zones around schools. A circle can take in streets that are a long way round on foot and leave out ones that are close.
+
+## Lesson two: it isn't the poorest areas that miss out
+
+This one surprised me. The most deprived areas do *better*: **68%** of people in England's most deprived tenth of areas have all six within a 15-minute walk, against **37%** in the least deprived tenth. Every decile in between sits between 53% and 63%, so the real outlier is the least deprived end.
+
+In London, deprivation is concentrated in dense inner neighbourhoods where services cluster, while many of the least deprived areas are outer suburbs laid out around the car. Their residents are also more likely to have one. Closeness isn't the same as access, though: a GP surgery ten minutes away doesn't help if its list is full.
+
+![All six services within a 15-minute walk, by deprivation decile.](https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/deprivation_gradient.png){.callout-figure}
+
+Geography explains far more. In Inner London **83%** of people have all six within 15 minutes; in Outer London it is **42%**. The top boroughs are Islington (99%), Hackney (96%) and Westminster (94%). At the bottom are Hillingdon (10%), Havering (20%) and Bexley (23%), all big outer boroughs where stations and GPs are spread thinly. Part of Hillingdon's very low GP figure may be OpenStreetMap missing some surgeries, which is the first thing I'll check against the NHS list of practices.
+
+![Boroughs ranked by the share of residents within 15 minutes of all six.](https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/borough_ranking.png){.callout-figure}
+
+## Lesson three: 15 minutes for whom?
+
+The 4.8 km/h figure describes a healthy adult. At 3.6 km/h, closer to an older person, a parent with a pushchair or a young child, the share within 15 minutes of all six falls from **58%** to **32%**. In the least deprived tenth of areas it falls to just 13%.
+
+![Within a 15-minute walk at two walking speeds.](https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/walking_speed.png){.callout-figure}
+
+The people who rely most on walking are the ones a 15-minute city built around an average walker reaches least.
+
+## Try your own front door
+
+![How many of the six services are within a 15-minute walk, by small area.](https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/services_within_15.png){.callout-figure}
+
+The [dashboard](https://etymo.co.uk/london-15-minute/) colours London by how many of the six are within reach, at your choice of pace and time. Click any spot, or type a postcode, and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes and the route to the nearest of each service, with the walking and straight-line distances side by side.
+
+## What this doesn't tell you
+
+- **Nearest isn't always usable.** A GP list can be closed to new patients, a park locked at night, a station without step-free access.
+- **OpenStreetMap is very good in London but not perfect.** A missing footpath makes a walk look longer; a missing surgery makes it look further away.
+- **The edge of London.** Services just over the boundary aren't counted, so some homes near the edge look worse off than they are.
+- **Homes are points along streets, not addresses.** Using every address (UPRN) is the obvious next step.
+
+## Then and now
+
+My pedestrian project used OSMnx and Overpass to get the street network. This time the walking network is built directly from the OpenStreetMap file, footpaths and all, and the shortest-path search is a few lines of SciPy, run once per service from every location at the same time. The whole of London takes minutes on a laptop.
+
+As before, I worked with an AI assistant, Claude. The questions and the judgement about what the numbers mean are mine. The code was tested on a made-up town where every answer can be worked out by hand, including a private shortcut it must ignore, before I trusted it with London.
+
+## What's next
+
+Three things. Using address points (UPRNs) instead of street points for homes. Turning the takeaway exclusion zones in my [Takeaways Near Schools](https://etymo.co.uk/TakeawaysNearSchools/) tool into real walking distances. And running the same code on other cities, since nothing in it is specific to London.
+
+- **Explore the dashboard:** [etymo.co.uk/london-15-minute](https://etymo.co.uk/london-15-minute/)
+- **Code and method:** [github.com/eritrouib/london-15-minute](https://github.com/eritrouib/london-15-minute)
+
+---
+
+*Data: OpenStreetMap contributors (ODbL); Department for Education, ONS and MHCLG (Open Government Licence). Walking times assume a constant pace and ignore waiting at crossings, hills and steps, so real walks are a little longer.*
