@@ -18,7 +18,105 @@
     "href": "index.html#latest-writing",
     "title": "Data, maps and decisions",
     "section": "Latest writing",
-    "text": "Latest writing\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items\n\nAll posts →"
+    "text": "Latest writing\n\n\n\n\n\nDo motorcyclists read the road signs? What 105 riders in Athens told us\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n2 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items\n\nAll posts →"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Spyropoulou, I. and Impersimi, E. (2020) · IET Intelligent Transport Systems, 14(14), 2021–2029\n\nDo motorcyclists and scooter riders in Athens change route when the city’s variable message signs report an incident? A stated preference survey of 105 riders and probit models showed that the type of incident (roadworks most of all) and its impact affect whether riders divert, while alternative route suggestions do not. Riders found the signs useful but not designed for them: 36% wanted travel times that reflect how two-wheelers move through traffic.\n\nRead the article Plain-language summary"
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "Spyropoulou, I. and Impersimi, E. (2020) · IET Intelligent Transport Systems, 14(14), 2021–2029\n\nDo motorcyclists and scooter riders in Athens change route when the city’s variable message signs report an incident? A stated preference survey of 105 riders and probit models showed that the type of incident (roadworks most of all) and its impact affect whether riders divert, while alternative route suggestions do not. Riders found the signs useful but not designed for them: 36% wanted travel times that reflect how two-wheelers move through traffic.\n\nRead the article Plain-language summary"
+  },
+  {
+    "objectID": "publications.html#in-preparation",
+    "href": "publications.html#in-preparation",
+    "title": "Publications",
+    "section": "In preparation",
+    "text": "In preparation\n\n\nPedestrian collisions in Athens: network-based hotspots, the built environment and emergency access\n\nWith M. Kavouras, A. Darra and M. Pigaki · National Technical University of Athens\n\nTen years of pedestrian collisions in Athens re-examined with network kernel density, emerging hotspot analysis, count models and network access to emergency services.\n\nThe story so far"
+  },
+  {
+    "objectID": "publications.html#thesis",
+    "href": "publications.html#thesis",
+    "title": "Publications",
+    "section": "Thesis",
+    "text": "Thesis\n\n\nSpatial-temporal analysis of traffic accidents in Athens: the case of pedestrians\n\nMSc thesis in Geoinformatics · National Technical University of Athens · 2021\n\nHotspots, space-time patterns and the built environment around 1,318 pedestrian collisions in the Municipality of Athens, 2008–2017, with an emergency services dashboard.\n\nSee the project"
+  },
+  {
+    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html",
+    "href": "posts/2026-10-motorcycles-and-message-signs/index.html",
+    "title": "Do motorcyclists read the road signs? What 105 riders in Athens told us",
+    "section": "",
+    "text": "Athens has had electronic message signs over its main roads since 2004: 24 of them, run by the city’s traffic management centre, warning drivers about accidents, roadworks and demonstrations ahead. They’re designed with car drivers in mind. But a large share of the traffic in Athens is on two wheels: motorcycles and scooters that filter between lanes and rarely sit in the queue the sign is warning about.\nSo, with Ioanna Spyropoulou at the National Technical University of Athens, I asked: do riders actually change their route when a sign tells them something is wrong ahead?"
+  },
+  {
+    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html#how-we-found-out",
+    "href": "posts/2026-10-motorcycles-and-message-signs/index.html#how-we-found-out",
+    "title": "Do motorcyclists read the road signs? What 105 riders in Athens told us",
+    "section": "How we found out",
+    "text": "How we found out\nWe stopped riders across Athens and asked them to fill in a questionnaire, which wasn’t easy, since many said no. We ended up with 105 complete answers. Each rider saw a set of made-up but realistic sign messages, varying three things: what the incident was, how bad its impact was, and whether the sign suggested another route. For each one they rated how likely they were to divert. We then used probit models to work out which parts of the message, and which kinds of rider, made a diversion more likely."
+  },
+  {
+    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html#what-we-found",
+    "href": "posts/2026-10-motorcycles-and-message-signs/index.html#what-we-found",
+    "title": "Do motorcyclists read the road signs? What 105 riders in Athens told us",
+    "section": "What we found",
+    "text": "What we found\n\nRiders like the signs, but don’t feel they’re for them. Most found them useful, yet 56% didn’t want more money spent on them, and 36% wanted the signs to show travel times that reflect how two-wheelers actually move.\nThe message matters. The type of incident and how big its impact was both changed whether riders diverted. Roadworks made them most likely to change route.\nAlternative routes didn’t. Unlike car and professional drivers in earlier studies, riders weren’t swayed by a suggested alternative route. They find their own way.\nWho the rider is matters too. Riders on bigger motorcycles were more likely to divert, probably because they can’t squeeze through traffic as easily. Habits such as breaking traffic rules, age and gender also played a part."
+  },
+  {
+    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html#why-it-matters",
+    "href": "posts/2026-10-motorcycles-and-message-signs/index.html#why-it-matters",
+    "title": "Do motorcyclists read the road signs? What 105 riders in Athens told us",
+    "section": "Why it matters",
+    "text": "Why it matters\n“Smart city” tools are often designed around one kind of road user. If a city wants its information systems to work for everyone, it has to ask each group what they need. For riders in Athens, that means information that reflects how they move, not how cars queue.\n\nSpyropoulou, I. and Impersimi, E. (2020). Powered-two-wheelers and smart cities: the case of variable message signs. IET Intelligent Transport Systems, 14(14), 2021–2029. doi.org/10.1049/iet-its.2019.0702"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nDo motorcyclists read the road signs? What 105 riders in Athens told us\n\n\n\ntransport\n\nsmart cities\n\nresearch\n\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n2 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.\n\nDashboard Code Write-up\n\n\n\n\n\nMSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL, statsmodels, mgwr, Leaflet\n\nMy thesis on 1,318 pedestrian collisions in Athens (2008–2017), rebuilt as open code. It includes network kernel density along the streets, emerging hotspots over the decade, Local Moran’s I, and walking distances to bars, schools, crossings and bus stops. A negative binomial model shows that busyness, not bars, explains where collisions happen, and GWR shows where. The emergency services dashboard has an on-duty hospital rota (εφημερίες), and you can click anywhere for the nearest hospitals, police and fire stations.\n\nDashboard Story Code"
+  },
+  {
+    "objectID": "projects.html#spatial-analysis",
+    "href": "projects.html#spatial-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.\n\nDashboard Code Write-up\n\n\n\n\n\nMSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL, statsmodels, mgwr, Leaflet\n\nMy thesis on 1,318 pedestrian collisions in Athens (2008–2017), rebuilt as open code. It includes network kernel density along the streets, emerging hotspots over the decade, Local Moran’s I, and walking distances to bars, schools, crossings and bus stops. A negative binomial model shows that busyness, not bars, explains where collisions happen, and GWR shows where. The emergency services dashboard has an on-duty hospital rota (εφημερίες), and you can click anywhere for the nearest hospitals, police and fire stations.\n\nDashboard Story Code"
+  },
+  {
+    "objectID": "projects.html#planning-and-geospatial-tools",
+    "href": "projects.html#planning-and-geospatial-tools",
+    "title": "Projects",
+    "section": "Planning and geospatial tools",
+    "text": "Planning and geospatial tools\n\n\nArticle 4 and constraints checker, Kingston\n\nWeb tool · JavaScript, Leaflet, Planning Data API, proj4\n\nA Local Land Charges aid for the Royal Borough of Kingston upon Thames. Check a single property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is sent to the government’s Planning Data service and checked for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Nearby features and boundaries within a chosen tolerance (10, 25 or 50 m) are flagged as borderline, and Article 4 results are cross-checked against Kingston’s own boundaries, with an offline fallback if the service is down.\n\nOpen the checker Code\n\n\n\nRetrofit planning checker\n\nWeb tool · JavaScript, Leaflet, Planning Data API, HM Land Registry INSPIRE\n\nCan this home have a heat pump, solar panels or insulation without planning permission? Enter an address, postcode or grid reference anywhere in England and, for each common energy improvement, the checker says whether it’s usually permitted development, allowed with limits, needs prior approval, or needs planning permission or listed building consent, with a link to the rule. It checks listed buildings, conservation areas, Article 4 directions, protected trees, flood zones and more across the whole Land Registry plot, adjusts for the type of home, and has a batch mode for whole retrofit programmes. Where a council hasn’t published the data, it says “check with the council” rather than “allowed”.\n\nOpen the checker Code\n\n\n\nPlanning Data Tracker\n\nWeb tool and weekly pipeline · Python, GitHub Actions, Leaflet\n\nPlanning tools can only answer from what councils publish, so a “no tree preservation order” can really mean “unknown”. This tracker maps, for all 337 local planning authorities in England, which of 10 council-published datasets have records in their area, from Article 4 and conservation areas to brownfield land and local green spaces, and flags data-quality problems with Article 4 directions. It updates every week, and any council can be re-checked live. It grew out of the Kingston checker, where 113 Article 4 areas turned out not to link to their directions.\n\nOpen the tracker Code\n\n\n\nTakeaways near schools\n\nWeb tool · JavaScript, Leaflet, FSA and DfE open data\n\nMany councils restrict new hot-food takeaways within a set distance of schools. For any council in England, this maps every open school with a zone of your chosen size (200 to 800 m), every takeaway from food hygiene data, and which schools have the most nearby. You choose which school phases count, check whether a proposed site falls inside a zone, and download the results as CSV. It’s clear about its limits, such as straight-line distances and how food hygiene categories differ from planning use classes.\n\nOpen the tool Code"
+  },
+  {
+    "objectID": "projects.html#remote-sensing",
+    "href": "projects.html#remote-sensing",
+    "title": "Projects",
+    "section": "Remote sensing",
+    "text": "Remote sensing\n\n\nGreen Change Monitor\n\nWeb tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js\n\nWhere were trees and green space lost or gained? Pick an area and two years, and it maps patches of vegetation loss and gain from free Sentinel-2 imagery, entirely in the browser: it finds the clearest scenes, masks clouds, builds a cloud-free greenness map for each year and compares them. In England, patches inside conservation areas and tree preservation areas are flagged so planning and enforcement teams know where to look first. Results download as GeoJSON or CSV. A pointer for where to look, not evidence on its own.\n\nOpen the monitor Code"
+  },
+  {
+    "objectID": "projects.html#reality-checks",
+    "href": "projects.html#reality-checks",
+    "title": "Projects",
+    "section": "Reality Checks",
+    "text": "Reality Checks\nTen small, research-based calculators that turn evidence into something you can try for yourself, all in one place at realitychecks.app. Each one is clear about what it can and can’t tell you: population averages, not personal predictions.\n\n\nHealth\n\n5 calculators\n\n\nWhat’s your lifestyle costing you?Life expectancy and everyday habits\nHow much is your exercise adding to your life?Cardio, strength, steps and sitting\nWhat is your diet really doing to you?Against the Mediterranean diet and NHS guidance\nHow much sleep are you actually getting?Sleep debt and recovery\nAre you actually hydrated?A personalised daily target\n\n\n\nMoney and time\n\n5 calculators\n\n\nShould you rent or buy?Break-even point across UK and European cities\nDoes your salary actually cover your life?Savings rate, and how far it goes in 20 cities\nWhat’s your coffee habit really costing you?And what it could grow to if invested\nWhat are your meetings actually costing?In money and lost focus time\nWhat is social media really costing you?Days of your life, added up\n\n\n\n\nVisit Reality Checks"
   },
   {
     "objectID": "posts/2026-10-athens-to-london/index.html",
@@ -75,48 +173,6 @@
     "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
     "section": "What’s next",
     "text": "What’s next\nTwo things. First, publishing the Athens work properly, re-analysed with the methods developed here. Second, an AI layer for the London data, so anyone can ask a question in plain English and get an answer computed from the data, with its sources, rather than a guess.\n\nData: Department for Transport STATS19, ONS, MHCLG (Open Government Licence); OpenStreetMap contributors (ODbL). Police-recorded data under-reports minor pedestrian injuries, and associations between areas and casualties do not show cause."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.\n\nDashboard Code Write-up\n\n\n\n\n\nMSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL, statsmodels, mgwr, Leaflet\n\nMy thesis on 1,318 pedestrian collisions in Athens (2008–2017), rebuilt as open code. It includes network kernel density along the streets, emerging hotspots over the decade, Local Moran’s I, and walking distances to bars, schools, crossings and bus stops. A negative binomial model shows that busyness, not bars, explains where collisions happen, and GWR shows where. The emergency services dashboard has an on-duty hospital rota (εφημερίες), and you can click anywhere for the nearest hospitals, police and fire stations.\n\nDashboard Story Code"
-  },
-  {
-    "objectID": "projects.html#spatial-analysis",
-    "href": "projects.html#spatial-analysis",
-    "title": "Projects",
-    "section": "",
-    "text": "2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nAn open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.\n\nDashboard Code Write-up\n\n\n\n\n\nMSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL, statsmodels, mgwr, Leaflet\n\nMy thesis on 1,318 pedestrian collisions in Athens (2008–2017), rebuilt as open code. It includes network kernel density along the streets, emerging hotspots over the decade, Local Moran’s I, and walking distances to bars, schools, crossings and bus stops. A negative binomial model shows that busyness, not bars, explains where collisions happen, and GWR shows where. The emergency services dashboard has an on-duty hospital rota (εφημερίες), and you can click anywhere for the nearest hospitals, police and fire stations.\n\nDashboard Story Code"
-  },
-  {
-    "objectID": "projects.html#planning-and-geospatial-tools",
-    "href": "projects.html#planning-and-geospatial-tools",
-    "title": "Projects",
-    "section": "Planning and geospatial tools",
-    "text": "Planning and geospatial tools\n\n\nArticle 4 and constraints checker, Kingston\n\nWeb tool · JavaScript, Leaflet, Planning Data API, proj4\n\nA Local Land Charges aid for the Royal Borough of Kingston upon Thames. Check a single property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is sent to the government’s Planning Data service and checked for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Nearby features and boundaries within a chosen tolerance (10, 25 or 50 m) are flagged as borderline, and Article 4 results are cross-checked against Kingston’s own boundaries, with an offline fallback if the service is down.\n\nOpen the checker Code\n\n\n\nRetrofit planning checker\n\nWeb tool · JavaScript, Leaflet, Planning Data API, HM Land Registry INSPIRE\n\nCan this home have a heat pump, solar panels or insulation without planning permission? Enter an address, postcode or grid reference anywhere in England and, for each common energy improvement, the checker says whether it’s usually permitted development, allowed with limits, needs prior approval, or needs planning permission or listed building consent, with a link to the rule. It checks listed buildings, conservation areas, Article 4 directions, protected trees, flood zones and more across the whole Land Registry plot, adjusts for the type of home, and has a batch mode for whole retrofit programmes. Where a council hasn’t published the data, it says “check with the council” rather than “allowed”.\n\nOpen the checker Code\n\n\n\nPlanning Data Tracker\n\nWeb tool and weekly pipeline · Python, GitHub Actions, Leaflet\n\nPlanning tools can only answer from what councils publish, so a “no tree preservation order” can really mean “unknown”. This tracker maps, for all 337 local planning authorities in England, which of 10 council-published datasets have records in their area, from Article 4 and conservation areas to brownfield land and local green spaces, and flags data-quality problems with Article 4 directions. It updates every week, and any council can be re-checked live. It grew out of the Kingston checker, where 113 Article 4 areas turned out not to link to their directions.\n\nOpen the tracker Code\n\n\n\nTakeaways near schools\n\nWeb tool · JavaScript, Leaflet, FSA and DfE open data\n\nMany councils restrict new hot-food takeaways within a set distance of schools. For any council in England, this maps every open school with a zone of your chosen size (200 to 800 m), every takeaway from food hygiene data, and which schools have the most nearby. You choose which school phases count, check whether a proposed site falls inside a zone, and download the results as CSV. It’s clear about its limits, such as straight-line distances and how food hygiene categories differ from planning use classes.\n\nOpen the tool Code"
-  },
-  {
-    "objectID": "projects.html#remote-sensing",
-    "href": "projects.html#remote-sensing",
-    "title": "Projects",
-    "section": "Remote sensing",
-    "text": "Remote sensing\n\n\nGreen Change Monitor\n\nWeb tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js\n\nWhere were trees and green space lost or gained? Pick an area and two years, and it maps patches of vegetation loss and gain from free Sentinel-2 imagery, entirely in the browser: it finds the clearest scenes, masks clouds, builds a cloud-free greenness map for each year and compares them. In England, patches inside conservation areas and tree preservation areas are flagged so planning and enforcement teams know where to look first. Results download as GeoJSON or CSV. A pointer for where to look, not evidence on its own.\n\nOpen the monitor Code"
-  },
-  {
-    "objectID": "projects.html#reality-checks",
-    "href": "projects.html#reality-checks",
-    "title": "Projects",
-    "section": "Reality Checks",
-    "text": "Reality Checks\nTen small, research-based calculators that turn evidence into something you can try for yourself, all in one place at realitychecks.app. Each one is clear about what it can and can’t tell you: population averages, not personal predictions.\n\n\nHealth\n\n5 calculators\n\n\nWhat’s your lifestyle costing you?Life expectancy and everyday habits\nHow much is your exercise adding to your life?Cardio, strength, steps and sitting\nWhat is your diet really doing to you?Against the Mediterranean diet and NHS guidance\nHow much sleep are you actually getting?Sleep debt and recovery\nAre you actually hydrated?A personalised daily target\n\n\n\nMoney and time\n\n5 calculators\n\n\nShould you rent or buy?Break-even point across UK and European cities\nDoes your salary actually cover your life?Savings rate, and how far it goes in 20 cities\nWhat’s your coffee habit really costing you?And what it could grow to if invested\nWhat are your meetings actually costing?In money and lost focus time\nWhat is social media really costing you?Days of your life, added up\n\n\n\n\nVisit Reality Checks"
   },
   {
     "objectID": "about.html",

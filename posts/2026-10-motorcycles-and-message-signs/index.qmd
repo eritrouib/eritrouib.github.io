@@ -1,0 +1,29 @@
+---
+title: "Do motorcyclists read the road signs? What 105 riders in Athens told us"
+description: "A plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs."
+date: 2026-10-16
+categories: [transport, smart cities, research]
+---
+
+Athens has had electronic message signs over its main roads since 2004: 24 of them, run by the city's traffic management centre, warning drivers about accidents, roadworks and demonstrations ahead. They're designed with car drivers in mind. But a large share of the traffic in Athens is on two wheels: motorcycles and scooters that filter between lanes and rarely sit in the queue the sign is warning about.
+
+So, with Ioanna Spyropoulou at the National Technical University of Athens, I asked: **do riders actually change their route when a sign tells them something is wrong ahead?**
+
+## How we found out
+
+We stopped riders across Athens and asked them to fill in a questionnaire, which wasn't easy, since many said no. We ended up with 105 complete answers. Each rider saw a set of made-up but realistic sign messages, varying three things: what the incident was, how bad its impact was, and whether the sign suggested another route. For each one they rated how likely they were to divert. We then used probit models to work out which parts of the message, and which kinds of rider, made a diversion more likely.
+
+## What we found
+
+- **Riders like the signs, but don't feel they're for them.** Most found them useful, yet 56% didn't want more money spent on them, and 36% wanted the signs to show travel times that reflect how two-wheelers actually move.
+- **The message matters.** The type of incident and how big its impact was both changed whether riders diverted. Roadworks made them most likely to change route.
+- **Alternative routes didn't.** Unlike car and professional drivers in earlier studies, riders weren't swayed by a suggested alternative route. They find their own way.
+- **Who the rider is matters too.** Riders on bigger motorcycles were more likely to divert, probably because they can't squeeze through traffic as easily. Habits such as breaking traffic rules, age and gender also played a part.
+
+## Why it matters
+
+"Smart city" tools are often designed around one kind of road user. If a city wants its information systems to work for everyone, it has to ask each group what they need. For riders in Athens, that means information that reflects how they move, not how cars queue.
+
+---
+
+Spyropoulou, I. and Impersimi, E. (2020). Powered-two-wheelers and smart cities: the case of variable message signs. *IET Intelligent Transport Systems*, 14(14), 2021–2029. [doi.org/10.1049/iet-its.2019.0702](https://doi.org/10.1049/iet-its.2019.0702)
