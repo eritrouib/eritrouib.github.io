@@ -7,15 +7,6 @@ title: "Projects"
 ::: {.cards}
 
 ::: {.card-et}
-### 15-minute London
-<p class="meta">2026 · Python, GeoPandas, SciPy, network analysis, Leaflet</p>
-
-How much of London is a 15-minute city on foot? Walking distances along every street, footpath and park path, from 454,115 points on London's residential streets to the nearest GP, pharmacy, primary school, food shop, park and station, compared with straight-line distance and broken down by borough and deprivation. Click any front door on the dashboard and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes.
-
-<p class="links"><a href="https://etymo.co.uk/london-15-minute/">Dashboard</a> <a href="https://github.com/eritrouib/london-15-minute">Code</a> <a href="posts/2026-10-15-minute-london/">Write-up</a></p>
-:::
-
-::: {.card-et}
 ### Pedestrian casualties on London's roads
 <p class="meta">2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet</p>
 
@@ -27,11 +18,11 @@ An open, reproducible analysis of every police-recorded pedestrian casualty in G
 
 ::: {.card-et}
 ### Pedestrian collisions in Athens
-<p class="meta">2021 · MSc Geoinformatics, NTUA · R, ArcGIS Pro, Esri Dashboards</p>
+<p class="meta">MSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL, statsmodels, mgwr, Leaflet</p>
 
-Spatial-temporal analysis of 1,318 pedestrian collisions in the Municipality of Athens (2008–2017): hotspots, space-time cube, network analysis and Geographically Weighted Regression of the built environment, with an emergency services dashboard.
+My thesis on 1,318 pedestrian collisions in Athens (2008–2017), rebuilt as open code. It includes network kernel density along the streets, emerging hotspots over the decade, Local Moran's I, and walking distances to bars, schools, crossings and bus stops. A negative binomial model shows that busyness, not bars, explains where collisions happen, and GWR shows where. The emergency services dashboard has an on-duty hospital rota (εφημερίες), and you can click anywhere for the nearest hospitals, police and fire stations.
 
-<p class="links">Article in preparation</p>
+<p class="links"><a href="https://etymo.co.uk/athens-pedestrian-safety/">Dashboard</a> <a href="https://etymo.co.uk/athens-pedestrian-safety/story.html">Story</a> <a href="https://github.com/eritrouib/athens-pedestrian-safety">Code</a></p>
 :::
 
 :::
@@ -89,21 +80,6 @@ Many councils restrict new hot-food takeaways within a set distance of schools. 
 Where were trees and green space lost or gained? Pick an area and two years, and it maps patches of vegetation loss and gain from free Sentinel-2 imagery, entirely in the browser: it finds the clearest scenes, masks clouds, builds a cloud-free greenness map for each year and compares them. In England, patches inside conservation areas and tree preservation areas are flagged so planning and enforcement teams know where to look first. Results download as GeoJSON or CSV. A pointer for where to look, not evidence on its own.
 
 <p class="links"><a href="https://etymo.co.uk/GreenChangeMonitor/">Open the monitor</a> <a href="https://github.com/eritrouib/GreenChangeMonitor">Code</a></p>
-:::
-
-:::
-
-## Biodiversity
-
-::: {.cards}
-
-::: {.card-et}
-### WildScope NW
-<p class="meta">2026 · Prototype · Python, Streamlit, GBIF, Natural England SSSIs</p>
-
-A regional wildlife observatory for North West England: Sites of Special Scientific Interest, species records and simple conservation views in one dashboard, with pages for protected areas, a species explorer and conservation insights. The live version runs on synthetic demo data; a real-data mode pulls Natural England SSSI boundaries and GBIF occurrence records, shown only as coarse grid cells so sensitive locations aren't exposed. An early prototype: an official regional boundary, complete GBIF downloads and uncertainty-aware analysis are next.
-
-<p class="links"><a href="https://wildscope-nw.streamlit.app/">Open the app</a> <a href="https://github.com/eritrouib/wildscope-nw">Code</a></p>
 :::
 
 :::

@@ -20,15 +20,6 @@ I'm Eriola, a Government Operational Researcher and geospatial analyst. For more
 
 ::: {.cards}
 ::: {.card-et}
-### 15-minute London
-<p class="meta">Network analysis · Python · Interactive dashboard</p>
-
-Walking along real streets, not as the crow flies: 58% of Londoners live within 15 minutes of a GP, pharmacy, primary school, food shop, park and station. Click any front door and watch how far you get on foot.
-
-<p class="links"><a href="https://etymo.co.uk/london-15-minute/">Open the dashboard</a> <a href="posts/2026-10-15-minute-london/">Read the story</a></p>
-:::
-
-::: {.card-et}
 ### Pedestrian casualties on London's roads
 <p class="meta">Spatial analysis · Python · Interactive dashboard</p>
 
@@ -44,6 +35,15 @@ Walking along real streets, not as the crow flies: 58% of Londoners live within 
 Checks one property, or a whole CSV of them, against Article 4 directions, conservation areas, listed buildings, flood zones and more, flagging borderline cases near a boundary. Built as a Local Land Charges aid for the Royal Borough of Kingston upon Thames.
 
 <p class="links"><a href="https://etymo.co.uk/Article4Kingston/">Open the checker</a> <a href="projects.html">More projects</a></p>
+:::
+
+::: {.card-et}
+### Ten years of pedestrian collisions in Athens
+<p class="meta">Story and emergency dashboard · Python · from my MSc thesis</p>
+
+Where pedestrians were hit in Athens from 2008 to 2017, the streets where it kept happening, what surrounds them, and how far help was. Includes an emergency services dashboard with the hospital duty rota.
+
+<p class="links"><a href="https://etymo.co.uk/athens-pedestrian-safety/story.html">Read the story</a> <a href="https://etymo.co.uk/athens-pedestrian-safety/">Open the dashboard</a></p>
 :::
 :::
 
