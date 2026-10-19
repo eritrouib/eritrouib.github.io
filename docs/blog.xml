@@ -10,7 +10,66 @@
 <atom:link href="https://etymo.co.uk/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi.</description>
 <generator>quarto-1.10.19</generator>
-<lastBuildDate>Thu, 15 Oct 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 18 Oct 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Andros on one page: rebuilding my island map, seven years on</title>
+  <dc:creator>Eriola Trungu Impersimi</dc:creator>
+  <link>https://etymo.co.uk/posts/2026-10-andros-web-map/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In 2019, during my MSc in Geoinformatics, I made a set of maps of Andros. I gathered the base data from free online sources, built the digital terrain models myself and designed two printed 1:150,000 maps: one with contours, one with hypsometric tints and hillshading. There was also a web version, served through GeoServer with OpenLayers on top.</p>
+<p>It worked, but it needed a running map server, styling files for every layer and someone to keep it all alive. That’s fine for a course. It’s not realistic for a small island.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://etymo.co.uk/posts/2026-10-andros-web-map/screenshot-island.png" class="img-fluid figure-img"></p>
+<figcaption>The rebuilt map: relief from the 13 m terrain model, settlements, beaches, churches and the road network</figcaption>
+</figure>
+</div>
+<section id="what-was-missing" class="level2">
+<h2 class="anchored" data-anchor-id="what-was-missing">What was missing</h2>
+<p>Before rebuilding anything, I looked at what’s already out there. The Municipality of Andros publishes its maps as static images. The best interactive maps of the island come from others: <a href="https://www.androsroutes.gr/">Andros Routes</a>, a non-profit, maintains the trail network, and commercial publishers sell hiking maps. What I couldn’t find was a simple, free map of the whole island that also speaks the coordinate system local engineers work in, the Greek Grid (ΕΓΣΑ87).</p>
+</section>
+<section id="the-map" class="level2">
+<h2 class="anchored" data-anchor-id="the-map">The map</h2>
+<p>The new version is a single web page, with no server behind it:</p>
+<ul>
+<li><strong>Relief first.</strong> The 13 m terrain model and hillshade are blended into one relief image, so the island’s shape reads at a glance.</li>
+<li><strong>Names that suit the zoom.</strong> The generalised 1:150,000 settlements from 2019 decide which village names appear when you’re zoomed out, so that generalisation work still has a job.</li>
+<li><strong>Click anywhere</strong> for the elevation and the coordinates in both WGS84 and ΕΓΣΑ87.</li>
+<li><strong>Draw a route</strong> for its length, ascent, descent and an elevation profile.</li>
+<li><strong>Greek and English</strong>, with search that ignores accents, and its own symbol for every kind of feature.</li>
+<li><strong>Optional OpenStreetMap layers</strong> for day-to-day use: health centres, pharmacies, police and fire stations, municipal offices, fuel, bus stops, springs, viewpoints and the waymarked trails. Each trail opens its own elevation profile.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://etymo.co.uk/posts/2026-10-andros-web-map/screenshot-profile.png" class="img-fluid figure-img"></p>
+<figcaption>Elevation profile from Chora across the island’s central ridge</figcaption>
+</figure>
+</div>
+</section>
+<section id="how-i-built-it" class="level2">
+<h2 class="anchored" data-anchor-id="how-i-built-it">How I built it</h2>
+<p>I rebuilt it in Python: GeoPandas for the vector layers, rasterio for the terrain, and Leaflet for the map, working with Claude as a coding collaborator, as I did for my <a href="../2026-10-athens-to-london/">London analysis</a>. The decisions were mine: what the map is for, the symbology, the generalisation, and what to show at each scale. Three attribute codes in my 2019 data had never been documented: road classes, monastery versus church, and monument types. Rather than guess, I flagged them as assumptions in the repository.</p>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
+<p>I’d like to offer it to the Municipality of Andros as a starting point. Because it’s one file, it can sit inside their existing website with a single line of code.</p>
+<p><strong>Map:</strong> <a href="https://etymo.co.uk/AndrosWebMap/">etymo.co.uk/AndrosWebMap</a> · <strong>Code:</strong> <a href="https://github.com/eritrouib/AndrosWebMap">github.com/eritrouib/AndrosWebMap</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>cartography</category>
+  <category>web mapping</category>
+  <category>Python</category>
+  <guid>https://etymo.co.uk/posts/2026-10-andros-web-map/</guid>
+  <pubDate>Sun, 18 Oct 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://etymo.co.uk/posts/2026-10-andros-web-map/screenshot-island.png" medium="image" type="image/png" height="88" width="144"/>
+</item>
 <item>
   <title>Do motorcyclists follow variable message signs? What 105 riders in Athens told us</title>
   <dc:creator>Eriola Trungu Impersimi</dc:creator>

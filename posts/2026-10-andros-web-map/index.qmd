@@ -1,42 +1,40 @@
 ---
-title: "From GeoServer to a single HTML file: rebuilding my Andros map, seven years on"
-description: "A 2019 MSc cartography project on Andros, rebuilt in Python as a web map a small island municipality could actually host."
-date: 2026-10-18
-categories: [cartography, web mapping, Python, AI]
+title: "Andros on one page: rebuilding my island map, seven years on"
+description: "A 2019 cartography project on Andros, rebuilt as an interactive web map that a small island municipality could host without a map server."
+date: 2026-10-19
+categories: [cartography, web mapping, Python]
 image: screenshot-island.png
 ---
 
-In February 2019 I made a set of maps of Andros for the MSc in Geoinformatics at NTUA. The brief covered generalisation, multi-scale databases and proper cartographic projection. The output was two printed 1:150,000 maps, one with contours and one with hypsometric tints and hillshading, plus a web version served through GeoServer with OpenLayers on top.
+In 2019, during my MSc in Geoinformatics, I made a set of maps of Andros. I gathered the base data from free online sources, built the digital terrain models myself and designed two printed 1:150,000 maps: one with contours, one with hypsometric tints and hillshading. There was also a web version, served through GeoServer with OpenLayers on top.
 
-The GeoServer version did its job for the course. It also needed a running map server, SLD styling for every layer and someone to keep it alive. Nobody on a small island is going to do that.
+It worked, but it needed a running map server, styling files for every layer and someone to keep it all alive. That's fine for a course. It's not realistic for a small island.
 
-![The rebuilt map: relief from the 13 m DTM, settlements, beaches, churches and the road network](screenshot-island.png)
+![The rebuilt map: relief from the 13 m terrain model, settlements, beaches, churches and the road network](screenshot-island.png)
 
-## What the island has now
+## What was missing
 
-Before rebuilding anything, I checked what the Municipality of Andros already publishes. It has two maps, a political map and a beach map, and both are static JPG images. The good interactive maps of the island come from elsewhere. [Andros Routes](https://www.androsroutes.gr/), a non-profit, maintains the trail network. Commercial publishers sell hiking maps. So a public, practical map that uses the coordinate system the council's own engineers work in (ΕΓΣΑ87) is still missing.
+Before rebuilding anything, I looked at what's already out there. The Municipality of Andros publishes its maps as static images. The best interactive maps of the island come from others: [Andros Routes](https://www.androsroutes.gr/), a non-profit, maintains the trail network, and commercial publishers sell hiking maps. What I couldn't find was a simple, free map of the whole island that also speaks the coordinate system local engineers work in, the Greek Grid (ΕΓΣΑ87).
 
-## The rebuild
+## The map
 
-The new version is one Python script and one HTML file:
+The new version is a single web page, with no server behind it:
 
-- **GeoPandas** reads the original 1:50,000 shapefiles in ΕΓΣΑ87, reprojects them to WGS84 and simplifies them. The 1:150,000 generalised settlements from the original project now decide which village names show when you're zoomed out, so the multi-scale work from 2019 still has a job.
-- **rasterio** blends the 13 m DTM and hillshade into a relief image and warps it to Web Mercator. Because of this the map needs no tile server at all.
-- The DTM is also resampled into a small elevation grid inside the page. Click anywhere and you get the elevation plus coordinates in both WGS84 and ΕΓΣΑ87. Draw a line and you get an **elevation profile** with distance, ascent and descent.
-- **Leaflet** handles the map. Search ignores Greek accents, the interface switches between Greek and English, and every feature type has its own symbol.
+- **Relief first.** The 13 m terrain model and hillshade are blended into one relief image, so the island's shape reads at a glance.
+- **Names that suit the zoom.** The generalised 1:150,000 settlements from 2019 decide which village names appear when you're zoomed out, so that generalisation work still has a job.
+- **Click anywhere** for the elevation and the coordinates in both WGS84 and ΕΓΣΑ87.
+- **Draw a route** for its length, ascent, descent and an elevation profile.
+- **Greek and English**, with search that ignores accents, and its own symbol for every kind of feature.
+- **Optional OpenStreetMap layers** for day-to-day use: health centres, pharmacies, police and fire stations, municipal offices, fuel, bus stops, springs, viewpoints and the waymarked trails. Each trail opens its own elevation profile.
 
 ![Elevation profile from Chora across the island's central ridge](screenshot-profile.png)
 
-The data that came with the course stops at what a topographic map shows. To make the map useful for day-to-day council work, the build can also pull in **OpenStreetMap** data under its open licence: health centres, pharmacies, police and fire stations, municipal offices, fuel, bus stops, springs, viewpoints and the waymarked trails. Each trail opens its own elevation profile in one click.
+## How I built it
 
-## Working with an AI collaborator
-
-As with the [London pedestrian analysis](../2026-10-athens-to-london/), I built this with Claude as a collaborator. It unpacked the original RAR archives, read my 2019 PDFs to recover the legend, checked the council's website and wrote most of the build script and the page. My job was the part that needs a cartographer: deciding what the map is for, checking the symbology against the original legend, and catching what was wrong. Three attribute codes in the source data were never documented: road classes, monastery versus church, and monument types. Those are flagged as assumptions in the repository rather than guessed silently.
+I rebuilt it in Python: GeoPandas for the vector layers, rasterio for the terrain, and Leaflet for the map, working with Claude as a coding collaborator, as I did for my [London analysis](../2026-10-athens-to-london/). The decisions were mine: what the map is for, the symbology, the generalisation, and what to show at each scale. Three attribute codes in my 2019 data had never been documented: road classes, monastery versus church, and monument types. Rather than guess, I flagged them as assumptions in the repository.
 
 ## What's next
 
-I've asked NTUA for permission to publish the map built from their data. If they agree, I'll offer it to the Municipality of Andros as a starting point. The single-file format means they can drop it into their existing Joomla site with one iframe.
+I'd like to offer it to the Municipality of Andros as a starting point. Because it's one file, it can sit inside their existing website with a single line of code.
 
 **Map:** [etymo.co.uk/AndrosWebMap](https://etymo.co.uk/AndrosWebMap/) · **Code:** [github.com/eritrouib/AndrosWebMap](https://github.com/eritrouib/AndrosWebMap)
-
-@ET

@@ -84,6 +84,21 @@ Where were trees and green space lost or gained? Pick an area and two years, and
 
 :::
 
+## Cartography
+
+::: {.cards}
+
+::: {.card-et}
+### Andros island web map
+<p class="meta">2019 MSc cartography project, rebuilt 2026 · Python, GeoPandas, rasterio, Leaflet</p>
+
+An interactive map of the whole island of Andros in a single web page, built from my own 2019 data and 13 m terrain model. Relief shading, searchable villages, beaches, churches and monuments, and click-anywhere elevation with WGS84 and Greek Grid (ΕΓΣΑ87) coordinates. Draw a route to get its elevation profile. Optional OpenStreetMap layers add public services, springs and waymarked trails. It needs no map server, so a small municipality can host it.
+
+<p class="links"><a href="https://etymo.co.uk/AndrosWebMap/">Open the map</a> <a href="https://github.com/eritrouib/AndrosWebMap">Code</a> <a href="posts/2026-10-andros-web-map/">Write-up</a></p>
+:::
+
+:::
+
 ## Reality Checks
 
 Ten small, research-based calculators that turn evidence into something you can try for yourself, all in one place at **[realitychecks.app](https://realitychecks.app)**. Each one is clear about what it can and can't tell you: population averages, not personal predictions.

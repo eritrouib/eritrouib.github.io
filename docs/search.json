@@ -18,7 +18,7 @@
     "href": "index.html#latest-writing",
     "title": "Data, maps and decisions",
     "section": "Latest writing",
-    "text": "Latest writing\n\n\n\n\n\nDo motorcyclists follow variable message signs? What 105 riders in Athens told us\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n2 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items\n\nAll posts →"
+    "text": "Latest writing\n\n\n\n\n\nAndros on one page: rebuilding my island map, seven years on\n\n\nA 2019 cartography project on Andros, rebuilt as an interactive web map that a small island municipality could host without a map server.\n\n\n\n\n\nOct 19, 2026\n\n3 min\n\n\n\n\n\n\nDo motorcyclists follow variable message signs? What 105 riders in Athens told us\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n2 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items\n\nAll posts →"
   },
   {
     "objectID": "publications.html",
@@ -77,13 +77,6 @@
     "text": "Why it matters\n“Smart city” tools are often designed around one kind of road user. If a city wants its information systems to work for everyone, it has to ask each group what they need. For riders in Athens, that means information that reflects how they move, not how cars queue.\n\nSpyropoulou, I. and Impersimi, E. (2020). Powered-two-wheelers and smart cities: the case of variable message signs. IET Intelligent Transport Systems, 14(14), 2021–2029. doi.org/10.1049/iet-its.2019.0702"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nDo motorcyclists follow variable message signs? What 105 riders in Athens told us\n\n\n\ntransport\n\nsmart cities\n\nresearch\n\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n2 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -112,11 +105,60 @@
     "text": "Remote sensing\n\n\nGreen Change Monitor\n\nWeb tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js\n\nWhere were trees and green space lost or gained? Pick an area and two years, and it maps patches of vegetation loss and gain from free Sentinel-2 imagery, entirely in the browser: it finds the clearest scenes, masks clouds, builds a cloud-free greenness map for each year and compares them. In England, patches inside conservation areas and tree preservation areas are flagged so planning and enforcement teams know where to look first. Results download as GeoJSON or CSV. A pointer for where to look, not evidence on its own.\n\nOpen the monitor Code"
   },
   {
+    "objectID": "projects.html#cartography",
+    "href": "projects.html#cartography",
+    "title": "Projects",
+    "section": "Cartography",
+    "text": "Cartography\n\n\nAndros island web map\n\n2019 MSc cartography project, rebuilt 2026 · Python, GeoPandas, rasterio, Leaflet\n\nAn interactive map of the whole island of Andros in a single web page, built from my own 2019 data and 13 m terrain model. Relief shading, searchable villages, beaches, churches and monuments, and click-anywhere elevation with WGS84 and Greek Grid (ΕΓΣΑ87) coordinates. Draw a route to get its elevation profile. Optional OpenStreetMap layers add public services, springs and waymarked trails. It needs no map server, so a small municipality can host it.\n\nOpen the map Code Write-up"
+  },
+  {
     "objectID": "projects.html#reality-checks",
     "href": "projects.html#reality-checks",
     "title": "Projects",
     "section": "Reality Checks",
     "text": "Reality Checks\nTen small, research-based calculators that turn evidence into something you can try for yourself, all in one place at realitychecks.app. Each one is clear about what it can and can’t tell you: population averages, not personal predictions.\n\n\nHealth\n\n5 calculators\n\n\nWhat’s your lifestyle costing you?Life expectancy and everyday habits\nHow much is your exercise adding to your life?Cardio, strength, steps and sitting\nWhat is your diet really doing to you?Against the Mediterranean diet and NHS guidance\nHow much sleep are you actually getting?Sleep debt and recovery\nAre you actually hydrated?A personalised daily target\n\n\n\nMoney and time\n\n5 calculators\n\n\nShould you rent or buy?Break-even point across UK and European cities\nDoes your salary actually cover your life?Savings rate, and how far it goes in 20 cities\nWhat’s your coffee habit really costing you?And what it could grow to if invested\nWhat are your meetings actually costing?In money and lost focus time\nWhat is social media really costing you?Days of your life, added up\n\n\n\n\nVisit Reality Checks"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nAndros on one page: rebuilding my island map, seven years on\n\n\n\ncartography\n\nweb mapping\n\nPython\n\n\n\nA 2019 cartography project on Andros, rebuilt as an interactive web map that a small island municipality could host without a map server.\n\n\n\n\n\nOct 19, 2026\n\n3 min\n\n\n\n\n\n\nDo motorcyclists follow variable message signs? What 105 riders in Athens told us\n\n\n\ntransport\n\nsmart cities\n\nresearch\n\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n2 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2026-10-andros-web-map/index.html",
+    "href": "posts/2026-10-andros-web-map/index.html",
+    "title": "Andros on one page: rebuilding my island map, seven years on",
+    "section": "",
+    "text": "In 2019, during my MSc in Geoinformatics, I made a set of maps of Andros. I gathered the base data from free online sources, built the digital terrain models myself and designed two printed 1:150,000 maps: one with contours, one with hypsometric tints and hillshading. There was also a web version, served through GeoServer with OpenLayers on top.\nIt worked, but it needed a running map server, styling files for every layer and someone to keep it all alive. That’s fine for a course. It’s not realistic for a small island."
+  },
+  {
+    "objectID": "posts/2026-10-andros-web-map/index.html#what-was-missing",
+    "href": "posts/2026-10-andros-web-map/index.html#what-was-missing",
+    "title": "Andros on one page: rebuilding my island map, seven years on",
+    "section": "What was missing",
+    "text": "What was missing\nBefore rebuilding anything, I looked at what’s already out there. The Municipality of Andros publishes its maps as static images. The best interactive maps of the island come from others: Andros Routes, a non-profit, maintains the trail network, and commercial publishers sell hiking maps. What I couldn’t find was a simple, free map of the whole island that also speaks the coordinate system local engineers work in, the Greek Grid (ΕΓΣΑ87)."
+  },
+  {
+    "objectID": "posts/2026-10-andros-web-map/index.html#the-map",
+    "href": "posts/2026-10-andros-web-map/index.html#the-map",
+    "title": "Andros on one page: rebuilding my island map, seven years on",
+    "section": "The map",
+    "text": "The map\nThe new version is a single web page, with no server behind it:\n\nRelief first. The 13 m terrain model and hillshade are blended into one relief image, so the island’s shape reads at a glance.\nNames that suit the zoom. The generalised 1:150,000 settlements from 2019 decide which village names appear when you’re zoomed out, so that generalisation work still has a job.\nClick anywhere for the elevation and the coordinates in both WGS84 and ΕΓΣΑ87.\nDraw a route for its length, ascent, descent and an elevation profile.\nGreek and English, with search that ignores accents, and its own symbol for every kind of feature.\nOptional OpenStreetMap layers for day-to-day use: health centres, pharmacies, police and fire stations, municipal offices, fuel, bus stops, springs, viewpoints and the waymarked trails. Each trail opens its own elevation profile.\n\n\n\n\nElevation profile from Chora across the island’s central ridge"
+  },
+  {
+    "objectID": "posts/2026-10-andros-web-map/index.html#how-i-built-it",
+    "href": "posts/2026-10-andros-web-map/index.html#how-i-built-it",
+    "title": "Andros on one page: rebuilding my island map, seven years on",
+    "section": "How I built it",
+    "text": "How I built it\nI rebuilt it in Python: GeoPandas for the vector layers, rasterio for the terrain, and Leaflet for the map, working with Claude as a coding collaborator, as I did for my London analysis. The decisions were mine: what the map is for, the symbology, the generalisation, and what to show at each scale. Three attribute codes in my 2019 data had never been documented: road classes, monastery versus church, and monument types. Rather than guess, I flagged them as assumptions in the repository."
+  },
+  {
+    "objectID": "posts/2026-10-andros-web-map/index.html#whats-next",
+    "href": "posts/2026-10-andros-web-map/index.html#whats-next",
+    "title": "Andros on one page: rebuilding my island map, seven years on",
+    "section": "What’s next",
+    "text": "What’s next\nI’d like to offer it to the Municipality of Andros as a starting point. Because it’s one file, it can sit inside their existing website with a single line of code.\nMap: etymo.co.uk/AndrosWebMap · Code: github.com/eritrouib/AndrosWebMap"
   },
   {
     "objectID": "posts/2026-10-athens-to-london/index.html",
