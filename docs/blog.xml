@@ -12,7 +12,7 @@
 <generator>quarto-1.10.19</generator>
 <lastBuildDate>Thu, 15 Oct 2026 23:00:00 GMT</lastBuildDate>
 <item>
-  <title>Do motorcyclists read the road signs? What 105 riders in Athens told us</title>
+  <title>Do motorcyclists follow variable message signs? What 105 riders in Athens told us</title>
   <dc:creator>Eriola Trungu Impersimi</dc:creator>
   <link>https://etymo.co.uk/posts/2026-10-motorcycles-and-message-signs/</link>
   <description><![CDATA[ 
@@ -20,16 +20,16 @@
 
 
 
-<p>Athens has had electronic message signs over its main roads since 2004: 24 of them, run by the city’s traffic management centre, warning drivers about accidents, roadworks and demonstrations ahead. They’re designed with car drivers in mind. But a large share of the traffic in Athens is on two wheels: motorcycles and scooters that filter between lanes and rarely sit in the queue the sign is warning about.</p>
-<p>So, with Ioanna Spyropoulou at the National Technical University of Athens, I asked: <strong>do riders actually change their route when a sign tells them something is wrong ahead?</strong></p>
+<p>Athens has had variable message signs (VMS), the electronic panels over its main roads, since 2004: 24 of them, run by the city’s traffic management centre, warning drivers about accidents, roadworks and demonstrations ahead. The information they give is designed with car drivers in mind. But a large share of the traffic in Athens is on two wheels: motorcycles and scooters that filter between lanes and rarely sit in the queue the sign is warning about.</p>
+<p>So, with Ioanna Spyropoulou at the National Technical University of Athens, I asked: <strong>do riders actually change their route when a variable message sign tells them something is wrong ahead?</strong></p>
 <section id="how-we-found-out" class="level2">
 <h2 class="anchored" data-anchor-id="how-we-found-out">How we found out</h2>
-<p>We stopped riders across Athens and asked them to fill in a questionnaire, which wasn’t easy, since many said no. We ended up with 105 complete answers. Each rider saw a set of made-up but realistic sign messages, varying three things: what the incident was, how bad its impact was, and whether the sign suggested another route. For each one they rated how likely they were to divert. We then used probit models to work out which parts of the message, and which kinds of rider, made a diversion more likely.</p>
+<p>We stopped riders across Athens and asked them to fill in a questionnaire, which wasn’t easy, since many said no. We ended up with 105 complete answers. Each rider saw a set of made-up but realistic VMS messages, varying three things: what the incident was, how bad its impact was, and whether the sign suggested another route. For each one they rated how likely they were to divert. We then used probit models to work out which parts of the message, and which kinds of rider, made a diversion more likely.</p>
 </section>
 <section id="what-we-found" class="level2">
 <h2 class="anchored" data-anchor-id="what-we-found">What we found</h2>
 <ul>
-<li><strong>Riders like the signs, but don’t feel they’re for them.</strong> Most found them useful, yet 56% didn’t want more money spent on them, and 36% wanted the signs to show travel times that reflect how two-wheelers actually move.</li>
+<li><strong>Riders like the VMS, but don’t feel they’re for them.</strong> Most found them useful, yet 56% didn’t want more money spent on them, and 36% wanted the VMS to show travel times that reflect how two-wheelers actually move.</li>
 <li><strong>The message matters.</strong> The type of incident and how big its impact was both changed whether riders diverted. Roadworks made them most likely to change route.</li>
 <li><strong>Alternative routes didn’t.</strong> Unlike car and professional drivers in earlier studies, riders weren’t swayed by a suggested alternative route. They find their own way.</li>
 <li><strong>Who the rider is matters too.</strong> Riders on bigger motorcycles were more likely to divert, probably because they can’t squeeze through traffic as easily. Habits such as breaking traffic rules, age and gender also played a part.</li>
