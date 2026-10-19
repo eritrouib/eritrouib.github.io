@@ -52,7 +52,7 @@
 </section>
 <section id="how-i-built-it" class="level2">
 <h2 class="anchored" data-anchor-id="how-i-built-it">How I built it</h2>
-<p>I rebuilt it in Python: GeoPandas for the vector layers, rasterio for the terrain, and Leaflet for the map, working with Claude as a coding collaborator, as I did for my <a href="../2026-10-athens-to-london/">London analysis</a>. The decisions were mine: what the map is for, the symbology, the generalisation, and what to show at each scale. Three attribute codes in my 2019 data had never been documented: road classes, monastery versus church, and monument types. Rather than guess, I flagged them as assumptions in the repository.</p>
+<p>I rebuilt it in Python: GeoPandas for the vector layers, rasterio for the terrain, and Leaflet for the map, working with Claude as a coding collaborator, as I did for my <a href="../2026-10-athens-to-london/">London analysis</a>. The decisions were mine: what the map is for, the symbology, the generalisation, and what to show at each scale.</p>
 </section>
 <section id="whats-next" class="level2">
 <h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
