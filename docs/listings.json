@@ -2,16 +2,20 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-10-uk-pubs/index.html",
       "/posts/2026-10-andros-web-map/index.html",
       "/posts/2026-10-motorcycles-and-message-signs/index.html",
+      "/posts/2026-10-15-minute-london/index.html",
       "/posts/2026-10-athens-to-london/index.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2026-10-uk-pubs/index.html",
       "/posts/2026-10-andros-web-map/index.html",
       "/posts/2026-10-motorcycles-and-message-signs/index.html",
+      "/posts/2026-10-15-minute-london/index.html",
       "/posts/2026-10-athens-to-london/index.html"
     ]
   }

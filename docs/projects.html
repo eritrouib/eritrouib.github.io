@@ -179,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 <p class="meta">
 2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet
 </p>
-<p>An open, reproducible analysis of every police-recorded pedestrian casualty in Greater London from 2021 to 2025: network kernel density hotspots, Getis-Ord Gi* clusters, a negative binomial model of the built environment, and drive times to major trauma centres. Includes a spotlight to explore any place, a year-by-year playback, CSV downloads, and an AI assistant that answers questions in plain English by searching the data.</p>
+<p>I analysed every pedestrian casualty recorded by the police in Greater London from 2021 to 2025. I found the hotspots along the street network with network kernel density and Getis-Ord Gi*, used a negative binomial model to look at the built environment, and measured drive times to the major trauma centres. In the dashboard you can explore any place with the spotlight, play through the years, download the data as CSV and ask the AI assistant questions in plain English.</p>
 <p class="links">
 <a href="https://etymo.co.uk/london-pedestrian-safety/">Dashboard</a> <a href="https://github.com/eritrouib/london-pedestrian-safety">Code</a> <a href="posts/2026-10-athens-to-london/">Write-up</a>
 </p>
@@ -189,9 +189,19 @@ ul.task-list li input[type="checkbox"] {
 <p class="meta">
 MSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL, statsmodels, mgwr, Leaflet
 </p>
-<p>My thesis on 1,318 pedestrian collisions in Athens (2008–2017), rebuilt as open code. It includes network kernel density along the streets, emerging hotspots over the decade, Local Moran’s I, and walking distances to bars, schools, crossings and bus stops. A negative binomial model shows that busyness, not bars, explains where collisions happen, and GWR shows where. The emergency services dashboard has an on-duty hospital rota (εφημερίες), and you can click anywhere for the nearest hospitals, police and fire stations.</p>
+<p>I rebuilt my MSc thesis on 1,318 pedestrian collisions in Athens (2008–2017) as open code. I used network kernel density along the streets, emerging hotspots over the ten years, Local Moran’s I, and walking distances to bars, schools, crossings and bus stops. The negative binomial model showed that collisions follow how busy a place is, and once that is taken into account, bars no longer explain them. GWR shows where each factor matters. The emergency services dashboard has the hospital duty rota (εφημερίες), and you can click anywhere to see the nearest hospitals, police and fire stations.</p>
 <p class="links">
 <a href="https://etymo.co.uk/athens-pedestrian-safety/">Dashboard</a> <a href="https://etymo.co.uk/athens-pedestrian-safety/story.html">Story</a> <a href="https://github.com/eritrouib/athens-pedestrian-safety">Code</a>
+</p>
+</section>
+<section id="last-orders-the-uk-drawn-with-its-pubs" class="level3 card-et">
+<h3 class="anchored" data-anchor-id="last-orders-the-uk-drawn-with-its-pubs">Last orders? The UK drawn with its pubs</h3>
+<p class="meta">
+2026 · Python, GeoPandas, SciPy, Leaflet · FSA and ONS open data
+</p>
+<p>A fun data story. I downloaded the food hygiene register and drew all 38,000 pubs and bars as dots, without any coastline or roads, and the UK still shows up. Then I checked whether COVID made a difference and found that the big wave of closures came in 2008, and that it was mostly the small pubs that closed. I also looked at the most common pub names, the streets that are basically a pub crawl and the furthest you can get from a pint. You can check how pubby your postcode is too.</p>
+<p class="links">
+<a href="https://etymo.co.uk/uk-pubs/">Story</a> <a href="https://github.com/eritrouib/uk-pubs">Code</a> <a href="posts/2026-10-uk-pubs/">Write-up</a>
 </p>
 </section>
 </div>
@@ -204,7 +214,7 @@ MSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL,
 <p class="meta">
 Web tool · JavaScript, Leaflet, Planning Data API, proj4
 </p>
-<p>A Local Land Charges aid for the Royal Borough of Kingston upon Thames. Check a single property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is sent to the government’s Planning Data service and checked for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Nearby features and boundaries within a chosen tolerance (10, 25 or 50 m) are flagged as borderline, and Article 4 results are cross-checked against Kingston’s own boundaries, with an offline fallback if the service is down.</p>
+<p>I built this to help with Local Land Charges searches at the Royal Borough of Kingston upon Thames. You can check one property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is checked through the government’s Planning Data service for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Anything within 10, 25 or 50 m of a boundary is flagged as borderline. Article 4 results are also checked against Kingston’s own boundaries, and the tool still works offline if the service is down.</p>
 <p class="links">
 <a href="https://etymo.co.uk/Article4Kingston/">Open the checker</a> <a href="https://github.com/eritrouib/Article4Kingston">Code</a>
 </p>
@@ -214,7 +224,7 @@ Web tool · JavaScript, Leaflet, Planning Data API, proj4
 <p class="meta">
 Web tool · JavaScript, Leaflet, Planning Data API, HM Land Registry INSPIRE
 </p>
-<p>Can this home have a heat pump, solar panels or insulation without planning permission? Enter an address, postcode or grid reference anywhere in England and, for each common energy improvement, the checker says whether it’s usually permitted development, allowed with limits, needs prior approval, or needs planning permission or listed building consent, with a link to the rule. It checks listed buildings, conservation areas, Article 4 directions, protected trees, flood zones and more across the whole Land Registry plot, adjusts for the type of home, and has a batch mode for whole retrofit programmes. Where a council hasn’t published the data, it says “check with the council” rather than “allowed”.</p>
+<p>Can this home have a heat pump, solar panels or insulation without planning permission? You enter an address, postcode or grid reference anywhere in England. For each common energy improvement, the checker tells you if it’s usually permitted development, allowed with limits, needs prior approval, or needs planning permission or listed building consent, and links to the rule. It checks listed buildings, conservation areas, Article 4 directions, protected trees, flood zones and more across the whole Land Registry plot, and takes the type of home into account. There’s also a batch mode for whole retrofit programmes. If a council hasn’t published its data, the checker says “check with the council”, so it never says “allowed” when it can’t know.</p>
 <p class="links">
 <a href="https://etymo.co.uk/RetrofitChecker/">Open the checker</a> <a href="https://github.com/eritrouib/RetrofitChecker">Code</a>
 </p>
@@ -224,7 +234,7 @@ Web tool · JavaScript, Leaflet, Planning Data API, HM Land Registry INSPIRE
 <p class="meta">
 Web tool and weekly pipeline · Python, GitHub Actions, Leaflet
 </p>
-<p>Planning tools can only answer from what councils publish, so a “no tree preservation order” can really mean “unknown”. This tracker maps, for all 337 local planning authorities in England, which of 10 council-published datasets have records in their area, from Article 4 and conservation areas to brownfield land and local green spaces, and flags data-quality problems with Article 4 directions. It updates every week, and any council can be re-checked live. It grew out of the Kingston checker, where 113 Article 4 areas turned out not to link to their directions.</p>
+<p>While building the Kingston checker, I found 113 Article 4 areas that didn’t link to their directions. That made me realise planning tools can only answer from what councils publish, so “no tree preservation order” might really mean “we don’t know”. This tracker shows, for all 337 local planning authorities in England, which of 10 council datasets have records in their area, from Article 4 and conservation areas to brownfield land and local green spaces. It also flags data problems with Article 4 directions. It updates every week, and you can re-check any council live.</p>
 <p class="links">
 <a href="https://etymo.co.uk/PlanningDataTracker/">Open the tracker</a> <a href="https://github.com/eritrouib/PlanningDataTracker">Code</a>
 </p>
@@ -234,7 +244,7 @@ Web tool and weekly pipeline · Python, GitHub Actions, Leaflet
 <p class="meta">
 Web tool · JavaScript, Leaflet, FSA and DfE open data
 </p>
-<p>Many councils restrict new hot-food takeaways within a set distance of schools. For any council in England, this maps every open school with a zone of your chosen size (200 to 800 m), every takeaway from food hygiene data, and which schools have the most nearby. You choose which school phases count, check whether a proposed site falls inside a zone, and download the results as CSV. It’s clear about its limits, such as straight-line distances and how food hygiene categories differ from planning use classes.</p>
+<p>Many councils restrict new hot-food takeaways near schools. For any council in England, this maps every open school with a zone around it (200 to 800 m, you choose), every takeaway from the food hygiene data, and which schools have the most takeaways nearby. You can choose which school phases count, check if a proposed site falls inside a zone and download the results as CSV. I’ve listed the limits too: distances are straight lines, and food hygiene categories are not the same as planning use classes.</p>
 <p class="links">
 <a href="https://etymo.co.uk/TakeawaysNearSchools/">Open the tool</a> <a href="https://github.com/eritrouib/TakeawaysNearSchools">Code</a>
 </p>
@@ -249,7 +259,7 @@ Web tool · JavaScript, Leaflet, FSA and DfE open data
 <p class="meta">
 Web tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js
 </p>
-<p>Where were trees and green space lost or gained? Pick an area and two years, and it maps patches of vegetation loss and gain from free Sentinel-2 imagery, entirely in the browser: it finds the clearest scenes, masks clouds, builds a cloud-free greenness map for each year and compares them. In England, patches inside conservation areas and tree preservation areas are flagged so planning and enforcement teams know where to look first. Results download as GeoJSON or CSV. A pointer for where to look, not evidence on its own.</p>
+<p>Where were trees and green space lost or gained? You pick an area and two years, and it maps where vegetation was lost or gained using free Sentinel-2 imagery. It all runs in the browser. It finds the clearest images, masks the clouds, makes a cloud-free greenness map for each year and compares them. In England, it flags changes inside conservation areas and tree preservation areas, so planning and enforcement teams know where to look first. You can download the results as GeoJSON or CSV. It shows you where to look, but it isn’t evidence on its own.</p>
 <p class="links">
 <a href="https://etymo.co.uk/GreenChangeMonitor/">Open the monitor</a> <a href="https://github.com/eritrouib/GreenChangeMonitor">Code</a>
 </p>
@@ -264,7 +274,7 @@ Web tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js
 <p class="meta">
 2019 MSc cartography project, rebuilt 2026 · Python, GeoPandas, rasterio, Leaflet
 </p>
-<p>An interactive map of the whole island of Andros in a single web page, built from my own 2019 data and 13 m terrain model. Relief shading, searchable villages, beaches, churches and monuments, and click-anywhere elevation with WGS84 and Greek Grid (ΕΓΣΑ87) coordinates. Draw a route to get its elevation profile. Optional OpenStreetMap layers add public services, springs and waymarked trails. It needs no map server, so a small municipality can host it.</p>
+<p>I made an interactive map of the whole island of Andros in a single web page, from my own 2019 data and 13 m terrain model. It has relief shading and you can search for villages, beaches, churches and monuments. Click anywhere to get the elevation and the coordinates in WGS84 and Greek Grid (ΕΓΣΑ87), or draw a route to see its elevation profile. You can also switch on OpenStreetMap layers for public services, springs and walking trails. It doesn’t need a map server, so a small municipality could host it easily.</p>
 <p class="links">
 <a href="https://etymo.co.uk/AndrosWebMap/">Open the map</a> <a href="https://github.com/eritrouib/AndrosWebMap">Code</a> <a href="posts/2026-10-andros-web-map/">Write-up</a>
 </p>
@@ -273,7 +283,7 @@ Web tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js
 </section>
 <section id="reality-checks" class="level2">
 <h2 class="anchored" data-anchor-id="reality-checks">Reality Checks</h2>
-<p>Ten small, research-based calculators that turn evidence into something you can try for yourself, all in one place at <strong><a href="https://realitychecks.app">realitychecks.app</a></strong>. Each one is clear about what it can and can’t tell you: population averages, not personal predictions.</p>
+<p>Ten small calculators based on research, so you can try the evidence on yourself. They’re all in one place at <strong><a href="https://realitychecks.app">realitychecks.app</a></strong>. Each one explains what it can and can’t tell you: the results are population averages, and they can’t predict what will happen to you personally.</p>
 <div class="cards">
 <section id="health" class="level3 card-et">
 <h3 class="anchored" data-anchor-id="health">Health</h3>

@@ -10,7 +10,61 @@
 <atom:link href="https://etymo.co.uk/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi.</description>
 <generator>quarto-1.10.19</generator>
-<lastBuildDate>Sun, 18 Oct 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 19 Oct 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Last orders? Drawing the UK with its pubs</title>
+  <dc:creator>Eriola Trungu Impersimi</dc:creator>
+  <link>https://etymo.co.uk/posts/2026-10-uk-pubs/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Can you draw the UK using only pubs? I wanted to find out.</p>
+<p>I downloaded the Food Standards Agency food hygiene register, which lists every place that serves food or drink. I picked out all the pubs and bars, 38,022 of them, and visualised them as dots. I didn’t add any coastline, roads or towns, just the pubs, and you can still recognise the whole country.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://etymo.co.uk/posts/2026-10-uk-pubs/pubs-map.png" class="img-fluid figure-img"></p>
+<figcaption>Every dot is a pub or a bar.</figcaption>
+</figure>
+</div>
+<section id="did-covid-close-the-pubs" class="level2">
+<h2 class="anchored" data-anchor-id="did-covid-close-the-pubs">Did COVID close the pubs?</h2>
+<p>Then I wondered if COVID had an impact. I looked at the ONS data, which counts pubs and bars with staff, and found out that the big drop happened ten years earlier. The UK lost more than 9,000 pubs between 2008 and 2013, and 1,260 between 2019 and 2024. When I split them by size, it was mostly the small pubs that closed (down 44%), while the big ones actually grew.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://etymo.co.uk/posts/2026-10-uk-pubs/pubs-chart.png" class="img-fluid figure-img"></p>
+<figcaption>UK pubs and bars, 2001 to 2024.</figcaption>
+</figure>
+</div>
+</section>
+<section id="the-fun-part" class="level2">
+<h2 class="anchored" data-anchor-id="the-fun-part">The fun part</h2>
+<p>The fun part was going through the pub names. There are 361 Red Lions, and there are more animals than royals in pub names. I also looked for the streets with the most pubs (Swansea’s Wind Street has 13 bars in 186 metres) and the place furthest from a pub, which in England is 15.7 km away, in Kielder Forest.</p>
+<p>You can also check how pubby your postcode is. Mine is “pub crawl territory”.</p>
+</section>
+<section id="try-it" class="level2">
+<h2 class="anchored" data-anchor-id="try-it">Try it</h2>
+<ul>
+<li><strong>The story and map:</strong> <a href="https://etymo.co.uk/uk-pubs/">etymo.co.uk/uk-pubs</a></li>
+<li><strong>Code:</strong> <a href="https://github.com/eritrouib/uk-pubs">github.com/eritrouib/uk-pubs</a></li>
+</ul>
+<p>I made it with open FSA and ONS data, Python and Leaflet, coding with Claude.</p>
+<hr>
+<p><em>Data: Food Standards Agency food hygiene rating data; ONS public houses and bars, and population estimates (Open Government Licence v3.0).</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>maps</category>
+  <category>data visualisation</category>
+  <category>open data</category>
+  <category>Python</category>
+  <guid>https://etymo.co.uk/posts/2026-10-uk-pubs/</guid>
+  <pubDate>Mon, 19 Oct 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://etymo.co.uk/posts/2026-10-uk-pubs/pubs-map.png" medium="image" type="image/png" height="100" width="144"/>
+</item>
 <item>
   <title>Andros on one page: rebuilding my island map, seven years on</title>
   <dc:creator>Eriola Trungu Impersimi</dc:creator>
@@ -79,24 +133,24 @@
 
 
 
-<p>Athens has had variable message signs (VMS), the electronic panels over its main roads, since 2004: 24 of them, run by the city’s traffic management centre, warning drivers about accidents, roadworks and demonstrations ahead. The information they give is designed with car drivers in mind. But a large share of the traffic in Athens is on two wheels: motorcycles and scooters that filter between lanes and rarely sit in the queue the sign is warning about.</p>
-<p>So, with Ioanna Spyropoulou at the National Technical University of Athens, I asked: <strong>do riders actually change their route when a variable message sign tells them something is wrong ahead?</strong></p>
-<section id="how-we-found-out" class="level2">
-<h2 class="anchored" data-anchor-id="how-we-found-out">How we found out</h2>
-<p>We stopped riders across Athens and asked them to fill in a questionnaire, which wasn’t easy, since many said no. We ended up with 105 complete answers. Each rider saw a set of made-up but realistic VMS messages, varying three things: what the incident was, how bad its impact was, and whether the sign suggested another route. For each one they rated how likely they were to divert. We then used probit models to work out which parts of the message, and which kinds of rider, made a diversion more likely.</p>
+<p>Athens has had variable message signs (VMS) since 2004. These are the electronic panels over the main roads, 24 of them, run by the city’s traffic management centre. They warn drivers about accidents, roadworks and demonstrations ahead. The messages are designed for car drivers, but a big part of the traffic in Athens is on two wheels. Motorcycles and scooters filter between lanes and rarely sit in the queue the sign is warning about.</p>
+<p>So with Ioanna Spyropoulou at the National Technical University of Athens, I wanted to find out: <strong>do riders actually change their route when a variable message sign tells them there’s a problem ahead?</strong></p>
+<section id="how-we-did-it" class="level2">
+<h2 class="anchored" data-anchor-id="how-we-did-it">How we did it</h2>
+<p>We stopped riders across Athens and asked them to fill in a questionnaire. This wasn’t easy, because many said no. In the end we had 105 complete answers. Each rider saw a set of made-up but realistic VMS messages. We changed three things in the messages: what the incident was, how serious its impact was, and whether the sign suggested another route. For each message, riders said how likely they were to divert. Then we used probit models to see which parts of the message, and which kinds of rider, made a diversion more likely.</p>
 </section>
 <section id="what-we-found" class="level2">
 <h2 class="anchored" data-anchor-id="what-we-found">What we found</h2>
 <ul>
-<li><strong>Riders like the VMS, but don’t feel they’re for them.</strong> Most found them useful, yet 56% didn’t want more money spent on them, and 36% wanted the VMS to show travel times that reflect how two-wheelers actually move.</li>
+<li><strong>Riders like the VMS, but they don’t feel the signs are for them.</strong> Most found them useful, but 56% didn’t want more money spent on them, and 36% wanted the VMS to show travel times based on how two-wheelers actually move.</li>
 <li><strong>The message matters.</strong> The type of incident and how big its impact was both changed whether riders diverted. Roadworks made them most likely to change route.</li>
-<li><strong>Alternative routes didn’t.</strong> Unlike car and professional drivers in earlier studies, riders weren’t swayed by a suggested alternative route. They find their own way.</li>
-<li><strong>Who the rider is matters too.</strong> Riders on bigger motorcycles were more likely to divert, probably because they can’t squeeze through traffic as easily. Habits such as breaking traffic rules, age and gender also played a part.</li>
+<li><strong>A suggested route doesn’t.</strong> Car drivers and professional drivers in earlier studies were influenced by a suggested alternative route, but riders weren’t. They find their own way.</li>
+<li><strong>The rider matters too.</strong> Riders on bigger motorcycles were more likely to divert, probably because they can’t get through traffic as easily. Age, gender and habits such as breaking traffic rules also played a part.</li>
 </ul>
 </section>
 <section id="why-it-matters" class="level2">
 <h2 class="anchored" data-anchor-id="why-it-matters">Why it matters</h2>
-<p>“Smart city” tools are often designed around one kind of road user. If a city wants its information systems to work for everyone, it has to ask each group what they need. For riders in Athens, that means information that reflects how they move, not how cars queue.</p>
+<p>Smart city tools are often designed for one kind of road user. If a city wants its information systems to work for everyone, it needs to ask each group what they need. For riders in Athens, that means information based on how they move, which is different from how cars queue.</p>
 <hr>
 <p>Spyropoulou, I. and Impersimi, E. (2020). Powered-two-wheelers and smart cities: the case of variable message signs. <em>IET Intelligent Transport Systems</em>, 14(14), 2021–2029. <a href="https://doi.org/10.1049/iet-its.2019.0702">doi.org/10.1049/iet-its.2019.0702</a></p>
 
@@ -111,6 +165,175 @@
   <pubDate>Thu, 15 Oct 2026 23:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>How far is everything? Walking London’s 15-minute city</title>
+  <dc:creator>Eriola Trungu Impersimi</dc:creator>
+  <link>https://etymo.co.uk/posts/2026-10-15-minute-london/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The “15-minute city” is the idea that the things you need every day should be a short walk or bike ride from home. It is usually mapped with circles: draw 1.2 km around a GP surgery and call everything inside “15 minutes away”.</p>
+<p>People don’t walk in circles. They walk along streets, around railway lines and rivers, and over the few places where a main road can be crossed. After my <a href="https://etymo.co.uk/london-pedestrian-safety/">pedestrian safety project</a> I already had London’s streets on my laptop, so I asked the question properly: <strong>how far is everything on foot, along the routes people can actually take?</strong></p>
+<section id="six-everyday-services" class="level2">
+<h2 class="anchored" data-anchor-id="six-everyday-services">Six everyday services</h2>
+<p>I picked six things most households need within walking distance: a <strong>GP surgery</strong>, a <strong>pharmacy</strong>, a <strong>primary school</strong>, a <strong>food shop</strong>, a <strong>park</strong> of at least 2 hectares and a <strong>rail, Tube or tram station</strong>.</p>
+<ul>
+<li><strong>Streets and paths:</strong> OpenStreetMap, including footpaths, alleys and paths through parks, not just roads a car can use. Private paths and motorways are left out.</li>
+<li><strong>Services:</strong> OpenStreetMap, and the Department for Education’s register for open primary schools.</li>
+<li><strong>People:</strong> ONS small areas, with population and the English Indices of Deprivation 2025.</li>
+</ul>
+<p>I placed a “home” every 50 m along every residential and main street in London, 454,115 of them, and measured the walk from each one to the nearest of each service. One shortest-path calculation per service covers the whole city. At 4.8 km/h, the usual planning assumption, 15 minutes is 1,200 m.</p>
+<p><strong>58%</strong> of Londoners live within a 15-minute walk of all six. That leaves around <strong>3.7 million</strong> people for whom at least one of them is further away. Allow 20 minutes and it rises to 79%; cut it to 10 and it falls to 23%.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th style="text-align: right;">Within a 15-minute walk</th>
+<th style="text-align: right;">Within 1.2 km as the crow flies</th>
+<th style="text-align: right;">Walking more slowly (3.6 km/h)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GP surgery</td>
+<td style="text-align: right;">79%</td>
+<td style="text-align: right;">90%</td>
+<td style="text-align: right;">64%</td>
+</tr>
+<tr class="even">
+<td>Pharmacy</td>
+<td style="text-align: right;">88%</td>
+<td style="text-align: right;">96%</td>
+<td style="text-align: right;">75%</td>
+</tr>
+<tr class="odd">
+<td>Primary school</td>
+<td style="text-align: right;">96%</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">87%</td>
+</tr>
+<tr class="even">
+<td>Food shop</td>
+<td style="text-align: right;">98%</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">94%</td>
+</tr>
+<tr class="odd">
+<td>Park (2 ha or more)</td>
+<td style="text-align: right;">97%</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">90%</td>
+</tr>
+<tr class="even">
+<td>Rail, Tube or tram station</td>
+<td style="text-align: right;">73%</td>
+<td style="text-align: right;">87%</td>
+<td style="text-align: right;">56%</td>
+</tr>
+<tr class="odd">
+<td><strong>All six</strong></td>
+<td style="text-align: right;"><strong>58%</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>32%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Food shops, parks and primary schools are almost everywhere. The gaps are <strong>stations and GP surgeries</strong>: around a quarter of Londoners are more than 15 minutes’ walk from a station, and a fifth from a GP.</p>
+</section>
+<section id="lesson-one-circles-flatter-the-city" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-one-circles-flatter-the-city">Lesson one: circles flatter the city</h2>
+<p>The straight-line column is always the higher one. Among Londoners who live within 1.2 km of a station as the crow flies, <strong>16%</strong> are still more than a 15-minute walk away; for GPs it is 12%. Across all six services, the typical walk is <strong>1.33 times</strong> the straight-line distance.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/circle_vs_walk.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Share of Londoners within 15 minutes: walking along streets compared with a 1.2 km circle.</figcaption>
+</figure>
+</div>
+<p>This matters beyond this map. Plenty of planning rules are drawn as circles, such as hot-food takeaway exclusion zones around schools. A circle can take in streets that are a long way round on foot and leave out ones that are close.</p>
+</section>
+<section id="lesson-two-it-isnt-the-poorest-areas-that-miss-out" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-two-it-isnt-the-poorest-areas-that-miss-out">Lesson two: it isn’t the poorest areas that miss out</h2>
+<p>This one surprised me. The most deprived areas do <em>better</em>: <strong>68%</strong> of people in England’s most deprived tenth of areas have all six within a 15-minute walk, against <strong>37%</strong> in the least deprived tenth. Every decile in between sits between 53% and 63%, so the real outlier is the least deprived end.</p>
+<p>In London, deprivation is concentrated in dense inner neighbourhoods where services cluster, while many of the least deprived areas are outer suburbs laid out around the car. Their residents are also more likely to have one. Closeness isn’t the same as access, though: a GP surgery ten minutes away doesn’t help if its list is full.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/deprivation_gradient.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>All six services within a 15-minute walk, by deprivation decile.</figcaption>
+</figure>
+</div>
+<p>Geography explains far more. In Inner London <strong>83%</strong> of people have all six within 15 minutes; in Outer London it is <strong>42%</strong>. The top boroughs are Islington (99%), Hackney (96%) and Westminster (94%). At the bottom are Hillingdon (10%), Havering (20%) and Bexley (23%), all big outer boroughs where stations and GPs are spread thinly. Part of Hillingdon’s very low GP figure may be OpenStreetMap missing some surgeries, which is the first thing I’ll check against the NHS list of practices.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/borough_ranking.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Boroughs ranked by the share of residents within 15 minutes of all six.</figcaption>
+</figure>
+</div>
+</section>
+<section id="lesson-three-15-minutes-for-whom" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-three-15-minutes-for-whom">Lesson three: 15 minutes for whom?</h2>
+<p>The 4.8 km/h figure describes a healthy adult. At 3.6 km/h, closer to an older person, a parent with a pushchair or a young child, the share within 15 minutes of all six falls from <strong>58%</strong> to <strong>32%</strong>. In the least deprived tenth of areas it falls to just 13%.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/walking_speed.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Within a 15-minute walk at two walking speeds.</figcaption>
+</figure>
+</div>
+<p>The people who rely most on walking are the ones a 15-minute city built around an average walker reaches least.</p>
+</section>
+<section id="try-your-own-front-door" class="level2">
+<h2 class="anchored" data-anchor-id="try-your-own-front-door">Try your own front door</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/services_within_15.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>How many of the six services are within a 15-minute walk, by small area.</figcaption>
+</figure>
+</div>
+<p>The <a href="https://etymo.co.uk/london-15-minute/">dashboard</a> colours London by how many of the six are within reach, at your choice of pace and time. Click any spot, or type a postcode, and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes and the route to the nearest of each service, with the walking and straight-line distances side by side.</p>
+</section>
+<section id="what-this-doesnt-tell-you" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-doesnt-tell-you">What this doesn’t tell you</h2>
+<ul>
+<li><strong>Nearest isn’t always usable.</strong> A GP list can be closed to new patients, a park locked at night, a station without step-free access.</li>
+<li><strong>OpenStreetMap is very good in London but not perfect.</strong> A missing footpath makes a walk look longer; a missing surgery makes it look further away.</li>
+<li><strong>The edge of London.</strong> Services just over the boundary aren’t counted, so some homes near the edge look worse off than they are.</li>
+<li><strong>Homes are points along streets, not addresses.</strong> Using every address (UPRN) is the obvious next step.</li>
+</ul>
+</section>
+<section id="then-and-now" class="level2">
+<h2 class="anchored" data-anchor-id="then-and-now">Then and now</h2>
+<p>My pedestrian project used OSMnx and Overpass to get the street network. This time the walking network is built directly from the OpenStreetMap file, footpaths and all, and the shortest-path search is a few lines of SciPy, run once per service from every location at the same time. The whole of London takes minutes on a laptop.</p>
+<p>As before, I worked with an AI assistant, Claude. The questions and the judgement about what the numbers mean are mine. The code was tested on a made-up town where every answer can be worked out by hand, including a private shortcut it must ignore, before I trusted it with London.</p>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
+<p>Three things. Using address points (UPRNs) instead of street points for homes. Turning the takeaway exclusion zones in my <a href="https://etymo.co.uk/TakeawaysNearSchools/">Takeaways Near Schools</a> tool into real walking distances. And running the same code on other cities, since nothing in it is specific to London.</p>
+<ul>
+<li><strong>Explore the dashboard:</strong> <a href="https://etymo.co.uk/london-15-minute/">etymo.co.uk/london-15-minute</a></li>
+<li><strong>Code and method:</strong> <a href="https://github.com/eritrouib/london-15-minute">github.com/eritrouib/london-15-minute</a></li>
+</ul>
+<hr>
+<p><em>Data: OpenStreetMap contributors (ODbL); Department for Education, ONS and MHCLG (Open Government Licence). Walking times assume a constant pace and ignore waiting at crossings, hills and steps, so real walks are a little longer.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>walkability</category>
+  <category>network analysis</category>
+  <category>spatial analysis</category>
+  <category>Python</category>
+  <guid>https://etymo.co.uk/posts/2026-10-15-minute-london/</guid>
+  <pubDate>Fri, 09 Oct 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/eritrouib/london-15-minute/main/figures/services_within_15.png" medium="image" type="image/png"/>
+</item>
+<item>
   <title>From Athens to London: pedestrian collisions and the built environment, five years on</title>
   <dc:creator>Eriola Trungu Impersimi</dc:creator>
   <link>https://etymo.co.uk/posts/2026-10-athens-to-london/</link>
@@ -119,18 +342,18 @@
 
 
 
-<p>In 2021 I finished my master’s thesis in Geoinformatics at the National Technical University of Athens. It looked at 1,318 pedestrian collisions in the Municipality of Athens between 2008 and 2017 and asked a simple question: <strong>how does the shape of the city relate to where pedestrians are injured?</strong></p>
-<p>I found persistent hotspots in the centre, around Omonia, Syggrou and Vasilissis Sofias, and associations with bars and pubs, crossings, traffic signals and bus stops. The thesis ended, as theses do, with a list of things I wished I’d had: time of day, the age of the people involved, socio-economic context, a sense of how busy each place is.</p>
-<p>Five years later, I asked the same questions of London. This time I had all of those things.</p>
+<p>In 2021 I finished my master’s thesis in Geoinformatics at the National Technical University of Athens. I looked at 1,318 pedestrian collisions in the Municipality of Athens between 2008 and 2017, and my main question was: <strong>how does the shape of the city relate to where pedestrians get injured?</strong></p>
+<p>I found hotspots in the centre that kept coming back, around Omonia, Syggrou and Vasilissis Sofias. I also found links with bars and pubs, crossings, traffic signals and bus stops. At the end of the thesis I wrote down what I was missing: the time of day, the age of the people involved, the socio-economic context, and some idea of how busy each place was.</p>
+<p>Five years later I wanted to ask the same questions for London, where all of that data is available.</p>
 <section id="the-data" class="level2">
 <h2 class="anchored" data-anchor-id="the-data">The data</h2>
-<p>London is a gift for this kind of work, because almost everything is open:</p>
+<p>Almost everything I needed for London is open:</p>
 <ul>
-<li><strong>Collisions:</strong> the Department for Transport’s STATS19 data. Every police-recorded injury collision, with location, date, time, severity and the age of each casualty.</li>
+<li><strong>Collisions:</strong> the Department for Transport’s STATS19 data. Every injury collision recorded by the police, with location, date, time, severity and the age of each casualty.</li>
 <li><strong>Neighbourhoods:</strong> ONS small-area boundaries, the English Indices of Deprivation 2025 and population figures.</li>
-<li><strong>Streets:</strong> OpenStreetMap for crossings, signals, bus stops, stations, schools, pubs and the drivable street network.</li>
+<li><strong>Streets:</strong> OpenStreetMap for crossings, signals, bus stops, stations, schools, pubs and the street network.</li>
 </ul>
-<p>From 2021 to 2025 there were <strong>22,108 pedestrian casualties</strong> in Greater London. <strong>5,926</strong> of them were killed or seriously injured, and deaths ranged from 36 to 61 a year.</p>
+<p>From 2021 to 2025 there were <strong>22,108 pedestrian casualties</strong> in Greater London. <strong>5,926</strong> of them were killed or seriously injured, and between 36 and 61 people died each year.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -179,12 +402,12 @@
 </tr>
 </tbody>
 </table>
-<p>The low 2021 figure is almost certainly the early-2021 lockdown keeping people off the streets, a reminder that counts always carry the conditions they were collected in.</p>
+<p>2021 is lower, most likely because of the lockdown at the start of that year, when fewer people were out on the streets.</p>
 </section>
-<section id="lesson-one-the-denominator-changes-the-story" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-one-the-denominator-changes-the-story">Lesson one: the denominator changes the story</h2>
-<p>Ranked by fatal and serious casualties per 100,000 residents, the <strong>City of London</strong> comes out at 167.6 a year, nearly four times the next borough, Westminster (43.0). Taken at face value, it is by far the most dangerous place to walk in the capital.</p>
-<p>It isn’t. Only a few thousand people live in the City, while hundreds of thousands work there or pass through every weekday. Dividing by residents measures something, but not the risk of walking there. Ranked per kilometre of road instead, the order changes substantially.</p>
+<section id="lesson-one-what-you-divide-by-changes-the-story" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-one-what-you-divide-by-changes-the-story">Lesson one: what you divide by changes the story</h2>
+<p>When I ranked the boroughs by fatal and serious casualties per 100,000 residents, the <strong>City of London</strong> came out at 167.6 a year. That’s nearly four times Westminster (43.0), which came second. At first sight it looks like the most dangerous place to walk in London.</p>
+<p>But only a few thousand people live in the City, and hundreds of thousands work there or pass through every weekday. So dividing by residents doesn’t really measure the risk of walking there. When I ranked the boroughs per kilometre of road instead, the order changed a lot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/borough_rank_change.png" class="callout-figure img-fluid figure-img"></p>
@@ -194,51 +417,51 @@
 </section>
 <section id="lesson-two-crossings-correlate-with-casualties" class="level2">
 <h2 class="anchored" data-anchor-id="lesson-two-crossings-correlate-with-casualties">Lesson two: crossings “correlate” with casualties</h2>
-<p>Comparing London’s roughly 5,000 small areas, the features that rise most strongly with serious pedestrian casualties per km² were traffic signals and crossings (rank correlations of about +0.4), followed by major roads, bus stops, junctions and pubs and bars. Almost exactly what I found in Athens.</p>
-<p>It would be easy, and wrong, to conclude that crossings are dangerous. Two things are going on:</p>
+<p>Next I compared London’s roughly 5,000 small areas. The features that went up most with serious pedestrian casualties per km² were traffic signals and crossings (rank correlations of about +0.4), followed by major roads, bus stops, junctions, and pubs and bars. This was almost exactly what I had found in Athens.</p>
+<p>That doesn’t mean crossings are dangerous. I think two things explain it:</p>
 <ul>
-<li><strong>Exposure.</strong> Crossings, signals, bus stops and pubs are put where lots of people meet lots of traffic. Many of these variables partly measure “how busy is this place”.</li>
-<li><strong>Reverse causality.</strong> Crossings and signals are often installed <em>because</em> a location had collisions. The safety measure follows the problem.</li>
+<li><strong>How busy a place is.</strong> Crossings, signals, bus stops and pubs are where lots of people meet lots of traffic, so these features partly measure how busy an area is.</li>
+<li><strong>Cause and effect the other way round.</strong> Crossings and signals are often put in <em>because</em> a place had collisions.</li>
 </ul>
-<p>This is why the project goes on to fit a negative binomial model that accounts for how busy each area is, asking which street features still go with more casualties once activity is taken into account. That is the question my thesis couldn’t answer with the data it had.</p>
+<p>So I also fitted a negative binomial model that takes into account how busy each area is. It asks which street features still go with more casualties after that. This is the question I couldn’t answer in my thesis with the data I had.</p>
 </section>
-<section id="finding-hotspots-along-streets-not-across-them" class="level2">
-<h2 class="anchored" data-anchor-id="finding-hotspots-along-streets-not-across-them">Finding hotspots along streets, not across them</h2>
-<p>In Athens I used planar kernel density, the familiar heatmap. Its weakness in a city is that a cluster on one road “leaks” onto a parallel street across a block. For London I measured density <strong>along the street network</strong> instead: the streets are cut into 50 m pieces and each casualty’s weight spreads along the network for 250 m.</p>
+<section id="hotspots-along-the-streets" class="level2">
+<h2 class="anchored" data-anchor-id="hotspots-along-the-streets">Hotspots along the streets</h2>
+<p>In Athens I used planar kernel density, the usual heatmap. In a city, a cluster on one road can spill over onto a parallel street across the block. For London I measured density <strong>along the street network</strong>. I cut the streets into 50 m pieces and spread each casualty along the network for 250 m.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/street_hotspots.png" class="callout-figure img-fluid figure-img"></p>
 <figcaption>Where serious pedestrian injuries concentrate along London’s streets.</figcaption>
 </figure>
 </div>
-<p>Alongside it, a Getis-Ord Gi* analysis on small areas separates statistically significant clusters from random noise, with a correction for testing thousands of areas at once.</p>
+<p>I also ran a Getis-Ord Gi* analysis on the small areas, to separate significant clusters from random noise. I corrected for the fact that I was testing thousands of areas at once.</p>
 </section>
 <section id="how-far-is-emergency-care" class="level2">
 <h2 class="anchored" data-anchor-id="how-far-is-emergency-care">How far is emergency care?</h2>
-<p>My Athens dashboard showed hospitals next to collisions. In London I went a step further and measured the <strong>drive time</strong> along the street network from every casualty to the nearest A&amp;E and to the nearest of London’s four major trauma centres, where the most seriously injured are taken.</p>
+<p>My Athens dashboard showed the hospitals next to the collisions. For London I measured the <strong>drive time</strong> along the street network from every casualty to the nearest A&amp;E, and to the nearest of London’s four major trauma centres, where the most seriously injured people are taken.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/access_to_trauma_care.png" class="callout-figure img-fluid figure-img"></p>
 <figcaption>Free-flow drive time to the nearest major trauma centre, with serious pedestrian casualties.</figcaption>
 </figure>
 </div>
-<p>These are free-flowing times for the hospital journey, not ambulance response times, but they show clearly which parts of London are furthest from trauma care.</p>
+<p>These times assume no traffic and are for the journey to hospital, so they are not ambulance response times. They still show which parts of London are furthest from trauma care.</p>
 </section>
 <section id="then-and-now" class="level2">
 <h2 class="anchored" data-anchor-id="then-and-now">Then and now</h2>
-<p>In 2021 my tools were R and ArcGIS Pro, with Esri Dashboards and StoryMaps for the visuals, and the project took months.</p>
-<p>This time I worked with an AI assistant, Claude, and went from research questions to a tested analysis pipeline and a live dashboard in a fraction of the time. The questions, the choice of methods and the judgement about what the results mean came from my research background. The AI made it possible to build and check everything much faster, including testing the model on synthetic data with known answers before trusting it on the real thing.</p>
-<p>The whole project uses open data and open-source Python, and anyone can rerun it.</p>
+<p>In 2021 I used R and ArcGIS Pro, with Esri Dashboards and StoryMaps for the visuals, and the project took months.</p>
+<p>This time I coded with Claude, and I went from my research questions to a tested pipeline and a live dashboard much faster. The questions, the methods and what the results mean came from my research background. Claude helped me build and check everything quicker, including testing the model on made-up data with known answers before using it on the real data.</p>
+<p>Everything uses open data and open-source Python, so anyone can run it again.</p>
 <ul>
-<li><strong>Explore the dashboard:</strong> <a href="https://etymo.co.uk/london-pedestrian-safety/">etymo.co.uk/london-pedestrian-safety</a>. Try the spotlight on a junction you know, or play the years.</li>
+<li><strong>Explore the dashboard:</strong> <a href="https://etymo.co.uk/london-pedestrian-safety/">etymo.co.uk/london-pedestrian-safety</a>. Try the spotlight on a junction you know, or play through the years.</li>
 <li><strong>Code and methods:</strong> <a href="https://github.com/eritrouib/london-pedestrian-safety">github.com/eritrouib/london-pedestrian-safety</a></li>
 </ul>
 </section>
 <section id="whats-next" class="level2">
 <h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
-<p>Two things. First, publishing the Athens work properly, re-analysed with the methods developed here. Second, an AI layer for the London data, so anyone can ask a question in plain English and get an answer computed from the data, with its sources, rather than a guess.</p>
+<p>First, I want to publish the Athens work properly, using the methods I developed here. Second, I’d like to add an AI assistant to the London data, so anyone can ask a question in plain English and get an answer worked out from the data, with its sources.</p>
 <hr>
-<p><em>Data: Department for Transport STATS19, ONS, MHCLG (Open Government Licence); OpenStreetMap contributors (ODbL). Police-recorded data under-reports minor pedestrian injuries, and associations between areas and casualties do not show cause.</em></p>
+<p><em>Data: Department for Transport STATS19, ONS, MHCLG (Open Government Licence); OpenStreetMap contributors (ODbL). Police-recorded data under-reports minor pedestrian injuries, and a link between an area and casualties doesn’t show cause.</em></p>
 
 
 </section>
