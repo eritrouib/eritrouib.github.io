@@ -13,7 +13,7 @@ listing:
 ---
 
 ::: {.lead-intro}
-I'm Eriola, a Government Operational Researcher and geospatial analyst. For more than 15 years I've applied quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector. Here I write about turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and how AI is changing the way we work with spatial data.
+I'm Eriola, a Government Operational Researcher and geospatial analyst. For more than 15 years I've applied quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector. Here I write about turning messy data into clear, reproducible analysis, communicating uncertainty, and how AI is changing the way we work with spatial data.
 :::
 
 ## Featured projects

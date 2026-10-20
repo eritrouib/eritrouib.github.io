@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Data, maps and decisions",
     "section": "",
-    "text": "I’m Eriola, a Government Operational Researcher and geospatial analyst. For more than 15 years I’ve applied quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector. Here I write about turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and how AI is changing the way we work with spatial data."
+    "text": "I’m Eriola, a Government Operational Researcher and geospatial analyst. For more than 15 years I’ve applied quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector. Here I write about turning messy data into clear, reproducible analysis, communicating uncertainty, and how AI is changing the way we work with spatial data."
   },
   {
     "objectID": "index.html#featured-projects",
@@ -130,35 +130,35 @@
     "href": "posts/2026-10-andros-web-map/index.html",
     "title": "Andros on one page: rebuilding my island map, seven years on",
     "section": "",
-    "text": "In 2019, during my MSc in Geoinformatics, I made a set of maps of Andros. I gathered the base data from free online sources, built the digital terrain models myself and designed two printed 1:150,000 maps: one with contours, one with hypsometric tints and hillshading. There was also a web version, served through GeoServer with OpenLayers on top.\nIt worked, but it needed a running map server, styling files for every layer and someone to keep it all alive. That’s fine for a course. It’s not realistic for a small island."
+    "text": "Back in 2019, during my MSc in Geoinformatics, I made a set of maps of Andros. I collected the base data from free online sources, created the digital terrain models myself and designed two printed maps at 1:150,000, one with contours and one with hypsometric tints and hillshading. I also made a web version, served through GeoServer with OpenLayers on top.\nIt worked well for the course. But it needed a map server running all the time, a styling file for every layer and someone to look after it. That’s not something a small island can realistically keep going."
   },
   {
     "objectID": "posts/2026-10-andros-web-map/index.html#what-was-missing",
     "href": "posts/2026-10-andros-web-map/index.html#what-was-missing",
     "title": "Andros on one page: rebuilding my island map, seven years on",
     "section": "What was missing",
-    "text": "What was missing\nBefore rebuilding anything, I looked at what’s already out there. The Municipality of Andros publishes its maps as static images. The best interactive maps of the island come from others: Andros Routes, a non-profit, maintains the trail network, and commercial publishers sell hiking maps. What I couldn’t find was a simple, free map of the whole island that also speaks the coordinate system local engineers work in, the Greek Grid (ΕΓΣΑ87)."
+    "text": "What was missing\nBefore starting, I had a look at what’s already out there. The Municipality of Andros publishes its maps as static images. The best interactive maps of the island come from others: Andros Routes, a non-profit, looks after the trail network, and there are hiking maps you can buy. What I couldn’t find was a simple, free map of the whole island that also gives coordinates in the Greek Grid (ΕΓΣΑ87), the system local engineers work with."
   },
   {
     "objectID": "posts/2026-10-andros-web-map/index.html#the-map",
     "href": "posts/2026-10-andros-web-map/index.html#the-map",
     "title": "Andros on one page: rebuilding my island map, seven years on",
     "section": "The map",
-    "text": "The map\nThe new version is a single web page, with no server behind it:\n\nRelief first. The 13 m terrain model and hillshade are blended into one relief image, so the island’s shape reads at a glance.\nNames that suit the zoom. The generalised 1:150,000 settlements from 2019 decide which village names appear when you’re zoomed out, so that generalisation work still has a job.\nClick anywhere for the elevation and the coordinates in both WGS84 and ΕΓΣΑ87.\nDraw a route for its length, ascent, descent and an elevation profile.\nGreek and English, with search that ignores accents, and its own symbol for every kind of feature.\nOptional OpenStreetMap layers for day-to-day use: health centres, pharmacies, police and fire stations, municipal offices, fuel, bus stops, springs, viewpoints and the waymarked trails. Each trail opens its own elevation profile.\n\n\n\n\nElevation profile from Chora across the island’s central ridge"
+    "text": "The map\nThe new version is one web page, with no server behind it:\n\nRelief first. The 13 m terrain model and the hillshade are blended into one relief image, so you can read the shape of the island straight away.\nNames that suit the zoom. The generalised 1:150,000 settlements from 2019 decide which village names you see when you zoom out, so that work is still being used.\nClick anywhere to get the elevation and the coordinates in both WGS84 and ΕΓΣΑ87.\nDraw a route to get its length, ascent, descent and an elevation profile.\nGreek and English, with a search that doesn’t mind accents, and its own symbol for every kind of feature.\nOpenStreetMap layers you can switch on for everyday use: health centres, pharmacies, police and fire stations, municipal offices, fuel, bus stops, springs, viewpoints and the waymarked trails. Each trail opens its own elevation profile.\n\n\n\n\nElevation profile from Chora across the island’s central ridge"
   },
   {
     "objectID": "posts/2026-10-andros-web-map/index.html#how-i-built-it",
     "href": "posts/2026-10-andros-web-map/index.html#how-i-built-it",
     "title": "Andros on one page: rebuilding my island map, seven years on",
     "section": "How I built it",
-    "text": "How I built it\nI rebuilt it in Python: GeoPandas for the vector layers, rasterio for the terrain, and Leaflet for the map, working with Claude as a coding collaborator, as I did for my London analysis. The decisions were mine: what the map is for, the symbology, the generalisation, and what to show at each scale."
+    "text": "How I built it\nI rebuilt it in Python, coding with Claude: GeoPandas for the vector layers, rasterio for the terrain and Leaflet for the map."
   },
   {
     "objectID": "posts/2026-10-andros-web-map/index.html#whats-next",
     "href": "posts/2026-10-andros-web-map/index.html#whats-next",
     "title": "Andros on one page: rebuilding my island map, seven years on",
     "section": "What’s next",
-    "text": "What’s next\nI’d like to offer it to the Municipality of Andros as a starting point. Because it’s one file, it can sit inside their existing website with a single line of code.\nMap: etymo.co.uk/AndrosWebMap · Code: github.com/eritrouib/AndrosWebMap"
+    "text": "What’s next\nI’d like to explore how a map like this could be useful in a council setting, for example for the Municipality of Andros, where a single file can sit inside their existing website with one line of code.\nMap: etymo.co.uk/AndrosWebMap"
   },
   {
     "objectID": "posts/2026-10-athens-to-london/index.html",
@@ -221,6 +221,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I’m Eriola Trungu Impersimi, a Government Operational Researcher and geospatial analyst with 15+ years’ experience applying quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector.\nI enjoy turning messy data into clear, reproducible analysis, communicating uncertainty honestly, and building tools that help people make better decisions. Lately I’ve been exploring how AI can make spatial analysis faster and more accessible without losing rigour.\nWhat I write about here\n\nSpatial analysis and mapping, from road safety to nature-based solutions\nStatistics and modelling for decisions, including forecasting and uncertainty\nData quality and reproducible pipelines\nWorking with AI as an analyst: what it speeds up, and what still needs judgement\n\nI hold an MSc in Geoinformatics from the National Technical University of Athens, where my thesis analysed pedestrian collisions and the built environment in Athens.\nWhy etymo? It comes from the Greek etymon (ἔτυμον), the true meaning of something. That’s what I look for in data. And ET is me."
+    "text": "I’m Eriola Trungu Impersimi, a Government Operational Researcher and geospatial analyst with 15+ years’ experience applying quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector.\nI enjoy turning messy data into clear, reproducible analysis, communicating uncertainty, and building tools that help people make better decisions. Lately I’ve been exploring how AI can make spatial analysis faster and more accessible without losing rigour.\nWhat I write about here\n\nSpatial analysis and mapping, from road safety to nature-based solutions\nStatistics and modelling for decisions, including forecasting and uncertainty\nData quality and reproducible pipelines\nWorking with AI as an analyst: what it speeds up, and what still needs judgement\n\nI hold an MSc in Geoinformatics from the National Technical University of Athens, where my thesis analysed pedestrian collisions and the built environment in Athens.\nWhy etymo? It comes from the Greek etymon (ἔτυμον), the true meaning of something. That’s what I look for in data. And ET is me."
   }
 ]

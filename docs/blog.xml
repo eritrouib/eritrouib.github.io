@@ -20,8 +20,8 @@
 
 
 
-<p>In 2019, during my MSc in Geoinformatics, I made a set of maps of Andros. I gathered the base data from free online sources, built the digital terrain models myself and designed two printed 1:150,000 maps: one with contours, one with hypsometric tints and hillshading. There was also a web version, served through GeoServer with OpenLayers on top.</p>
-<p>It worked, but it needed a running map server, styling files for every layer and someone to keep it all alive. That’s fine for a course. It’s not realistic for a small island.</p>
+<p>Back in 2019, during my MSc in Geoinformatics, I made a set of maps of Andros. I collected the base data from free online sources, created the digital terrain models myself and designed two printed maps at 1:150,000, one with contours and one with hypsometric tints and hillshading. I also made a web version, served through GeoServer with OpenLayers on top.</p>
+<p>It worked well for the course. But it needed a map server running all the time, a styling file for every layer and someone to look after it. That’s not something a small island can realistically keep going.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://etymo.co.uk/posts/2026-10-andros-web-map/screenshot-island.png" class="img-fluid figure-img"></p>
@@ -30,18 +30,18 @@
 </div>
 <section id="what-was-missing" class="level2">
 <h2 class="anchored" data-anchor-id="what-was-missing">What was missing</h2>
-<p>Before rebuilding anything, I looked at what’s already out there. The Municipality of Andros publishes its maps as static images. The best interactive maps of the island come from others: <a href="https://www.androsroutes.gr/">Andros Routes</a>, a non-profit, maintains the trail network, and commercial publishers sell hiking maps. What I couldn’t find was a simple, free map of the whole island that also speaks the coordinate system local engineers work in, the Greek Grid (ΕΓΣΑ87).</p>
+<p>Before starting, I had a look at what’s already out there. The Municipality of Andros publishes its maps as static images. The best interactive maps of the island come from others: <a href="https://www.androsroutes.gr/">Andros Routes</a>, a non-profit, looks after the trail network, and there are hiking maps you can buy. What I couldn’t find was a simple, free map of the whole island that also gives coordinates in the Greek Grid (ΕΓΣΑ87), the system local engineers work with.</p>
 </section>
 <section id="the-map" class="level2">
 <h2 class="anchored" data-anchor-id="the-map">The map</h2>
-<p>The new version is a single web page, with no server behind it:</p>
+<p>The new version is one web page, with no server behind it:</p>
 <ul>
-<li><strong>Relief first.</strong> The 13 m terrain model and hillshade are blended into one relief image, so the island’s shape reads at a glance.</li>
-<li><strong>Names that suit the zoom.</strong> The generalised 1:150,000 settlements from 2019 decide which village names appear when you’re zoomed out, so that generalisation work still has a job.</li>
-<li><strong>Click anywhere</strong> for the elevation and the coordinates in both WGS84 and ΕΓΣΑ87.</li>
-<li><strong>Draw a route</strong> for its length, ascent, descent and an elevation profile.</li>
-<li><strong>Greek and English</strong>, with search that ignores accents, and its own symbol for every kind of feature.</li>
-<li><strong>Optional OpenStreetMap layers</strong> for day-to-day use: health centres, pharmacies, police and fire stations, municipal offices, fuel, bus stops, springs, viewpoints and the waymarked trails. Each trail opens its own elevation profile.</li>
+<li><strong>Relief first.</strong> The 13 m terrain model and the hillshade are blended into one relief image, so you can read the shape of the island straight away.</li>
+<li><strong>Names that suit the zoom.</strong> The generalised 1:150,000 settlements from 2019 decide which village names you see when you zoom out, so that work is still being used.</li>
+<li><strong>Click anywhere</strong> to get the elevation and the coordinates in both WGS84 and ΕΓΣΑ87.</li>
+<li><strong>Draw a route</strong> to get its length, ascent, descent and an elevation profile.</li>
+<li><strong>Greek and English</strong>, with a search that doesn’t mind accents, and its own symbol for every kind of feature.</li>
+<li><strong>OpenStreetMap layers</strong> you can switch on for everyday use: health centres, pharmacies, police and fire stations, municipal offices, fuel, bus stops, springs, viewpoints and the waymarked trails. Each trail opens its own elevation profile.</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -52,12 +52,12 @@
 </section>
 <section id="how-i-built-it" class="level2">
 <h2 class="anchored" data-anchor-id="how-i-built-it">How I built it</h2>
-<p>I rebuilt it in Python: GeoPandas for the vector layers, rasterio for the terrain, and Leaflet for the map, working with Claude as a coding collaborator, as I did for my <a href="../2026-10-athens-to-london/">London analysis</a>. The decisions were mine: what the map is for, the symbology, the generalisation, and what to show at each scale.</p>
+<p>I rebuilt it in Python, coding with Claude: GeoPandas for the vector layers, rasterio for the terrain and Leaflet for the map.</p>
 </section>
 <section id="whats-next" class="level2">
 <h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
-<p>I’d like to offer it to the Municipality of Andros as a starting point. Because it’s one file, it can sit inside their existing website with a single line of code.</p>
-<p><strong>Map:</strong> <a href="https://etymo.co.uk/AndrosWebMap/">etymo.co.uk/AndrosWebMap</a> · <strong>Code:</strong> <a href="https://github.com/eritrouib/AndrosWebMap">github.com/eritrouib/AndrosWebMap</a></p>
+<p>I’d like to explore how a map like this could be useful in a council setting, for example for the Municipality of Andros, where a single file can sit inside their existing website with one line of code.</p>
+<p><strong>Map:</strong> <a href="https://etymo.co.uk/AndrosWebMap/">etymo.co.uk/AndrosWebMap</a></p>
 
 
 </section>
