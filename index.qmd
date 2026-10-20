@@ -20,6 +20,15 @@ I'm Eriola, a Government Operational Researcher and geospatial analyst. I've wor
 
 ::: {.cards}
 ::: {.card-et}
+### Last orders? The UK drawn with its pubs
+<p class="meta">Data story · Python · FSA and ONS open data</p>
+
+I drew the UK with 38,000 pubs and bars, checked whether COVID closed them (the big drop came in 2008), and went through the pub names. You can check how pubby your postcode is too.
+
+<p class="links"><a href="https://etymo.co.uk/uk-pubs/">Read the story</a> <a href="posts/2026-10-uk-pubs/">Write-up</a></p>
+:::
+
+::: {.card-et}
 ### Pedestrian casualties on London's roads
 <p class="meta">Spatial analysis · Python · Interactive dashboard</p>
 

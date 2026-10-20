@@ -31,7 +31,7 @@ I rebuilt my MSc thesis on 1,318 pedestrian collisions in Athens (2008–2017) a
 
 A fun data story. I downloaded the food hygiene register and drew all 38,000 pubs and bars as dots, without any coastline or roads, and the UK still shows up. Then I checked whether COVID made a difference and found that the big wave of closures came in 2008, and that it was mostly the small pubs that closed. I also looked at the most common pub names, the streets that are basically a pub crawl and the furthest you can get from a pint. You can check how pubby your postcode is too.
 
-<p class="links"><a href="https://etymo.co.uk/uk-pubs/">Story</a> <a href="https://github.com/eritrouib/uk-pubs">Code</a></p>
+<p class="links"><a href="https://etymo.co.uk/uk-pubs/">Story</a> <a href="https://github.com/eritrouib/uk-pubs">Code</a> <a href="posts/2026-10-uk-pubs/">Write-up</a></p>
 :::
 
 :::
