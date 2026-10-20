@@ -1,26 +1,26 @@
 ---
 title: "From Athens to London: pedestrian collisions and the built environment, five years on"
-description: "I took the questions from my master's thesis on Athens and asked them of London, with open data, open-source tools and an AI collaborator."
+description: "I took the questions from my master's thesis on Athens and asked them again for London, using open data and open-source tools."
 date: 2026-10-06
 categories: [road safety, spatial analysis, Python, AI]
 image: https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/street_hotspots.png
 ---
 
-In 2021 I finished my master's thesis in Geoinformatics at the National Technical University of Athens. It looked at 1,318 pedestrian collisions in the Municipality of Athens between 2008 and 2017 and asked a simple question: **how does the shape of the city relate to where pedestrians are injured?**
+In 2021 I finished my master's thesis in Geoinformatics at the National Technical University of Athens. I looked at 1,318 pedestrian collisions in the Municipality of Athens between 2008 and 2017, and my main question was: **how does the shape of the city relate to where pedestrians get injured?**
 
-I found persistent hotspots in the centre, around Omonia, Syggrou and Vasilissis Sofias, and associations with bars and pubs, crossings, traffic signals and bus stops. The thesis ended, as theses do, with a list of things I wished I'd had: time of day, the age of the people involved, socio-economic context, a sense of how busy each place is.
+I found hotspots in the centre that kept coming back, around Omonia, Syggrou and Vasilissis Sofias. I also found links with bars and pubs, crossings, traffic signals and bus stops. At the end of the thesis I wrote down what I was missing: the time of day, the age of the people involved, the socio-economic context, and some idea of how busy each place was.
 
-Five years later, I asked the same questions of London. This time I had all of those things.
+Five years later I wanted to ask the same questions for London, where all of that data is available.
 
 ## The data
 
-London is a gift for this kind of work, because almost everything is open:
+Almost everything I needed for London is open:
 
-- **Collisions:** the Department for Transport's STATS19 data. Every police-recorded injury collision, with location, date, time, severity and the age of each casualty.
+- **Collisions:** the Department for Transport's STATS19 data. Every injury collision recorded by the police, with location, date, time, severity and the age of each casualty.
 - **Neighbourhoods:** ONS small-area boundaries, the English Indices of Deprivation 2025 and population figures.
-- **Streets:** OpenStreetMap for crossings, signals, bus stops, stations, schools, pubs and the drivable street network.
+- **Streets:** OpenStreetMap for crossings, signals, bus stops, stations, schools, pubs and the street network.
 
-From 2021 to 2025 there were **22,108 pedestrian casualties** in Greater London. **5,926** of them were killed or seriously injured, and deaths ranged from 36 to 61 a year.
+From 2021 to 2025 there were **22,108 pedestrian casualties** in Greater London. **5,926** of them were killed or seriously injured, and between 36 and 61 people died each year.
 
 | Year | Killed | Seriously injured | Slightly injured | Total |
 |---|---:|---:|---:|---:|
@@ -30,58 +30,58 @@ From 2021 to 2025 there were **22,108 pedestrian casualties** in Greater London.
 | 2024 | 61 | 1,136 | 3,254 | 4,451 |
 | 2025 | 51 | 1,204 | 3,449 | 4,704 |
 
-The low 2021 figure is almost certainly the early-2021 lockdown keeping people off the streets, a reminder that counts always carry the conditions they were collected in.
+2021 is lower, most likely because of the lockdown at the start of that year, when fewer people were out on the streets.
 
-## Lesson one: the denominator changes the story
+## Lesson one: what you divide by changes the story
 
-Ranked by fatal and serious casualties per 100,000 residents, the **City of London** comes out at 167.6 a year, nearly four times the next borough, Westminster (43.0). Taken at face value, it is by far the most dangerous place to walk in the capital.
+When I ranked the boroughs by fatal and serious casualties per 100,000 residents, the **City of London** came out at 167.6 a year. That's nearly four times Westminster (43.0), which came second. At first sight it looks like the most dangerous place to walk in London.
 
-It isn't. Only a few thousand people live in the City, while hundreds of thousands work there or pass through every weekday. Dividing by residents measures something, but not the risk of walking there. Ranked per kilometre of road instead, the order changes substantially.
+But only a few thousand people live in the City, and hundreds of thousands work there or pass through every weekday. So dividing by residents doesn't really measure the risk of walking there. When I ranked the boroughs per kilometre of road instead, the order changed a lot.
 
 ![The same data gives very different borough rankings depending on the measure.](https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/borough_rank_change.png){.callout-figure}
 
 ## Lesson two: crossings "correlate" with casualties
 
-Comparing London's roughly 5,000 small areas, the features that rise most strongly with serious pedestrian casualties per km² were traffic signals and crossings (rank correlations of about +0.4), followed by major roads, bus stops, junctions and pubs and bars. Almost exactly what I found in Athens.
+Next I compared London's roughly 5,000 small areas. The features that went up most with serious pedestrian casualties per km² were traffic signals and crossings (rank correlations of about +0.4), followed by major roads, bus stops, junctions, and pubs and bars. This was almost exactly what I had found in Athens.
 
-It would be easy, and wrong, to conclude that crossings are dangerous. Two things are going on:
+That doesn't mean crossings are dangerous. I think two things explain it:
 
-- **Exposure.** Crossings, signals, bus stops and pubs are put where lots of people meet lots of traffic. Many of these variables partly measure "how busy is this place".
-- **Reverse causality.** Crossings and signals are often installed *because* a location had collisions. The safety measure follows the problem.
+- **How busy a place is.** Crossings, signals, bus stops and pubs are where lots of people meet lots of traffic, so these features partly measure how busy an area is.
+- **Cause and effect the other way round.** Crossings and signals are often put in *because* a place had collisions.
 
-This is why the project goes on to fit a negative binomial model that accounts for how busy each area is, asking which street features still go with more casualties once activity is taken into account. That is the question my thesis couldn't answer with the data it had.
+So I also fitted a negative binomial model that takes into account how busy each area is. It asks which street features still go with more casualties after that. This is the question I couldn't answer in my thesis with the data I had.
 
-## Finding hotspots along streets, not across them
+## Hotspots along the streets
 
-In Athens I used planar kernel density, the familiar heatmap. Its weakness in a city is that a cluster on one road "leaks" onto a parallel street across a block. For London I measured density **along the street network** instead: the streets are cut into 50 m pieces and each casualty's weight spreads along the network for 250 m.
+In Athens I used planar kernel density, the usual heatmap. In a city, a cluster on one road can spill over onto a parallel street across the block. For London I measured density **along the street network**. I cut the streets into 50 m pieces and spread each casualty along the network for 250 m.
 
 ![Where serious pedestrian injuries concentrate along London's streets.](https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/street_hotspots.png){.callout-figure}
 
-Alongside it, a Getis-Ord Gi\* analysis on small areas separates statistically significant clusters from random noise, with a correction for testing thousands of areas at once.
+I also ran a Getis-Ord Gi\* analysis on the small areas, to separate significant clusters from random noise. I corrected for the fact that I was testing thousands of areas at once.
 
 ## How far is emergency care?
 
-My Athens dashboard showed hospitals next to collisions. In London I went a step further and measured the **drive time** along the street network from every casualty to the nearest A&E and to the nearest of London's four major trauma centres, where the most seriously injured are taken.
+My Athens dashboard showed the hospitals next to the collisions. For London I measured the **drive time** along the street network from every casualty to the nearest A&E, and to the nearest of London's four major trauma centres, where the most seriously injured people are taken.
 
 ![Free-flow drive time to the nearest major trauma centre, with serious pedestrian casualties.](https://raw.githubusercontent.com/eritrouib/london-pedestrian-safety/main/figures/access_to_trauma_care.png){.callout-figure}
 
-These are free-flowing times for the hospital journey, not ambulance response times, but they show clearly which parts of London are furthest from trauma care.
+These times assume no traffic and are for the journey to hospital, so they are not ambulance response times. They still show which parts of London are furthest from trauma care.
 
 ## Then and now
 
-In 2021 my tools were R and ArcGIS Pro, with Esri Dashboards and StoryMaps for the visuals, and the project took months.
+In 2021 I used R and ArcGIS Pro, with Esri Dashboards and StoryMaps for the visuals, and the project took months.
 
-This time I worked with an AI assistant, Claude, and went from research questions to a tested analysis pipeline and a live dashboard in a fraction of the time. The questions, the choice of methods and the judgement about what the results mean came from my research background. The AI made it possible to build and check everything much faster, including testing the model on synthetic data with known answers before trusting it on the real thing.
+This time I coded with Claude, and I went from my research questions to a tested pipeline and a live dashboard much faster. The questions, the methods and what the results mean came from my research background. Claude helped me build and check everything quicker, including testing the model on made-up data with known answers before using it on the real data.
 
-The whole project uses open data and open-source Python, and anyone can rerun it.
+Everything uses open data and open-source Python, so anyone can run it again.
 
-- **Explore the dashboard:** [etymo.co.uk/london-pedestrian-safety](https://etymo.co.uk/london-pedestrian-safety/). Try the spotlight on a junction you know, or play the years.
+- **Explore the dashboard:** [etymo.co.uk/london-pedestrian-safety](https://etymo.co.uk/london-pedestrian-safety/). Try the spotlight on a junction you know, or play through the years.
 - **Code and methods:** [github.com/eritrouib/london-pedestrian-safety](https://github.com/eritrouib/london-pedestrian-safety)
 
 ## What's next
 
-Two things. First, publishing the Athens work properly, re-analysed with the methods developed here. Second, an AI layer for the London data, so anyone can ask a question in plain English and get an answer computed from the data, with its sources, rather than a guess.
+First, I want to publish the Athens work properly, using the methods I developed here. Second, I'd like to add an AI assistant to the London data, so anyone can ask a question in plain English and get an answer worked out from the data, with its sources.
 
 ---
 
-*Data: Department for Transport STATS19, ONS, MHCLG (Open Government Licence); OpenStreetMap contributors (ODbL). Police-recorded data under-reports minor pedestrian injuries, and associations between areas and casualties do not show cause.*
+*Data: Department for Transport STATS19, ONS, MHCLG (Open Government Licence); OpenStreetMap contributors (ODbL). Police-recorded data under-reports minor pedestrian injuries, and a link between an area and casualties doesn't show cause.*

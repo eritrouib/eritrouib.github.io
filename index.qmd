@@ -13,7 +13,7 @@ listing:
 ---
 
 ::: {.lead-intro}
-I'm Eriola, a Government Operational Researcher and geospatial analyst. For more than 15 years I've applied quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector. Here I write about turning messy data into clear, reproducible analysis, communicating uncertainty, and how AI is changing the way we work with spatial data.
+I'm Eriola, a Government Operational Researcher and geospatial analyst. I've worked with quantitative, geospatial and statistical methods for more than 15 years, in government, academia and the private sector. Here I share my projects and write about making messy data clear, explaining uncertainty, and how AI is changing the way I work with spatial data.
 :::
 
 ## Featured projects
@@ -23,7 +23,7 @@ I'm Eriola, a Government Operational Researcher and geospatial analyst. For more
 ### Pedestrian casualties on London's roads
 <p class="meta">Spatial analysis · Python · Interactive dashboard</p>
 
-22,108 pedestrian casualties in Greater London, 2021–2025: where they concentrate along the street network, what about the built environment goes with them, and how far serious casualties are from trauma care.
+I looked at 22,108 pedestrian casualties in Greater London from 2021 to 2025: where they happen along the streets, which parts of the built environment go with them, and how far serious casualties are from trauma care.
 
 <p class="links"><a href="https://etymo.co.uk/london-pedestrian-safety/">Open the dashboard</a> <a href="posts/2026-10-athens-to-london/">Read the story</a></p>
 :::
@@ -32,7 +32,7 @@ I'm Eriola, a Government Operational Researcher and geospatial analyst. For more
 ### Article 4 and constraints checker, Kingston
 <p class="meta">Planning tool · JavaScript · Planning Data API</p>
 
-Checks one property, or a whole CSV of them, against Article 4 directions, conservation areas, listed buildings, flood zones and more, flagging borderline cases near a boundary. Built as a Local Land Charges aid for the Royal Borough of Kingston upon Thames.
+I built this to help with Local Land Charges searches at the Royal Borough of Kingston upon Thames. It checks one property, or a whole CSV of them, for Article 4 directions, conservation areas, listed buildings, flood zones and more, and flags cases close to a boundary.
 
 <p class="links"><a href="https://etymo.co.uk/Article4Kingston/">Open the checker</a> <a href="projects.html">More projects</a></p>
 :::
@@ -41,7 +41,7 @@ Checks one property, or a whole CSV of them, against Article 4 directions, conse
 ### Ten years of pedestrian collisions in Athens
 <p class="meta">Story and emergency dashboard · Python · from my MSc thesis</p>
 
-Where pedestrians were hit in Athens from 2008 to 2017, the streets where it kept happening, what surrounds them, and how far help was. Includes an emergency services dashboard with the hospital duty rota.
+My MSc thesis, rebuilt: where pedestrians were hit in Athens from 2008 to 2017, the streets where it kept happening, what's around them and how far help was. There's also an emergency services dashboard with the hospital duty rota.
 
 <p class="links"><a href="https://etymo.co.uk/athens-pedestrian-safety/story.html">Read the story</a> <a href="https://etymo.co.uk/athens-pedestrian-safety/">Open the dashboard</a></p>
 :::

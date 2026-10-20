@@ -10,7 +10,7 @@ title: "Publications"
 ### Powered-two-wheelers and smart cities: the case of variable message signs
 <p class="meta">Spyropoulou, I. and Impersimi, E. (2020) · *IET Intelligent Transport Systems*, 14(14), 2021–2029</p>
 
-Do motorcyclists and scooter riders in Athens change route when the city's variable message signs report an incident? A stated preference survey of 105 riders and probit models showed that the type of incident (roadworks most of all) and its impact affect whether riders divert, while alternative route suggestions do not. Riders found the signs useful but not designed for them: 36% wanted travel times that reflect how two-wheelers move through traffic.
+Do motorcyclists and scooter riders in Athens change route when the variable message signs report an incident? We surveyed 105 riders and used probit models. The type of incident (roadworks most of all) and how serious it was affected whether riders diverted, but suggested alternative routes didn't. Riders found the signs useful but felt they weren't designed for them, and 36% wanted travel times based on how two-wheelers move through traffic.
 
 <p class="links"><a href="https://doi.org/10.1049/iet-its.2019.0702">Read the article</a> <a href="posts/2026-10-motorcycles-and-message-signs/">Plain-language summary</a></p>
 :::

@@ -12,9 +12,9 @@ about:
       href: https://www.linkedin.com/in/eriola-trungu-impersimi/
 ---
 
-I'm **Eriola Trungu Impersimi**, a Government Operational Researcher and geospatial analyst with 15+ years' experience applying quantitative, geospatial and statistical methods to complex problems across government, academia and the private sector.
+I'm **Eriola Trungu Impersimi**, a Government Operational Researcher and geospatial analyst. I've worked with quantitative, geospatial and statistical methods for more than 15 years, in government, academia and the private sector.
 
-I enjoy turning messy data into clear, reproducible analysis, communicating uncertainty, and building tools that help people make better decisions. Lately I've been exploring how AI can make spatial analysis faster and more accessible without losing rigour.
+I like taking messy data and making it clear, explaining uncertainty, and building tools that help people make decisions. Lately I've been trying out how AI can make spatial analysis faster and easier for more people, while keeping it rigorous.
 
 **What I write about here**
 
