@@ -10,7 +10,67 @@
 <atom:link href="https://etymo.co.uk/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi.</description>
 <generator>quarto-1.10.19</generator>
-<lastBuildDate>Mon, 19 Oct 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Can you draw Greece with tavernas?</title>
+  <dc:creator>Eriola Trungu Impersimi</dc:creator>
+  <link>https://etymo.co.uk/posts/2026-10-greek-tavernas/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After <a href="../2026-10-uk-pubs/">drawing the UK with its pubs</a>, I wanted to try the same with Greece. The closest thing to a pub is probably the kafeneio, but for a map I thought tavernas, kafeneia and ouzeri together would work best.</p>
+<p>It turned out to be much harder than I expected.</p>
+<section id="finding-the-data" class="level2">
+<h2 class="anchored" data-anchor-id="finding-the-data">Finding the data</h2>
+<p>For the UK I downloaded one register from one website, and every pub had a name, an address and coordinates. Greece doesn’t have anything like it. The food authority and the health ministry only publish summary tables of their inspections. On data.gov.gr I found only a handful of municipalities, out of 332, that publish their list of licensed shops, and some of those are PDFs or stop in 2018.</p>
+<p>So I used OpenStreetMap. Even that wasn’t easy: the servers refused my downloads, so I had to download it by hand in the browser, and it crashed my computer. In the end I had 33,951 restaurants, cafés and bars, and I sorted them into tavernas, kafeneia and ouzeri using their names and tags.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://etymo.co.uk/posts/2026-10-greek-tavernas/greece-map.png" class="img-fluid figure-img"></p>
+<figcaption>Tavernas, ouzeri and kafeneia in OpenStreetMap.</figcaption>
+</figure>
+</div>
+</section>
+<section id="a-map-of-tavernas-or-of-tourists" class="level2">
+<h2 class="anchored" data-anchor-id="a-map-of-tavernas-or-of-tourists">A map of tavernas, or of tourists?</h2>
+<p>The islands and the coast light up, and much of the north is dark. Then I compared the map with ELSTAT’s official counts of restaurants, bars and cafés, and found out that OpenStreetMap has only 46% of them. On Crete and the islands it has more than 80%, but in Pella, Xanthi and Imathia only about one in ten. So the map shows where tourists go as much as where the tavernas are.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://etymo.co.uk/posts/2026-10-greek-tavernas/coverage.png" class="img-fluid figure-img"></p>
+<figcaption>How much of each area’s businesses are on OpenStreetMap.</figcaption>
+</figure>
+</div>
+</section>
+<section id="the-crisis-and-the-names" class="level2">
+<h2 class="anchored" data-anchor-id="the-crisis-and-the-names">The crisis and the names</h2>
+<p>ELSTAT’s numbers show about 15% fewer bars, cafés and restaurants since 2011, but twice as many people working in bars and cafés. It’s the same as the UK pubs: fewer places, but bigger ones. Attica gained bars and cafés from 2016 to 2023, while the north lost about a quarter.</p>
+<p>The fun part was the names again. Greece doesn’t have a Red Lion. The most common name is Panorama, with only 38, followed by Akrogiali (the seashore), Nikos and, of course, Zorbas.</p>
+</section>
+<section id="try-it" class="level2">
+<h2 class="anchored" data-anchor-id="try-it">Try it</h2>
+<ul>
+<li><strong>The story and map:</strong> <a href="https://etymo.co.uk/greek-tavernas/">etymo.co.uk/greek-tavernas</a></li>
+<li><strong>Code:</strong> <a href="https://github.com/eritrouib/greek-tavernas">github.com/eritrouib/greek-tavernas</a></li>
+</ul>
+<p>I made it with OpenStreetMap and ELSTAT data, Python and Leaflet, coding with Claude.</p>
+<hr>
+<p><em>Data: © OpenStreetMap contributors (ODbL); ELSTAT Statistical Business Register and population estimates.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>maps</category>
+  <category>data visualisation</category>
+  <category>open data</category>
+  <category>Greece</category>
+  <category>Python</category>
+  <guid>https://etymo.co.uk/posts/2026-10-greek-tavernas/</guid>
+  <pubDate>Tue, 20 Oct 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://etymo.co.uk/posts/2026-10-greek-tavernas/greece-map.png" medium="image" type="image/png" height="100" width="144"/>
+</item>
 <item>
   <title>Last orders? Drawing the UK with its pubs</title>
   <dc:creator>Eriola Trungu Impersimi</dc:creator>

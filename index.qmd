@@ -29,6 +29,15 @@ I drew the UK with 38,000 pubs and bars, checked whether COVID closed them (the 
 :::
 
 ::: {.card-et}
+### Can you draw Greece with tavernas?
+<p class="meta">Data story · Python · OpenStreetMap and ELSTAT</p>
+
+I tried to do the same with Greek tavernas, and found out how hard it is to find the data in Greece. The map turned out to show where tourists go as much as where the tavernas are.
+
+<p class="links"><a href="https://etymo.co.uk/greek-tavernas/">Read the story</a> <a href="posts/2026-10-greek-tavernas/">Write-up</a></p>
+:::
+
+::: {.card-et}
 ### Pedestrian casualties on London's roads
 <p class="meta">Spatial analysis · Python · Interactive dashboard</p>
 

@@ -34,6 +34,15 @@ A fun data story. I downloaded the food hygiene register and drew all 38,000 pub
 <p class="links"><a href="https://etymo.co.uk/uk-pubs/">Story</a> <a href="https://github.com/eritrouib/uk-pubs">Code</a> <a href="posts/2026-10-uk-pubs/">Write-up</a></p>
 :::
 
+::: {.card-et}
+### Can you draw Greece with tavernas?
+<p class="meta">2026 · Python, GeoPandas, Leaflet · OpenStreetMap and ELSTAT</p>
+
+The Greek follow-up to the pubs. Greece has no register like the UK, so I used OpenStreetMap and drew 6,300 tavernas, kafeneia and ouzeri as dots. When I compared it with ELSTAT, the map turned out to have less than half of the places, and much fewer in the north than on the islands. I also looked at how bars and cafés changed since the crisis and at the most common taverna names (Panorama wins, there's no Red Lion).
+
+<p class="links"><a href="https://etymo.co.uk/greek-tavernas/">Story</a> <a href="https://github.com/eritrouib/greek-tavernas">Code</a> <a href="posts/2026-10-greek-tavernas/">Write-up</a></p>
+:::
+
 :::
 
 ## Planning and geospatial tools
