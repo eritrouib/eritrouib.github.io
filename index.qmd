@@ -38,6 +38,15 @@ I tried to do the same with Greek tavernas, and found out how hard it is to find
 :::
 
 ::: {.card-et}
+### Can you draw Albania with its bar-kafe?
+<p class="meta">Data story · Python · OpenStreetMap and INSTAT</p>
+
+After the pubs and the tavernas, I couldn't leave out Albania, my country of origin. Albania's Red Lion turns out to be called "Bar Kafe".
+
+<p class="links"><a href="https://etymo.co.uk/albania-kafe/">Read the story</a> <a href="posts/2026-10-albania-kafe/">Write-up</a></p>
+:::
+
+::: {.card-et}
 ### Pedestrian casualties on London's roads
 <p class="meta">Spatial analysis · Python · Interactive dashboard</p>
 
