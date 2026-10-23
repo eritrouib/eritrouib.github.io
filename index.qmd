@@ -20,6 +20,15 @@ I'm Eriola, a Government Operational Researcher and geospatial analyst. I've wor
 
 ::: {.cards}
 ::: {.card-et}
+### Race to A&E
+<p class="meta">Network analysis · Python · Animated map</p>
+
+How quickly can people drive to an emergency department in six European capitals? Watch the road network light up from every A&E at once.
+
+<p class="links"><a href="https://etymo.co.uk/race-to-ae/">Watch the race</a> <a href="posts/2026-10-race-to-ae/">Read the story</a></p>
+:::
+
+::: {.card-et}
 ### Last orders? The UK drawn with its pubs
 <p class="meta">Data story · Python · FSA and ONS open data</p>
 

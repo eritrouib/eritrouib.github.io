@@ -174,6 +174,26 @@ ul.task-list li input[type="checkbox"] {
 <section id="spatial-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="spatial-analysis">Spatial analysis</h2>
 <div class="cards">
+<section id="race-to-ae-six-european-capitals" class="level3 card-et">
+<h3 class="anchored" data-anchor-id="race-to-ae-six-european-capitals">Race to A&amp;E: six European capitals</h3>
+<p class="meta">
+2026 · Python, OSMnx, SciPy, GHSL, Eurostat GISCO, deck.gl
+</p>
+<p>How quickly can people reach an emergency department by car in London, Paris, Berlin, Madrid, Rome and Athens? I defined each city the same way (the UN/Eurostat urban centre), measured drive times along every road from 100 m population cells to the nearest A&amp;E, and made an animated map where the network lights up from every hospital at once, with busy-traffic and click-anywhere views. Inspired by Milan Janosov’s reachable-bakeries maps.</p>
+<p class="links">
+<a href="https://etymo.co.uk/race-to-ae/">Watch the race</a> <a href="https://github.com/eritrouib/race-to-ae">Code</a> <a href="posts/2026-10-race-to-ae/">Write-up</a>
+</p>
+</section>
+<section id="minute-london" class="level3 card-et">
+<h3 class="anchored" data-anchor-id="minute-london">15-minute London</h3>
+<p class="meta">
+2026 · Python, GeoPandas, SciPy, network analysis, Leaflet
+</p>
+<p>How much of London is a 15-minute city on foot? Walking distances along every street, footpath and park path, from 454,115 points on London’s residential streets to the nearest GP, pharmacy, primary school, food shop, park and station, compared with straight-line distance and broken down by borough and deprivation. Click any front door on the dashboard and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes.</p>
+<p class="links">
+<a href="https://etymo.co.uk/london-15-minute/">Dashboard</a> <a href="https://github.com/eritrouib/london-15-minute">Code</a> <a href="posts/2026-10-15-minute-london/">Write-up</a>
+</p>
+</section>
 <section id="pedestrian-casualties-on-londons-roads" class="level3 card-et">
 <h3 class="anchored" data-anchor-id="pedestrian-casualties-on-londons-roads">Pedestrian casualties on London’s roads</h3>
 <p class="meta">
@@ -282,6 +302,21 @@ Web tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js
 <p>Where were trees and green space lost or gained? You pick an area and two years, and it maps where vegetation was lost or gained using free Sentinel-2 imagery. It all runs in the browser. It finds the clearest images, masks the clouds, makes a cloud-free greenness map for each year and compares them. In England, it flags changes inside conservation areas and tree preservation areas, so planning and enforcement teams know where to look first. You can download the results as GeoJSON or CSV. It shows you where to look, but it isn’t evidence on its own.</p>
 <p class="links">
 <a href="https://etymo.co.uk/GreenChangeMonitor/">Open the monitor</a> <a href="https://github.com/eritrouib/GreenChangeMonitor">Code</a>
+</p>
+</section>
+</div>
+</section>
+<section id="biodiversity" class="level2">
+<h2 class="anchored" data-anchor-id="biodiversity">Biodiversity</h2>
+<div class="cards">
+<section id="wildscope-nw" class="level3 card-et">
+<h3 class="anchored" data-anchor-id="wildscope-nw">WildScope NW</h3>
+<p class="meta">
+2026 · Prototype · Python, Streamlit, GBIF, Natural England SSSIs
+</p>
+<p>A regional wildlife observatory for North West England: Sites of Special Scientific Interest, species records and simple conservation views in one dashboard, with pages for protected areas, a species explorer and conservation insights. The live version runs on synthetic demo data; a real-data mode pulls Natural England SSSI boundaries and GBIF occurrence records, shown only as coarse grid cells so sensitive locations aren’t exposed. An early prototype: an official regional boundary, complete GBIF downloads and uncertainty-aware analysis are next.</p>
+<p class="links">
+<a href="https://wildscope-nw.streamlit.app/">Open the app</a> <a href="https://github.com/eritrouib/wildscope-nw">Code</a>
 </p>
 </section>
 </div>

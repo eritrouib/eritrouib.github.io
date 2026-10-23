@@ -10,7 +10,176 @@
 <atom:link href="https://etymo.co.uk/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi.</description>
 <generator>quarto-1.10.19</generator>
-<lastBuildDate>Tue, 20 Oct 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Race to A&amp;E: how quickly can you reach an emergency department in six European capitals?</title>
+  <dc:creator>Eriola Trungu Impersimi</dc:creator>
+  <link>https://etymo.co.uk/posts/2026-10-race-to-ae/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In an emergency, minutes matter. So I asked a simple question of six European capitals: <strong>how long does it take to drive from where people live to the nearest emergency department?</strong></p>
+<p>The idea came from Milan Janosov’s animated maps of reachable bakeries in big cities, where the street network grows out from a point and lights up in colour. I wanted to try the same approach on emergency care.</p>
+<p>The answer is easier to see than to read. I started the clock at every A&amp;E in each city at the same moment and let the road network light up as each street came within reach. The last streets to light up are the gaps.</p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://etymo.co.uk/race-to-ae/media/race_to_ae_six_capitals.mp4"></video></div>
+<p><em>All six capitals at once: the clock runs to 30 minutes in about 10 seconds.</em></p>
+<p><a href="https://etymo.co.uk/race-to-ae/">Play the race for any of the six cities on the dashboard</a>, switch to busy traffic, or click anywhere to see how far the nearest A&amp;E is.</p>
+<section id="comparing-like-with-like" class="level2">
+<h2 class="anchored" data-anchor-id="comparing-like-with-like">Comparing like with like</h2>
+<p>Comparing capitals is harder than it looks, because their administrative boundaries mean very different things: the City of Paris is tiny next to Greater London, and the Municipality of Rome includes farmland. So I used the same definition of a city everywhere, the <strong>urban centre</strong> from the UN and Eurostat’s Degree of Urbanisation: all the neighbouring square kilometres with at least 1,500 residents each.</p>
+<ul>
+<li><strong>People:</strong> the EU’s Global Human Settlement Layer, population per 100 m square for 2025.</li>
+<li><strong>Emergency departments:</strong> for Paris and Athens, Eurostat’s European register of healthcare services, compiled from national health ministries and statistics offices, which marks hospitals that provide emergency care; and for London, Berlin, Madrid and Rome, hospitals tagged with an emergency department in OpenStreetMap, which I checked by hand and cleaned (eye hospitals, dental and primary care clinics, a closed A&amp;E and similar sites taken out). Hospitals up to 8 km outside each urban centre count.</li>
+<li><strong>Roads:</strong> OpenStreetMap, with the same typical urban driving speeds in every city (lower where a lower limit is posted), and one-way streets respected.</li>
+</ul>
+</section>
+<section id="the-race" class="level2">
+<h2 class="anchored" data-anchor-id="the-race">The race</h2>
+<p>At 15 minutes the race is close: between <strong>95.3%</strong> and <strong>99.7%</strong> of people in every capital can drive to an emergency department in that time on clear roads. The real differences are in the first ten minutes.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>City</th>
+<th style="text-align: right;">People</th>
+<th style="text-align: right;">A&amp;Es</th>
+<th style="text-align: right;">Within 10 min</th>
+<th style="text-align: right;">Within 15 min</th>
+<th style="text-align: right;">Typical drive (min)</th>
+<th style="text-align: right;">Slowest 10% (min+)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Athens</td>
+<td style="text-align: right;">3.2m</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">94%</td>
+<td style="text-align: right;">99.7%</td>
+<td style="text-align: right;">4.3</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td>Paris</td>
+<td style="text-align: right;">9.3m</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">93%</td>
+<td style="text-align: right;">98.9%</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td>Berlin</td>
+<td style="text-align: right;">3.5m</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">85%</td>
+<td style="text-align: right;">96.7%</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="even">
+<td>Rome</td>
+<td style="text-align: right;">2.4m</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">81%</td>
+<td style="text-align: right;">95.3%</td>
+<td style="text-align: right;">6.1</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="odd">
+<td>London</td>
+<td style="text-align: right;">10.4m</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">74%</td>
+<td style="text-align: right;">95.4%</td>
+<td style="text-align: right;">7.6</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr class="even">
+<td>Madrid</td>
+<td style="text-align: right;">5.7m</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">72%</td>
+<td style="text-align: right;">98.0%</td>
+<td style="text-align: right;">7.2</td>
+<td style="text-align: right;">13</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/race-to-ae/main/figures/coverage_curves.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Share of people who can reach an A&amp;E within each number of minutes.</figcaption>
+</figure>
+</div>
+</section>
+<section id="lesson-one-the-race-is-won-in-the-first-ten-minutes" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-one-the-race-is-won-in-the-first-ten-minutes">Lesson one: the race is won in the first ten minutes</h2>
+<p>Within ten minutes, <strong>94%</strong> of people in <strong>Athens</strong> can reach an A&amp;E, against <strong>72%</strong> in <strong>Madrid</strong>. The typical (median) drive ranges from 4.3 minutes in Athens to 7.6 in London. For most journeys a few minutes make little difference; for a stroke, a heart attack or a serious bleed, they are exactly the minutes that matter.</p>
+</section>
+<section id="lesson-two-it-isnt-just-how-many-hospitals" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-two-it-isnt-just-how-many-hospitals">Lesson two: it isn’t just how many hospitals</h2>
+<p>Athens has an emergency department for every 70,000 people in its urban centre; London has one for every 335,000. Yet London still gets 95% of people to an A&amp;E within 15 minutes. What decides the wait is where the hospitals sit relative to where people live, and how well the roads connect them.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/race-to-ae/main/figures/six_capitals.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Drive time to the nearest A&amp;E, each city at the same scale.</figcaption>
+</figure>
+</div>
+</section>
+<section id="lesson-three-rush-hour-eats-the-margin" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-three-rush-hour-eats-the-margin">Lesson three: rush hour eats the margin</h2>
+<p>The numbers above assume the roads are clear. If every journey takes 50% longer, being within 15 minutes means being within 10 minutes on clear roads, so the shares fall to the ten-minute column: from 95.3%–99.7% to 72%–94%. Rush hour turns a comfortable margin into a tight one.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/eritrouib/race-to-ae/main/figures/within_15.png" class="callout-figure img-fluid figure-img"></p>
+<figcaption>Within 15 minutes, with clear roads and busy traffic.</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-this-doesnt-tell-you" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-doesnt-tell-you">What this doesn’t tell you</h2>
+<ul>
+<li><strong>These are journeys to hospital, not ambulance response times.</strong> Ambulances on blue lights are faster; most people with a broken wrist drive or take a taxi.</li>
+<li><strong>Not every emergency department treats everything.</strong> Major trauma, stroke and heart attack care is concentrated in fewer specialist centres.</li>
+<li><strong>Registers differ.</strong> Each country defines “emergency care” a little differently, and four of the six lists come from OpenStreetMap.</li>
+<li><strong>Athens hospitals take turns.</strong> Greek hospitals share emergency duty on a rota, so on any given day fewer emergency departments take new patients than this map assumes. On a typical day the Athens numbers would be lower.</li>
+<li><strong>Traffic is a single factor.</strong> Real congestion varies by street and by hour.</li>
+</ul>
+</section>
+<section id="then-and-now" class="level2">
+<h2 class="anchored" data-anchor-id="then-and-now">Then and now</h2>
+<p>My <a href="https://etymo.co.uk/london-pedestrian-safety/">pedestrian safety project</a> measured drive times to London’s four major trauma centres. This time, with Milan Janosov’s animations as the spark, the same idea runs on six capitals, with open data from three different sources, and turns into an animation as well as a table.</p>
+<p>As before, I worked with an AI assistant, Claude. The questions, the choice of a fair city definition, the review of the hospital lists and the judgement about what the numbers mean are mine. Everything was tested on a made-up city with known answers before it ran on real ones.</p>
+<ul>
+<li><strong>Watch the race:</strong> <a href="https://etymo.co.uk/race-to-ae/">etymo.co.uk/race-to-ae</a></li>
+<li><strong>Code and method:</strong> <a href="https://github.com/eritrouib/race-to-ae">github.com/eritrouib/race-to-ae</a></li>
+</ul>
+<hr>
+<p><em>Data: © OpenStreetMap contributors (ODbL); European Commission JRC, Global Human Settlement Layer GHS-POP R2023A (CC BY 4.0); Eurostat GISCO healthcare services. Drive times assume free-flowing traffic at typical urban speeds.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>health</category>
+  <category>network analysis</category>
+  <category>spatial analysis</category>
+  <category>Python</category>
+  <guid>https://etymo.co.uk/posts/2026-10-race-to-ae/</guid>
+  <pubDate>Wed, 21 Oct 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/eritrouib/race-to-ae/main/figures/six_capitals.png" medium="image" type="image/png"/>
+</item>
 <item>
   <title>Can you draw Greece with tavernas?</title>
   <dc:creator>Eriola Trungu Impersimi</dc:creator>

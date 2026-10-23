@@ -7,6 +7,24 @@ title: "Projects"
 ::: {.cards}
 
 ::: {.card-et}
+### Race to A&E: six European capitals
+<p class="meta">2026 · Python, OSMnx, SciPy, GHSL, Eurostat GISCO, deck.gl</p>
+
+How quickly can people reach an emergency department by car in London, Paris, Berlin, Madrid, Rome and Athens? I defined each city the same way (the UN/Eurostat urban centre), measured drive times along every road from 100 m population cells to the nearest A&E, and made an animated map where the network lights up from every hospital at once, with busy-traffic and click-anywhere views. Inspired by Milan Janosov's reachable-bakeries maps.
+
+<p class="links"><a href="https://etymo.co.uk/race-to-ae/">Watch the race</a> <a href="https://github.com/eritrouib/race-to-ae">Code</a> <a href="posts/2026-10-race-to-ae/">Write-up</a></p>
+:::
+
+::: {.card-et}
+### 15-minute London
+<p class="meta">2026 · Python, GeoPandas, SciPy, network analysis, Leaflet</p>
+
+How much of London is a 15-minute city on foot? Walking distances along every street, footpath and park path, from 454,115 points on London's residential streets to the nearest GP, pharmacy, primary school, food shop, park and station, compared with straight-line distance and broken down by borough and deprivation. Click any front door on the dashboard and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes.
+
+<p class="links"><a href="https://etymo.co.uk/london-15-minute/">Dashboard</a> <a href="https://github.com/eritrouib/london-15-minute">Code</a> <a href="posts/2026-10-15-minute-london/">Write-up</a></p>
+:::
+
+::: {.card-et}
 ### Pedestrian casualties on London's roads
 <p class="meta">2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet</p>
 
@@ -107,6 +125,21 @@ Many councils restrict new hot-food takeaways near schools. For any council in E
 Where were trees and green space lost or gained? You pick an area and two years, and it maps where vegetation was lost or gained using free Sentinel-2 imagery. It all runs in the browser. It finds the clearest images, masks the clouds, makes a cloud-free greenness map for each year and compares them. In England, it flags changes inside conservation areas and tree preservation areas, so planning and enforcement teams know where to look first. You can download the results as GeoJSON or CSV. It shows you where to look, but it isn't evidence on its own.
 
 <p class="links"><a href="https://etymo.co.uk/GreenChangeMonitor/">Open the monitor</a> <a href="https://github.com/eritrouib/GreenChangeMonitor">Code</a></p>
+:::
+
+:::
+
+## Biodiversity
+
+::: {.cards}
+
+::: {.card-et}
+### WildScope NW
+<p class="meta">2026 · Prototype · Python, Streamlit, GBIF, Natural England SSSIs</p>
+
+A regional wildlife observatory for North West England: Sites of Special Scientific Interest, species records and simple conservation views in one dashboard, with pages for protected areas, a species explorer and conservation insights. The live version runs on synthetic demo data; a real-data mode pulls Natural England SSSI boundaries and GBIF occurrence records, shown only as coarse grid cells so sensitive locations aren't exposed. An early prototype: an official regional boundary, complete GBIF downloads and uncertainty-aware analysis are next.
+
+<p class="links"><a href="https://wildscope-nw.streamlit.app/">Open the app</a> <a href="https://github.com/eritrouib/wildscope-nw">Code</a></p>
 :::
 
 :::
