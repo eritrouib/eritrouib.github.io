@@ -29,10 +29,10 @@ a:hover { color: $hover; }
 h1, h2, h3 { letter-spacing: -0.01em; }
 .title { font-size: 2.6rem; line-height: 1.05; }
 
-// zebra-crossing accent under page titles
+// fine rule under page titles
 .quarto-title .title::after, .zebra {
-  content: ""; display: block; width: 150px; height: 10px; margin-top: 14px;
-  background: repeating-linear-gradient(90deg, $ink 0 16px, transparent 16px 27px);
+  content: ""; display: block; width: 150px; height: 1px; margin-top: 16px;
+  background: $ink;
 }
 
 .navbar { border-bottom: 3px solid $accent; }
@@ -59,3 +59,7 @@ h1, h2, h3 { letter-spacing: -0.01em; }
 
 .card-et li { margin-bottom: .55rem; }
 .tool-note { font-size: .88em; color: #6b6478; }
+
+// contact box (cARTography)
+.contact-et { background: $panel; border-left: 4px solid $accent; border-radius: 6px; padding: 0.9rem 1.1rem; margin: 1.2rem 0 1.8rem; }
+.contact-et p { margin: 0; }

@@ -149,6 +149,15 @@ A regional wildlife observatory for North West England: Sites of Special Scienti
 ::: {.cards}
 
 ::: {.card-et}
+### cARTography
+<p class="meta">2021–2026 · Python, ArcGIS Pro, Copernicus Urban Atlas</p>
+
+My more artistic maps: watercolour land cover maps of Elbasan and Athens made in Python with John Nelson's style, and earlier work from Greater Manchester. Prints available on request.
+
+<p class="links"><a href="cartography/">See the maps</a></p>
+:::
+
+::: {.card-et}
 ### Andros island web map
 <p class="meta">2019 MSc cartography project, rebuilt 2026 · Python, GeoPandas, rasterio, Leaflet</p>
 

@@ -1,0 +1,50 @@
+---
+title: "cARTography"
+description: "Maps I make because they look nice: watercolour cities, land cover and old favourites."
+lightbox: true
+toc: false
+---
+
+::: {.lead-intro}
+Not every map has to answer a question. These are the ones I make because I like how they look, mostly on weekends, often after a week of checking numbers. I'll be adding more over time.
+:::
+
+## In colour
+
+### Watercolour cities (2026)
+
+In 2022 I made a land cover map of Gorton and Abbey Hey in Manchester, styled with John Nelson's watercolour approach in ArcGIS Pro. Years later I recreated the look outside Pro, in Python, starting with Elbasan, Albania, where I'm from, and then Athens. Both use the Copernicus Urban Atlas 2021, reclassified into the same blue, green and grey legend I used in the IGNITION project.
+
+::: {layout-ncol=2}
+![**Elbasan.** The old town around the castle, Parku Rinia by the stadium, the hill of Krasta and the Shkumbin river with its gravel banks, inside an irregular circle around the city. Data: Copernicus Urban Atlas 2021 (EEA / Copernicus Land Monitoring Service).](img/elbasan.jpg){group="colour" fig-alt="Watercolour land cover map of Elbasan, Albania"}
+
+![**Athens and Piraeus.** The same style across the Athens basin down to the sea at Piraeus. Data: Copernicus Urban Atlas 2021 (EEA / Copernicus Land Monitoring Service).](img/athens-piraeus.jpg){group="colour" fig-alt="Watercolour land cover map of Athens and Piraeus"}
+:::
+
+Urban Atlas maps land *use*, not land cover, so there are judgement calls: Krasta, a wooded hill, has the same code as a small town park.
+
+### Earlier work in Greater Manchester (2021–2023)
+
+::: {.callout-note appearance="simple"}
+**Shown as examples of my work only.** These maps were made for the IGNITION project and Greater Manchester partners and contain Ordnance Survey data © Crown copyright and database rights. They are shown here at low resolution and are not for reuse, reproduction or any decision-making.
+:::
+
+::: {layout-ncol=3}
+![Gorton and Abbey Hey land cover, in John Nelson's watercolour style (2022).](img/gorton-abbey-hey-land-cover.jpg){group="manchester"}
+
+![Chorlton Park canopy cover density, for the IGNITION project (2021).](img/chorlton-park-canopy.jpg){group="manchester"}
+
+![Green cover across Salford, Manchester and Trafford.](img/salford-manchester-trafford-green-cover.jpg){group="manchester"}
+
+![Land use around a Manchester neighbourhood, cut to a circle.](img/manchester-neighbourhood-land-use.jpg){group="manchester"}
+
+![Land parcels in a Manchester study area.](img/manchester-parcels.jpg){group="manchester"}
+:::
+
+## Black and white
+
+A black and white series is on its way.
+
+---
+
+*More maps soon. Prints are available: see the [About](../about.qmd) page to get in touch.*

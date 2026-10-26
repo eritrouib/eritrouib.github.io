@@ -21,6 +21,8 @@ website:
         text: Blog
       - href: projects.qmd
         text: Projects
+      - href: cartography/index.qmd
+        text: cARTography
       - href: publications.qmd
         text: Publications
       - href: about.qmd

@@ -21,361 +21,11 @@
     "text": "Latest writing\n\n\n\n\n\nRace to A&E: how quickly can you reach an emergency department in six European capitals?\n\n\nI measured the drive from where people live to the nearest emergency department in London, Paris, Berlin, Madrid, Rome and Athens, and turned it into a race.\n\n\n\n\n\nOct 22, 2026\n\n5 min\n\n\n\n\n\n\nCan you draw Greece with tavernas?\n\n\nAfter the UK pubs I tried the same with Greek tavernas, and found out how hard it is to get the data in Greece.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nCan you draw Albania with its bar-kafe?\n\n\nAfter the UK pubs and the Greek tavernas, I couldn’t leave out Albania, my country of origin.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\nNo matching items\n\nAll posts →"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Spyropoulou, I. and Impersimi, E. (2020) · IET Intelligent Transport Systems, 14(14), 2021–2029\n\nDo motorcyclists and scooter riders in Athens change route when the variable message signs report an incident? We surveyed 105 riders and used probit models. The type of incident (roadworks most of all) and how serious it was affected whether riders diverted, but suggested alternative routes didn’t. Riders found the signs useful but felt they weren’t designed for them, and 36% wanted travel times based on how two-wheelers move through traffic.\n\nRead the article Plain-language summary"
-  },
-  {
-    "objectID": "publications.html#journal-articles",
-    "href": "publications.html#journal-articles",
-    "title": "Publications",
-    "section": "",
-    "text": "Spyropoulou, I. and Impersimi, E. (2020) · IET Intelligent Transport Systems, 14(14), 2021–2029\n\nDo motorcyclists and scooter riders in Athens change route when the variable message signs report an incident? We surveyed 105 riders and used probit models. The type of incident (roadworks most of all) and how serious it was affected whether riders diverted, but suggested alternative routes didn’t. Riders found the signs useful but felt they weren’t designed for them, and 36% wanted travel times based on how two-wheelers move through traffic.\n\nRead the article Plain-language summary"
-  },
-  {
-    "objectID": "publications.html#in-preparation",
-    "href": "publications.html#in-preparation",
-    "title": "Publications",
-    "section": "In preparation",
-    "text": "In preparation\n\n\nPedestrian collisions in Athens: network-based hotspots, the built environment and emergency access\n\nWith M. Kavouras, A. Darra and M. Pigaki · National Technical University of Athens\n\nTen years of pedestrian collisions in Athens re-examined with network kernel density, emerging hotspot analysis, count models and network access to emergency services.\n\nThe story so far"
-  },
-  {
-    "objectID": "publications.html#thesis",
-    "href": "publications.html#thesis",
-    "title": "Publications",
-    "section": "Thesis",
-    "text": "Thesis\n\n\nSpatial-temporal analysis of traffic accidents in Athens: the case of pedestrians\n\nMSc thesis in Geoinformatics · National Technical University of Athens · 2021\n\nHotspots, space-time patterns and the built environment around 1,318 pedestrian collisions in the Municipality of Athens, 2008–2017, with an emergency services dashboard.\n\nSee the project"
-  },
-  {
-    "objectID": "posts/2026-10-uk-pubs/index.html",
-    "href": "posts/2026-10-uk-pubs/index.html",
-    "title": "Last orders? Drawing the UK with its pubs",
-    "section": "",
-    "text": "Can you draw the UK using only pubs? I wanted to find out.\nI downloaded the Food Standards Agency food hygiene register, which lists every place that serves food or drink. I picked out all the pubs and bars, 38,022 of them, and visualised them as dots. I didn’t add any coastline, roads or towns, just the pubs, and you can still recognise the whole country."
-  },
-  {
-    "objectID": "posts/2026-10-uk-pubs/index.html#did-covid-close-the-pubs",
-    "href": "posts/2026-10-uk-pubs/index.html#did-covid-close-the-pubs",
-    "title": "Last orders? Drawing the UK with its pubs",
-    "section": "Did COVID close the pubs?",
-    "text": "Did COVID close the pubs?\nThen I wondered if COVID had an impact. I looked at the ONS data, which counts pubs and bars with staff, and found out that the big drop happened ten years earlier. The UK lost more than 9,000 pubs between 2008 and 2013, and 1,260 between 2019 and 2024. When I split them by size, it was mostly the small pubs that closed (down 44%), while the big ones actually grew.\n\n\n\nUK pubs and bars, 2001 to 2024."
-  },
-  {
-    "objectID": "posts/2026-10-uk-pubs/index.html#the-fun-part",
-    "href": "posts/2026-10-uk-pubs/index.html#the-fun-part",
-    "title": "Last orders? Drawing the UK with its pubs",
-    "section": "The fun part",
-    "text": "The fun part\nThe fun part was going through the pub names. There are 361 Red Lions, and there are more animals than royals in pub names. I also looked for the streets with the most pubs (Swansea’s Wind Street has 13 bars in 186 metres) and the place furthest from a pub, which in England is 15.7 km away, in Kielder Forest.\nYou can also check how pubby your postcode is. Mine is “pub crawl territory”."
-  },
-  {
-    "objectID": "posts/2026-10-uk-pubs/index.html#try-it",
-    "href": "posts/2026-10-uk-pubs/index.html#try-it",
-    "title": "Last orders? Drawing the UK with its pubs",
-    "section": "Try it",
-    "text": "Try it\n\nThe story and map: etymo.co.uk/uk-pubs\nCode: github.com/eritrouib/uk-pubs\n\nI made it with open FSA and ONS data, Python and Leaflet, coding with Claude.\n\nData: Food Standards Agency food hygiene rating data; ONS public houses and bars, and population estimates (Open Government Licence v3.0)."
-  },
-  {
-    "objectID": "posts/2026-10-athens-to-london/index.html",
-    "href": "posts/2026-10-athens-to-london/index.html",
-    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
-    "section": "",
-    "text": "In 2021 I finished my master’s thesis in Geoinformatics at the National Technical University of Athens. I looked at 1,318 pedestrian collisions in the Municipality of Athens between 2008 and 2017, and my main question was: how does the shape of the city relate to where pedestrians get injured?\nI found hotspots in the centre that kept coming back, around Omonia, Syggrou and Vasilissis Sofias. I also found links with bars and pubs, crossings, traffic signals and bus stops. At the end of the thesis I wrote down what I was missing: the time of day, the age of the people involved, the socio-economic context, and some idea of how busy each place was.\nFive years later I wanted to ask the same questions for London, where all of that data is available."
-  },
-  {
-    "objectID": "posts/2026-10-athens-to-london/index.html#the-data",
-    "href": "posts/2026-10-athens-to-london/index.html#the-data",
-    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
-    "section": "The data",
-    "text": "The data\nAlmost everything I needed for London is open:\n\nCollisions: the Department for Transport’s STATS19 data. Every injury collision recorded by the police, with location, date, time, severity and the age of each casualty.\nNeighbourhoods: ONS small-area boundaries, the English Indices of Deprivation 2025 and population figures.\nStreets: OpenStreetMap for crossings, signals, bus stops, stations, schools, pubs and the street network.\n\nFrom 2021 to 2025 there were 22,108 pedestrian casualties in Greater London. 5,926 of them were killed or seriously injured, and between 36 and 61 people died each year.\n\n\n\nYear\nKilled\nSeriously injured\nSlightly injured\nTotal\n\n\n\n\n2021\n36\n926\n2,878\n3,840\n\n\n2022\n42\n1,194\n3,322\n4,558\n\n\n2023\n53\n1,223\n3,279\n4,555\n\n\n2024\n61\n1,136\n3,254\n4,451\n\n\n2025\n51\n1,204\n3,449\n4,704\n\n\n\n2021 is lower, most likely because of the lockdown at the start of that year, when fewer people were out on the streets."
-  },
-  {
-    "objectID": "posts/2026-10-athens-to-london/index.html#lesson-one-what-you-divide-by-changes-the-story",
-    "href": "posts/2026-10-athens-to-london/index.html#lesson-one-what-you-divide-by-changes-the-story",
-    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
-    "section": "Lesson one: what you divide by changes the story",
-    "text": "Lesson one: what you divide by changes the story\nWhen I ranked the boroughs by fatal and serious casualties per 100,000 residents, the City of London came out at 167.6 a year. That’s nearly four times Westminster (43.0), which came second. At first sight it looks like the most dangerous place to walk in London.\nBut only a few thousand people live in the City, and hundreds of thousands work there or pass through every weekday. So dividing by residents doesn’t really measure the risk of walking there. When I ranked the boroughs per kilometre of road instead, the order changed a lot.\n\n\n\nThe same data gives very different borough rankings depending on the measure."
-  },
-  {
-    "objectID": "posts/2026-10-athens-to-london/index.html#lesson-two-crossings-correlate-with-casualties",
-    "href": "posts/2026-10-athens-to-london/index.html#lesson-two-crossings-correlate-with-casualties",
-    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
-    "section": "Lesson two: crossings “correlate” with casualties",
-    "text": "Lesson two: crossings “correlate” with casualties\nNext I compared London’s roughly 5,000 small areas. The features that went up most with serious pedestrian casualties per km² were traffic signals and crossings (rank correlations of about +0.4), followed by major roads, bus stops, junctions, and pubs and bars. This was almost exactly what I had found in Athens.\nThat doesn’t mean crossings are dangerous. I think two things explain it:\n\nHow busy a place is. Crossings, signals, bus stops and pubs are where lots of people meet lots of traffic, so these features partly measure how busy an area is.\nCause and effect the other way round. Crossings and signals are often put in because a place had collisions.\n\nSo I also fitted a negative binomial model that takes into account how busy each area is. It asks which street features still go with more casualties after that. This is the question I couldn’t answer in my thesis with the data I had."
-  },
-  {
-    "objectID": "posts/2026-10-athens-to-london/index.html#hotspots-along-the-streets",
-    "href": "posts/2026-10-athens-to-london/index.html#hotspots-along-the-streets",
-    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
-    "section": "Hotspots along the streets",
-    "text": "Hotspots along the streets\nIn Athens I used planar kernel density, the usual heatmap. In a city, a cluster on one road can spill over onto a parallel street across the block. For London I measured density along the street network. I cut the streets into 50 m pieces and spread each casualty along the network for 250 m.\n\n\n\nWhere serious pedestrian injuries concentrate along London’s streets.\n\n\nI also ran a Getis-Ord Gi* analysis on the small areas, to separate significant clusters from random noise. I corrected for the fact that I was testing thousands of areas at once."
-  },
-  {
-    "objectID": "posts/2026-10-athens-to-london/index.html#how-far-is-emergency-care",
-    "href": "posts/2026-10-athens-to-london/index.html#how-far-is-emergency-care",
-    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
-    "section": "How far is emergency care?",
-    "text": "How far is emergency care?\nMy Athens dashboard showed the hospitals next to the collisions. For London I measured the drive time along the street network from every casualty to the nearest A&E, and to the nearest of London’s four major trauma centres, where the most seriously injured people are taken.\n\n\n\nFree-flow drive time to the nearest major trauma centre, with serious pedestrian casualties.\n\n\nThese times assume no traffic and are for the journey to hospital, so they are not ambulance response times. They still show which parts of London are furthest from trauma care."
-  },
-  {
-    "objectID": "posts/2026-10-athens-to-london/index.html#then-and-now",
-    "href": "posts/2026-10-athens-to-london/index.html#then-and-now",
-    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
-    "section": "Then and now",
-    "text": "Then and now\nIn 2021 I used R and ArcGIS Pro, with Esri Dashboards and StoryMaps for the visuals, and the project took months.\nThis time I coded with Claude, and I went from my research questions to a tested pipeline and a live dashboard much faster. The questions, the methods and what the results mean came from my research background. Claude helped me build and check everything quicker, including testing the model on made-up data with known answers before using it on the real data.\nEverything uses open data and open-source Python, so anyone can run it again.\n\nExplore the dashboard: etymo.co.uk/london-pedestrian-safety. Try the spotlight on a junction you know, or play through the years.\nCode and methods: github.com/eritrouib/london-pedestrian-safety"
-  },
-  {
-    "objectID": "posts/2026-10-athens-to-london/index.html#whats-next",
-    "href": "posts/2026-10-athens-to-london/index.html#whats-next",
-    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
-    "section": "What’s next",
-    "text": "What’s next\nFirst, I want to publish the Athens work properly, using the methods I developed here. Second, I’d like to add an AI assistant to the London data, so anyone can ask a question in plain English and get an answer worked out from the data, with its sources.\n\nData: Department for Transport STATS19, ONS, MHCLG (Open Government Licence); OpenStreetMap contributors (ODbL). Police-recorded data under-reports minor pedestrian injuries, and a link between an area and casualties doesn’t show cause."
-  },
-  {
-    "objectID": "posts/2026-10-greek-tavernas/index.html",
-    "href": "posts/2026-10-greek-tavernas/index.html",
-    "title": "Can you draw Greece with tavernas?",
-    "section": "",
-    "text": "After drawing the UK with its pubs, I wanted to try the same with Greece. The closest thing to a pub is probably the kafeneio, but for a map I thought tavernas, kafeneia and ouzeri together would work best.\nIt turned out to be much harder than I expected."
-  },
-  {
-    "objectID": "posts/2026-10-greek-tavernas/index.html#finding-the-data",
-    "href": "posts/2026-10-greek-tavernas/index.html#finding-the-data",
-    "title": "Can you draw Greece with tavernas?",
-    "section": "Finding the data",
-    "text": "Finding the data\nFor the UK I downloaded one register from one website, and every pub had a name, an address and coordinates. Greece doesn’t have anything like it. The food authority and the health ministry only publish summary tables of their inspections. On data.gov.gr I found only a handful of municipalities, out of 332, that publish their list of licensed shops, and some of those are PDFs or stop in 2018.\nSo I used OpenStreetMap. Even that wasn’t easy: the servers refused my downloads, so I had to download it by hand in the browser, and it crashed my computer. In the end I had 33,951 restaurants, cafés and bars, and I sorted them into tavernas, kafeneia and ouzeri using their names and tags.\n\n\n\nTavernas, ouzeri and kafeneia in OpenStreetMap."
-  },
-  {
-    "objectID": "posts/2026-10-greek-tavernas/index.html#a-map-of-tavernas-or-of-tourists",
-    "href": "posts/2026-10-greek-tavernas/index.html#a-map-of-tavernas-or-of-tourists",
-    "title": "Can you draw Greece with tavernas?",
-    "section": "A map of tavernas, or of tourists?",
-    "text": "A map of tavernas, or of tourists?\nThe islands and the coast light up, and much of the north is dark. Then I compared the map with ELSTAT’s official counts of restaurants, bars and cafés, and found out that OpenStreetMap has only 46% of them. On Crete and the islands it has more than 80%, but in Pella, Xanthi and Imathia only about one in ten. So the map shows where tourists go as much as where the tavernas are.\n\n\n\nHow much of each area’s businesses are on OpenStreetMap."
-  },
-  {
-    "objectID": "posts/2026-10-greek-tavernas/index.html#the-crisis-and-the-names",
-    "href": "posts/2026-10-greek-tavernas/index.html#the-crisis-and-the-names",
-    "title": "Can you draw Greece with tavernas?",
-    "section": "The crisis and the names",
-    "text": "The crisis and the names\nELSTAT’s numbers show about 15% fewer bars, cafés and restaurants since 2011, but twice as many people working in bars and cafés. It’s the same as the UK pubs: fewer places, but bigger ones. Attica gained bars and cafés from 2016 to 2023, while the north lost about a quarter.\nThe fun part was the names again. Greece doesn’t have a Red Lion. The most common name is Panorama, with only 38, followed by Akrogiali (the seashore), Nikos and, of course, Zorbas."
-  },
-  {
-    "objectID": "posts/2026-10-greek-tavernas/index.html#try-it",
-    "href": "posts/2026-10-greek-tavernas/index.html#try-it",
-    "title": "Can you draw Greece with tavernas?",
-    "section": "Try it",
-    "text": "Try it\n\nThe story and map: etymo.co.uk/greek-tavernas\nCode: github.com/eritrouib/greek-tavernas\n\nI made it with OpenStreetMap and ELSTAT data, Python and Leaflet, coding with Claude.\n\nData: © OpenStreetMap contributors (ODbL); ELSTAT Statistical Business Register and population estimates."
-  },
-  {
-    "objectID": "posts/2026-10-andros-web-map/index.html",
-    "href": "posts/2026-10-andros-web-map/index.html",
-    "title": "Andros on one page: rebuilding my island map, seven years on",
-    "section": "",
-    "text": "Back in 2019, during my MSc in Geoinformatics, I made a set of maps of Andros. I collected the base data from free online sources, created the digital terrain models myself and designed two printed maps at 1:150,000, one with contours and one with hypsometric tints and hillshading. I also made a web version, served through GeoServer with OpenLayers on top.\nIt worked well for the course. But it needed a map server running all the time, a styling file for every layer and someone to look after it. That’s not something a small island can realistically keep going."
-  },
-  {
-    "objectID": "posts/2026-10-andros-web-map/index.html#what-was-missing",
-    "href": "posts/2026-10-andros-web-map/index.html#what-was-missing",
-    "title": "Andros on one page: rebuilding my island map, seven years on",
-    "section": "What was missing",
-    "text": "What was missing\nBefore starting, I had a look at what’s already out there. The Municipality of Andros publishes its maps as static images. The best interactive maps of the island come from others: Andros Routes, a non-profit, looks after the trail network, and there are hiking maps you can buy. What I couldn’t find was a simple, free map of the whole island that also gives coordinates in the Greek Grid (ΕΓΣΑ87), the system local engineers work with."
-  },
-  {
-    "objectID": "posts/2026-10-andros-web-map/index.html#the-map",
-    "href": "posts/2026-10-andros-web-map/index.html#the-map",
-    "title": "Andros on one page: rebuilding my island map, seven years on",
-    "section": "The map",
-    "text": "The map\nThe new version is one web page, with no server behind it:\n\nRelief first. The 13 m terrain model and the hillshade are blended into one relief image, so you can read the shape of the island straight away.\nNames that suit the zoom. The generalised 1:150,000 settlements from 2019 decide which village names you see when you zoom out, so that work is still being used.\nClick anywhere to get the elevation and the coordinates in both WGS84 and ΕΓΣΑ87.\nDraw a route to get its length, ascent, descent and an elevation profile.\nGreek and English, with a search that doesn’t mind accents, and its own symbol for every kind of feature.\nOpenStreetMap layers you can switch on for everyday use: health centres, pharmacies, police and fire stations, municipal offices, fuel, bus stops, springs, viewpoints and the waymarked trails. Each trail opens its own elevation profile.\n\n\n\n\nElevation profile from Chora across the island’s central ridge"
-  },
-  {
-    "objectID": "posts/2026-10-andros-web-map/index.html#how-i-built-it",
-    "href": "posts/2026-10-andros-web-map/index.html#how-i-built-it",
-    "title": "Andros on one page: rebuilding my island map, seven years on",
-    "section": "How I built it",
-    "text": "How I built it\nI rebuilt it in Python, coding with Claude: GeoPandas for the vector layers, rasterio for the terrain and Leaflet for the map."
-  },
-  {
-    "objectID": "posts/2026-10-andros-web-map/index.html#whats-next",
-    "href": "posts/2026-10-andros-web-map/index.html#whats-next",
-    "title": "Andros on one page: rebuilding my island map, seven years on",
-    "section": "What’s next",
-    "text": "What’s next\nI’d like to explore how a map like this could be useful in a council setting, for example for the Municipality of Andros, where a single file can sit inside their existing website with one line of code.\nMap: etymo.co.uk/AndrosWebMap"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nRace to A&E: how quickly can you reach an emergency department in six European capitals?\n\n\n\nhealth\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the drive from where people live to the nearest emergency department in London, Paris, Berlin, Madrid, Rome and Athens, and turned it into a race.\n\n\n\n\n\nOct 22, 2026\n\n5 min\n\n\n\n\n\n\nCan you draw Greece with tavernas?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nGreece\n\nPython\n\n\n\nAfter the UK pubs I tried the same with Greek tavernas, and found out how hard it is to get the data in Greece.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nCan you draw Albania with its bar-kafe?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nAlbania\n\nPython\n\n\n\nAfter the UK pubs and the Greek tavernas, I couldn’t leave out Albania, my country of origin.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nLast orders? Drawing the UK with its pubs\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nPython\n\n\n\nI mapped 38,000 pubs and bars as dots, checked whether COVID closed them, and had far too much fun with pub names.\n\n\n\n\n\nOct 20, 2026\n\n2 min\n\n\n\n\n\n\nAndros on one page: rebuilding my island map, seven years on\n\n\n\ncartography\n\nweb mapping\n\nPython\n\n\n\nA 2019 cartography project on Andros, rebuilt as an interactive web map that a small island municipality could host without a map server.\n\n\n\n\n\nOct 19, 2026\n\n3 min\n\n\n\n\n\n\nDo motorcyclists follow variable message signs? What 105 riders in Athens told us\n\n\n\ntransport\n\nsmart cities\n\nresearch\n\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n3 min\n\n\n\n\n\n\nHow far is everything? Walking London’s 15-minute city\n\n\n\nwalkability\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.\n\n\n\n\n\nOct 10, 2026\n\n6 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them again for London, using open data and open-source tools.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "2026 · Python, OSMnx, SciPy, GHSL, Eurostat GISCO, deck.gl\n\nHow quickly can people reach an emergency department by car in London, Paris, Berlin, Madrid, Rome and Athens? I defined each city the same way (the UN/Eurostat urban centre), measured drive times along every road from 100 m population cells to the nearest A&E, and made an animated map where the network lights up from every hospital at once, with busy-traffic and click-anywhere views. Inspired by Milan Janosov’s reachable-bakeries maps.\n\nWatch the race Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, SciPy, network analysis, Leaflet\n\nHow much of London is a 15-minute city on foot? Walking distances along every street, footpath and park path, from 454,115 points on London’s residential streets to the nearest GP, pharmacy, primary school, food shop, park and station, compared with straight-line distance and broken down by borough and deprivation. Click any front door on the dashboard and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes.\n\nDashboard Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nI analysed every pedestrian casualty recorded by the police in Greater London from 2021 to 2025. I found the hotspots along the street network with network kernel density and Getis-Ord Gi*, used a negative binomial model to look at the built environment, and measured drive times to the major trauma centres. In the dashboard you can explore any place with the spotlight, play through the years, download the data as CSV and ask the AI assistant questions in plain English.\n\nDashboard Code Write-up\n\n\n\n\n\nMSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL, statsmodels, mgwr, Leaflet\n\nI rebuilt my MSc thesis on 1,318 pedestrian collisions in Athens (2008–2017) as open code. I used network kernel density along the streets, emerging hotspots over the ten years, Local Moran’s I, and walking distances to bars, schools, crossings and bus stops. The negative binomial model showed that collisions follow how busy a place is, and once that is taken into account, bars no longer explain them. GWR shows where each factor matters. The emergency services dashboard has the hospital duty rota (εφημερίες), and you can click anywhere to see the nearest hospitals, police and fire stations.\n\nDashboard Story Code\n\n\n\n\n\n2026 · Python, GeoPandas, SciPy, Leaflet · FSA and ONS open data\n\nA fun data story. I downloaded the food hygiene register and drew all 38,000 pubs and bars as dots, without any coastline or roads, and the UK still shows up. Then I checked whether COVID made a difference and found that the big wave of closures came in 2008, and that it was mostly the small pubs that closed. I also looked at the most common pub names, the streets that are basically a pub crawl and the furthest you can get from a pint. You can check how pubby your postcode is too.\n\nStory Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, Leaflet · OpenStreetMap and ELSTAT\n\nThe Greek follow-up to the pubs. Greece has no register like the UK, so I used OpenStreetMap and drew 6,300 tavernas, kafeneia and ouzeri as dots. When I compared it with ELSTAT, the map turned out to have less than half of the places, and much fewer in the north than on the islands. I also looked at how bars and cafés changed since the crisis and at the most common taverna names (Panorama wins, there’s no Red Lion).\n\nStory Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, Leaflet · OpenStreetMap and INSTAT\n\nThe third one, for Albania, my country of origin. I drew Albania with 7,500 bar-kafe, restaurants, byrektore and zgara from OpenStreetMap. INSTAT was easy to download from, but it only counts cafés together with hotels and restaurants, and the last count by county is from 2010. The best part is the names: Albania’s Red Lion is called “Bar Kafe”, with 170 places called just that.\n\nStory Code Write-up"
-  },
-  {
-    "objectID": "projects.html#spatial-analysis",
-    "href": "projects.html#spatial-analysis",
-    "title": "Projects",
-    "section": "",
-    "text": "2026 · Python, OSMnx, SciPy, GHSL, Eurostat GISCO, deck.gl\n\nHow quickly can people reach an emergency department by car in London, Paris, Berlin, Madrid, Rome and Athens? I defined each city the same way (the UN/Eurostat urban centre), measured drive times along every road from 100 m population cells to the nearest A&E, and made an animated map where the network lights up from every hospital at once, with busy-traffic and click-anywhere views. Inspired by Milan Janosov’s reachable-bakeries maps.\n\nWatch the race Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, SciPy, network analysis, Leaflet\n\nHow much of London is a 15-minute city on foot? Walking distances along every street, footpath and park path, from 454,115 points on London’s residential streets to the nearest GP, pharmacy, primary school, food shop, park and station, compared with straight-line distance and broken down by borough and deprivation. Click any front door on the dashboard and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes.\n\nDashboard Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nI analysed every pedestrian casualty recorded by the police in Greater London from 2021 to 2025. I found the hotspots along the street network with network kernel density and Getis-Ord Gi*, used a negative binomial model to look at the built environment, and measured drive times to the major trauma centres. In the dashboard you can explore any place with the spotlight, play through the years, download the data as CSV and ask the AI assistant questions in plain English.\n\nDashboard Code Write-up\n\n\n\n\n\nMSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL, statsmodels, mgwr, Leaflet\n\nI rebuilt my MSc thesis on 1,318 pedestrian collisions in Athens (2008–2017) as open code. I used network kernel density along the streets, emerging hotspots over the ten years, Local Moran’s I, and walking distances to bars, schools, crossings and bus stops. The negative binomial model showed that collisions follow how busy a place is, and once that is taken into account, bars no longer explain them. GWR shows where each factor matters. The emergency services dashboard has the hospital duty rota (εφημερίες), and you can click anywhere to see the nearest hospitals, police and fire stations.\n\nDashboard Story Code\n\n\n\n\n\n2026 · Python, GeoPandas, SciPy, Leaflet · FSA and ONS open data\n\nA fun data story. I downloaded the food hygiene register and drew all 38,000 pubs and bars as dots, without any coastline or roads, and the UK still shows up. Then I checked whether COVID made a difference and found that the big wave of closures came in 2008, and that it was mostly the small pubs that closed. I also looked at the most common pub names, the streets that are basically a pub crawl and the furthest you can get from a pint. You can check how pubby your postcode is too.\n\nStory Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, Leaflet · OpenStreetMap and ELSTAT\n\nThe Greek follow-up to the pubs. Greece has no register like the UK, so I used OpenStreetMap and drew 6,300 tavernas, kafeneia and ouzeri as dots. When I compared it with ELSTAT, the map turned out to have less than half of the places, and much fewer in the north than on the islands. I also looked at how bars and cafés changed since the crisis and at the most common taverna names (Panorama wins, there’s no Red Lion).\n\nStory Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, Leaflet · OpenStreetMap and INSTAT\n\nThe third one, for Albania, my country of origin. I drew Albania with 7,500 bar-kafe, restaurants, byrektore and zgara from OpenStreetMap. INSTAT was easy to download from, but it only counts cafés together with hotels and restaurants, and the last count by county is from 2010. The best part is the names: Albania’s Red Lion is called “Bar Kafe”, with 170 places called just that.\n\nStory Code Write-up"
-  },
-  {
-    "objectID": "projects.html#planning-and-geospatial-tools",
-    "href": "projects.html#planning-and-geospatial-tools",
-    "title": "Projects",
-    "section": "Planning and geospatial tools",
-    "text": "Planning and geospatial tools\n\n\nArticle 4 and constraints checker, Kingston\n\nWeb tool · JavaScript, Leaflet, Planning Data API, proj4\n\nI built this to help with Local Land Charges searches at the Royal Borough of Kingston upon Thames. You can check one property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is checked through the government’s Planning Data service for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Anything within 10, 25 or 50 m of a boundary is flagged as borderline. Article 4 results are also checked against Kingston’s own boundaries, and the tool still works offline if the service is down.\n\nOpen the checker Code\n\n\n\nRetrofit planning checker\n\nWeb tool · JavaScript, Leaflet, Planning Data API, HM Land Registry INSPIRE\n\nCan this home have a heat pump, solar panels or insulation without planning permission? You enter an address, postcode or grid reference anywhere in England. For each common energy improvement, the checker tells you if it’s usually permitted development, allowed with limits, needs prior approval, or needs planning permission or listed building consent, and links to the rule. It checks listed buildings, conservation areas, Article 4 directions, protected trees, flood zones and more across the whole Land Registry plot, and takes the type of home into account. There’s also a batch mode for whole retrofit programmes. If a council hasn’t published its data, the checker says “check with the council”, so it never says “allowed” when it can’t know.\n\nOpen the checker Code\n\n\n\nPlanning Data Tracker\n\nWeb tool and weekly pipeline · Python, GitHub Actions, Leaflet\n\nWhile building the Kingston checker, I found 113 Article 4 areas that didn’t link to their directions. That made me realise planning tools can only answer from what councils publish, so “no tree preservation order” might really mean “we don’t know”. This tracker shows, for all 337 local planning authorities in England, which of 10 council datasets have records in their area, from Article 4 and conservation areas to brownfield land and local green spaces. It also flags data problems with Article 4 directions. It updates every week, and you can re-check any council live.\n\nOpen the tracker Code\n\n\n\nTakeaways near schools\n\nWeb tool · JavaScript, Leaflet, FSA and DfE open data\n\nMany councils restrict new hot-food takeaways near schools. For any council in England, this maps every open school with a zone around it (200 to 800 m, you choose), every takeaway from the food hygiene data, and which schools have the most takeaways nearby. You can choose which school phases count, check if a proposed site falls inside a zone and download the results as CSV. I’ve listed the limits too: distances are straight lines, and food hygiene categories are not the same as planning use classes.\n\nOpen the tool Code"
-  },
-  {
-    "objectID": "projects.html#remote-sensing",
-    "href": "projects.html#remote-sensing",
-    "title": "Projects",
-    "section": "Remote sensing",
-    "text": "Remote sensing\n\n\nGreen Change Monitor\n\nWeb tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js\n\nWhere were trees and green space lost or gained? You pick an area and two years, and it maps where vegetation was lost or gained using free Sentinel-2 imagery. It all runs in the browser. It finds the clearest images, masks the clouds, makes a cloud-free greenness map for each year and compares them. In England, it flags changes inside conservation areas and tree preservation areas, so planning and enforcement teams know where to look first. You can download the results as GeoJSON or CSV. It shows you where to look, but it isn’t evidence on its own.\n\nOpen the monitor Code"
-  },
-  {
-    "objectID": "projects.html#biodiversity",
-    "href": "projects.html#biodiversity",
-    "title": "Projects",
-    "section": "Biodiversity",
-    "text": "Biodiversity\n\n\nWildScope NW\n\n2026 · Prototype · Python, Streamlit, GBIF, Natural England SSSIs\n\nA regional wildlife observatory for North West England: Sites of Special Scientific Interest, species records and simple conservation views in one dashboard, with pages for protected areas, a species explorer and conservation insights. The live version runs on synthetic demo data; a real-data mode pulls Natural England SSSI boundaries and GBIF occurrence records, shown only as coarse grid cells so sensitive locations aren’t exposed. An early prototype: an official regional boundary, complete GBIF downloads and uncertainty-aware analysis are next.\n\nOpen the app Code"
-  },
-  {
-    "objectID": "projects.html#cartography",
-    "href": "projects.html#cartography",
-    "title": "Projects",
-    "section": "Cartography",
-    "text": "Cartography\n\n\nAndros island web map\n\n2019 MSc cartography project, rebuilt 2026 · Python, GeoPandas, rasterio, Leaflet\n\nI made an interactive map of the whole island of Andros in a single web page, from my own 2019 data and 13 m terrain model. It has relief shading and you can search for villages, beaches, churches and monuments. Click anywhere to get the elevation and the coordinates in WGS84 and Greek Grid (ΕΓΣΑ87), or draw a route to see its elevation profile. You can also switch on OpenStreetMap layers for public services, springs and walking trails. It doesn’t need a map server, so a small municipality could host it easily.\n\nOpen the map Code Write-up"
-  },
-  {
-    "objectID": "projects.html#reality-checks",
-    "href": "projects.html#reality-checks",
-    "title": "Projects",
-    "section": "Reality Checks",
-    "text": "Reality Checks\nTen small calculators based on research, so you can try the evidence on yourself. They’re all in one place at realitychecks.app. Each one explains what it can and can’t tell you: the results are population averages, and they can’t predict what will happen to you personally.\n\n\nHealth\n\n5 calculators\n\n\nWhat’s your lifestyle costing you?Life expectancy and everyday habits\nHow much is your exercise adding to your life?Cardio, strength, steps and sitting\nWhat is your diet really doing to you?Against the Mediterranean diet and NHS guidance\nHow much sleep are you actually getting?Sleep debt and recovery\nAre you actually hydrated?A personalised daily target\n\n\n\nMoney and time\n\n5 calculators\n\n\nShould you rent or buy?Break-even point across UK and European cities\nDoes your salary actually cover your life?Savings rate, and how far it goes in 20 cities\nWhat’s your coffee habit really costing you?And what it could grow to if invested\nWhat are your meetings actually costing?In money and lost focus time\nWhat is social media really costing you?Days of your life, added up\n\n\n\n\nVisit Reality Checks"
-  },
-  {
-    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html",
-    "href": "posts/2026-10-motorcycles-and-message-signs/index.html",
-    "title": "Do motorcyclists follow variable message signs? What 105 riders in Athens told us",
-    "section": "",
-    "text": "Athens has had variable message signs (VMS) since 2004. These are the electronic panels over the main roads, 24 of them, run by the city’s traffic management centre. They warn drivers about accidents, roadworks and demonstrations ahead. The messages are designed for car drivers, but a big part of the traffic in Athens is on two wheels. Motorcycles and scooters filter between lanes and rarely sit in the queue the sign is warning about.\nSo with Ioanna Spyropoulou at the National Technical University of Athens, I wanted to find out: do riders actually change their route when a variable message sign tells them there’s a problem ahead?"
-  },
-  {
-    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html#how-we-did-it",
-    "href": "posts/2026-10-motorcycles-and-message-signs/index.html#how-we-did-it",
-    "title": "Do motorcyclists follow variable message signs? What 105 riders in Athens told us",
-    "section": "How we did it",
-    "text": "How we did it\nWe stopped riders across Athens and asked them to fill in a questionnaire. This wasn’t easy, because many said no. In the end we had 105 complete answers. Each rider saw a set of made-up but realistic VMS messages. We changed three things in the messages: what the incident was, how serious its impact was, and whether the sign suggested another route. For each message, riders said how likely they were to divert. Then we used probit models to see which parts of the message, and which kinds of rider, made a diversion more likely."
-  },
-  {
-    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html#what-we-found",
-    "href": "posts/2026-10-motorcycles-and-message-signs/index.html#what-we-found",
-    "title": "Do motorcyclists follow variable message signs? What 105 riders in Athens told us",
-    "section": "What we found",
-    "text": "What we found\n\nRiders like the VMS, but they don’t feel the signs are for them. Most found them useful, but 56% didn’t want more money spent on them, and 36% wanted the VMS to show travel times based on how two-wheelers actually move.\nThe message matters. The type of incident and how big its impact was both changed whether riders diverted. Roadworks made them most likely to change route.\nA suggested route doesn’t. Car drivers and professional drivers in earlier studies were influenced by a suggested alternative route, but riders weren’t. They find their own way.\nThe rider matters too. Riders on bigger motorcycles were more likely to divert, probably because they can’t get through traffic as easily. Age, gender and habits such as breaking traffic rules also played a part."
-  },
-  {
-    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html#why-it-matters",
-    "href": "posts/2026-10-motorcycles-and-message-signs/index.html#why-it-matters",
-    "title": "Do motorcyclists follow variable message signs? What 105 riders in Athens told us",
-    "section": "Why it matters",
-    "text": "Why it matters\nSmart city tools are often designed for one kind of road user. If a city wants its information systems to work for everyone, it needs to ask each group what they need. For riders in Athens, that means information based on how they move, which is different from how cars queue.\n\nSpyropoulou, I. and Impersimi, E. (2020). Powered-two-wheelers and smart cities: the case of variable message signs. IET Intelligent Transport Systems, 14(14), 2021–2029. doi.org/10.1049/iet-its.2019.0702"
-  },
-  {
-    "objectID": "posts/2026-10-race-to-ae/index.html",
-    "href": "posts/2026-10-race-to-ae/index.html",
-    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
-    "section": "",
-    "text": "In an emergency, minutes matter. So I asked a simple question of six European capitals: how long does it take to drive from where people live to the nearest emergency department?\nThe idea came from Milan Janosov’s animated maps of reachable bakeries in big cities, where the street network grows out from a point and lights up in colour. I wanted to try the same approach on emergency care.\nThe answer is easier to see than to read. I started the clock at every A&E in each city at the same moment and let the road network light up as each street came within reach. The last streets to light up are the gaps.\nAll six capitals at once: the clock runs to 30 minutes in about 10 seconds.\nPlay the race for any of the six cities on the dashboard, switch to busy traffic, or click anywhere to see how far the nearest A&E is."
-  },
-  {
-    "objectID": "posts/2026-10-race-to-ae/index.html#comparing-like-with-like",
-    "href": "posts/2026-10-race-to-ae/index.html#comparing-like-with-like",
-    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
-    "section": "Comparing like with like",
-    "text": "Comparing like with like\nComparing capitals is harder than it looks, because their administrative boundaries mean very different things: the City of Paris is tiny next to Greater London, and the Municipality of Rome includes farmland. So I used the same definition of a city everywhere, the urban centre from the UN and Eurostat’s Degree of Urbanisation: all the neighbouring square kilometres with at least 1,500 residents each.\n\nPeople: the EU’s Global Human Settlement Layer, population per 100 m square for 2025.\nEmergency departments: for Paris and Athens, Eurostat’s European register of healthcare services, compiled from national health ministries and statistics offices, which marks hospitals that provide emergency care; and for London, Berlin, Madrid and Rome, hospitals tagged with an emergency department in OpenStreetMap, which I checked by hand and cleaned (eye hospitals, dental and primary care clinics, a closed A&E and similar sites taken out). Hospitals up to 8 km outside each urban centre count.\nRoads: OpenStreetMap, with the same typical urban driving speeds in every city (lower where a lower limit is posted), and one-way streets respected."
-  },
-  {
-    "objectID": "posts/2026-10-race-to-ae/index.html#the-race",
-    "href": "posts/2026-10-race-to-ae/index.html#the-race",
-    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
-    "section": "The race",
-    "text": "The race\nAt 15 minutes the race is close: between 95.3% and 99.7% of people in every capital can drive to an emergency department in that time on clear roads. The real differences are in the first ten minutes.\n\n\n\n\n\n\n\n\n\n\n\n\nCity\nPeople\nA&Es\nWithin 10 min\nWithin 15 min\nTypical drive (min)\nSlowest 10% (min+)\n\n\n\n\nAthens\n3.2m\n45\n94%\n99.7%\n4.3\n9\n\n\nParis\n9.3m\n71\n93%\n98.9%\n5.0\n9\n\n\nBerlin\n3.5m\n33\n85%\n96.7%\n5.9\n11\n\n\nRome\n2.4m\n18\n81%\n95.3%\n6.1\n12\n\n\nLondon\n10.4m\n31\n74%\n95.4%\n7.6\n13\n\n\nMadrid\n5.7m\n23\n72%\n98.0%\n7.2\n13\n\n\n\n\n\n\nShare of people who can reach an A&E within each number of minutes."
-  },
-  {
-    "objectID": "posts/2026-10-race-to-ae/index.html#lesson-one-the-race-is-won-in-the-first-ten-minutes",
-    "href": "posts/2026-10-race-to-ae/index.html#lesson-one-the-race-is-won-in-the-first-ten-minutes",
-    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
-    "section": "Lesson one: the race is won in the first ten minutes",
-    "text": "Lesson one: the race is won in the first ten minutes\nWithin ten minutes, 94% of people in Athens can reach an A&E, against 72% in Madrid. The typical (median) drive ranges from 4.3 minutes in Athens to 7.6 in London. For most journeys a few minutes make little difference; for a stroke, a heart attack or a serious bleed, they are exactly the minutes that matter."
-  },
-  {
-    "objectID": "posts/2026-10-race-to-ae/index.html#lesson-two-it-isnt-just-how-many-hospitals",
-    "href": "posts/2026-10-race-to-ae/index.html#lesson-two-it-isnt-just-how-many-hospitals",
-    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
-    "section": "Lesson two: it isn’t just how many hospitals",
-    "text": "Lesson two: it isn’t just how many hospitals\nAthens has an emergency department for every 70,000 people in its urban centre; London has one for every 335,000. Yet London still gets 95% of people to an A&E within 15 minutes. What decides the wait is where the hospitals sit relative to where people live, and how well the roads connect them.\n\n\n\nDrive time to the nearest A&E, each city at the same scale."
-  },
-  {
-    "objectID": "posts/2026-10-race-to-ae/index.html#lesson-three-rush-hour-eats-the-margin",
-    "href": "posts/2026-10-race-to-ae/index.html#lesson-three-rush-hour-eats-the-margin",
-    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
-    "section": "Lesson three: rush hour eats the margin",
-    "text": "Lesson three: rush hour eats the margin\nThe numbers above assume the roads are clear. If every journey takes 50% longer, being within 15 minutes means being within 10 minutes on clear roads, so the shares fall to the ten-minute column: from 95.3%–99.7% to 72%–94%. Rush hour turns a comfortable margin into a tight one.\n\n\n\nWithin 15 minutes, with clear roads and busy traffic."
-  },
-  {
-    "objectID": "posts/2026-10-race-to-ae/index.html#what-this-doesnt-tell-you",
-    "href": "posts/2026-10-race-to-ae/index.html#what-this-doesnt-tell-you",
-    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
-    "section": "What this doesn’t tell you",
-    "text": "What this doesn’t tell you\n\nThese are journeys to hospital, not ambulance response times. Ambulances on blue lights are faster; most people with a broken wrist drive or take a taxi.\nNot every emergency department treats everything. Major trauma, stroke and heart attack care is concentrated in fewer specialist centres.\nRegisters differ. Each country defines “emergency care” a little differently, and four of the six lists come from OpenStreetMap.\nAthens hospitals take turns. Greek hospitals share emergency duty on a rota, so on any given day fewer emergency departments take new patients than this map assumes. On a typical day the Athens numbers would be lower.\nTraffic is a single factor. Real congestion varies by street and by hour."
-  },
-  {
-    "objectID": "posts/2026-10-race-to-ae/index.html#then-and-now",
-    "href": "posts/2026-10-race-to-ae/index.html#then-and-now",
-    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
-    "section": "Then and now",
-    "text": "Then and now\nMy pedestrian safety project measured drive times to London’s four major trauma centres. This time, with Milan Janosov’s animations as the spark, the same idea runs on six capitals, with open data from three different sources, and turns into an animation as well as a table.\nAs before, I worked with an AI assistant, Claude. The questions, the choice of a fair city definition, the review of the hospital lists and the judgement about what the numbers mean are mine. Everything was tested on a made-up city with known answers before it ran on real ones.\n\nWatch the race: etymo.co.uk/race-to-ae\nCode and method: github.com/eritrouib/race-to-ae\n\n\nData: © OpenStreetMap contributors (ODbL); European Commission JRC, Global Human Settlement Layer GHS-POP R2023A (CC BY 4.0); Eurostat GISCO healthcare services. Drive times assume free-flowing traffic at typical urban speeds."
-  },
-  {
-    "objectID": "posts/2026-10-albania-kafe/index.html",
-    "href": "posts/2026-10-albania-kafe/index.html",
-    "title": "Can you draw Albania with its bar-kafe?",
-    "section": "",
-    "text": "After the UK pubs and the Greek tavernas, I couldn’t leave out Albania, my country of origin. In the UK it’s the pub, in Greece the taverna, and in Albania it can only be the bar-kafe. There’s one on every corner, and it’s where people meet, talk and spend hours over one coffee."
-  },
-  {
-    "objectID": "posts/2026-10-albania-kafe/index.html#the-map",
-    "href": "posts/2026-10-albania-kafe/index.html#the-map",
-    "title": "Can you draw Albania with its bar-kafe?",
-    "section": "The map",
-    "text": "The map\nI used OpenStreetMap again. This time the download worked first time, with 7,472 cafés, bars, restaurants and fast food places. I sorted them into bar-kafe (3,922), restaurants (2,345), the traditional byrektore, zgara and qebaptore (169) and pizza and fast food. Tirana, the coast and Shkodër light up the most."
-  },
-  {
-    "objectID": "posts/2026-10-albania-kafe/index.html#the-data",
-    "href": "posts/2026-10-albania-kafe/index.html#the-data",
-    "title": "Can you draw Albania with its bar-kafe?",
-    "section": "The data",
-    "text": "The data\nINSTAT was easy to reach, and its tables download straight away. The problem is what’s in them. Cafés, bars and restaurants are always counted together with hotels, and the last time they were counted by county was the 2010 enterprise census. Nationally, the number of businesses in accommodation and food fell from 20,043 in 2016 to 16,216 in 2021, then started to recover after COVID.\nWhen I compared OpenStreetMap with the 2010 count, I found that Shkodër and Kukës have more places on the map today than were counted in 2010, while Tirana has only 38%. So someone has mapped the north very carefully."
-  },
-  {
-    "objectID": "posts/2026-10-albania-kafe/index.html#the-names",
-    "href": "posts/2026-10-albania-kafe/index.html#the-names",
-    "title": "Can you draw Albania with its bar-kafe?",
-    "section": "The names",
-    "text": "The names\nThe fun part again was the names. The UK has 361 Red Lions and Greece has 38 Panoramas. In Albania, 170 places are called just “Bar Kafe”, with nothing else. After that come the chains, Mon Chéri, Mulliri i Vjetër and Sophie, and Panorama made it across the border too. You can also see the Italian influence, with 456 names that have an Italian word in them.\n\n\n\nThe most common names."
-  },
-  {
-    "objectID": "posts/2026-10-albania-kafe/index.html#try-it",
-    "href": "posts/2026-10-albania-kafe/index.html#try-it",
-    "title": "Can you draw Albania with its bar-kafe?",
-    "section": "Try it",
-    "text": "Try it\n\nThe story and map: etymo.co.uk/albania-kafe\nCode: github.com/eritrouib/albania-kafe\n\nI made it with OpenStreetMap and INSTAT data, Python and Leaflet, coding with Claude.\n\nData: © OpenStreetMap contributors (ODbL); INSTAT Structural Business Statistics, Business Registers, 2010 Economic Enterprises Census and population estimates."
+    "text": "I’m Eriola Trungu Impersimi, a Government Operational Researcher and geospatial analyst. I’ve worked with quantitative, geospatial and statistical methods for more than 15 years, in government, academia and the private sector.\nI like taking messy data and making it clear, explaining uncertainty, and building tools that help people make decisions. Lately I’ve been trying out how AI can make spatial analysis faster and easier for more people, while keeping it rigorous.\nWhat I write about here\n\nSpatial analysis and mapping, from road safety to nature-based solutions\nStatistics and modelling for decisions, including forecasting and uncertainty\nData quality and reproducible pipelines\nWorking with AI as an analyst: what it speeds up, and what still needs judgement\n\nI hold an MSc in Geoinformatics from the National Technical University of Athens, where my thesis analysed pedestrian collisions and the built environment in Athens.\nWhy etymo? It comes from the Greek etymon (ἔτυμον), the true meaning of something. That’s what I look for in data. And ET is me.\nWork with me\nI make map prints, for walls as well as reports, and I build dashboards and tools. If you’d like a print from my cARTography page, a map of your own place, or a tool for your team, email me at eriolaib@gmail.com."
   },
   {
     "objectID": "posts/2026-10-15-minute-london/index.html",
@@ -441,10 +91,381 @@
     "text": "What’s next\nThree things. Using address points (UPRNs) instead of street points for homes. Turning the takeaway exclusion zones in my Takeaways Near Schools tool into real walking distances. And running the same code on other cities, since nothing in it is specific to London.\n\nExplore the dashboard: etymo.co.uk/london-15-minute\nCode and method: github.com/eritrouib/london-15-minute\n\n\nData: OpenStreetMap contributors (ODbL); Department for Education, ONS and MHCLG (Open Government Licence). Walking times assume a constant pace and ignore waiting at crossings, hills and steps, so real walks are a little longer."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/2026-10-albania-kafe/index.html",
+    "href": "posts/2026-10-albania-kafe/index.html",
+    "title": "Can you draw Albania with its bar-kafe?",
     "section": "",
-    "text": "I’m Eriola Trungu Impersimi, a Government Operational Researcher and geospatial analyst. I’ve worked with quantitative, geospatial and statistical methods for more than 15 years, in government, academia and the private sector.\nI like taking messy data and making it clear, explaining uncertainty, and building tools that help people make decisions. Lately I’ve been trying out how AI can make spatial analysis faster and easier for more people, while keeping it rigorous.\nWhat I write about here\n\nSpatial analysis and mapping, from road safety to nature-based solutions\nStatistics and modelling for decisions, including forecasting and uncertainty\nData quality and reproducible pipelines\nWorking with AI as an analyst: what it speeds up, and what still needs judgement\n\nI hold an MSc in Geoinformatics from the National Technical University of Athens, where my thesis analysed pedestrian collisions and the built environment in Athens.\nWhy etymo? It comes from the Greek etymon (ἔτυμον), the true meaning of something. That’s what I look for in data. And ET is me."
+    "text": "After the UK pubs and the Greek tavernas, I couldn’t leave out Albania, my country of origin. In the UK it’s the pub, in Greece the taverna, and in Albania it can only be the bar-kafe. There’s one on every corner, and it’s where people meet, talk and spend hours over one coffee."
+  },
+  {
+    "objectID": "posts/2026-10-albania-kafe/index.html#the-map",
+    "href": "posts/2026-10-albania-kafe/index.html#the-map",
+    "title": "Can you draw Albania with its bar-kafe?",
+    "section": "The map",
+    "text": "The map\nI used OpenStreetMap again. This time the download worked first time, with 7,472 cafés, bars, restaurants and fast food places. I sorted them into bar-kafe (3,922), restaurants (2,345), the traditional byrektore, zgara and qebaptore (169) and pizza and fast food. Tirana, the coast and Shkodër light up the most."
+  },
+  {
+    "objectID": "posts/2026-10-albania-kafe/index.html#the-data",
+    "href": "posts/2026-10-albania-kafe/index.html#the-data",
+    "title": "Can you draw Albania with its bar-kafe?",
+    "section": "The data",
+    "text": "The data\nINSTAT was easy to reach, and its tables download straight away. The problem is what’s in them. Cafés, bars and restaurants are always counted together with hotels, and the last time they were counted by county was the 2010 enterprise census. Nationally, the number of businesses in accommodation and food fell from 20,043 in 2016 to 16,216 in 2021, then started to recover after COVID.\nWhen I compared OpenStreetMap with the 2010 count, I found that Shkodër and Kukës have more places on the map today than were counted in 2010, while Tirana has only 38%. So someone has mapped the north very carefully."
+  },
+  {
+    "objectID": "posts/2026-10-albania-kafe/index.html#the-names",
+    "href": "posts/2026-10-albania-kafe/index.html#the-names",
+    "title": "Can you draw Albania with its bar-kafe?",
+    "section": "The names",
+    "text": "The names\nThe fun part again was the names. The UK has 361 Red Lions and Greece has 38 Panoramas. In Albania, 170 places are called just “Bar Kafe”, with nothing else. After that come the chains, Mon Chéri, Mulliri i Vjetër and Sophie, and Panorama made it across the border too. You can also see the Italian influence, with 456 names that have an Italian word in them.\n\n\n\nThe most common names."
+  },
+  {
+    "objectID": "posts/2026-10-albania-kafe/index.html#try-it",
+    "href": "posts/2026-10-albania-kafe/index.html#try-it",
+    "title": "Can you draw Albania with its bar-kafe?",
+    "section": "Try it",
+    "text": "Try it\n\nThe story and map: etymo.co.uk/albania-kafe\nCode: github.com/eritrouib/albania-kafe\n\nI made it with OpenStreetMap and INSTAT data, Python and Leaflet, coding with Claude.\n\nData: © OpenStreetMap contributors (ODbL); INSTAT Structural Business Statistics, Business Registers, 2010 Economic Enterprises Census and population estimates."
+  },
+  {
+    "objectID": "posts/2026-10-race-to-ae/index.html",
+    "href": "posts/2026-10-race-to-ae/index.html",
+    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
+    "section": "",
+    "text": "In an emergency, minutes matter. So I asked a simple question of six European capitals: how long does it take to drive from where people live to the nearest emergency department?\nThe idea came from Milan Janosov’s animated maps of reachable bakeries in big cities, where the street network grows out from a point and lights up in colour. I wanted to try the same approach on emergency care.\nThe answer is easier to see than to read. I started the clock at every A&E in each city at the same moment and let the road network light up as each street came within reach. The last streets to light up are the gaps.\nAll six capitals at once: the clock runs to 30 minutes in about 10 seconds.\nPlay the race for any of the six cities on the dashboard, switch to busy traffic, or click anywhere to see how far the nearest A&E is."
+  },
+  {
+    "objectID": "posts/2026-10-race-to-ae/index.html#comparing-like-with-like",
+    "href": "posts/2026-10-race-to-ae/index.html#comparing-like-with-like",
+    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
+    "section": "Comparing like with like",
+    "text": "Comparing like with like\nComparing capitals is harder than it looks, because their administrative boundaries mean very different things: the City of Paris is tiny next to Greater London, and the Municipality of Rome includes farmland. So I used the same definition of a city everywhere, the urban centre from the UN and Eurostat’s Degree of Urbanisation: all the neighbouring square kilometres with at least 1,500 residents each.\n\nPeople: the EU’s Global Human Settlement Layer, population per 100 m square for 2025.\nEmergency departments: for Paris and Athens, Eurostat’s European register of healthcare services, compiled from national health ministries and statistics offices, which marks hospitals that provide emergency care; and for London, Berlin, Madrid and Rome, hospitals tagged with an emergency department in OpenStreetMap, which I checked by hand and cleaned (eye hospitals, dental and primary care clinics, a closed A&E and similar sites taken out). Hospitals up to 8 km outside each urban centre count.\nRoads: OpenStreetMap, with the same typical urban driving speeds in every city (lower where a lower limit is posted), and one-way streets respected."
+  },
+  {
+    "objectID": "posts/2026-10-race-to-ae/index.html#the-race",
+    "href": "posts/2026-10-race-to-ae/index.html#the-race",
+    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
+    "section": "The race",
+    "text": "The race\nAt 15 minutes the race is close: between 95.3% and 99.7% of people in every capital can drive to an emergency department in that time on clear roads. The real differences are in the first ten minutes.\n\n\n\n\n\n\n\n\n\n\n\n\nCity\nPeople\nA&Es\nWithin 10 min\nWithin 15 min\nTypical drive (min)\nSlowest 10% (min+)\n\n\n\n\nAthens\n3.2m\n45\n94%\n99.7%\n4.3\n9\n\n\nParis\n9.3m\n71\n93%\n98.9%\n5.0\n9\n\n\nBerlin\n3.5m\n33\n85%\n96.7%\n5.9\n11\n\n\nRome\n2.4m\n18\n81%\n95.3%\n6.1\n12\n\n\nLondon\n10.4m\n31\n74%\n95.4%\n7.6\n13\n\n\nMadrid\n5.7m\n23\n72%\n98.0%\n7.2\n13\n\n\n\n\n\n\nShare of people who can reach an A&E within each number of minutes."
+  },
+  {
+    "objectID": "posts/2026-10-race-to-ae/index.html#lesson-one-the-race-is-won-in-the-first-ten-minutes",
+    "href": "posts/2026-10-race-to-ae/index.html#lesson-one-the-race-is-won-in-the-first-ten-minutes",
+    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
+    "section": "Lesson one: the race is won in the first ten minutes",
+    "text": "Lesson one: the race is won in the first ten minutes\nWithin ten minutes, 94% of people in Athens can reach an A&E, against 72% in Madrid. The typical (median) drive ranges from 4.3 minutes in Athens to 7.6 in London. For most journeys a few minutes make little difference; for a stroke, a heart attack or a serious bleed, they are exactly the minutes that matter."
+  },
+  {
+    "objectID": "posts/2026-10-race-to-ae/index.html#lesson-two-it-isnt-just-how-many-hospitals",
+    "href": "posts/2026-10-race-to-ae/index.html#lesson-two-it-isnt-just-how-many-hospitals",
+    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
+    "section": "Lesson two: it isn’t just how many hospitals",
+    "text": "Lesson two: it isn’t just how many hospitals\nAthens has an emergency department for every 70,000 people in its urban centre; London has one for every 335,000. Yet London still gets 95% of people to an A&E within 15 minutes. What decides the wait is where the hospitals sit relative to where people live, and how well the roads connect them.\n\n\n\nDrive time to the nearest A&E, each city at the same scale."
+  },
+  {
+    "objectID": "posts/2026-10-race-to-ae/index.html#lesson-three-rush-hour-eats-the-margin",
+    "href": "posts/2026-10-race-to-ae/index.html#lesson-three-rush-hour-eats-the-margin",
+    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
+    "section": "Lesson three: rush hour eats the margin",
+    "text": "Lesson three: rush hour eats the margin\nThe numbers above assume the roads are clear. If every journey takes 50% longer, being within 15 minutes means being within 10 minutes on clear roads, so the shares fall to the ten-minute column: from 95.3%–99.7% to 72%–94%. Rush hour turns a comfortable margin into a tight one.\n\n\n\nWithin 15 minutes, with clear roads and busy traffic."
+  },
+  {
+    "objectID": "posts/2026-10-race-to-ae/index.html#what-this-doesnt-tell-you",
+    "href": "posts/2026-10-race-to-ae/index.html#what-this-doesnt-tell-you",
+    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
+    "section": "What this doesn’t tell you",
+    "text": "What this doesn’t tell you\n\nThese are journeys to hospital, not ambulance response times. Ambulances on blue lights are faster; most people with a broken wrist drive or take a taxi.\nNot every emergency department treats everything. Major trauma, stroke and heart attack care is concentrated in fewer specialist centres.\nRegisters differ. Each country defines “emergency care” a little differently, and four of the six lists come from OpenStreetMap.\nAthens hospitals take turns. Greek hospitals share emergency duty on a rota, so on any given day fewer emergency departments take new patients than this map assumes. On a typical day the Athens numbers would be lower.\nTraffic is a single factor. Real congestion varies by street and by hour."
+  },
+  {
+    "objectID": "posts/2026-10-race-to-ae/index.html#then-and-now",
+    "href": "posts/2026-10-race-to-ae/index.html#then-and-now",
+    "title": "Race to A&E: how quickly can you reach an emergency department in six European capitals?",
+    "section": "Then and now",
+    "text": "Then and now\nMy pedestrian safety project measured drive times to London’s four major trauma centres. This time, with Milan Janosov’s animations as the spark, the same idea runs on six capitals, with open data from three different sources, and turns into an animation as well as a table.\nAs before, I worked with an AI assistant, Claude. The questions, the choice of a fair city definition, the review of the hospital lists and the judgement about what the numbers mean are mine. Everything was tested on a made-up city with known answers before it ran on real ones.\n\nWatch the race: etymo.co.uk/race-to-ae\nCode and method: github.com/eritrouib/race-to-ae\n\n\nData: © OpenStreetMap contributors (ODbL); European Commission JRC, Global Human Settlement Layer GHS-POP R2023A (CC BY 4.0); Eurostat GISCO healthcare services. Drive times assume free-flowing traffic at typical urban speeds."
+  },
+  {
+    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html",
+    "href": "posts/2026-10-motorcycles-and-message-signs/index.html",
+    "title": "Do motorcyclists follow variable message signs? What 105 riders in Athens told us",
+    "section": "",
+    "text": "Athens has had variable message signs (VMS) since 2004. These are the electronic panels over the main roads, 24 of them, run by the city’s traffic management centre. They warn drivers about accidents, roadworks and demonstrations ahead. The messages are designed for car drivers, but a big part of the traffic in Athens is on two wheels. Motorcycles and scooters filter between lanes and rarely sit in the queue the sign is warning about.\nSo with Ioanna Spyropoulou at the National Technical University of Athens, I wanted to find out: do riders actually change their route when a variable message sign tells them there’s a problem ahead?"
+  },
+  {
+    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html#how-we-did-it",
+    "href": "posts/2026-10-motorcycles-and-message-signs/index.html#how-we-did-it",
+    "title": "Do motorcyclists follow variable message signs? What 105 riders in Athens told us",
+    "section": "How we did it",
+    "text": "How we did it\nWe stopped riders across Athens and asked them to fill in a questionnaire. This wasn’t easy, because many said no. In the end we had 105 complete answers. Each rider saw a set of made-up but realistic VMS messages. We changed three things in the messages: what the incident was, how serious its impact was, and whether the sign suggested another route. For each message, riders said how likely they were to divert. Then we used probit models to see which parts of the message, and which kinds of rider, made a diversion more likely."
+  },
+  {
+    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html#what-we-found",
+    "href": "posts/2026-10-motorcycles-and-message-signs/index.html#what-we-found",
+    "title": "Do motorcyclists follow variable message signs? What 105 riders in Athens told us",
+    "section": "What we found",
+    "text": "What we found\n\nRiders like the VMS, but they don’t feel the signs are for them. Most found them useful, but 56% didn’t want more money spent on them, and 36% wanted the VMS to show travel times based on how two-wheelers actually move.\nThe message matters. The type of incident and how big its impact was both changed whether riders diverted. Roadworks made them most likely to change route.\nA suggested route doesn’t. Car drivers and professional drivers in earlier studies were influenced by a suggested alternative route, but riders weren’t. They find their own way.\nThe rider matters too. Riders on bigger motorcycles were more likely to divert, probably because they can’t get through traffic as easily. Age, gender and habits such as breaking traffic rules also played a part."
+  },
+  {
+    "objectID": "posts/2026-10-motorcycles-and-message-signs/index.html#why-it-matters",
+    "href": "posts/2026-10-motorcycles-and-message-signs/index.html#why-it-matters",
+    "title": "Do motorcyclists follow variable message signs? What 105 riders in Athens told us",
+    "section": "Why it matters",
+    "text": "Why it matters\nSmart city tools are often designed for one kind of road user. If a city wants its information systems to work for everyone, it needs to ask each group what they need. For riders in Athens, that means information based on how they move, which is different from how cars queue.\n\nSpyropoulou, I. and Impersimi, E. (2020). Powered-two-wheelers and smart cities: the case of variable message signs. IET Intelligent Transport Systems, 14(14), 2021–2029. doi.org/10.1049/iet-its.2019.0702"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "2026 · Python, OSMnx, SciPy, GHSL, Eurostat GISCO, deck.gl\n\nHow quickly can people reach an emergency department by car in London, Paris, Berlin, Madrid, Rome and Athens? I defined each city the same way (the UN/Eurostat urban centre), measured drive times along every road from 100 m population cells to the nearest A&E, and made an animated map where the network lights up from every hospital at once, with busy-traffic and click-anywhere views. Inspired by Milan Janosov’s reachable-bakeries maps.\n\nWatch the race Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, SciPy, network analysis, Leaflet\n\nHow much of London is a 15-minute city on foot? Walking distances along every street, footpath and park path, from 454,115 points on London’s residential streets to the nearest GP, pharmacy, primary school, food shop, park and station, compared with straight-line distance and broken down by borough and deprivation. Click any front door on the dashboard and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes.\n\nDashboard Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nI analysed every pedestrian casualty recorded by the police in Greater London from 2021 to 2025. I found the hotspots along the street network with network kernel density and Getis-Ord Gi*, used a negative binomial model to look at the built environment, and measured drive times to the major trauma centres. In the dashboard you can explore any place with the spotlight, play through the years, download the data as CSV and ask the AI assistant questions in plain English.\n\nDashboard Code Write-up\n\n\n\n\n\nMSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL, statsmodels, mgwr, Leaflet\n\nI rebuilt my MSc thesis on 1,318 pedestrian collisions in Athens (2008–2017) as open code. I used network kernel density along the streets, emerging hotspots over the ten years, Local Moran’s I, and walking distances to bars, schools, crossings and bus stops. The negative binomial model showed that collisions follow how busy a place is, and once that is taken into account, bars no longer explain them. GWR shows where each factor matters. The emergency services dashboard has the hospital duty rota (εφημερίες), and you can click anywhere to see the nearest hospitals, police and fire stations.\n\nDashboard Story Code\n\n\n\n\n\n2026 · Python, GeoPandas, SciPy, Leaflet · FSA and ONS open data\n\nA fun data story. I downloaded the food hygiene register and drew all 38,000 pubs and bars as dots, without any coastline or roads, and the UK still shows up. Then I checked whether COVID made a difference and found that the big wave of closures came in 2008, and that it was mostly the small pubs that closed. I also looked at the most common pub names, the streets that are basically a pub crawl and the furthest you can get from a pint. You can check how pubby your postcode is too.\n\nStory Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, Leaflet · OpenStreetMap and ELSTAT\n\nThe Greek follow-up to the pubs. Greece has no register like the UK, so I used OpenStreetMap and drew 6,300 tavernas, kafeneia and ouzeri as dots. When I compared it with ELSTAT, the map turned out to have less than half of the places, and much fewer in the north than on the islands. I also looked at how bars and cafés changed since the crisis and at the most common taverna names (Panorama wins, there’s no Red Lion).\n\nStory Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, Leaflet · OpenStreetMap and INSTAT\n\nThe third one, for Albania, my country of origin. I drew Albania with 7,500 bar-kafe, restaurants, byrektore and zgara from OpenStreetMap. INSTAT was easy to download from, but it only counts cafés together with hotels and restaurants, and the last count by county is from 2010. The best part is the names: Albania’s Red Lion is called “Bar Kafe”, with 170 places called just that.\n\nStory Code Write-up"
+  },
+  {
+    "objectID": "projects.html#spatial-analysis",
+    "href": "projects.html#spatial-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "2026 · Python, OSMnx, SciPy, GHSL, Eurostat GISCO, deck.gl\n\nHow quickly can people reach an emergency department by car in London, Paris, Berlin, Madrid, Rome and Athens? I defined each city the same way (the UN/Eurostat urban centre), measured drive times along every road from 100 m population cells to the nearest A&E, and made an animated map where the network lights up from every hospital at once, with busy-traffic and click-anywhere views. Inspired by Milan Janosov’s reachable-bakeries maps.\n\nWatch the race Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, SciPy, network analysis, Leaflet\n\nHow much of London is a 15-minute city on foot? Walking distances along every street, footpath and park path, from 454,115 points on London’s residential streets to the nearest GP, pharmacy, primary school, food shop, park and station, compared with straight-line distance and broken down by borough and deprivation. Click any front door on the dashboard and it walks outwards along the streets in your browser, showing how far you get in 5, 10, 15 and 20 minutes.\n\nDashboard Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, OSMnx, PySAL, statsmodels, Leaflet\n\nI analysed every pedestrian casualty recorded by the police in Greater London from 2021 to 2025. I found the hotspots along the street network with network kernel density and Getis-Ord Gi*, used a negative binomial model to look at the built environment, and measured drive times to the major trauma centres. In the dashboard you can explore any place with the spotlight, play through the years, download the data as CSV and ask the AI assistant questions in plain English.\n\nDashboard Code Write-up\n\n\n\n\n\nMSc Geoinformatics, NTUA (2021), re-analysed in 2026 · Python, NetworkX, PySAL, statsmodels, mgwr, Leaflet\n\nI rebuilt my MSc thesis on 1,318 pedestrian collisions in Athens (2008–2017) as open code. I used network kernel density along the streets, emerging hotspots over the ten years, Local Moran’s I, and walking distances to bars, schools, crossings and bus stops. The negative binomial model showed that collisions follow how busy a place is, and once that is taken into account, bars no longer explain them. GWR shows where each factor matters. The emergency services dashboard has the hospital duty rota (εφημερίες), and you can click anywhere to see the nearest hospitals, police and fire stations.\n\nDashboard Story Code\n\n\n\n\n\n2026 · Python, GeoPandas, SciPy, Leaflet · FSA and ONS open data\n\nA fun data story. I downloaded the food hygiene register and drew all 38,000 pubs and bars as dots, without any coastline or roads, and the UK still shows up. Then I checked whether COVID made a difference and found that the big wave of closures came in 2008, and that it was mostly the small pubs that closed. I also looked at the most common pub names, the streets that are basically a pub crawl and the furthest you can get from a pint. You can check how pubby your postcode is too.\n\nStory Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, Leaflet · OpenStreetMap and ELSTAT\n\nThe Greek follow-up to the pubs. Greece has no register like the UK, so I used OpenStreetMap and drew 6,300 tavernas, kafeneia and ouzeri as dots. When I compared it with ELSTAT, the map turned out to have less than half of the places, and much fewer in the north than on the islands. I also looked at how bars and cafés changed since the crisis and at the most common taverna names (Panorama wins, there’s no Red Lion).\n\nStory Code Write-up\n\n\n\n\n\n2026 · Python, GeoPandas, Leaflet · OpenStreetMap and INSTAT\n\nThe third one, for Albania, my country of origin. I drew Albania with 7,500 bar-kafe, restaurants, byrektore and zgara from OpenStreetMap. INSTAT was easy to download from, but it only counts cafés together with hotels and restaurants, and the last count by county is from 2010. The best part is the names: Albania’s Red Lion is called “Bar Kafe”, with 170 places called just that.\n\nStory Code Write-up"
+  },
+  {
+    "objectID": "projects.html#planning-and-geospatial-tools",
+    "href": "projects.html#planning-and-geospatial-tools",
+    "title": "Projects",
+    "section": "Planning and geospatial tools",
+    "text": "Planning and geospatial tools\n\n\nArticle 4 and constraints checker, Kingston\n\nWeb tool · JavaScript, Leaflet, Planning Data API, proj4\n\nI built this to help with Local Land Charges searches at the Royal Borough of Kingston upon Thames. You can check one property by address, postcode or grid reference, or upload a CSV to check hundreds at once. Each location is checked through the government’s Planning Data service for Article 4 directions, conservation areas, listed buildings, tree preservation, green belt, flood zones and SSSIs. Anything within 10, 25 or 50 m of a boundary is flagged as borderline. Article 4 results are also checked against Kingston’s own boundaries, and the tool still works offline if the service is down.\n\nOpen the checker Code\n\n\n\nRetrofit planning checker\n\nWeb tool · JavaScript, Leaflet, Planning Data API, HM Land Registry INSPIRE\n\nCan this home have a heat pump, solar panels or insulation without planning permission? You enter an address, postcode or grid reference anywhere in England. For each common energy improvement, the checker tells you if it’s usually permitted development, allowed with limits, needs prior approval, or needs planning permission or listed building consent, and links to the rule. It checks listed buildings, conservation areas, Article 4 directions, protected trees, flood zones and more across the whole Land Registry plot, and takes the type of home into account. There’s also a batch mode for whole retrofit programmes. If a council hasn’t published its data, the checker says “check with the council”, so it never says “allowed” when it can’t know.\n\nOpen the checker Code\n\n\n\nPlanning Data Tracker\n\nWeb tool and weekly pipeline · Python, GitHub Actions, Leaflet\n\nWhile building the Kingston checker, I found 113 Article 4 areas that didn’t link to their directions. That made me realise planning tools can only answer from what councils publish, so “no tree preservation order” might really mean “we don’t know”. This tracker shows, for all 337 local planning authorities in England, which of 10 council datasets have records in their area, from Article 4 and conservation areas to brownfield land and local green spaces. It also flags data problems with Article 4 directions. It updates every week, and you can re-check any council live.\n\nOpen the tracker Code\n\n\n\nTakeaways near schools\n\nWeb tool · JavaScript, Leaflet, FSA and DfE open data\n\nMany councils restrict new hot-food takeaways near schools. For any council in England, this maps every open school with a zone around it (200 to 800 m, you choose), every takeaway from the food hygiene data, and which schools have the most takeaways nearby. You can choose which school phases count, check if a proposed site falls inside a zone and download the results as CSV. I’ve listed the limits too: distances are straight lines, and food hygiene categories are not the same as planning use classes.\n\nOpen the tool Code"
+  },
+  {
+    "objectID": "projects.html#remote-sensing",
+    "href": "projects.html#remote-sensing",
+    "title": "Projects",
+    "section": "Remote sensing",
+    "text": "Remote sensing\n\n\nGreen Change Monitor\n\nWeb tool · Sentinel-2, NDVI, Cloud-Optimised GeoTIFFs, geotiff.js\n\nWhere were trees and green space lost or gained? You pick an area and two years, and it maps where vegetation was lost or gained using free Sentinel-2 imagery. It all runs in the browser. It finds the clearest images, masks the clouds, makes a cloud-free greenness map for each year and compares them. In England, it flags changes inside conservation areas and tree preservation areas, so planning and enforcement teams know where to look first. You can download the results as GeoJSON or CSV. It shows you where to look, but it isn’t evidence on its own.\n\nOpen the monitor Code"
+  },
+  {
+    "objectID": "projects.html#biodiversity",
+    "href": "projects.html#biodiversity",
+    "title": "Projects",
+    "section": "Biodiversity",
+    "text": "Biodiversity\n\n\nWildScope NW\n\n2026 · Prototype · Python, Streamlit, GBIF, Natural England SSSIs\n\nA regional wildlife observatory for North West England: Sites of Special Scientific Interest, species records and simple conservation views in one dashboard, with pages for protected areas, a species explorer and conservation insights. The live version runs on synthetic demo data; a real-data mode pulls Natural England SSSI boundaries and GBIF occurrence records, shown only as coarse grid cells so sensitive locations aren’t exposed. An early prototype: an official regional boundary, complete GBIF downloads and uncertainty-aware analysis are next.\n\nOpen the app Code"
+  },
+  {
+    "objectID": "projects.html#cartography",
+    "href": "projects.html#cartography",
+    "title": "Projects",
+    "section": "Cartography",
+    "text": "Cartography\n\n\ncARTography\n\n2021–2026 · Python, ArcGIS Pro, Copernicus Urban Atlas\n\nMy more artistic maps: watercolour land cover maps of Elbasan and Athens made in Python with John Nelson’s style, and earlier work from Greater Manchester. Prints available on request.\n\nSee the maps\n\n\n\nAndros island web map\n\n2019 MSc cartography project, rebuilt 2026 · Python, GeoPandas, rasterio, Leaflet\n\nI made an interactive map of the whole island of Andros in a single web page, from my own 2019 data and 13 m terrain model. It has relief shading and you can search for villages, beaches, churches and monuments. Click anywhere to get the elevation and the coordinates in WGS84 and Greek Grid (ΕΓΣΑ87), or draw a route to see its elevation profile. You can also switch on OpenStreetMap layers for public services, springs and walking trails. It doesn’t need a map server, so a small municipality could host it easily.\n\nOpen the map Code Write-up"
+  },
+  {
+    "objectID": "projects.html#reality-checks",
+    "href": "projects.html#reality-checks",
+    "title": "Projects",
+    "section": "Reality Checks",
+    "text": "Reality Checks\nTen small calculators based on research, so you can try the evidence on yourself. They’re all in one place at realitychecks.app. Each one explains what it can and can’t tell you: the results are population averages, and they can’t predict what will happen to you personally.\n\n\nHealth\n\n5 calculators\n\n\nWhat’s your lifestyle costing you?Life expectancy and everyday habits\nHow much is your exercise adding to your life?Cardio, strength, steps and sitting\nWhat is your diet really doing to you?Against the Mediterranean diet and NHS guidance\nHow much sleep are you actually getting?Sleep debt and recovery\nAre you actually hydrated?A personalised daily target\n\n\n\nMoney and time\n\n5 calculators\n\n\nShould you rent or buy?Break-even point across UK and European cities\nDoes your salary actually cover your life?Savings rate, and how far it goes in 20 cities\nWhat’s your coffee habit really costing you?And what it could grow to if invested\nWhat are your meetings actually costing?In money and lost focus time\nWhat is social media really costing you?Days of your life, added up\n\n\n\n\nVisit Reality Checks"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nRace to A&E: how quickly can you reach an emergency department in six European capitals?\n\n\n\nhealth\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the drive from where people live to the nearest emergency department in London, Paris, Berlin, Madrid, Rome and Athens, and turned it into a race.\n\n\n\n\n\nOct 22, 2026\n\n5 min\n\n\n\n\n\n\nCan you draw Greece with tavernas?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nGreece\n\nPython\n\n\n\nAfter the UK pubs I tried the same with Greek tavernas, and found out how hard it is to get the data in Greece.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nCan you draw Albania with its bar-kafe?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nAlbania\n\nPython\n\n\n\nAfter the UK pubs and the Greek tavernas, I couldn’t leave out Albania, my country of origin.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nLast orders? Drawing the UK with its pubs\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nPython\n\n\n\nI mapped 38,000 pubs and bars as dots, checked whether COVID closed them, and had far too much fun with pub names.\n\n\n\n\n\nOct 20, 2026\n\n2 min\n\n\n\n\n\n\nAndros on one page: rebuilding my island map, seven years on\n\n\n\ncartography\n\nweb mapping\n\nPython\n\n\n\nA 2019 cartography project on Andros, rebuilt as an interactive web map that a small island municipality could host without a map server.\n\n\n\n\n\nOct 19, 2026\n\n3 min\n\n\n\n\n\n\nDo motorcyclists follow variable message signs? What 105 riders in Athens told us\n\n\n\ntransport\n\nsmart cities\n\nresearch\n\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n3 min\n\n\n\n\n\n\nHow far is everything? Walking London’s 15-minute city\n\n\n\nwalkability\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.\n\n\n\n\n\nOct 10, 2026\n\n6 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them again for London, using open data and open-source tools.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2026-10-andros-web-map/index.html",
+    "href": "posts/2026-10-andros-web-map/index.html",
+    "title": "Andros on one page: rebuilding my island map, seven years on",
+    "section": "",
+    "text": "Back in 2019, during my MSc in Geoinformatics, I made a set of maps of Andros. I collected the base data from free online sources, created the digital terrain models myself and designed two printed maps at 1:150,000, one with contours and one with hypsometric tints and hillshading. I also made a web version, served through GeoServer with OpenLayers on top.\nIt worked well for the course. But it needed a map server running all the time, a styling file for every layer and someone to look after it. That’s not something a small island can realistically keep going."
+  },
+  {
+    "objectID": "posts/2026-10-andros-web-map/index.html#what-was-missing",
+    "href": "posts/2026-10-andros-web-map/index.html#what-was-missing",
+    "title": "Andros on one page: rebuilding my island map, seven years on",
+    "section": "What was missing",
+    "text": "What was missing\nBefore starting, I had a look at what’s already out there. The Municipality of Andros publishes its maps as static images. The best interactive maps of the island come from others: Andros Routes, a non-profit, looks after the trail network, and there are hiking maps you can buy. What I couldn’t find was a simple, free map of the whole island that also gives coordinates in the Greek Grid (ΕΓΣΑ87), the system local engineers work with."
+  },
+  {
+    "objectID": "posts/2026-10-andros-web-map/index.html#the-map",
+    "href": "posts/2026-10-andros-web-map/index.html#the-map",
+    "title": "Andros on one page: rebuilding my island map, seven years on",
+    "section": "The map",
+    "text": "The map\nThe new version is one web page, with no server behind it:\n\nRelief first. The 13 m terrain model and the hillshade are blended into one relief image, so you can read the shape of the island straight away.\nNames that suit the zoom. The generalised 1:150,000 settlements from 2019 decide which village names you see when you zoom out, so that work is still being used.\nClick anywhere to get the elevation and the coordinates in both WGS84 and ΕΓΣΑ87.\nDraw a route to get its length, ascent, descent and an elevation profile.\nGreek and English, with a search that doesn’t mind accents, and its own symbol for every kind of feature.\nOpenStreetMap layers you can switch on for everyday use: health centres, pharmacies, police and fire stations, municipal offices, fuel, bus stops, springs, viewpoints and the waymarked trails. Each trail opens its own elevation profile.\n\n\n\n\nElevation profile from Chora across the island’s central ridge"
+  },
+  {
+    "objectID": "posts/2026-10-andros-web-map/index.html#how-i-built-it",
+    "href": "posts/2026-10-andros-web-map/index.html#how-i-built-it",
+    "title": "Andros on one page: rebuilding my island map, seven years on",
+    "section": "How I built it",
+    "text": "How I built it\nI rebuilt it in Python, coding with Claude: GeoPandas for the vector layers, rasterio for the terrain and Leaflet for the map."
+  },
+  {
+    "objectID": "posts/2026-10-andros-web-map/index.html#whats-next",
+    "href": "posts/2026-10-andros-web-map/index.html#whats-next",
+    "title": "Andros on one page: rebuilding my island map, seven years on",
+    "section": "What’s next",
+    "text": "What’s next\nI’d like to explore how a map like this could be useful in a council setting, for example for the Municipality of Andros, where a single file can sit inside their existing website with one line of code.\nMap: etymo.co.uk/AndrosWebMap"
+  },
+  {
+    "objectID": "posts/2026-10-greek-tavernas/index.html",
+    "href": "posts/2026-10-greek-tavernas/index.html",
+    "title": "Can you draw Greece with tavernas?",
+    "section": "",
+    "text": "After drawing the UK with its pubs, I wanted to try the same with Greece. The closest thing to a pub is probably the kafeneio, but for a map I thought tavernas, kafeneia and ouzeri together would work best.\nIt turned out to be much harder than I expected."
+  },
+  {
+    "objectID": "posts/2026-10-greek-tavernas/index.html#finding-the-data",
+    "href": "posts/2026-10-greek-tavernas/index.html#finding-the-data",
+    "title": "Can you draw Greece with tavernas?",
+    "section": "Finding the data",
+    "text": "Finding the data\nFor the UK I downloaded one register from one website, and every pub had a name, an address and coordinates. Greece doesn’t have anything like it. The food authority and the health ministry only publish summary tables of their inspections. On data.gov.gr I found only a handful of municipalities, out of 332, that publish their list of licensed shops, and some of those are PDFs or stop in 2018.\nSo I used OpenStreetMap. Even that wasn’t easy: the servers refused my downloads, so I had to download it by hand in the browser, and it crashed my computer. In the end I had 33,951 restaurants, cafés and bars, and I sorted them into tavernas, kafeneia and ouzeri using their names and tags.\n\n\n\nTavernas, ouzeri and kafeneia in OpenStreetMap."
+  },
+  {
+    "objectID": "posts/2026-10-greek-tavernas/index.html#a-map-of-tavernas-or-of-tourists",
+    "href": "posts/2026-10-greek-tavernas/index.html#a-map-of-tavernas-or-of-tourists",
+    "title": "Can you draw Greece with tavernas?",
+    "section": "A map of tavernas, or of tourists?",
+    "text": "A map of tavernas, or of tourists?\nThe islands and the coast light up, and much of the north is dark. Then I compared the map with ELSTAT’s official counts of restaurants, bars and cafés, and found out that OpenStreetMap has only 46% of them. On Crete and the islands it has more than 80%, but in Pella, Xanthi and Imathia only about one in ten. So the map shows where tourists go as much as where the tavernas are.\n\n\n\nHow much of each area’s businesses are on OpenStreetMap."
+  },
+  {
+    "objectID": "posts/2026-10-greek-tavernas/index.html#the-crisis-and-the-names",
+    "href": "posts/2026-10-greek-tavernas/index.html#the-crisis-and-the-names",
+    "title": "Can you draw Greece with tavernas?",
+    "section": "The crisis and the names",
+    "text": "The crisis and the names\nELSTAT’s numbers show about 15% fewer bars, cafés and restaurants since 2011, but twice as many people working in bars and cafés. It’s the same as the UK pubs: fewer places, but bigger ones. Attica gained bars and cafés from 2016 to 2023, while the north lost about a quarter.\nThe fun part was the names again. Greece doesn’t have a Red Lion. The most common name is Panorama, with only 38, followed by Akrogiali (the seashore), Nikos and, of course, Zorbas."
+  },
+  {
+    "objectID": "posts/2026-10-greek-tavernas/index.html#try-it",
+    "href": "posts/2026-10-greek-tavernas/index.html#try-it",
+    "title": "Can you draw Greece with tavernas?",
+    "section": "Try it",
+    "text": "Try it\n\nThe story and map: etymo.co.uk/greek-tavernas\nCode: github.com/eritrouib/greek-tavernas\n\nI made it with OpenStreetMap and ELSTAT data, Python and Leaflet, coding with Claude.\n\nData: © OpenStreetMap contributors (ODbL); ELSTAT Statistical Business Register and population estimates."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html",
+    "href": "posts/2026-10-athens-to-london/index.html",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "",
+    "text": "In 2021 I finished my master’s thesis in Geoinformatics at the National Technical University of Athens. I looked at 1,318 pedestrian collisions in the Municipality of Athens between 2008 and 2017, and my main question was: how does the shape of the city relate to where pedestrians get injured?\nI found hotspots in the centre that kept coming back, around Omonia, Syggrou and Vasilissis Sofias. I also found links with bars and pubs, crossings, traffic signals and bus stops. At the end of the thesis I wrote down what I was missing: the time of day, the age of the people involved, the socio-economic context, and some idea of how busy each place was.\nFive years later I wanted to ask the same questions for London, where all of that data is available."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#the-data",
+    "href": "posts/2026-10-athens-to-london/index.html#the-data",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "The data",
+    "text": "The data\nAlmost everything I needed for London is open:\n\nCollisions: the Department for Transport’s STATS19 data. Every injury collision recorded by the police, with location, date, time, severity and the age of each casualty.\nNeighbourhoods: ONS small-area boundaries, the English Indices of Deprivation 2025 and population figures.\nStreets: OpenStreetMap for crossings, signals, bus stops, stations, schools, pubs and the street network.\n\nFrom 2021 to 2025 there were 22,108 pedestrian casualties in Greater London. 5,926 of them were killed or seriously injured, and between 36 and 61 people died each year.\n\n\n\nYear\nKilled\nSeriously injured\nSlightly injured\nTotal\n\n\n\n\n2021\n36\n926\n2,878\n3,840\n\n\n2022\n42\n1,194\n3,322\n4,558\n\n\n2023\n53\n1,223\n3,279\n4,555\n\n\n2024\n61\n1,136\n3,254\n4,451\n\n\n2025\n51\n1,204\n3,449\n4,704\n\n\n\n2021 is lower, most likely because of the lockdown at the start of that year, when fewer people were out on the streets."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#lesson-one-what-you-divide-by-changes-the-story",
+    "href": "posts/2026-10-athens-to-london/index.html#lesson-one-what-you-divide-by-changes-the-story",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "Lesson one: what you divide by changes the story",
+    "text": "Lesson one: what you divide by changes the story\nWhen I ranked the boroughs by fatal and serious casualties per 100,000 residents, the City of London came out at 167.6 a year. That’s nearly four times Westminster (43.0), which came second. At first sight it looks like the most dangerous place to walk in London.\nBut only a few thousand people live in the City, and hundreds of thousands work there or pass through every weekday. So dividing by residents doesn’t really measure the risk of walking there. When I ranked the boroughs per kilometre of road instead, the order changed a lot.\n\n\n\nThe same data gives very different borough rankings depending on the measure."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#lesson-two-crossings-correlate-with-casualties",
+    "href": "posts/2026-10-athens-to-london/index.html#lesson-two-crossings-correlate-with-casualties",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "Lesson two: crossings “correlate” with casualties",
+    "text": "Lesson two: crossings “correlate” with casualties\nNext I compared London’s roughly 5,000 small areas. The features that went up most with serious pedestrian casualties per km² were traffic signals and crossings (rank correlations of about +0.4), followed by major roads, bus stops, junctions, and pubs and bars. This was almost exactly what I had found in Athens.\nThat doesn’t mean crossings are dangerous. I think two things explain it:\n\nHow busy a place is. Crossings, signals, bus stops and pubs are where lots of people meet lots of traffic, so these features partly measure how busy an area is.\nCause and effect the other way round. Crossings and signals are often put in because a place had collisions.\n\nSo I also fitted a negative binomial model that takes into account how busy each area is. It asks which street features still go with more casualties after that. This is the question I couldn’t answer in my thesis with the data I had."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#hotspots-along-the-streets",
+    "href": "posts/2026-10-athens-to-london/index.html#hotspots-along-the-streets",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "Hotspots along the streets",
+    "text": "Hotspots along the streets\nIn Athens I used planar kernel density, the usual heatmap. In a city, a cluster on one road can spill over onto a parallel street across the block. For London I measured density along the street network. I cut the streets into 50 m pieces and spread each casualty along the network for 250 m.\n\n\n\nWhere serious pedestrian injuries concentrate along London’s streets.\n\n\nI also ran a Getis-Ord Gi* analysis on the small areas, to separate significant clusters from random noise. I corrected for the fact that I was testing thousands of areas at once."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#how-far-is-emergency-care",
+    "href": "posts/2026-10-athens-to-london/index.html#how-far-is-emergency-care",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "How far is emergency care?",
+    "text": "How far is emergency care?\nMy Athens dashboard showed the hospitals next to the collisions. For London I measured the drive time along the street network from every casualty to the nearest A&E, and to the nearest of London’s four major trauma centres, where the most seriously injured people are taken.\n\n\n\nFree-flow drive time to the nearest major trauma centre, with serious pedestrian casualties.\n\n\nThese times assume no traffic and are for the journey to hospital, so they are not ambulance response times. They still show which parts of London are furthest from trauma care."
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#then-and-now",
+    "href": "posts/2026-10-athens-to-london/index.html#then-and-now",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "Then and now",
+    "text": "Then and now\nIn 2021 I used R and ArcGIS Pro, with Esri Dashboards and StoryMaps for the visuals, and the project took months.\nThis time I coded with Claude, and I went from my research questions to a tested pipeline and a live dashboard much faster. The questions, the methods and what the results mean came from my research background. Claude helped me build and check everything quicker, including testing the model on made-up data with known answers before using it on the real data.\nEverything uses open data and open-source Python, so anyone can run it again.\n\nExplore the dashboard: etymo.co.uk/london-pedestrian-safety. Try the spotlight on a junction you know, or play through the years.\nCode and methods: github.com/eritrouib/london-pedestrian-safety"
+  },
+  {
+    "objectID": "posts/2026-10-athens-to-london/index.html#whats-next",
+    "href": "posts/2026-10-athens-to-london/index.html#whats-next",
+    "title": "From Athens to London: pedestrian collisions and the built environment, five years on",
+    "section": "What’s next",
+    "text": "What’s next\nFirst, I want to publish the Athens work properly, using the methods I developed here. Second, I’d like to add an AI assistant to the London data, so anyone can ask a question in plain English and get an answer worked out from the data, with its sources.\n\nData: Department for Transport STATS19, ONS, MHCLG (Open Government Licence); OpenStreetMap contributors (ODbL). Police-recorded data under-reports minor pedestrian injuries, and a link between an area and casualties doesn’t show cause."
+  },
+  {
+    "objectID": "posts/2026-10-uk-pubs/index.html",
+    "href": "posts/2026-10-uk-pubs/index.html",
+    "title": "Last orders? Drawing the UK with its pubs",
+    "section": "",
+    "text": "Can you draw the UK using only pubs? I wanted to find out.\nI downloaded the Food Standards Agency food hygiene register, which lists every place that serves food or drink. I picked out all the pubs and bars, 38,022 of them, and visualised them as dots. I didn’t add any coastline, roads or towns, just the pubs, and you can still recognise the whole country."
+  },
+  {
+    "objectID": "posts/2026-10-uk-pubs/index.html#did-covid-close-the-pubs",
+    "href": "posts/2026-10-uk-pubs/index.html#did-covid-close-the-pubs",
+    "title": "Last orders? Drawing the UK with its pubs",
+    "section": "Did COVID close the pubs?",
+    "text": "Did COVID close the pubs?\nThen I wondered if COVID had an impact. I looked at the ONS data, which counts pubs and bars with staff, and found out that the big drop happened ten years earlier. The UK lost more than 9,000 pubs between 2008 and 2013, and 1,260 between 2019 and 2024. When I split them by size, it was mostly the small pubs that closed (down 44%), while the big ones actually grew.\n\n\n\nUK pubs and bars, 2001 to 2024."
+  },
+  {
+    "objectID": "posts/2026-10-uk-pubs/index.html#the-fun-part",
+    "href": "posts/2026-10-uk-pubs/index.html#the-fun-part",
+    "title": "Last orders? Drawing the UK with its pubs",
+    "section": "The fun part",
+    "text": "The fun part\nThe fun part was going through the pub names. There are 361 Red Lions, and there are more animals than royals in pub names. I also looked for the streets with the most pubs (Swansea’s Wind Street has 13 bars in 186 metres) and the place furthest from a pub, which in England is 15.7 km away, in Kielder Forest.\nYou can also check how pubby your postcode is. Mine is “pub crawl territory”."
+  },
+  {
+    "objectID": "posts/2026-10-uk-pubs/index.html#try-it",
+    "href": "posts/2026-10-uk-pubs/index.html#try-it",
+    "title": "Last orders? Drawing the UK with its pubs",
+    "section": "Try it",
+    "text": "Try it\n\nThe story and map: etymo.co.uk/uk-pubs\nCode: github.com/eritrouib/uk-pubs\n\nI made it with open FSA and ONS data, Python and Leaflet, coding with Claude.\n\nData: Food Standards Agency food hygiene rating data; ONS public houses and bars, and population estimates (Open Government Licence v3.0)."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Spyropoulou, I. and Impersimi, E. (2020) · IET Intelligent Transport Systems, 14(14), 2021–2029\n\nDo motorcyclists and scooter riders in Athens change route when the variable message signs report an incident? We surveyed 105 riders and used probit models. The type of incident (roadworks most of all) and how serious it was affected whether riders diverted, but suggested alternative routes didn’t. Riders found the signs useful but felt they weren’t designed for them, and 36% wanted travel times based on how two-wheelers move through traffic.\n\nRead the article Plain-language summary"
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "Spyropoulou, I. and Impersimi, E. (2020) · IET Intelligent Transport Systems, 14(14), 2021–2029\n\nDo motorcyclists and scooter riders in Athens change route when the variable message signs report an incident? We surveyed 105 riders and used probit models. The type of incident (roadworks most of all) and how serious it was affected whether riders diverted, but suggested alternative routes didn’t. Riders found the signs useful but felt they weren’t designed for them, and 36% wanted travel times based on how two-wheelers move through traffic.\n\nRead the article Plain-language summary"
+  },
+  {
+    "objectID": "publications.html#in-preparation",
+    "href": "publications.html#in-preparation",
+    "title": "Publications",
+    "section": "In preparation",
+    "text": "In preparation\n\n\nPedestrian collisions in Athens: network-based hotspots, the built environment and emergency access\n\nWith M. Kavouras, A. Darra and M. Pigaki · National Technical University of Athens\n\nTen years of pedestrian collisions in Athens re-examined with network kernel density, emerging hotspot analysis, count models and network access to emergency services.\n\nThe story so far"
+  },
+  {
+    "objectID": "publications.html#thesis",
+    "href": "publications.html#thesis",
+    "title": "Publications",
+    "section": "Thesis",
+    "text": "Thesis\n\n\nSpatial-temporal analysis of traffic accidents in Athens: the case of pedestrians\n\nMSc thesis in Geoinformatics · National Technical University of Athens · 2021\n\nHotspots, space-time patterns and the built environment around 1,318 pedestrian collisions in the Municipality of Athens, 2008–2017, with an emergency services dashboard.\n\nSee the project"
+  },
+  {
+    "objectID": "cartography/index.html",
+    "href": "cartography/index.html",
+    "title": "cARTography",
+    "section": "",
+    "text": "Not every map has to answer a question. These are the ones I make because I like how they look, mostly on weekends, often after a week of checking numbers. I’ll be adding more over time."
+  },
+  {
+    "objectID": "cartography/index.html#in-colour",
+    "href": "cartography/index.html#in-colour",
+    "title": "cARTography",
+    "section": "In colour",
+    "text": "In colour\n\nWatercolour cities (2026)\nIn 2022 I made a land cover map of Gorton and Abbey Hey in Manchester, styled with John Nelson’s watercolour approach in ArcGIS Pro. Years later I recreated the look outside Pro, in Python, starting with Elbasan, Albania, where I’m from, and then Athens. Both use the Copernicus Urban Atlas 2021, reclassified into the same blue, green and grey legend I used in the IGNITION project.\n\n\n\n\n\n\nElbasan. The old town around the castle, Parku Rinia by the stadium, the hill of Krasta and the Shkumbin river with its gravel banks, inside an irregular circle around the city. Data: Copernicus Urban Atlas 2021 (EEA / Copernicus Land Monitoring Service).\n\n\n\n\n\n\n\nAthens and Piraeus. The same style across the Athens basin down to the sea at Piraeus. Data: Copernicus Urban Atlas 2021 (EEA / Copernicus Land Monitoring Service).\n\n\n\n\n\nUrban Atlas maps land use, not land cover, so there are judgement calls: Krasta, a wooded hill, has the same code as a small town park.\n\n\nEarlier work in Greater Manchester (2021–2023)\n\n\n\n\n\n\nShown as examples of my work only. These maps were made for the IGNITION project and Greater Manchester partners and contain Ordnance Survey data © Crown copyright and database rights. They are shown here at low resolution and are not for reuse, reproduction or any decision-making.\n\n\n\n\n\n\n\n\n\nGorton and Abbey Hey land cover, in John Nelson’s watercolour style (2022).\n\n\n\n\n\n\n\nChorlton Park canopy cover density, for the IGNITION project (2021).\n\n\n\n\n\n\n\nGreen cover across Salford, Manchester and Trafford.\n\n\n\n\n\n\n\n\n\nLand use around a Manchester neighbourhood, cut to a circle.\n\n\n\n\n\n\n\nLand parcels in a Manchester study area."
+  },
+  {
+    "objectID": "cartography/index.html#black-and-white",
+    "href": "cartography/index.html#black-and-white",
+    "title": "cARTography",
+    "section": "Black and white",
+    "text": "Black and white\nA black and white series is on its way.\n\nMore maps soon. Prints are available: see the About page to get in touch."
   }
 ]

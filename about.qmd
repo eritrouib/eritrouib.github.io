@@ -7,6 +7,9 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/eritrouib
+    - icon: envelope
+      text: Email
+      href: mailto:eriolaib@gmail.com
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/eriola-trungu-impersimi/
@@ -26,3 +29,7 @@ I like taking messy data and making it clear, explaining uncertainty, and buildi
 I hold an MSc in Geoinformatics from the National Technical University of Athens, where my thesis analysed pedestrian collisions and the built environment in Athens.
 
 **Why etymo?** It comes from the Greek *etymon* (ἔτυμον), the true meaning of something. That's what I look for in data. And ET is me.
+
+**Work with me**
+
+I make map prints, for walls as well as reports, and I build dashboards and tools. If you'd like a print from my [cARTography](cartography/) page, a map of your own place, or a tool for your team, email me at [eriolaib@gmail.com](mailto:eriolaib@gmail.com).
