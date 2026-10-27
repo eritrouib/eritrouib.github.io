@@ -1,12 +1,18 @@
 ---
 title: "cARTography"
-description: "Maps I make because they look nice: watercolour cities, land cover and old favourites."
+description: "Maps I make because they look nice: watercolour cities, black and white maps and old favourites."
 lightbox: true
 toc: false
 ---
 
 ::: {.lead-intro}
 Not every map has to answer a question. These are the ones I make because I like how they look, mostly on weekends, often after a week of checking numbers. I'll be adding more over time.
+:::
+
+::: {.featured-map}
+<p class="featured-label">Latest</p>
+
+![**Life on the go.** Elbasan, Athens, London: the places I've called home, in black and white. Data: Natural Earth. Projection: ETRS89 Lambert Azimuthal Equal Area.](img/life-on-the-go.jpg){group="featured" fig-alt="Black and white map of Europe with Albania, Greece and the UK hatched, and dashed arrows linking Elbasan, Athens and London"}
 :::
 
 ## In colour
@@ -43,7 +49,7 @@ Urban Atlas maps land *use*, not land cover, so there are judgement calls: Krast
 
 ## Black and white
 
-A black and white series is on its way.
+*Life on the go*, at the top of this page, is the first in a black and white series. More are on the way.
 
 ---
 
