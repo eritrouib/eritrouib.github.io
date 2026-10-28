@@ -1,0 +1,68 @@
+---
+title: "Open Source"
+toc: false
+---
+
+::: {.lead-intro}
+All packages are open source and free to use. Code for everything is on [GitHub](https://github.com/eritrouib).
+:::
+
+## Python
+
+::: {.cards}
+
+::: {.card-et}
+### georeadr
+
+One line of Python, any GIS file, and you get a scored and graded readiness report before feeding data into AI or ML.
+
+<p class="links"><a href="https://pypi.org/project/georeadr/">PyPI</a> · <a href="https://github.com/eritrouib/georeadr">GitHub</a></p>
+:::
+
+::: {.card-et}
+### geolintr
+
+Detects ONS geography code changes automatically — flags CCG-to-ICB transitions, boundary vintages and mismatches across datasets.
+
+<p class="links"><a href="https://pypi.org/project/geolintr/">PyPI</a> · <a href="https://github.com/eritrouib/geolintr">GitHub</a></p>
+:::
+
+::: {.card-et}
+### watercolourmap
+
+Paint any GeoDataFrame as a watercolour map. Soft washes, textured paper, darker edges — inspired by John Nelson's ArcGIS style, rebuilt in code.
+
+<p class="links"><a href="https://pypi.org/project/watercolourmap/">PyPI</a> · <a href="https://github.com/eritrouib/watercolourmap">GitHub</a></p>
+:::
+
+::: {.card-et}
+### petchr
+
+Zero-dependency Python HTTP client with retry, backoff, timeout and rate-limiting built in. No dependencies, no setup, just works.
+
+<p class="links"><a href="https://pypi.org/project/petchr/">PyPI</a> · <a href="https://github.com/eritrouib/petchr-py">GitHub</a></p>
+:::
+
+:::
+
+## JavaScript / TypeScript
+
+::: {.cards}
+
+::: {.card-et}
+### @ertr17/petchr
+
+Zero-dependency TypeScript fetch wrapper with retry, exponential backoff, timeout and rate-limiting. About 7kb, no dependencies.
+
+<p class="links"><a href="https://www.npmjs.com/package/@ertr17/petchr">npm</a> · <a href="https://github.com/eritrouib/petchr">GitHub</a></p>
+:::
+
+::: {.card-et}
+### @ertr17/unwrapr
+
+Normalises any API response shape into a clean `{ ok, data, error, status }` envelope. Works with REST, GraphQL, or anything in between.
+
+<p class="links"><a href="https://www.npmjs.com/package/@ertr17/unwrapr">npm</a> · <a href="https://github.com/eritrouib/unwrapr">GitHub</a></p>
+:::
+
+:::

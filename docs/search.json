@@ -266,6 +266,27 @@
     "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nRace to A&E: how quickly can you reach an emergency department in six European capitals?\n\n\n\nhealth\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the drive from where people live to the nearest emergency department in London, Paris, Berlin, Madrid, Rome and Athens, and turned it into a race.\n\n\n\n\n\nOct 22, 2026\n\n5 min\n\n\n\n\n\n\nCan you draw Greece with tavernas?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nGreece\n\nPython\n\n\n\nAfter the UK pubs I tried the same with Greek tavernas, and found out how hard it is to get the data in Greece.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nCan you draw Albania with its bar-kafe?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nAlbania\n\nPython\n\n\n\nAfter the UK pubs and the Greek tavernas, I couldn’t leave out Albania, my country of origin.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nLast orders? Drawing the UK with its pubs\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nPython\n\n\n\nI mapped 38,000 pubs and bars as dots, checked whether COVID closed them, and had far too much fun with pub names.\n\n\n\n\n\nOct 20, 2026\n\n2 min\n\n\n\n\n\n\nAndros on one page: rebuilding my island map, seven years on\n\n\n\ncartography\n\nweb mapping\n\nPython\n\n\n\nA 2019 cartography project on Andros, rebuilt as an interactive web map that a small island municipality could host without a map server.\n\n\n\n\n\nOct 19, 2026\n\n3 min\n\n\n\n\n\n\nDo motorcyclists follow variable message signs? What 105 riders in Athens told us\n\n\n\ntransport\n\nsmart cities\n\nresearch\n\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n3 min\n\n\n\n\n\n\nHow far is everything? Walking London’s 15-minute city\n\n\n\nwalkability\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.\n\n\n\n\n\nOct 10, 2026\n\n6 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them again for London, using open data and open-source tools.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "open-source.html",
+    "href": "open-source.html",
+    "title": "Open Source",
+    "section": "",
+    "text": "All packages are open source and free to use. Code for everything is on GitHub."
+  },
+  {
+    "objectID": "open-source.html#python",
+    "href": "open-source.html#python",
+    "title": "Open Source",
+    "section": "Python",
+    "text": "Python\n\n\ngeoreadr\nOne line of Python, any GIS file, and you get a scored and graded readiness report before feeding data into AI or ML.\n\nPyPI · GitHub\n\n\n\ngeolintr\nDetects ONS geography code changes automatically — flags CCG-to-ICB transitions, boundary vintages and mismatches across datasets.\n\nPyPI · GitHub\n\n\n\nwatercolourmap\nPaint any GeoDataFrame as a watercolour map. Soft washes, textured paper, darker edges — inspired by John Nelson’s ArcGIS style, rebuilt in code.\n\nPyPI · GitHub\n\n\n\npetchr\nZero-dependency Python HTTP client with retry, backoff, timeout and rate-limiting built in. No dependencies, no setup, just works.\n\nPyPI · GitHub"
+  },
+  {
+    "objectID": "open-source.html#javascript-typescript",
+    "href": "open-source.html#javascript-typescript",
+    "title": "Open Source",
+    "section": "JavaScript / TypeScript",
+    "text": "JavaScript / TypeScript\n\n\n@ertr17/petchr\nZero-dependency TypeScript fetch wrapper with retry, exponential backoff, timeout and rate-limiting. About 7kb, no dependencies.\n\nnpm · GitHub\n\n\n\n@ertr17/unwrapr\nNormalises any API response shape into a clean { ok, data, error, status } envelope. Works with REST, GraphQL, or anything in between.\n\nnpm · GitHub"
+  },
+  {
     "objectID": "posts/2026-10-andros-web-map/index.html",
     "href": "posts/2026-10-andros-web-map/index.html",
     "title": "Andros on one page: rebuilding my island map, seven years on",

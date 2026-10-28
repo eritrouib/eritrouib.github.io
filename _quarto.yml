@@ -23,6 +23,8 @@ website:
         text: Projects
       - href: cartography/index.qmd
         text: cARTography
+      - href: open-source.qmd
+        text: Open Source
       - href: publications.qmd
         text: Publications
       - href: about.qmd
