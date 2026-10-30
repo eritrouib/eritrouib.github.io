@@ -266,6 +266,27 @@
     "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nRace to A&E: how quickly can you reach an emergency department in six European capitals?\n\n\n\nhealth\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the drive from where people live to the nearest emergency department in London, Paris, Berlin, Madrid, Rome and Athens, and turned it into a race.\n\n\n\n\n\nOct 22, 2026\n\n5 min\n\n\n\n\n\n\nCan you draw Greece with tavernas?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nGreece\n\nPython\n\n\n\nAfter the UK pubs I tried the same with Greek tavernas, and found out how hard it is to get the data in Greece.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nCan you draw Albania with its bar-kafe?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nAlbania\n\nPython\n\n\n\nAfter the UK pubs and the Greek tavernas, I couldn’t leave out Albania, my country of origin.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nLast orders? Drawing the UK with its pubs\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nPython\n\n\n\nI mapped 38,000 pubs and bars as dots, checked whether COVID closed them, and had far too much fun with pub names.\n\n\n\n\n\nOct 20, 2026\n\n2 min\n\n\n\n\n\n\nAndros on one page: rebuilding my island map, seven years on\n\n\n\ncartography\n\nweb mapping\n\nPython\n\n\n\nA 2019 cartography project on Andros, rebuilt as an interactive web map that a small island municipality could host without a map server.\n\n\n\n\n\nOct 19, 2026\n\n3 min\n\n\n\n\n\n\nDo motorcyclists follow variable message signs? What 105 riders in Athens told us\n\n\n\ntransport\n\nsmart cities\n\nresearch\n\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n3 min\n\n\n\n\n\n\nHow far is everything? Walking London’s 15-minute city\n\n\n\nwalkability\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.\n\n\n\n\n\nOct 10, 2026\n\n6 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them again for London, using open data and open-source tools.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "cartoonography/index.html",
+    "href": "cartoonography/index.html",
+    "title": "carTOONography",
+    "section": "",
+    "text": "Maps for curious kids, each with its own theme. Print them, stick them on the wall, and see what you can find. These are the little sisters of my cARTography maps, and I’ll be adding more."
+  },
+  {
+    "objectID": "cartoonography/index.html#where-do-pumpkins-grow",
+    "href": "cartoonography/index.html#where-do-pumpkins-grow",
+    "title": "carTOONography",
+    "section": "Where do pumpkins grow?",
+    "text": "Where do pumpkins grow?\nA Halloween map of the world, with one pumpkin for every 500,000 tonnes grown in a year. Most of them are in India and China, but can you find the single pumpkins hiding in Peru, Malawi and Cuba?\n\n\n\nWhere do pumpkins grow? Pumpkins, squash and gourds grown in 2024. Data: FAOSTAT (FAO). Map: Natural Earth.\n\n\n\nDownload the A3 print (PDF)"
+  },
+  {
+    "objectID": "cartoonography/index.html#kingston-in-blocks",
+    "href": "cartoonography/index.html#kingston-in-blocks",
+    "title": "carTOONography",
+    "section": "Kingston, in blocks",
+    "text": "Kingston, in blocks\nA blocky adventure map of Kingston upon Thames, Bushy Park and Hampton Court, built from OpenStreetMap. Find all ten places on the list: the palace, the maze, the deer, the toppled phone boxes and, of course, the ice cream.\n\n\n\nKingston, in blocks. Map data © OpenStreetMap contributors (ODbL).\n\n\n\nDownload the A2 print (PDF)\n\nAn interactive version you can explore on screen is on its way.\n\nWould you like a themed map of your own town, school or favourite park? See the About page to get in touch."
+  },
+  {
     "objectID": "open-source.html",
     "href": "open-source.html",
     "title": "Open Source",
@@ -487,6 +508,6 @@
     "href": "cartography/index.html#black-and-white",
     "title": "cARTography",
     "section": "Black and white",
-    "text": "Black and white\nLife on the go, at the top of this page, is the first in a black and white series. More are on the way.\n\nMore maps soon. Prints are available: see the About page to get in touch."
+    "text": "Black and white\nLife on the go, at the top of this page, is the first in a black and white series. More are on the way.\n\nMaking maps for kids? Their own themed maps live on carTOONography.\nMore maps soon. Prints are available: see the About page to get in touch."
   }
 ]

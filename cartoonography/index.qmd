@@ -1,0 +1,32 @@
+---
+title: "carTOONography"
+description: "Themed maps for curious kids: print them, explore them, and see what you can find."
+lightbox: true
+toc: false
+---
+
+::: {.lead-intro}
+Maps for curious kids, each with its own theme. Print them, stick them on the wall, and see what you can find. These are the little sisters of my [cARTography](../cartography/) maps, and I'll be adding more.
+:::
+
+## Where do pumpkins grow?
+
+A Halloween map of the world, with one pumpkin for every 500,000 tonnes grown in a year. Most of them are in India and China, but can you find the single pumpkins hiding in Peru, Malawi and Cuba?
+
+![**Where do pumpkins grow?** Pumpkins, squash and gourds grown in 2024. Data: FAOSTAT (FAO). Map: Natural Earth.](img/where-do-pumpkins-grow.jpg){group="kids" fig-alt="A night-time world map with piles of cartoon pumpkins on the countries that grow the most, the biggest piles on India and China"}
+
+<p class="links"><a href="downloads/where-do-pumpkins-grow-A3.pdf">Download the A3 print (PDF)</a></p>
+
+## Kingston, in blocks
+
+A blocky adventure map of Kingston upon Thames, Bushy Park and Hampton Court, built from OpenStreetMap. Find all ten places on the list: the palace, the maze, the deer, the toppled phone boxes and, of course, the ice cream.
+
+![**Kingston, in blocks.** Map data © OpenStreetMap contributors (ODbL).](img/kingston-blocky.jpg){group="kids" fig-alt="A blocky 3D map of Kingston upon Thames and Bushy Park with numbered pins and a Can you find checklist"}
+
+<p class="links"><a href="downloads/kingston-blocky-map-A2.pdf">Download the A2 print (PDF)</a></p>
+
+*An interactive version you can explore on screen is on its way.*
+
+---
+
+*Would you like a themed map of your own town, school or favourite park? See the [About](../about.qmd) page to get in touch.*

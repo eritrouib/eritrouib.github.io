@@ -53,4 +53,6 @@ Urban Atlas maps land *use*, not land cover, so there are judgement calls: Krast
 
 ---
 
+*Making maps for kids? Their own themed maps live on [carTOONography](../cartoonography/).*
+
 *More maps soon. Prints are available: see the [About](../about.qmd) page to get in touch.*
