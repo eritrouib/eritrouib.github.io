@@ -5,6 +5,7 @@ project:
     - CNAME
     - cartoonography/downloads/*.pdf
     - cartoonography/kingston/index.html
+    - cartoonography/hello/index.html
 
 website:
   title: "@ET"

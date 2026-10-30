@@ -17,6 +17,16 @@ A Halloween map of the world, with one pumpkin for every 500,000 tonnes grown in
 
 <p class="links"><a href="downloads/where-do-pumpkins-grow-A3.pdf">Download the A3 print (PDF)</a></p>
 
+## Say hello to the world!
+
+Hello in 26 languages, from Bonjour to こんにちは, made to get kids excited about learning languages. The colours show the writing system, so you can spot which hellos share an alphabet. Tick each one you can say!
+
+![**Say hello to the world!** Map: Natural Earth.](img/say-hello-to-the-world.jpg){group="kids" fig-alt="A world map with 26 cards around it, each saying hello in a different language and script, joined by lines to where the language is spoken"}
+
+<p class="links"><a href="hello/" class="btn-play">🎮 Play the hello game</a> &nbsp; <a href="downloads/say-hello-to-the-world-A3.pdf">Download the A3 print (PDF)</a></p>
+
+In the game you tap a dot to hear hello, say it out loud and collect a stamp in your passport. Then try the quiz: can you find where people say *Merhaba*?
+
 ## Kingston, in blocks
 
 A blocky adventure map of Kingston upon Thames, Bushy Park and Hampton Court, built from OpenStreetMap. Find all ten places on the list: the palace, the maze, the deer, the toppled phone boxes and, of course, the ice cream.
