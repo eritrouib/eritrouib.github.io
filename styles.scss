@@ -68,3 +68,48 @@ h1, h2, h3 { letter-spacing: -0.01em; }
 .featured-map { margin: 1.6rem 0 2.4rem; padding-bottom: 1.6rem; border-bottom: 1px solid $ink; }
 .featured-map .featured-label { font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: $ink; margin-bottom: 0.6rem; }
 .featured-map img { border: 1px solid #DDD8E3; }
+
+// ---- seasonal themes (switched on by seasons.html) ----
+$halloween: #E2701F;
+$xmas-red: #C23B33;
+$xmas-green: #2F7D5B;
+
+.season-layer { position: fixed; inset: 0; pointer-events: none; z-index: 1040; overflow: hidden; }
+.season-layer.in-navbar { position: absolute; z-index: 0; }
+.navbar .container-fluid { position: relative; z-index: 1; }
+
+html.season-halloween {
+  a { text-decoration-color: $halloween; }
+  .navbar { border-bottom-color: $halloween; }
+  .navbar .nav-link.active, .navbar .nav-link:hover, .navbar .nav-link:focus { color: $halloween !important; }
+  .card-et { border-top-color: $halloween; }
+  .quarto-title .title::after, .zebra { background: $halloween; height: 2px; }
+  .featured-map { border-bottom-color: $halloween; }
+  .season-bat { position: absolute; left: -60px; display: block; fill: $ink; opacity: .85;
+    animation: bat-fly 14s linear 1 forwards; }
+  .season-bat svg { width: 100%; height: auto; display: block; animation: bat-flap .22s ease-in-out infinite alternate; }
+}
+@keyframes bat-fly {
+  0%   { transform: translate(0, 0); }
+  25%  { transform: translate(28vw, -18px); }
+  50%  { transform: translate(55vw, 14px); }
+  75%  { transform: translate(80vw, -10px); }
+  100% { transform: translate(110vw, 6px); }
+}
+@keyframes bat-flap { from { transform: scaleY(1); } to { transform: scaleY(.45); } }
+
+html.season-christmas {
+  a { text-decoration-color: $xmas-red; }
+  .navbar { border-bottom-color: $xmas-green; }
+  .navbar .nav-link.active, .navbar .nav-link:hover, .navbar .nav-link:focus { color: #F2C9C5 !important; }
+  .card-et { border-top-color: $xmas-red; }
+  .quarto-title .title::after, .zebra { background: $xmas-red; height: 2px; }
+  .featured-map { border-bottom-color: $xmas-green; }
+  .season-snow { position: absolute; top: -6px; border-radius: 50%; background: #fff;
+    animation-name: snow-fall; animation-timing-function: linear; animation-iteration-count: infinite; }
+}
+@keyframes snow-fall { from { transform: translateY(0); } to { transform: translateY(70px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .season-bat { display: none !important; }
+}

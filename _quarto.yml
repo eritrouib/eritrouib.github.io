@@ -50,3 +50,4 @@ format:
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
+    include-in-header: seasons.html
