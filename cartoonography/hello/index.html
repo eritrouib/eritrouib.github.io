@@ -28,7 +28,10 @@ html, body { height: 100%; margin: 0; overflow: hidden; }
 body { background: var(--paper); color: var(--ink); font: 500 15px/1.4 var(--body); }
 button { font: inherit; color: inherit; }
 
-#stage { position: fixed; inset: 0; touch-action: manipulation; background: var(--sea); }
+#stage { position: fixed; inset: 0; touch-action: none; background: var(--sea); }
+#map { cursor: grab; }
+#map.dragging { cursor: grabbing; }
+#map.dragging .marker { cursor: grabbing; }
 #map { width: 100%; height: 100%; display: block; }
 #map .country { fill: var(--land); stroke: #fff; stroke-width: .6; stroke-linejoin: round; transition: fill .3s; }
 #map .country.lit { fill: var(--lit, #ffd27a); }
@@ -51,6 +54,7 @@ button { font: inherit; color: inherit; }
 #title { top: calc(14px + env(safe-area-inset-top, 0px)); left: max(16px, env(safe-area-inset-left, 0px)); padding: 12px 16px 14px; width: min(400px, calc(100vw - 32px)); }
 #title h1 { margin: 0; font-size: clamp(30px, 5vw, 46px); line-height: 1; }
 #title p { margin: 6px 0 10px; color: var(--muted); }
+#title p.howto { margin-top: -4px; font-size: 12.5px; }
 .tabs { display: inline-flex; border: var(--edge); border-radius: 14px; overflow: hidden; }
 .tabs button { border: 0; background: #fff; padding: 8px 16px; font-weight: 700; cursor: pointer; }
 .tabs button[aria-pressed="true"] { background: var(--sun); }
@@ -72,7 +76,7 @@ button { font: inherit; color: inherit; }
 #stamps li.got button { border-style: solid; background: var(--c); color: #fff; transform: rotate(-6deg); }
 #stamps li.got .l { color: #fff; }
 #restart { margin: 0 16px 12px; justify-self: start; }
-#sheetToggle { display: none; }
+#passport.collapsed #stamps, #passport.collapsed #restart { display: none; }
 
 .btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: var(--edge); border-radius: 14px; background: #fff;
   box-shadow: 0 4px 0 var(--ink); font-weight: 700; cursor: pointer; line-height: 1; }
@@ -82,6 +86,7 @@ button { font: inherit; color: inherit; }
 .btn:disabled { opacity: .5; cursor: default; }
 button:focus-visible { outline: 3px solid #3b82f6; outline-offset: 2px; }
 
+#zoom .pm { width: 42px; justify-content: center; font-size: 20px; padding: 6px 0; }
 #zoom { position: fixed; z-index: 2; left: max(16px, env(safe-area-inset-left, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); display: flex; flex-wrap: wrap; gap: 8px; }
 #credit { position: fixed; z-index: 1; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(14px + env(safe-area-inset-bottom, 0px));
   margin: 0; padding: 4px 8px; border-radius: 8px; background: rgba(255,255,255,.85); font-size: 11px; color: var(--muted); }
@@ -118,14 +123,13 @@ button:focus-visible { outline: 3px solid #3b82f6; outline-offset: 2px; }
 
 @media (max-width: 1100px) and (min-width: 761px) { #passport { width: 250px; } #stamps { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 760px) {
+  #title p.howto, #zoom .pm { display: none; }   /* phones pinch and drag; the buttons would crowd the screen */
   body { font-size: 14px; }
   #title { padding: 10px 12px 12px; }
   #title p { font-size: 13px; margin: 4px 0 8px; }
   #passport { top: auto; left: max(10px, env(safe-area-inset-left, 0px)); right: max(10px, env(safe-area-inset-right, 0px)); bottom: calc(10px + env(safe-area-inset-bottom, 0px));
     width: auto; max-height: 52%; }
-  #passport.collapsed #stamps, #passport.collapsed #restart { display: none; }
   #passport h2 { font-size: 21px; }
-  #sheetToggle { display: inline-flex; }
   #stamps { grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); }
   #zoom { bottom: auto; top: calc(178px + env(safe-area-inset-top, 0px)); left: max(10px, env(safe-area-inset-left, 0px)); }
   #zoom .btn { padding: 7px 10px; font-size: 13px; box-shadow: 0 3px 0 var(--ink); }
@@ -144,6 +148,7 @@ button:focus-visible { outline: 3px solid #3b82f6; outline-offset: 2px; }
 <section id="title" class="panel">
   <h1 class="display outlined">Say hello!</h1>
   <p id="intro">Tap a dot to hear hello, say it out loud, and collect a stamp in your passport.</p>
+  <p class="howto">✋ Drag the map to move it. Pinch, scroll or use + and − to zoom.</p>
   <div class="tabs" role="group" aria-label="Mode">
     <button type="button" id="modeExplore" aria-pressed="true">🗺️ Explore</button>
     <button type="button" id="modeQuiz" aria-pressed="false">❓ Quiz</button>
@@ -228,7 +233,8 @@ for (const l of L) {
 let vb = D.regions.World.slice(), region = "World", vbAnim = null;
 function sizeMarkers() {
   const k = vb[2] / Math.max(svg.clientWidth, 1) * (svg.clientWidth <= 760 ? 1.05 : 1.25);   // map units per screen pixel
-  const showWords = region !== "World" && !quiz;   // in the quiz the words would give the answer away
+  // words appear once you've zoomed in far enough to read them; in the quiz they'd give the answer away
+  const showWords = vb[2] / Math.max(svg.clientWidth, 1) < 0.62 && !quiz;
   for (const l of L) {
     const g = marks[l.id], [halo, dot, got, word] = g.children;
     halo.setAttribute("r", 13 * k); dot.setAttribute("r", 6.5 * k); dot.setAttribute("stroke-width", 1.8 * k);
@@ -277,9 +283,85 @@ for (const r of Object.keys(zoomNames)) {
   const b = document.createElement("button"); b.className = "btn"; b.type = "button"; b.dataset.r = r; b.textContent = zoomNames[r];
   b.setAttribute("aria-pressed", String(r === "World")); b.addEventListener("click", () => zoomTo(r)); $("zoom").appendChild(b);
 }
+for (const [label, f, name] of [["+", 0.6, "Zoom in"], ["−", 1 / 0.6, "Zoom out"]]) {
+  const b = document.createElement("button"); b.className = "btn pm"; b.type = "button"; b.textContent = label; b.setAttribute("aria-label", name);
+  b.addEventListener("click", () => { const r = svg.getBoundingClientRect(); zoomAt(r.left + r.width / 2, r.top + r.height / 2, f, true); });
+  $("zoom").appendChild(b);
+}
 svg.setAttribute("preserveAspectRatio", "xMinYMin meet");
 setVB(fit(D.regions.World));
-addEventListener("resize", () => { vbAnim = null; setVB(fit(D.regions[region])); });
+addEventListener("resize", () => {
+  vbAnim = null;
+  if (region) return setVB(fit(D.regions[region]));
+  const cx = vb[0] + vb[2] / 2, cy = vb[1] + vb[3] / 2, upp = vb[2] / (svg.clientWidth || 1);   // keep the same centre and zoom
+  const w = (svg.clientWidth || innerWidth) * upp, h = (svg.clientHeight || innerHeight) * upp;
+  setVB([cx - w / 2, cy - h / 2, w, h]);
+});
+
+// ------------------------------------------------------------ drag to move, scroll or pinch to zoom
+const WORLD = D.regions.World;
+function leaveRegion() { region = null; vbAnim = null; document.querySelectorAll("#zoom .btn[data-r]").forEach((b) => b.setAttribute("aria-pressed", "false")); }
+function clampVB(v) {
+  const sw = svg.clientWidth || innerWidth;
+  const minW = sw * 0.12, maxW = Math.max(fit(WORLD)[2] * 1.4, minW);          // from close-up to a bit wider than the whole world
+  let [x, y, w, h] = v;
+  const k = Math.min(Math.max(w, minW), maxW) / w;
+  const cx = x + w / 2, cy = y + h / 2;
+  w *= k; h *= k;
+  // never let the world slide completely off screen
+  const ncx = Math.min(Math.max(cx, WORLD[0]), WORLD[0] + WORLD[2]), ncy = Math.min(Math.max(cy, WORLD[1]), WORLD[1] + WORLD[3]);
+  return [ncx - w / 2, ncy - h / 2, w, h];
+}
+function zoomAt(clientX, clientY, f, animate) {
+  leaveRegion();
+  const r = svg.getBoundingClientRect(), upp = vb[2] / r.width;
+  const mx = vb[0] + (clientX - r.left) * upp, my = vb[1] + (clientY - r.top) * upp;   // the map point under the finger stays put
+  const target = clampVB([mx - (mx - vb[0]) * f, my - (my - vb[1]) * f, vb[2] * f, vb[3] * f]);
+  if (animate && !reduce) { vbAnim = { t0: performance.now(), from: vb.slice(), to: target }; requestAnimationFrame(stepVB); }
+  else setVB(target);
+}
+svg.addEventListener("wheel", (e) => {
+  e.preventDefault();
+  zoomAt(e.clientX, e.clientY, Math.exp(e.deltaY * (e.ctrlKey ? 0.01 : 0.0015)), false);
+}, { passive: false });
+
+const ptrs = new Map();
+let dragged = false, startDist = 0, startVB = null, startMid = null, moved = 0;
+svg.addEventListener("pointerdown", (e) => {
+  ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (ptrs.size === 1) { dragged = false; moved = 0; }
+  if (ptrs.size === 2) {
+    const [a, b] = [...ptrs.values()];
+    startDist = Math.hypot(a.x - b.x, a.y - b.y); startVB = vb.slice(); startMid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+  }
+});
+svg.addEventListener("pointermove", (e) => {
+  const p = ptrs.get(e.pointerId); if (!p) return;
+  const dx = e.clientX - p.x, dy = e.clientY - p.y;
+  p.x = e.clientX; p.y = e.clientY;
+  moved += Math.abs(dx) + Math.abs(dy);
+  if (moved > 6 && !dragged) { dragged = true; svg.classList.add("dragging"); tip.hidden = true; try { svg.setPointerCapture(e.pointerId); } catch (err) {} leaveRegion(); }
+  if (!dragged) return;
+  const r = svg.getBoundingClientRect();
+  if (ptrs.size >= 2 && startVB) {      // pinch: zoom about the middle of the two fingers
+    const [a, b] = [...ptrs.values()];
+    const f = startDist / Math.max(Math.hypot(a.x - b.x, a.y - b.y), 1);
+    const upp0 = startVB[2] / r.width;
+    const mx = startVB[0] + (startMid.x - r.left) * upp0, my = startVB[1] + (startMid.y - r.top) * upp0;
+    const mid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }, w = startVB[2] * f, h = startVB[3] * f, upp = w / r.width;
+    setVB(clampVB([mx - (mid.x - r.left) * upp, my - (mid.y - r.top) * upp, w, h]));
+  } else {
+    const upp = vb[2] / r.width;
+    setVB(clampVB([vb[0] - dx * upp, vb[1] - dy * upp, vb[2], vb[3]]));
+  }
+});
+function endPtr(e) {
+  ptrs.delete(e.pointerId);
+  if (ptrs.size < 2) startVB = null;
+  if (!ptrs.size) { svg.classList.remove("dragging"); setTimeout(() => (dragged = false), 0); }
+}
+svg.addEventListener("pointerup", endPtr);
+svg.addEventListener("pointercancel", endPtr);
 
 // ------------------------------------------------------------ speech
 let voices = [];
@@ -327,7 +409,7 @@ $("restart").addEventListener("click", () => { got.clear(); save(); refresh(); }
 const passport = $("passport"), sheetBtn = $("sheetToggle");
 sheetBtn.addEventListener("click", () => {
   const c = passport.classList.toggle("collapsed"); sheetBtn.textContent = c ? "Show" : "Hide"; sheetBtn.setAttribute("aria-expanded", String(!c));
-  if (c) setVB(fit(D.regions[region]));
+  if (c && region) setVB(fit(D.regions[region]));
 });
 if (matchMedia("(max-width: 760px)").matches) { passport.classList.add("collapsed"); sheetBtn.textContent = "Show"; sheetBtn.setAttribute("aria-expanded", "false"); }
 
@@ -376,7 +458,7 @@ function setMode(q) {
   closeCard();
   if (q) { quiz = { order: shuffle(L.slice()).slice(0, 10), i: 0, score: 0, tries: 0 }; $("quiz").hidden = false; ask(); $("intro").textContent = "Read the hello, then tap the place where people say it."; }
   else { quiz = null; $("quiz").hidden = true; clearPulse(); $("intro").textContent = "Tap a dot to hear hello, say it out loud, and collect a stamp in your passport."; }
-  vbAnim = null; setVB(fit(D.regions[region]));
+  vbAnim = null; if (region) setVB(fit(D.regions[region])); else sizeMarkers();
 }
 function clearPulse() { document.querySelectorAll(".marker.pulse").forEach((m) => m.classList.remove("pulse")); }
 function ask() {
@@ -428,6 +510,7 @@ $("doneBtn").addEventListener("click", () => { $("done").hidden = true; if (quiz
 const tip = $("tip");
 function pickMarker(target) { const g = target.closest?.(".marker"); return g ? byId[g.dataset.id] : null; }
 markG.addEventListener("click", (e) => {
+  if (dragged) return;                       // the end of a drag isn't a tap
   const l = pickMarker(e.target); if (!l) return;
   tip.hidden = true;
   if (quiz) answer(l.id); else openCard(l);
