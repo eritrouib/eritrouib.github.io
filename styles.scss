@@ -113,3 +113,8 @@ html.season-christmas {
 @media (prefers-reduced-motion: reduce) {
   .season-bat { display: none !important; }
 }
+
+// big friendly button for the kids' interactive maps
+a.btn-play { display: inline-block; padding: .45rem 1rem; border: 2px solid $ink; border-radius: 12px; box-shadow: 0 3px 0 $ink;
+  background: #FFCE2E; color: $ink; font-weight: 700; text-decoration: none; }
+a.btn-play:hover { transform: translateY(1px); box-shadow: 0 2px 0 $ink; }

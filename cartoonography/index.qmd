@@ -23,9 +23,9 @@ A blocky adventure map of Kingston upon Thames, Bushy Park and Hampton Court, bu
 
 ![**Kingston, in blocks.** Map data © OpenStreetMap contributors (ODbL).](img/kingston-blocky.jpg){group="kids" fig-alt="A blocky 3D map of Kingston upon Thames and Bushy Park with numbered pins and a Can you find checklist"}
 
-<p class="links"><a href="downloads/kingston-blocky-map-A2.pdf">Download the A2 print (PDF)</a></p>
+<p class="links"><a href="kingston/" class="btn-play">🎮 Play the 3D map</a> &nbsp; <a href="downloads/kingston-blocky-map-A2.pdf">Download the A2 print (PDF)</a></p>
 
-*An interactive version you can explore on screen is on its way.*
+In the 3D version you can spin the world, zoom in, and tap the floating icons to collect all ten. Each one has a fact to discover, and there's confetti when you find them all. It works on phones and tablets too.
 
 ---
 
