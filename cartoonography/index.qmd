@@ -6,16 +6,8 @@ toc: false
 ---
 
 ::: {.lead-intro}
-Each map has a game hidden in it, from counting pumpkins to collecting places in a 3D world. They're the little sisters of my [cARTography](../cartography/) maps, and more are on the way.
+Each map has a game hidden in it, from collecting hellos to finding places in a 3D Kingston. They're the little sisters of my [cARTography](../cartography/) maps, and more are on the way.
 :::
-
-## Where do pumpkins grow?
-
-A Halloween map of the world, with one pumpkin for every 500,000 tonnes grown in a year. Most of them are in India and China, but can you find the single pumpkins hiding in Peru, Malawi and Cuba?
-
-![**Where do pumpkins grow?** Pumpkins, squash and gourds grown in 2024. Data: FAOSTAT (FAO). Map: Natural Earth.](img/where-do-pumpkins-grow.jpg){group="kids" fig-alt="A night-time world map with piles of cartoon pumpkins on the countries that grow the most, the biggest piles on India and China"}
-
-<p class="links"><a href="downloads/where-do-pumpkins-grow-A3.pdf">Download the A3 print (PDF)</a></p>
 
 ## Say hello to the world!
 
@@ -36,6 +28,18 @@ A blocky adventure map of Kingston upon Thames, Bushy Park and Hampton Court, bu
 <p class="links"><a href="kingston/" class="btn-play">🎮 Play the 3D map</a> &nbsp; <a href="downloads/kingston-blocky-map-A2.pdf">Download the A2 print (PDF)</a></p>
 
 In the 3D version you can spin the world, zoom in, and tap the floating icons to collect all ten. Each one has a fact to discover, and there's confetti when you find them all. It works on phones and tablets too.
+
+## Seasonal maps
+
+Maps for special days of the year. They come back each season, and more will join them.
+
+### Halloween: where do pumpkins grow?
+
+A Halloween map of the world, with one pumpkin for every 500,000 tonnes grown in a year. Most of them are in India and China, but can you find the single pumpkins hiding in Peru, Malawi and Cuba?
+
+![**Where do pumpkins grow?** Pumpkins, squash and gourds grown in 2024. Data: FAOSTAT (FAO). Map: Natural Earth.](img/where-do-pumpkins-grow.jpg){group="kids" fig-alt="A night-time world map with piles of cartoon pumpkins on the countries that grow the most, the biggest piles on India and China"}
+
+<p class="links"><a href="downloads/where-do-pumpkins-grow-A3.pdf">Download the A3 print (PDF)</a></p>
 
 ---
 
