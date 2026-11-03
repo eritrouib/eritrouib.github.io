@@ -6,6 +6,8 @@ project:
     - cartoonography/downloads/*.pdf
     - cartoonography/kingston/index.html
     - cartoonography/hello/index.html
+    - cartoonography/clownfish/index.html
+    - cartoonography/clownfish/credits.csv
 
 website:
   title: "@ET"

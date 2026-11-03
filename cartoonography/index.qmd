@@ -6,8 +6,18 @@ toc: false
 ---
 
 ::: {.lead-intro}
-Each map has a game hidden in it, from collecting hellos to finding places in a 3D Kingston. They're the little sisters of my [cARTography](../cartography/) maps, and more are on the way.
+Each map has a game hidden in it, from hunting for clownfish to collecting hellos and finding places in a 3D Kingston. They're the little sisters of my [cARTography](../cartography/) maps, and more are on the way.
 :::
+
+## Where do clownfish live?
+
+More than 21,000 real sightings of clownfish, mostly photos people shared on iNaturalist, show where these little fish live: only in the warm Indian and Pacific Oceans, never the Atlantic. Can you find all 12 kinds on the map and tick them off?
+
+![**Where do clownfish live?** Sightings: OBIS, the Ocean Biodiversity Information System. Land and reefs: Natural Earth.](img/where-do-clownfish-live.jpg){group="kids" fig-alt="A world map centred on the Pacific with orange dots where clownfish have been spotted, around the Indian and Pacific Oceans, and twelve cards with drawings of different clownfish"}
+
+<p class="links"><a href="clownfish/" class="btn-play">🐠 Play find the clownfish</a> &nbsp; <a href="downloads/where-do-clownfish-live-A3.pdf">Download the A3 print (PDF)</a></p>
+
+In the game, kids hunt for 12 hidden clownfish to fill their fish book, then take the quiz: which ocean has no clownfish at all? The sightings come from [OBIS](https://obis.org), and only openly licensed records are used ([list of datasets](clownfish/credits.csv)).
 
 ## Say hello to the world!
 
