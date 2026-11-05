@@ -6,8 +6,18 @@ toc: false
 ---
 
 ::: {.lead-intro}
-Each map has a game hidden in it, from hunting for clownfish to collecting hellos and finding places in a 3D Kingston. They're the little sisters of my [cARTography](../cartography/) maps, and more are on the way.
+Each map has a game hidden in it, from spotting deer and hunting for clownfish to collecting hellos and finding places in a 3D Kingston. They're the little sisters of my [cARTography](../cartography/) maps, and more are on the way.
 :::
+
+## Spot the deer!
+
+Richmond Park and Bushy Park are home to more than 900 red and fallow deer. This storybook map shows where people have really spotted them: the glowing patches are the deer hotspots, built from 683 sightings shared on iNaturalist and with the National Mammal Atlas Project. Ten deer are hiding on the map. Can you find them all?
+
+![**Spot the deer!** Sightings: GBIF. Map data © OpenStreetMap contributors. Deer numbers: The Royal Parks.](img/spot-the-deer.jpg){group="kids" fig-alt="A colourful storybook map of Richmond Park and Bushy Park with cartoon trees, ponds, glowing deer hotspots and small deer drawings, next to cards about red deer, fallow deer and baby deer"}
+
+<p class="links"><a href="deer/" class="btn-play">🦌 Play spot the deer</a> &nbsp; <a href="downloads/spot-the-deer-A3.pdf">Download the A3 print (PDF)</a></p>
+
+In the game, kids zoom into the parks to spot the hidden deer and tick off landmarks in their spotter's notebook, switch the real sightings between seasons to see where deer go in autumn, and earn a deer spotter badge in the quiz. And remember: always stay at least 50 metres away from real deer. Sightings come from [GBIF](https://www.gbif.org), using only openly licensed records ([list of datasets](deer/credits.csv)).
 
 ## Where do clownfish live?
 

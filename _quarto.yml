@@ -8,6 +8,8 @@ project:
     - cartoonography/hello/index.html
     - cartoonography/clownfish/index.html
     - cartoonography/clownfish/credits.csv
+    - cartoonography/deer/index.html
+    - cartoonography/deer/credits.csv
 
 website:
   title: "@ET"
