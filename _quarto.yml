@@ -4,6 +4,7 @@ project:
   resources:
     - CNAME
     - cartoonography/downloads/*.pdf
+    - posters/downloads/*.pdf
     - cartoonography/kingston/index.html
     - cartoonography/hello/index.html
     - cartoonography/clownfish/index.html
@@ -15,6 +16,11 @@ website:
   title: "@ET"
   description: "Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi."
   site-url: https://etymo.co.uk
+  google-analytics: "G-N5DB7ED3H1"
+  cookie-consent:
+    type: express        # visitors choose before any analytics cookies are set (UK rules)
+    style: simple
+    palette: light
   favicon: assets/et-mark.svg
   open-graph: true
   navbar:

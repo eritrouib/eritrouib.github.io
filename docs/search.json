@@ -245,6 +245,13 @@
     "text": "Biodiversity\n\n\nWildScope NW\n\n2026 · Prototype · Python, Streamlit, GBIF, Natural England SSSIs\n\nA regional wildlife observatory for North West England: Sites of Special Scientific Interest, species records and simple conservation views in one dashboard, with pages for protected areas, a species explorer and conservation insights. The live version runs on synthetic demo data; a real-data mode pulls Natural England SSSI boundaries and GBIF occurrence records, shown only as coarse grid cells so sensitive locations aren’t exposed. An early prototype: an official regional boundary, complete GBIF downloads and uncertainty-aware analysis are next.\n\nOpen the app Code"
   },
   {
+    "objectID": "projects.html#data-posters",
+    "href": "projects.html#data-posters",
+    "title": "Projects",
+    "section": "Data posters",
+    "text": "Data posters\n\n\nLondon, connected? and Where cyclists get hurt\n\n2026 · Python, GeoPandas, NetworkX, OpenStreetMap, DfT STATS19\n\nTwo dark A2 posters, one question each. The first shows how London’s cycle tracks join up: 1,458 km of track in nearly 4,000 separate pieces, with the long joined-up stretches on the edges of London. The second shows where 5,157 cyclists were killed or seriously injured in five years, brightest in central London.\n\nSee the posters"
+  },
+  {
     "objectID": "projects.html#cartography",
     "href": "projects.html#cartography",
     "title": "Projects",
@@ -259,11 +266,32 @@
     "text": "Reality Checks\nTen small calculators based on research, so you can try the evidence on yourself. They’re all in one place at realitychecks.app. Each one explains what it can and can’t tell you: the results are population averages, and they can’t predict what will happen to you personally.\n\n\nHealth\n\n5 calculators\n\n\nWhat’s your lifestyle costing you?Life expectancy and everyday habits\nHow much is your exercise adding to your life?Cardio, strength, steps and sitting\nWhat is your diet really doing to you?Against the Mediterranean diet and NHS guidance\nHow much sleep are you actually getting?Sleep debt and recovery\nAre you actually hydrated?A personalised daily target\n\n\n\nMoney and time\n\n5 calculators\n\n\nShould you rent or buy?Break-even point across UK and European cities\nDoes your salary actually cover your life?Savings rate, and how far it goes in 20 cities\nWhat’s your coffee habit really costing you?And what it could grow to if invested\nWhat are your meetings actually costing?In money and lost focus time\nWhat is social media really costing you?Days of your life, added up\n\n\n\n\nVisit Reality Checks"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "posters/index.html",
+    "href": "posters/index.html",
+    "title": "Data posters",
     "section": "",
-    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nRace to A&E: how quickly can you reach an emergency department in six European capitals?\n\n\n\nhealth\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the drive from where people live to the nearest emergency department in London, Paris, Berlin, Madrid, Rome and Athens, and turned it into a race.\n\n\n\n\n\nOct 22, 2026\n\n5 min\n\n\n\n\n\n\nCan you draw Greece with tavernas?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nGreece\n\nPython\n\n\n\nAfter the UK pubs I tried the same with Greek tavernas, and found out how hard it is to get the data in Greece.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nCan you draw Albania with its bar-kafe?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nAlbania\n\nPython\n\n\n\nAfter the UK pubs and the Greek tavernas, I couldn’t leave out Albania, my country of origin.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nLast orders? Drawing the UK with its pubs\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nPython\n\n\n\nI mapped 38,000 pubs and bars as dots, checked whether COVID closed them, and had far too much fun with pub names.\n\n\n\n\n\nOct 20, 2026\n\n2 min\n\n\n\n\n\n\nAndros on one page: rebuilding my island map, seven years on\n\n\n\ncartography\n\nweb mapping\n\nPython\n\n\n\nA 2019 cartography project on Andros, rebuilt as an interactive web map that a small island municipality could host without a map server.\n\n\n\n\n\nOct 19, 2026\n\n3 min\n\n\n\n\n\n\nDo motorcyclists follow variable message signs? What 105 riders in Athens told us\n\n\n\ntransport\n\nsmart cities\n\nresearch\n\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n3 min\n\n\n\n\n\n\nHow far is everything? Walking London’s 15-minute city\n\n\n\nwalkability\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.\n\n\n\n\n\nOct 10, 2026\n\n6 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them again for London, using open data and open-source tools.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
+    "text": "One question, one map. These posters take a whole dataset and show it at a glance, so you can see the pattern before reading a single number. The first two are about cycling in London: how well the cycle tracks join up, and where cyclists get hurt."
+  },
+  {
+    "objectID": "posters/index.html#london-connected",
+    "href": "posters/index.html#london-connected",
+    "title": "Data posters",
+    "section": "01 · London, connected?",
+    "text": "01 · London, connected?\nLondon has 1,458 km of cycle tracks, the kind kept apart from traffic. But a track only helps if it takes you somewhere. Joining up every piece that meets (or comes within 20 m of another, a short hop across a junction), I found 3,964 separate networks. The biggest is only 90 km long, along the Great West Road near Heathrow, and it holds just 6% of all the track. The other long joined-up stretches are on the edges of London too: the Royal Docks, the Lea Valley and Thamesmead. In the centre, the longest connected network runs 22 km, from Hyde Park to Farringdon. Everything else is in pieces: 3,712 of them are shorter than 1 km.\n\n\n\nLondon, connected? The six biggest joined-up networks of cycle track in colour, and every other piece in grey. Data © OpenStreetMap contributors, 5 November 2026.\n\n\n\nDownload the A2 poster (PDF)"
+  },
+  {
+    "objectID": "posters/index.html#where-cyclists-get-hurt",
+    "href": "posters/index.html#where-cyclists-get-hurt",
+    "title": "Data posters",
+    "section": "02 · Where cyclists get hurt",
+    "text": "02 · Where cyclists get hurt\nIn five years, 5,157 cyclists were killed or seriously injured on London’s roads, 40 of them killed. I counted them in 400 m hexagons. The brightest patches are in central and inner London, around Blackfriars and London Bridge, and along busy high streets like Upper Tooting Road, Clapham High Street and Tottenham High Road. 46% of these cyclists were hurt more than 20 m from any cycle lane or track.\n\n\n\nWhere cyclists get hurt. Cyclists killed or seriously injured, 2021–2025, in 400 m hexagons. Data: Department for Transport (STATS19).\n\n\n\nDownload the A2 poster (PDF)"
+  },
+  {
+    "objectID": "posters/index.html#reading-them-together",
+    "href": "posters/index.html#reading-them-together",
+    "title": "Data posters",
+    "section": "Reading them together",
+    "text": "Reading them together\nThe two posters are meant to sit side by side. Where poster 01 shows the most joined-up track, on the outer edges, poster 02 shows few serious injuries; where it shows short fragments, in the centre, poster 02 glows brightest. But that isn’t the whole story, and the map can’t prove the tracks are the reason. More people ride in central London, so more people get hurt there, and there’s no open data on cycling levels for every street to correct for that. What the posters do show is that the routes most people ride are the ones with the least joined-up protection.\n\n\n\n\n\n\nHow these were made. Cycle tracks are OpenStreetMap ways tagged as cycle tracks or cycleways, downloaded on 5 November 2026; painted lanes and bus lanes aren’t counted as track. OpenStreetMap is mapped by volunteers, so a crossing that isn’t mapped can split a route that is joined on the ground. Collisions are police-reported (STATS19) in the Metropolitan and City of London police areas, 2021–2025; many injuries are never reported to the police. The style is inspired by Thomas Hagos’s river network posters.\n\n\n\n\nWould you like a print, or a poster like this for your own data? See the About page to get in touch."
   },
   {
     "objectID": "cartoonography/index.html",
@@ -306,6 +334,13 @@
     "title": "carTOONography",
     "section": "Seasonal maps",
     "text": "Seasonal maps\nMaps for special days of the year. They come back each season, and more will join them.\n\nHalloween: where do pumpkins grow?\nA Halloween map of the world, with one pumpkin for every 500,000 tonnes grown in a year. Most of them are in India and China, but can you find the single pumpkins hiding in Peru, Malawi and Cuba?\n\n\n\nWhere do pumpkins grow? Pumpkins, squash and gourds grown in 2024. Data: FAOSTAT (FAO). Map: Natural Earth.\n\n\n\nDownload the A3 print (PDF)\n\n\nWould you like a themed map of your own town, school or favourite park? See the About page to get in touch."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Notes, methods and experiments in data, maps and decisions.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nRace to A&E: how quickly can you reach an emergency department in six European capitals?\n\n\n\nhealth\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the drive from where people live to the nearest emergency department in London, Paris, Berlin, Madrid, Rome and Athens, and turned it into a race.\n\n\n\n\n\nOct 22, 2026\n\n5 min\n\n\n\n\n\n\nCan you draw Greece with tavernas?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nGreece\n\nPython\n\n\n\nAfter the UK pubs I tried the same with Greek tavernas, and found out how hard it is to get the data in Greece.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nCan you draw Albania with its bar-kafe?\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nAlbania\n\nPython\n\n\n\nAfter the UK pubs and the Greek tavernas, I couldn’t leave out Albania, my country of origin.\n\n\n\n\n\nOct 21, 2026\n\n2 min\n\n\n\n\n\n\nLast orders? Drawing the UK with its pubs\n\n\n\nmaps\n\ndata visualisation\n\nopen data\n\nPython\n\n\n\nI mapped 38,000 pubs and bars as dots, checked whether COVID closed them, and had far too much fun with pub names.\n\n\n\n\n\nOct 20, 2026\n\n2 min\n\n\n\n\n\n\nAndros on one page: rebuilding my island map, seven years on\n\n\n\ncartography\n\nweb mapping\n\nPython\n\n\n\nA 2019 cartography project on Andros, rebuilt as an interactive web map that a small island municipality could host without a map server.\n\n\n\n\n\nOct 19, 2026\n\n3 min\n\n\n\n\n\n\nDo motorcyclists follow variable message signs? What 105 riders in Athens told us\n\n\n\ntransport\n\nsmart cities\n\nresearch\n\n\n\nA plain-language summary of our 2020 IET paper on powered two-wheelers and variable message signs.\n\n\n\n\n\nOct 16, 2026\n\n3 min\n\n\n\n\n\n\nHow far is everything? Walking London’s 15-minute city\n\n\n\nwalkability\n\nnetwork analysis\n\nspatial analysis\n\nPython\n\n\n\nI measured the walk, along real streets and paths, from every residential street in London to six everyday services, and asked who misses out.\n\n\n\n\n\nOct 10, 2026\n\n6 min\n\n\n\n\n\n\nFrom Athens to London: pedestrian collisions and the built environment, five years on\n\n\n\nroad safety\n\nspatial analysis\n\nPython\n\nAI\n\n\n\nI took the questions from my master’s thesis on Athens and asked them again for London, using open data and open-source tools.\n\n\n\n\n\nOct 6, 2026\n\n5 min\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "open-source.html",

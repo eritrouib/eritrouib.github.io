@@ -9,7 +9,7 @@
 <link>https://etymo.co.uk/blog.html</link>
 <atom:link href="https://etymo.co.uk/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Data, maps and decisions. Notes and projects by Eriola Trungu Impersimi.</description>
-<generator>quarto-1.10.19</generator>
+<generator>quarto-1.7.32</generator>
 <lastBuildDate>Wed, 21 Oct 2026 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Race to A&amp;E: how quickly can you reach an emergency department in six European capitals?</title>
@@ -23,7 +23,7 @@
 <p>In an emergency, minutes matter. So I asked a simple question of six European capitals: <strong>how long does it take to drive from where people live to the nearest emergency department?</strong></p>
 <p>The idea came from Milan Janosov’s animated maps of reachable bakeries in big cities, where the street network grows out from a point and lights up in colour. I wanted to try the same approach on emergency care.</p>
 <p>The answer is easier to see than to read. I started the clock at every A&amp;E in each city at the same moment and let the road network light up as each street came within reach. The last streets to light up are the gaps.</p>
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://etymo.co.uk/race-to-ae/media/race_to_ae_six_capitals.mp4"></video></div>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://etymo.co.uk/race-to-ae/media/race_to_ae_six_capitals.mp4"></video></div>
 <p><em>All six capitals at once: the clock runs to 30 minutes in about 10 seconds.</em></p>
 <p><a href="https://etymo.co.uk/race-to-ae/">Play the race for any of the six cities on the dashboard</a>, switch to busy traffic, or click anywhere to see how far the nearest A&amp;E is.</p>
 <section id="comparing-like-with-like" class="level2">

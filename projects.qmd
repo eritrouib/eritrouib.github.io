@@ -144,6 +144,21 @@ A regional wildlife observatory for North West England: Sites of Special Scienti
 
 :::
 
+## Data posters
+
+::: {.cards}
+
+::: {.card-et}
+### London, connected? and Where cyclists get hurt
+<p class="meta">2026 · Python, GeoPandas, NetworkX, OpenStreetMap, DfT STATS19</p>
+
+Two dark A2 posters, one question each. The first shows how London's cycle tracks join up: 1,458 km of track in nearly 4,000 separate pieces, with the long joined-up stretches on the edges of London. The second shows where 5,157 cyclists were killed or seriously injured in five years, brightest in central London.
+
+<p class="links"><a href="posters/">See the posters</a></p>
+:::
+
+:::
+
 ## Cartography
 
 ::: {.cards}
