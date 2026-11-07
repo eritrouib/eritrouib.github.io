@@ -270,7 +270,7 @@
     "href": "posters/index.html",
     "title": "Data posters",
     "section": "",
-    "text": "I saw Thomas Hagos’s posters of river networks and wanted to try something similar with London’s cycle tracks. My first attempt had everything on one map, the tracks, the lanes and the collisions, and it was too busy to read. So I split it into two posters: one about how well the cycle tracks join up, and one about where cyclists get hurt. I’ll be adding more posters on other topics."
+    "text": "This section is for data posters: large maps that show one dataset across a whole city or region. The first two are about cycling in London. The first looks at how well the cycle tracks join up, and the second at where cyclists are killed or seriously injured."
   },
   {
     "objectID": "posters/index.html#london-connected",
@@ -291,7 +291,7 @@
     "href": "posters/index.html#reading-them-together",
     "title": "Data posters",
     "section": "Reading them together",
-    "text": "Reading them together\nLooking at the two posters side by side, the long joined-up tracks are mostly on the edges of London, where there are fewer serious injuries, while the centre has short pieces of track and the most injuries. I can’t say from this that the tracks are the reason. More people cycle in central London, so more people get hurt there, and there isn’t open data on how many people cycle on every street to account for that. What I can say is that the places where most people cycle are the ones with the least joined-up track.\n\n\n\n\n\n\nHow these were made. Cycle tracks are OpenStreetMap ways tagged as cycle tracks or cycleways, downloaded on 5 November 2026; painted lanes and bus lanes aren’t counted as track. OpenStreetMap is mapped by volunteers, so a crossing that isn’t mapped can split a route that is joined on the ground. Collisions are police-reported (STATS19) in the Metropolitan and City of London police areas, 2021–2025; many injuries are never reported to the police. The style is inspired by Thomas Hagos’s river network posters.\n\n\n\n\nIf you would like a print, or a poster like this with your own data, you can find my email on the About page."
+    "text": "Reading them together\nLooking at the two posters side by side, the long joined-up tracks are mostly on the edges of London, where there are fewer serious injuries, while the centre has short pieces of track and the most injuries. I can’t say from this that the tracks are the reason. More people cycle in central London, so more people get hurt there, and there isn’t open data on how many people cycle on every street to account for that. What I can say is that the places where most people cycle are the ones with the least joined-up track.\n\n\n\n\n\n\nHow these were made. Cycle tracks are OpenStreetMap ways tagged as cycle tracks or cycleways, downloaded on 5 November 2026; painted lanes and bus lanes aren’t counted as track. OpenStreetMap is mapped by volunteers, so a crossing that isn’t mapped can split a route that is joined on the ground. Collisions are police-reported (STATS19) in the Metropolitan and City of London police areas, 2021–2025; many injuries are never reported to the police.\n\n\n\n\nIf you would like a print, or a poster like this with your own data, you can find my email on the About page."
   },
   {
     "objectID": "cartoonography/index.html",
