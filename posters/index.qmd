@@ -15,7 +15,7 @@ London has 1,458 km of cycle tracks separated from traffic, but I wanted to know
 
 ![**London, connected?** The six biggest joined-up networks of cycle track in colour, and every other piece in grey. Data © OpenStreetMap contributors, 5 November 2026.](img/london-connected.jpg){group="posters" fig-alt="Dark poster of Greater London with cycle tracks drawn as thin lines; six large joined-up networks glow in colour on the edges of London, while central London is a scatter of short grey fragments"}
 
-<p class="links"><a href="downloads/london-connected-A2.pdf">Download the A2 poster (PDF)</a></p>
+<p class="links">Prints are available to buy: see the <a href="../about.qmd">About</a> page to get in touch.</p>
 
 ## 02 · Where cyclists get hurt
 
@@ -23,7 +23,7 @@ Between 2021 and 2025, 5,157 cyclists were killed or seriously injured on London
 
 ![**Where cyclists get hurt.** Cyclists killed or seriously injured, 2021–2025, in 400 m hexagons. Data: Department for Transport (STATS19).](img/where-cyclists-get-hurt.jpg){group="posters" fig-alt="Dark poster of Greater London covered in hexagons from dark red to bright yellow; the brightest are in central London, with five numbered hotspots"}
 
-<p class="links"><a href="downloads/where-cyclists-get-hurt-A2.pdf">Download the A2 poster (PDF)</a></p>
+<p class="links">Prints are available to buy: see the <a href="../about.qmd">About</a> page to get in touch.</p>
 
 ## Reading them together
 

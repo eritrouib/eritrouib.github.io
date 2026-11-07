@@ -29,6 +29,14 @@ In 2022 I made a land cover map of Gorton and Abbey Hey in Manchester, styled wi
 
 Urban Atlas maps land *use*, not land cover, so there are judgement calls: Krasta, a wooded hill, has the same code as a small town park.
 
+### Old-style Peloponnese (2026)
+
+A few years ago I made an old-style map of the Peloponnese in ArcGIS Pro. I made it again without Pro, building the relief from my own 25 m contours and adding the sea and coastline from EMODnet Bathymetry, on a parchment-style background with old-style lettering.
+
+![**Peloponnese.** Relief from 25 m contours. Sea and coastline: EMODnet Bathymetry.](img/peloponnese-vintage.jpg){group="colour" fig-alt="Old-style map of the Peloponnese on parchment, with shaded mountains, pale blue sea and serif lettering for the towns, gulfs and summits"}
+
+<p class="links">Prints are available to buy: see the <a href="../about.qmd">About</a> page to get in touch.</p>
+
 ### Albania in 3D (2022, rebuilt 2026)
 
 In 2022 I made a 3D map of Albania in ArcGIS Pro, with the mountains running down into the sea floor. I don't have Pro any more, so I rebuilt it as a web page you can spin. The land is the elevation model from my original project, and the sea floor is from EMODnet Bathymetry. You can change the height exaggeration and lower the sea level to see what is under the water.
