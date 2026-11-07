@@ -29,6 +29,14 @@ In 2022 I made a land cover map of Gorton and Abbey Hey in Manchester, styled wi
 
 Urban Atlas maps land *use*, not land cover, so there are judgement calls: Krasta, a wooded hill, has the same code as a small town park.
 
+### Albania in 3D (2022, rebuilt 2026)
+
+In 2022 I made a 3D map of Albania in ArcGIS Pro, with the mountains running down into the sea floor. I don't have Pro any more, so I rebuilt it as a web page you can spin. The land is the elevation model from my original project, and the sea floor is from EMODnet Bathymetry. You can change the height exaggeration and lower the sea level to see what is under the water.
+
+![**Albania, from the mountains to the sea floor.** Land: my 2022 elevation model. Sea floor: EMODnet Bathymetry. Borders: Natural Earth.](img/albania-3d.jpg){group="colour" fig-alt="3D view of Albania from the south-west, with brown and green mountains and the blue Adriatic and Ionian sea floor"}
+
+<p class="links"><a href="albania3d/" class="btn-play">Open the 3D map</a></p>
+
 ### Earlier work in Greater Manchester (2021–2023)
 
 ::: {.callout-note appearance="simple"}
