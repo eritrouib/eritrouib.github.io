@@ -173,6 +173,15 @@ My more artistic maps: watercolour land cover maps of Elbasan and Athens made in
 :::
 
 ::: {.card-et}
+### Albania, from the mountains to the sea floor
+<p class="meta">2022 ArcGIS Pro project, rebuilt 2026 · Python, GDAL, EMODnet Bathymetry, three.js</p>
+
+A 3D map of Albania you can spin in the browser, with the mountains running down into the Adriatic and Ionian sea floor. I made the original in ArcGIS Pro and rebuilt it as a web page, using the elevation model from my project for the land and EMODnet Bathymetry for the sea. You can change the height exaggeration and lower the sea level to see what is under the water.
+
+<p class="links"><a href="albania3d/">Open the 3D map</a></p>
+:::
+
+::: {.card-et}
 ### Andros island web map
 <p class="meta">2019 MSc cartography project, rebuilt 2026 · Python, GeoPandas, rasterio, Leaflet</p>
 

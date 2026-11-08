@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Albania, from the mountains to the sea floor</title>
+<meta name="description" content="Spin a 3D map of Albania's mountains and the Adriatic and Ionian sea floor. Land: my DEM; sea floor: EMODnet. @ET · etymo.co.uk">
+<link rel="icon" href="../assets/et-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Overpass:wght@700;800&display=swap">
+<style>
+/* Full-screen 3D scene; a small title card top-left, controls bottom-left, credit bottom-right. */
+:root { --ink: #F4F7FB; --muted: #A9B6CA; --bg: #0C1322; --card: rgba(12,19,34,.82); --edge: #2A3754; --accent: #FFE7A0; color-scheme: dark; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { height: 100%; margin: 0; overflow: hidden; background: radial-gradient(ellipse at 50% 40%, #16233d, var(--bg) 70%); color: var(--ink); font: 15px/1.45 "Atkinson Hyperlegible", system-ui, sans-serif; }
+#scene { position: fixed; inset: 0; touch-action: none; }
+#scene canvas { display: block; width: 100%; height: 100%; outline: none; }
+.card { position: fixed; z-index: 2; background: var(--card); border: 1px solid var(--edge); border-radius: 12px; backdrop-filter: blur(6px); }
+#title { top: calc(16px + env(safe-area-inset-top, 0px)); left: max(16px, env(safe-area-inset-left, 0px)); padding: 14px 18px; max-width: min(400px, calc(100vw - 32px)); }
+#title .kick { font: 700 11px "Overpass", sans-serif; letter-spacing: .14em; color: var(--accent); }
+#title h1 { margin: 4px 0 6px; font: 800 26px/1.05 "Overpass", sans-serif; letter-spacing: -.01em; }
+#title p { margin: 0; color: var(--muted); font-size: 13.5px; }
+#controls { left: max(16px, env(safe-area-inset-left, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); padding: 12px 14px; display: grid; gap: 10px; width: min(300px, calc(100vw - 32px)); }
+#controls label { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; font-size: 13px; color: var(--muted); }
+#controls label b { color: var(--ink); font-weight: 700; }
+#controls input[type=range] { grid-column: 1 / -1; width: 100%; accent-color: var(--accent); }
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+button { font: 700 13px "Atkinson Hyperlegible", sans-serif; color: var(--ink); background: #1A2640; border: 1px solid var(--edge); border-radius: 8px; padding: 7px 10px; cursor: pointer; }
+button[aria-pressed="true"] { background: var(--accent); color: #1a1a1a; border-color: var(--accent); }
+button:focus-visible, input:focus-visible { outline: 2px solid #7DD3FC; outline-offset: 2px; }
+#credit { right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); padding: 6px 10px; font-size: 11px; color: var(--muted); max-width: 360px; }
+#credit a { color: inherit; }
+#labels { position: fixed; inset: 0; pointer-events: none; z-index: 1; }
+.lab { position: absolute; transform: translate(-50%, -100%); white-space: nowrap; font-size: 12px; font-weight: 700; color: #fff; text-shadow: 0 1px 3px #000, 0 0 6px #000; padding-bottom: 6px; }
+.lab::after { content: ""; position: absolute; left: 50%; bottom: 0; width: 1px; height: 6px; background: #fff; }
+.lab.peak { color: var(--accent); }
+.lab.sea, .lab.water { font-style: italic; font-weight: 400; color: #BFE8FF; letter-spacing: .06em; }
+.lab.sea::after, .lab.water::after { display: none; }
+#loading { position: fixed; inset: 0; display: grid; place-items: center; font: 800 20px "Overpass", sans-serif; letter-spacing: .1em; color: var(--muted); z-index: 3; }
+@media (max-width: 700px) {
+  #title { padding: 10px 12px; } #title h1 { font-size: 20px; } #title p { font-size: 12.5px; }
+  #controls { width: auto; right: max(12px, env(safe-area-inset-right, 0px)); left: max(12px, env(safe-area-inset-left, 0px)); bottom: calc(12px + env(safe-area-inset-bottom, 0px)); }
+  #credit { bottom: auto; top: calc(158px + env(safe-area-inset-top, 0px)); left: max(12px, env(safe-area-inset-left, 0px)); right: auto; font-size: 10px; }
+  .lab { font-size: 10.5px; }
+}
+</style>
+
+<div id="scene" aria-label="3D map of Albania's land and sea floor. Drag to rotate, scroll or pinch to zoom."></div>
+<div id="labels" aria-hidden="true"></div>
+<div id="loading">LOADING THE TERRAIN…</div>
+
+<section id="title" class="card">
+  <div class="kick">ETYMO · 3D</div>
+  <h1>Albania, from the mountains to the sea floor</h1>
+  <p>Korab rises to 2,764 m, and less than 100 km off the coast the Ionian Sea is over 1,500 m deep. Drag to spin, scroll or pinch to zoom.</p>
+</section>
+
+<section id="controls" class="card" aria-label="Map controls">
+  <label for="exag">Height exaggeration <b id="exagVal">6×</b><input id="exag" type="range" min="1" max="15" step="1" value="6"></label>
+  <label for="sea">Sea level <b id="seaVal">0 m</b><input id="sea" type="range" min="-1500" max="0" step="50" value="0"></label>
+  <div class="row">
+    <button type="button" id="water" aria-pressed="true">🌊 Water</button>
+    <button type="button" id="labelsBtn" aria-pressed="true">🏷️ Labels</button>
+    <button type="button" id="spin" aria-pressed="false">🔄 Spin</button>
+    <button type="button" id="home">⟲ Reset</button>
+  </div>
+</section>
+<p id="credit" class="card">Land: Albania DEM (my 2022 ArcGIS project) · Sea floor: <a href="https://emodnet.ec.europa.eu/en/bathymetry" target="_blank" rel="noopener">EMODnet Bathymetry</a> · Borders: Natural Earth · <a href="../projects.html">@ET · etymo.co.uk</a></p>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+<script type="module">
+import * as THREE from "three";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+
+const $ = (id) => document.getElementById(id);
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const meta = await (await fetch("meta.json")).json();
+const heights = new Int16Array(await (await fetch("terrain.bin")).arrayBuffer());
+const tex = await new THREE.TextureLoader().loadAsync("texture.jpg");
+tex.colorSpace = THREE.SRGBColorSpace;
+tex.anisotropy = 8;
+
+// scene units: 1 unit = 1 km
+const W = meta.width_m / 1000, H = meta.height_m / 1000, NX = meta.w, NY = meta.h;
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+$("scene").appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(32, 1, 1, 5000);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true; controls.maxPolarAngle = 1.45; controls.minDistance = 40; controls.maxDistance = 1200;
+controls.autoRotateSpeed = 0.5;
+scene.add(new THREE.HemisphereLight(0xffffff, 0x223344, 2.2));
+const sun = new THREE.DirectionalLight(0xffffff, 1.2); sun.position.set(-200, 300, -150); scene.add(sun);
+
+// terrain: a grid with the real heights; x east, z south, y up
+const geo = new THREE.PlaneGeometry(W, H, NX - 1, NY - 1);
+geo.rotateX(-Math.PI / 2);
+const pos = geo.attributes.position;
+function setExag(e) {
+  for (let i = 0; i < pos.count; i++) pos.setY(i, heights[i] / 1000 * e);
+  pos.needsUpdate = true; geo.computeVertexNormals();
+}
+const terrain = new THREE.Mesh(geo, new THREE.MeshLambertMaterial({ map: tex }));
+scene.add(terrain);
+// skirt: a dark base under the model so it reads as a block
+const base = new THREE.Mesh(new THREE.BoxGeometry(W, 2, H), new THREE.MeshLambertMaterial({ color: 0x0b1424 }));
+scene.add(base);
+// water: a translucent sheet at sea level
+const water = new THREE.Mesh(new THREE.PlaneGeometry(W, H), new THREE.MeshPhongMaterial({ color: 0x3aa0d8, transparent: true, opacity: 0.55, shininess: 80, depthWrite: false }));
+water.rotateX(-Math.PI / 2); scene.add(water);
+
+let exag = 6, seaLevel = 0;
+function apply() {
+  setExag(exag);
+  const bottom = meta.zmin / 1000 * exag - 2;
+  base.scale.y = 1; base.position.y = bottom; base.geometry.dispose(); base.geometry = new THREE.BoxGeometry(W, 4, H);
+  water.position.y = seaLevel / 1000 * exag + 0.05;
+  placeLabels3D();
+}
+
+// labels: HTML, positioned each frame from 3D points
+const labEls = meta.labels.map((l) => { const d = document.createElement("div"); d.className = "lab " + l.kind; d.textContent = l.name; $("labels").appendChild(d); return d; });
+const labPts = meta.labels.map(() => new THREE.Vector3());
+function placeLabels3D() {
+  meta.labels.forEach((l, i) => labPts[i].set((l.u - 0.5) * W, (l.kind === "sea" ? 0 : l.z / 1000) * exag + 1.5, (l.v - 0.5) * H));
+}
+const v = new THREE.Vector3();
+let showLabels = true;
+function drawLabels() {
+  const r = renderer.domElement.getBoundingClientRect();
+  labEls.forEach((el, i) => {
+    v.copy(labPts[i]).project(camera);
+    const vis = showLabels && v.z < 1 && Math.abs(v.x) < 1.05 && Math.abs(v.y) < 1.05;
+    el.style.display = vis ? "" : "none";
+    if (vis) { el.style.left = (v.x + 1) / 2 * r.width + "px"; el.style.top = (1 - v.y) / 2 * r.height + "px"; }
+  });
+}
+
+// view
+const HOME = { pos: new THREE.Vector3(), target: new THREE.Vector3() };
+function resize() {
+  const w = innerWidth, h = innerHeight;
+  renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
+  const narrow = w / h < 0.8;
+  HOME.target.set(0, 0, narrow ? 0 : 10);
+  HOME.pos.set(narrow ? 190 : 230, narrow ? 640 : 300, narrow ? 520 : 330);   // from the south-west, looking north-east up the coast
+}
+addEventListener("resize", resize); resize();
+camera.position.copy(HOME.pos); controls.target.copy(HOME.target);
+apply();
+
+$("exag").addEventListener("input", (e) => { exag = +e.target.value; $("exagVal").textContent = exag + "×"; apply(); });
+$("sea").addEventListener("input", (e) => { seaLevel = +e.target.value; $("seaVal").textContent = (seaLevel === 0 ? "0" : seaLevel.toLocaleString("en-GB")) + " m"; apply(); });
+$("water").addEventListener("click", (e) => { water.visible = !water.visible; e.currentTarget.setAttribute("aria-pressed", String(water.visible)); });
+$("labelsBtn").addEventListener("click", (e) => { showLabels = !showLabels; e.currentTarget.setAttribute("aria-pressed", String(showLabels)); });
+$("spin").addEventListener("click", (e) => { controls.autoRotate = !controls.autoRotate; e.currentTarget.setAttribute("aria-pressed", String(controls.autoRotate)); });
+$("home").addEventListener("click", () => { camera.position.copy(HOME.pos); controls.target.copy(HOME.target); });
+if (!reduce && location.hash !== "#still") { /* gentle intro spin, stops at first touch */
+  controls.autoRotate = true; $("spin").setAttribute("aria-pressed", "true");
+  renderer.domElement.addEventListener("pointerdown", () => { controls.autoRotate = false; $("spin").setAttribute("aria-pressed", "false"); }, { once: true });
+}
+$("loading").remove();
+window.__view = { camera, controls, renderer, scene, THREE };   // used to record the fly-over video
+document.body.dataset.ready = "1";
+renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); drawLabels(); });
+</script>
+</html>

@@ -4,7 +4,7 @@ project:
   resources:
     - CNAME
     - cartoonography/downloads/*.pdf
-    - cartography/albania3d/*
+    - albania3d/*
     - cartoonography/kingston/index.html
     - cartoonography/hello/index.html
     - cartoonography/clownfish/index.html
