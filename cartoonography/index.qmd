@@ -6,8 +6,18 @@ toc: false
 ---
 
 ::: {.lead-intro}
-Each map has a game hidden in it, from spotting deer and hunting for clownfish to collecting hellos and finding places in a 3D Kingston. They're the little sisters of my [cARTography](../cartography/) maps, and more are on the way.
+Each map has a game hidden in it, from exploring London and spotting deer to hunting for clownfish to collecting hellos and finding places in a 3D Kingston. They're the little sisters of my [cARTography](../cartography/) maps, and more are on the way.
 :::
+
+## Spot London!
+
+A colourful map of central London with twelve famous places to find, from Big Ben and the London Eye to Tower Bridge and the Gherkin. Each one has a fun fact, and there's a red bus and a pink boat hiding on the map too.
+
+![**Spot London!** Map data © OpenStreetMap contributors. The Thames and London's boroughs: London Datastore.](img/spot-london.jpg){group="kids" fig-alt="A pastel map of central London with the Thames in blue, green parks, and twelve cartoon landmarks in numbered circles, with a Can you find checklist"}
+
+<p class="links"><a href="london/" class="btn-play">🎮 Play Spot London</a> &nbsp; <a href="downloads/spot-london-A3.pdf">Download the A3 print (PDF)</a></p>
+
+In the game, the landmarks hide behind question marks. Kids tap each one to collect it in their London passport, then take the quiz: look at the picture and tap where that place really is.
 
 ## Spot the deer!
 

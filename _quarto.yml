@@ -11,6 +11,7 @@ project:
     - cartoonography/clownfish/credits.csv
     - cartoonography/deer/index.html
     - cartoonography/deer/credits.csv
+    - cartoonography/london/index.html
 
 website:
   title: "@ET"
