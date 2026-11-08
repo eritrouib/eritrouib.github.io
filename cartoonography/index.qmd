@@ -9,6 +9,19 @@ toc: false
 Each map has a game hidden in it, from exploring London and spotting deer to hunting for clownfish to collecting hellos and finding places in a 3D Kingston. They're the little sisters of my [cARTography](../cartography/) maps, and more are on the way.
 :::
 
+::: {.xmas-only}
+## 🎄 Santa's Christmas Eve journey
+
+Santa delivers presents when midnight arrives, but midnight doesn't arrive everywhere at once. It starts at Kiritimati in the middle of the Pacific and travels west around the world, one time zone at a time, taking 25 hours to reach Pago Pago. Follow Santa to 18 places, each with a Christmas fact.
+
+![**Santa's Christmas Eve journey.** Map data: Natural Earth.](img/santa-christmas-eve-journey.jpg){group="kids" fig-alt="A night-time world map in rainbow time zone stripes, with a dashed golden route joining 18 numbered stars, Santa's sleigh, an elf and Santa's workshop at the top"}
+
+<p class="links"><a href="santa/" class="btn-play">🎅 Help Santa deliver</a> &nbsp; <a href="downloads/santa-christmas-eve-journey-A3.pdf">Download the A3 print (PDF)</a></p>
+
+In the game, kids help Santa by tapping the place where midnight arrives next. If they pick a place too early, it tells them what time it still is there.
+
+:::
+
 ## Spot London!
 
 A colourful map of central London with twelve famous places to find, from Big Ben and the London Eye to Tower Bridge and the Gherkin. Each one has a fun fact, and there's a red bus and a pink boat hiding on the map too.
@@ -62,6 +75,19 @@ In the 3D version you can spin the world, zoom in, and tap the floating icons to
 ## Seasonal maps
 
 Maps for special days of the year. They come back each season, and more will join them.
+
+::: {.xmas-off}
+### Christmas: Santa's Christmas Eve journey
+
+Santa delivers presents when midnight arrives, but midnight doesn't arrive everywhere at once. It starts at Kiritimati in the middle of the Pacific and travels west around the world, one time zone at a time, taking 25 hours to reach Pago Pago. Follow Santa to 18 places, each with a Christmas fact.
+
+![**Santa's Christmas Eve journey.** Map data: Natural Earth.](img/santa-christmas-eve-journey.jpg){group="kids" fig-alt="A night-time world map in rainbow time zone stripes, with a dashed golden route joining 18 numbered stars, Santa's sleigh, an elf and Santa's workshop at the top"}
+
+<p class="links"><a href="santa/" class="btn-play">🎅 Help Santa deliver</a> &nbsp; <a href="downloads/santa-christmas-eve-journey-A3.pdf">Download the A3 print (PDF)</a></p>
+
+In the game, kids help Santa by tapping the place where midnight arrives next. If they pick a place too early, it tells them what time it still is there.
+
+:::
 
 ### Halloween: where do pumpkins grow?
 

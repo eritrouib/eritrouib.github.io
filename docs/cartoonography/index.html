@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c11c02b29806b25653bd5facf27727ab.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1aefabf950a32940f8dc003e64a554b6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -103,14 +103,14 @@ cookieconsent.run({
   
 <style>html{ scroll-behavior: smooth; }</style>
 <!-- Seasonal themes. Switch on and off by date (UK time), so nothing needs pushing on the day.
-     Halloween: 30-31 October.  Christmas: 15 November - 6 January.
+     Halloween: 30-31 October.  Christmas: 15 November - 2 January.
      Preview any time by adding ?season=halloween or ?season=christmas to a page address. -->
 <script>
 (function () {
   var forced = new URLSearchParams(location.search).get("season");
   var p = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/London", month: "numeric", day: "numeric" }).formatToParts(new Date());
   var m = +p.find(function (x) { return x.type === "month"; }).value, d = +p.find(function (x) { return x.type === "day"; }).value;
-  var season = forced || ((m === 10 && d >= 30) ? "halloween" : ((m === 11 && d >= 15) || m === 12 || (m === 1 && d <= 6)) ? "christmas" : "");
+  var season = forced || ((m === 10 && d >= 30) ? "halloween" : ((m === 11 && d >= 15) || m === 12 || (m === 1 && d <= 2)) ? "christmas" : "");
   if (!season || season === "none") return;
   document.documentElement.classList.add("season-" + season);
   var still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -156,9 +156,9 @@ cookieconsent.run({
 
 <meta property="og:title" content="carTOONography – @ET">
 <meta property="og:description" content="Themed maps for curious kids: print them, explore them, and see what you can find.">
-<meta property="og:image" content="https://etymo.co.uk/cartoonography/img/spot-london.jpg">
+<meta property="og:image" content="https://etymo.co.uk/cartoonography/img/santa-christmas-eve-journey.jpg">
 <meta property="og:site_name" content="@ET">
-<meta property="og:image:alt" content="A pastel map of central London with the Thames in blue, green parks, and twelve cartoon landmarks in numbered circles, with a Can you find checklist">
+<meta property="og:image:alt" content="A night-time world map in rainbow time zone stripes, with a dashed golden route joining 18 numbered stars, Santa's sleigh, an elf and Santa's workshop at the top">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -269,6 +269,20 @@ cookieconsent.run({
 <div class="lead-intro">
 <p>Each map has a game hidden in it, from exploring London and spotting deer to hunting for clownfish to collecting hellos and finding places in a 3D Kingston. They’re the little sisters of my <a href="../cartography/">cARTography</a> maps, and more are on the way.</p>
 </div>
+<section id="santas-christmas-eve-journey" class="level2 xmas-only">
+<h2 class="anchored" data-anchor-id="santas-christmas-eve-journey">🎄 Santa’s Christmas Eve journey</h2>
+<p>Santa delivers presents when midnight arrives, but midnight doesn’t arrive everywhere at once. It starts at Kiritimati in the middle of the Pacific and travels west around the world, one time zone at a time, taking 25 hours to reach Pago Pago. Follow Santa to 18 places, each with a Christmas fact.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/santa-christmas-eve-journey.jpg" class="lightbox" data-gallery="kids" title="Santa’s Christmas Eve journey. Map data: Natural Earth."><img src="img/santa-christmas-eve-journey.jpg" class="img-fluid figure-img" alt="A night-time world map in rainbow time zone stripes, with a dashed golden route joining 18 numbered stars, Santa's sleigh, an elf and Santa's workshop at the top"></a></p>
+<figcaption><strong>Santa’s Christmas Eve journey.</strong> Map data: Natural Earth.</figcaption>
+</figure>
+</div>
+<p class="links">
+<a href="santa/" class="btn-play">🎅 Help Santa deliver</a> &nbsp; <a href="downloads/santa-christmas-eve-journey-A3.pdf">Download the A3 print (PDF)</a>
+</p>
+<p>In the game, kids help Santa by tapping the place where midnight arrives next. If they pick a place too early, it tells them what time it still is there.</p>
+</section>
 <section id="spot-london" class="level2">
 <h2 class="anchored" data-anchor-id="spot-london">Spot London!</h2>
 <p>A colourful map of central London with twelve famous places to find, from Big Ben and the London Eye to Tower Bridge and the Gherkin. Each one has a fun fact, and there’s a red bus and a pink boat hiding on the map too.</p>
@@ -342,6 +356,20 @@ cookieconsent.run({
 <section id="seasonal-maps" class="level2">
 <h2 class="anchored" data-anchor-id="seasonal-maps">Seasonal maps</h2>
 <p>Maps for special days of the year. They come back each season, and more will join them.</p>
+<section id="christmas-santas-christmas-eve-journey" class="level3 xmas-off">
+<h3 class="anchored" data-anchor-id="christmas-santas-christmas-eve-journey">Christmas: Santa’s Christmas Eve journey</h3>
+<p>Santa delivers presents when midnight arrives, but midnight doesn’t arrive everywhere at once. It starts at Kiritimati in the middle of the Pacific and travels west around the world, one time zone at a time, taking 25 hours to reach Pago Pago. Follow Santa to 18 places, each with a Christmas fact.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/santa-christmas-eve-journey.jpg" class="lightbox" data-gallery="kids" title="Santa’s Christmas Eve journey. Map data: Natural Earth."><img src="img/santa-christmas-eve-journey.jpg" class="img-fluid figure-img" alt="A night-time world map in rainbow time zone stripes, with a dashed golden route joining 18 numbered stars, Santa's sleigh, an elf and Santa's workshop at the top"></a></p>
+<figcaption><strong>Santa’s Christmas Eve journey.</strong> Map data: Natural Earth.</figcaption>
+</figure>
+</div>
+<p class="links">
+<a href="santa/" class="btn-play">🎅 Help Santa deliver</a> &nbsp; <a href="downloads/santa-christmas-eve-journey-A3.pdf">Download the A3 print (PDF)</a>
+</p>
+<p>In the game, kids help Santa by tapping the place where midnight arrives next. If they pick a place too early, it tells them what time it still is there.</p>
+</section>
 <section id="halloween-where-do-pumpkins-grow" class="level3">
 <h3 class="anchored" data-anchor-id="halloween-where-do-pumpkins-grow">Halloween: where do pumpkins grow?</h3>
 <p>A Halloween map of the world, with one pumpkin for every 500,000 tonnes grown in a year. Most of them are in India and China, but can you find the single pumpkins hiding in Peru, Malawi and Cuba?</p>

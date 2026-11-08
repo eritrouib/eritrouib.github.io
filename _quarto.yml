@@ -12,6 +12,7 @@ project:
     - cartoonography/deer/index.html
     - cartoonography/deer/credits.csv
     - cartoonography/london/index.html
+    - cartoonography/santa/index.html
 
 website:
   title: "@ET"
