@@ -53,12 +53,22 @@ The Netherlands has so many windmills that you could almost draw the country wit
 
 <p class="links">Prints are available to buy: see the <a href="../about.qmd">About</a> page to get in touch.</p>
 
-::: {.valentine-off}
 ### Just for fun
 
+Imaginary maps that started as a joke at home. One map led to another.
+
+::: {.valentine-off}
 A made-up map of how to get to someone's heart: leave the Sea of Overthinking, take the long way round through the little things, and say sorry at the bridge. I made it for day 10 of the #30DayMapChallenge, where the rule was to make the map by prompting AI, with as little input from me as possible.
 
 ![**The Way to Someone's Heart.** An imaginary map, not to scale. #30DayMapChallenge, day 10: prompting only.](img/way-to-someones-heart.jpg){group="fun" fig-alt="A pink heart-shaped island map with Butterfly Woods, Mount Patience, the Bridge of Sorry, the Swamp of Mixed Signals and a dotted route from a little boat to the heart"}
+:::
+
+My son didn't like the heart map, and said something rude about it at the dinner table. So he got his own map, in black and white like his humour, and then one more of his bedroom, which is a lot more accurate than he would like.
+
+::: {layout-ncol=2}
+![**The Way to Detention.** An imaginary map, not to scale.](img/way-to-detention.jpg){group="fun" fig-alt="A black and white island map with Mount Excuses, the Lighthouse of The Look, the broken Bridge of It Wasn't Me and a dotted route from the dinner table to the detention room"}
+
+![**The Way to My Bedroom.** An imaginary map of a very real bedroom.](img/way-to-my-bedroom.jpg){group="fun" fig-alt="A colourful island map with Mount Laundry, the Lego Minefield, the Swamp of Smelly Socks, the Wardrobe of Doom and a dotted route from the door to the bed under a cloud of Fart Fog"}
 :::
 
 ### Earlier work in Greater Manchester (2021–2023)
