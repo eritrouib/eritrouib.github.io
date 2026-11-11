@@ -20,6 +20,13 @@ Santa delivers presents when midnight arrives, but midnight doesn't arrive every
 
 In the game, kids help Santa by tapping the place where midnight arrives next. If they pick a place too early, it tells them what time it still is there.
 
+
+### Off to Lapland?
+
+Where to go in Finnish Lapland with kids in winter: Santa Claus Village on the Arctic Circle, polar bears at Ranua, the SnowCastle in Kemi, husky rides and the Sámi museum in Inari. Another one from day 10 of the #30DayMapChallenge, made by prompting AI only.
+
+![**Finnish Lapland with kids.** A stylised map, not for finding your way.](img/finnish-lapland-with-kids.jpg){group="kids" fig-alt="A night-blue poster of Finnish Lapland with eight numbered stops, the Arctic Circle as a dashed line and northern lights across the top"}
+
 :::
 
 ## Spot London!
@@ -87,6 +94,14 @@ Santa delivers presents when midnight arrives, but midnight doesn't arrive every
 
 In the game, kids help Santa by tapping the place where midnight arrives next. If they pick a place too early, it tells them what time it still is there.
 
+:::
+
+::: {.xmas-off}
+### Winter: Finnish Lapland with kids
+
+Where to go in Finnish Lapland with kids in winter: Santa Claus Village on the Arctic Circle, polar bears at Ranua, the SnowCastle in Kemi, husky rides and the Sámi museum in Inari. Another one from day 10 of the #30DayMapChallenge, made by prompting AI only.
+
+![**Finnish Lapland with kids.** A stylised map, not for finding your way.](img/finnish-lapland-with-kids.jpg){group="kids" fig-alt="A night-blue poster of Finnish Lapland with eight numbered stops, the Arctic Circle as a dashed line and northern lights across the top"}
 :::
 
 ### Halloween: where do pumpkins grow?

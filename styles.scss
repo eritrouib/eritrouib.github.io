@@ -123,3 +123,17 @@ a.btn-play:hover { transform: translateY(1px); box-shadow: 0 2px 0 $ink; }
 .xmas-only { display: none; }
 html.season-christmas .xmas-only { display: block; }
 html.season-christmas .xmas-off { display: none; }
+
+// Valentine's week: soft hearts rising in the navbar
+html.season-valentine {
+  a { text-decoration-color: #D7263D; }
+  .navbar { border-bottom-color: #F49AAE; }
+  .quarto-title .title::after, .zebra { background: #D7263D; }
+  .featured-map { border-bottom-color: #F49AAE; }
+  .season-heart { position: absolute; bottom: -14px; fill: #F49AAE; opacity: .7;
+    animation-name: heart-rise; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+}
+@keyframes heart-rise { from { transform: translateY(0) rotate(-8deg); } to { transform: translateY(-80px) rotate(8deg); opacity: 0; } }
+.valentine-only { display: none; }
+html.season-valentine .valentine-only { display: block; }
+html.season-valentine .valentine-off { display: none; }
