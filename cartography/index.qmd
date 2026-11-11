@@ -47,7 +47,7 @@ A few years ago I made an old-style map of the Peloponnese in ArcGIS Pro. I made
 
 ### The Netherlands, land of windmills (2026)
 
-The same old-style look as the Peloponnese, but in happier colours. Every one of the 1,231 traditional windmills mapped in OpenStreetMap has its own little windmill on the map. The mint and turquoise land is below sea level: a lot of it was drained by windmills in the first place.
+The Netherlands has so many windmills that you could almost draw the country with them alone. This map puts a small windmill on each of the 1,231 traditional mills recorded in OpenStreetMap. Underneath, the land is coloured by height, from the EMODnet Digital Terrain Model. The mint and turquoise areas are below sea level, and windmills helped to pump much of that land dry in the first place.
 
 ![**The Netherlands, land of windmills.** Heights: EMODnet DTM. Windmills: © OpenStreetMap contributors.](img/netherlands-windmills.jpg){group="colour" fig-alt="Old-style map of the Netherlands in bright colours, with mint-green land below sea level, sky-blue sea and over a thousand small red windmills, with Kinderdijk, Zaanse Schans and Schiedam picked out"}
 
